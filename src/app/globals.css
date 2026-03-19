@@ -7,8 +7,8 @@
     --background: 0 0% 100%;
     --foreground: 0 0% 9%;
 
-    --navy-blue: 217 80% 25%;
-    --navy-blue-light: 217 65% 42%;
+    --navy-blue: 217 100% 55%;
+    --navy-blue-light: 217 100% 65%;
     --gold-bronze: 43 34% 53%;
     --gold-bronze-light: 43 40% 65%;
     --warm-orange: 22 72% 41%;
@@ -21,7 +21,7 @@
     --card-foreground: 0 0% 9%;
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 9%;
-    --primary: 217 80% 25%;
+    --primary: 217 100% 55%;
     --primary-foreground: 0 0% 100%;
     --secondary: 43 34% 53%;
     --secondary-foreground: 0 0% 100%;
@@ -59,7 +59,7 @@
     --popover-foreground: 0 0% 98%;
     --primary: 43 34% 53%;
     --primary-foreground: 0 0% 9%;
-    --secondary: 217 80% 25%;
+    --secondary: 217 100% 55%;
     --secondary-foreground: 0 0% 98%;
     --muted: 0 0% 15%;
     --muted-foreground: 0 0% 75%;
