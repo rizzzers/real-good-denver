@@ -7,21 +7,21 @@
     --background: 0 0% 100%;
     --foreground: 0 0% 9%;
 
-    --forest-green: 219 88% 46%;
-    --forest-green-light: 219 85% 62%;
+    --navy-blue: 217 80% 25%;
+    --navy-blue-light: 217 65% 42%;
     --gold-bronze: 43 34% 53%;
     --gold-bronze-light: 43 40% 65%;
     --warm-orange: 22 72% 41%;
     --warm-orange-light: 22 60% 55%;
     --podcast-purple: 252 56% 35%;
     --podcast-purple-light: 252 45% 50%;
-    --link-blue: 219 88% 52%;
+    --link-blue: 217 91% 60%;
 
     --card: 0 0% 100%;
     --card-foreground: 0 0% 9%;
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 9%;
-    --primary: 219 88% 46%;
+    --primary: 217 80% 25%;
     --primary-foreground: 0 0% 100%;
     --secondary: 43 34% 53%;
     --secondary-foreground: 0 0% 100%;
@@ -59,7 +59,7 @@
     --popover-foreground: 0 0% 98%;
     --primary: 43 34% 53%;
     --primary-foreground: 0 0% 9%;
-    --secondary: 219 88% 46%;
+    --secondary: 217 80% 25%;
     --secondary-foreground: 0 0% 98%;
     --muted: 0 0% 15%;
     --muted-foreground: 0 0% 75%;
