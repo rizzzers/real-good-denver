@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-did-denver-things-snowstorm-sunday",
+    title: "Denver did Denver things: snowstorm Sunday, 85 degrees Friday, a flying semi, 20,000 without power",
+    date: "2026-03-18",
+    description: "Denver's wildest weather week yet, plus new restaurants, housing news, the NWSL team's rocky debut, and 90-MPH winds that sent a semi airborne.",
+    htmlFile: "/newsletter-issues/denver-did-denver-things-snowstorm-sunday.html",
+  },
+  {
     slug: "denver-fires-big-brother-bans-masked-cops-sex-workers",
     title: "Denver Fires Big Brother, Bans Masked Cops, and Lets Sex Workers Off the Hook",
     date: "2025-03-05",
