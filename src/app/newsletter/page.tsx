@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { ArrowRight, ArrowUpRight, Send } from 'lucide-react';
 import Navigation from '@/components/Navigation';
@@ -8,15 +8,34 @@ import Footer from '@/components/Footer';
 import { supabase } from '@/lib/supabase';
 import { useToast } from '@/hooks/use-toast';
 import { useScrollReveal } from '@/hooks/use-scroll-reveal';
-import { newsletterIssues } from '@/data/newsletterIssues';
+
+interface NewsletterIssue {
+  id: string;
+  slug: string;
+  title: string;
+  description: string;
+  published_at: string;
+  html_content?: string;
+}
 
 export default function NewsletterPage() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [issues, setIssues] = useState<NewsletterIssue[]>([]);
   const { toast } = useToast();
   const { ref: heroRef, isVisible: heroVisible } = useScrollReveal();
+
+  useEffect(() => {
+    supabase
+      .from('newsletter_issues')
+      .select('id, slug, title, description, published_at')
+      .order('published_at', { ascending: false })
+      .then(({ data }) => {
+        if (data) setIssues(data);
+      });
+  }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -97,11 +116,15 @@ export default function NewsletterPage() {
       <section className="py-24 md:py-32 bg-background">
         <div className="max-w-4xl mx-auto px-6">
           <ArchiveHeader />
-          <div className="divide-y divide-border">
-            {newsletterIssues.map((issue, index) => (
-              <IssueRow key={issue.slug} issue={issue} index={index} />
-            ))}
-          </div>
+          {issues.length === 0 ? (
+            <p className="text-muted-foreground text-center py-12">No issues yet.</p>
+          ) : (
+            <div className="divide-y divide-border">
+              {issues.map((issue, index) => (
+                <IssueRow key={issue.id} issue={issue} index={index} />
+              ))}
+            </div>
+          )}
         </div>
       </section>
 
@@ -120,18 +143,21 @@ const ArchiveHeader = () => {
   );
 };
 
-const IssueRow = ({ issue, index }: { issue: typeof newsletterIssues[0]; index: number }) => {
+const IssueRow = ({ issue, index }: { issue: { id: string; slug: string; title: string; description: string; published_at: string }; index: number }) => {
   const { ref, isVisible } = useScrollReveal(0.1);
+  const date = issue.published_at ? new Date(issue.published_at) : null;
   return (
     <div ref={ref} className={`transition-all duration-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`} style={{ transitionDelay: `${index * 60}ms` }}>
       <Link href={`/newsletter/${issue.slug}`} className="group flex items-start sm:items-center gap-4 sm:gap-6 py-6">
         <div className="flex-shrink-0 w-14 text-center">
-          <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
-            {(() => { const [y, m, d] = issue.date.split('-').map(Number); return new Date(y, m - 1, d).toLocaleDateString('en-US', { month: 'short' }); })()}
-          </p>
-          <p className="text-2xl font-bold text-foreground/70">
-            {issue.date.split('-')[2].replace(/^0/, '')}
-          </p>
+          {date && (
+            <>
+              <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
+                {date.toLocaleDateString('en-US', { month: 'short' })}
+              </p>
+              <p className="text-2xl font-bold text-foreground/70">{date.getDate()}</p>
+            </>
+          )}
         </div>
         <div className="flex-1 min-w-0">
           <h3 className="text-base sm:text-lg font-semibold text-foreground group-hover:text-primary transition-colors duration-300 leading-snug line-clamp-2">

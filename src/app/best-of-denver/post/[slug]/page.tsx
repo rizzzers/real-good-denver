@@ -6,6 +6,7 @@ import { useParams, useRouter } from 'next/navigation';
 import { ArrowLeft, Clock, User } from 'lucide-react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import AuthorBio from '@/components/AuthorBio';
 import { SpaTreatmentFinder } from '@/components/SpaTreatmentFinder';
 import InstagramPhotoGrid from '@/components/InstagramPhotoGrid';
 import AuthorBio from '@/components/AuthorBio';
@@ -130,6 +131,12 @@ export default function PostDetailPage() {
           ) : (
             <div className="post-content" dangerouslySetInnerHTML={{ __html: renderedContent }} />
           )}
+          <AuthorBio />
+        </div>
+      </section>
+
+      <section className="py-8 md:py-12 bg-background">
+        <div className="max-w-3xl mx-auto px-6">
           <AuthorBio />
         </div>
       </section>
