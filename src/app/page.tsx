@@ -1,65 +1,147 @@
-import Image from "next/image";
+'use client';
+
+import { useState } from 'react';
+import Link from 'next/link';
+import SearchForm from '@/components/SearchForm';
+import ResultsPreview from '@/components/ResultsPreview';
+import BlogPostPreview from '@/components/BlogPostPreview';
+import LoadingState from '@/components/LoadingState';
+import { SearchResult, BlogPost } from '@/types';
+
+type Phase = 'search' | 'preview' | 'output';
 
 export default function Home() {
+  const [phase, setPhase] = useState<Phase>('search');
+  const [searchResult, setSearchResult] = useState<SearchResult | null>(null);
+  const [blogPost, setBlogPost] = useState<BlogPost | null>(null);
+  const [isSearching, setIsSearching] = useState(false);
+  const [isGenerating, setIsGenerating] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [loadingMessage, setLoadingMessage] = useState('');
+
+  async function handleSearch(keyword: string) {
+    setIsSearching(true);
+    setError(null);
+    setLoadingMessage('Searching r/Denver...');
+
+    try {
+      const res = await fetch('/api/search', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ keyword }),
+      });
+
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error ?? 'Search failed');
+
+      setSearchResult(data);
+      setPhase('preview');
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Search failed');
+    } finally {
+      setIsSearching(false);
+    }
+  }
+
+  async function handleGenerate() {
+    if (!searchResult) return;
+    setIsGenerating(true);
+    setError(null);
+    setLoadingMessage('Generating blog post in Denver voice...');
+
+    try {
+      const res = await fetch('/api/generate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          keyword: searchResult.keyword,
+          businesses: searchResult.businesses,
+        }),
+      });
+
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error ?? 'Generation failed');
+
+      setBlogPost(data);
+      setPhase('output');
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Generation failed');
+    } finally {
+      setIsGenerating(false);
+    }
+  }
+
+  function handleReset() {
+    setPhase('search');
+    setSearchResult(null);
+    setBlogPost(null);
+    setError(null);
+  }
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <main className="min-h-screen bg-[#0c0c0c] text-zinc-100">
+      {/* Header */}
+      <header className="border-b border-zinc-800 px-6 py-4">
+        <div className="max-w-5xl mx-auto flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <span className="text-orange-500 font-bold text-lg">Real Good Denver</span>
+            <span className="text-zinc-600 text-sm">/ Reddit blog aggregator</span>
+          </div>
+          <Link href="/blog" className="text-sm text-zinc-400 hover:text-zinc-200 transition-colors">
+            Blog
+          </Link>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+      </header>
+
+      {/* Content */}
+      <div className="px-6 py-12">
+        {/* Landing / Search phase */}
+        {phase === 'search' && (
+          <div className="flex flex-col items-center gap-8 max-w-xl mx-auto text-center">
+            <div>
+              <h1 className="text-4xl font-bold text-zinc-100 mb-3">Real Good Denver</h1>
+              <p className="text-zinc-500 text-lg">
+                Type a keyword. We search r/Denver, extract the most-mentioned spots, and write a blog post that sounds like a local wrote it.
+              </p>
+            </div>
+            <SearchForm onSearch={handleSearch} isLoading={isSearching} />
+            {isSearching && <LoadingState message={loadingMessage} />}
+          </div>
+        )}
+
+        {/* Preview phase */}
+        {phase === 'preview' && searchResult && !isGenerating && (
+          <div className="flex flex-col items-center gap-6">
+            <ResultsPreview
+              keyword={searchResult.keyword}
+              businesses={searchResult.businesses}
+              onGenerate={handleGenerate}
+              isGenerating={isGenerating}
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+          </div>
+        )}
+
+        {/* Generating state */}
+        {phase === 'preview' && isGenerating && (
+          <div className="flex justify-center">
+            <LoadingState message={loadingMessage} />
+          </div>
+        )}
+
+        {/* Output phase */}
+        {phase === 'output' && blogPost && (
+          <div className="flex flex-col items-center gap-6">
+            <BlogPostPreview blogPost={blogPost} onReset={handleReset} />
+          </div>
+        )}
+
+        {/* Error */}
+        {error && (
+          <div className="mt-6 max-w-xl mx-auto rounded-lg border border-red-800 bg-red-950/40 px-4 py-3 text-sm text-red-400">
+            {error}
+          </div>
+        )}
+      </div>
+    </main>
   );
 }
