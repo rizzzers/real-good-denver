@@ -8,6 +8,7 @@ import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { SpaTreatmentFinder } from '@/components/SpaTreatmentFinder';
 import InstagramPhotoGrid from '@/components/InstagramPhotoGrid';
+import AuthorBio from '@/components/AuthorBio';
 import { useScrollReveal } from '@/hooks/use-scroll-reveal';
 import { posts } from '@/data/posts';
 
@@ -129,6 +130,7 @@ export default function PostDetailPage() {
           ) : (
             <div className="post-content" dangerouslySetInnerHTML={{ __html: renderedContent }} />
           )}
+          <AuthorBio />
         </div>
       </section>
 
