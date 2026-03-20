@@ -1098,8 +1098,6 @@ Here's where Denver is actually getting it right, sorted by neighborhood so you 
 ## Adelita's Cocina y Cantina
 **Address:** 1294 S Broadway, Denver, CO 80210 | **Neighborhood:** Baker / Platte Park | [Visit Website](https://adelitasco.com/broadway)
 
-![Food at Adelita's Cocina y Cantina](https://scontent-den2-1.cdninstagram.com/v/t51.82787-15/613123013_18548997439013277_3939489977073889825_n.jpg?stp=dst-jpg_e35_p640x640_sh0.08_tt6&_nc_ht=scontent-den2-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gGOPmukWoVfhm8DTdHVOTkT2FPYVWoVlN4ofjK9ANrt6p3C3g_ONGr815sszvpCNwM&_nc_ohc=iLYVJdlGPqkQ7kNvwGYXxRf&_nc_gid=kgw_LGGlCstlr8atKAnKvg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfzFSGpDYoJvZgnPU4TNWtTE9edWf1OBfRS0K6M4cAkP6A&oe=69C24DC2&_nc_sid=8b3546)
-
 The nachos at this Baker neighborhood gem come piled high with actual layers. They're not precious about it either. Expect generous amounts of beans, cheese, and your choice of carne asada or chicken. The portions are stupid big, the chips stay crispy even under all that toppings weight, and they don't skimp on the jalapeños.
 
 Here's context that makes the nachos hit different: Adelita's is a Latin and woman-owned family restaurant founded by matriarch owner and head chef Silvia Andaya, serving traditional Mexican food from the state of Michoacán, Mexico. The whole menu is built on family recipes, which means the flavors aren't chasing a trend. They're just good. The kind of good your abuela would approve of, if your abuela were from Michoacán and had strong opinions about cheese distribution.
@@ -1133,8 +1131,6 @@ Happy hour runs Monday through Friday from 2 to 6pm. Show up during that window,
 ## Avanti F&B (hit up Quiero Arepas inside)
 **Address:** 3200 N Pecos St, Denver, CO 80211 | **Neighborhood:** LoHi | [Visit Website](https://avantifandb.com)
 
-![Food at Avanti F&B](https://scontent-den2-1.cdninstagram.com/v/t51.82787-15/652019919_18158228413434889_4405764246065659317_n.jpg?stp=dst-jpg_e35_p640x640_sh0.08_tt6&_nc_ht=scontent-den2-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gF_oCEy9OUWu9DCDf2UUbGqrUSo9o2w2aim6rMIAdhnW_QUplqck_V8d64EbMcEFs4&_nc_ohc=3QYmPLSwmsgQ7kNvwHcEfyv&_nc_gid=kAwIOxv75WxJsafSOXrE8A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfwGfi96R3XcQI2eq56P4K2h6EEFKrZMyiXxgPZTmK4SJw&oe=69C250EB&_nc_sid=8b3546)
-
 Hit up Quiero Arepas inside this LoHi food hall for their Venezuelan take on the nacho format. Plantain chips form the base, and they actually crisp them fresh. The layering situation is on point, and the addition of black beans and queso fresco brings flavors you won't find at your standard sports bar.
 
 Quiero Arepas makes Venezuelan-style food in the traditional way, with everything built from scratch. The plantain chip nacho situation benefits directly from that scratch mentality. These aren't the bagged plantain chips from the grocery store. They're made to order, and the difference is noticeable in the first bite.
@@ -1154,8 +1150,6 @@ Proper layers, generous protein portions, and they don't drown everything in che
 
 ## Star Bar
 **Address:** 2137 Larimer St, Denver, CO 80205 | **Neighborhood:** Ballpark | [Visit Website](https://www.thestarbardenver.com)
-
-![Star Bar Denver](https://scontent-den2-1.cdninstagram.com/v/t51.71878-15/652766779_914385231302399_2300329164176186797_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-den2-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gGFm0DOXu6XD1lAkStH4hNK2zDSdALzwzWwx5SB4MTIVNSZPEYcLg3F1ixwoM2oC4M&_nc_ohc=c6LT2crkz_EQ7kNvwHwa_J2&_nc_gid=kezPZnk8B2quWMLBV8nGZQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfwvXKlOksDOs8zMaBBLFwEp6dOVriHemc3pUwNX3g8hdg&oe=69C25877&_nc_sid=8b3546)
 
 This Ballpark neighborhood dive gets it. Their nachos come out with individually topped chips when they're not slammed, and even during rushes, the cheese distribution is democratic. Nothing fancy, just good execution on a classic.
 
