@@ -26,7 +26,7 @@ export default function AuthorBio() {
           >
             Ryan Estes
           </Link>
-          <p className="text-sm text-muted-foreground mb-2">Founder, Real Good Denver</p>
+          <p className="text-sm text-muted-foreground mb-2">Investor • Founder • Creator</p>
           <p className="text-sm text-foreground/80 leading-relaxed">
             Ryan Estes is co-founder of Kitcaster, an eight-figure bootstrapped podcast
             booking agency acquired by Moburst in 2025. He created AI for Founders, a

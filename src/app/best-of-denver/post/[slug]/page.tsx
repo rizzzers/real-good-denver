@@ -9,7 +9,6 @@ import Footer from '@/components/Footer';
 import AuthorBio from '@/components/AuthorBio';
 import { SpaTreatmentFinder } from '@/components/SpaTreatmentFinder';
 import InstagramPhotoGrid from '@/components/InstagramPhotoGrid';
-import AuthorBio from '@/components/AuthorBio';
 import { useScrollReveal } from '@/hooks/use-scroll-reveal';
 import { posts } from '@/data/posts';
 
