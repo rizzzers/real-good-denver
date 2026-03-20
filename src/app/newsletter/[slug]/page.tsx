@@ -4,54 +4,33 @@ import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
-import { supabase } from "@/lib/supabase";
+import { newsletterIssues } from "@/data/newsletterIssues";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-
-interface NewsletterIssue {
-  id: string;
-  slug: string;
-  title: string;
-  description: string;
-  published_at: string;
-  html_content: string;
-}
 
 export default function NewsletterIssuePage() {
   const params = useParams();
   const slug = params?.slug as string;
-  const [issue, setIssue] = useState<NewsletterIssue | null>(null);
+  const [htmlContent, setHtmlContent] = useState<string>("");
   const [loading, setLoading] = useState(true);
-  const [notFound, setNotFound] = useState(false);
+
+  const issue = newsletterIssues.find((i) => i.slug === slug);
 
   useEffect(() => {
-    if (!slug) return;
-    supabase
-      .from("newsletter_issues")
-      .select("*")
-      .eq("slug", slug)
-      .single()
-      .then(({ data, error }) => {
-        if (error || !data) {
-          setNotFound(true);
-        } else {
-          setIssue(data);
-        }
+    if (!issue) return;
+    fetch(issue.htmlFile)
+      .then((res) => res.text())
+      .then((html) => {
+        const bodyMatch = html.match(/<body[^>]*>([\s\S]*)<\/body>/i);
+        const rawHtml = bodyMatch ? bodyMatch[1] : html;
+        const sanitized = rawHtml.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
+        setHtmlContent(sanitized);
         setLoading(false);
-      });
-  }, [slug]);
+      })
+      .catch(() => setLoading(false));
+  }, [issue]);
 
-  if (loading) {
-    return (
-      <div className="min-h-screen bg-background">
-        <Navigation />
-        <div className="pt-40 text-center text-muted-foreground">Loading...</div>
-        <Footer />
-      </div>
-    );
-  }
-
-  if (notFound || !issue) {
+  if (!issue) {
     return (
       <div className="min-h-screen bg-background">
         <Navigation />
@@ -64,14 +43,6 @@ export default function NewsletterIssuePage() {
     );
   }
 
-  const date = issue.published_at ? new Date(issue.published_at) : null;
-
-  // Strip script tags from html_content for safety
-  const sanitized = issue.html_content.replace(
-    /<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi,
-    ""
-  );
-
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
@@ -83,17 +54,22 @@ export default function NewsletterIssuePage() {
             Back to Newsletter
           </Link>
           <h1 className="text-3xl md:text-4xl font-bold text-background mb-4 leading-tight">{issue.title}</h1>
-          {date && (
-            <p className="text-background/40">
-              {date.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
-            </p>
-          )}
+          <p className="text-background/40">
+            {(() => {
+              const [y, m, d] = issue.date.split('-').map(Number);
+              return new Date(y, m - 1, d).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+            })()}
+          </p>
         </div>
       </section>
 
       <div className="bg-foreground">
         <div className="max-w-3xl mx-auto px-6 py-12 md:py-16">
-          <div className="newsletter-issue-content" dangerouslySetInnerHTML={{ __html: sanitized }} />
+          {loading ? (
+            <div className="py-16 text-center text-background/50">Loading...</div>
+          ) : (
+            <div className="newsletter-issue-content" dangerouslySetInnerHTML={{ __html: htmlContent }} />
+          )}
         </div>
       </div>
 
