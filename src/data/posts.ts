@@ -1096,8 +1096,9 @@ The layering problem is real, it's widespread, and it affects good people of all
 Here's where Denver is actually getting it right, sorted by neighborhood so you have no excuse to drive past one of these and end up at some sports bar that serves nachos out of a steam tray.
 
 ## Adelita's Cocina y Cantina
-**Address:** 1294 S Broadway, Denver, CO 80210
-**Neighborhood:** Baker / Platte Park
+**Address:** 1294 S Broadway, Denver, CO 80210 | **Neighborhood:** Baker / Platte Park | [Visit Website](https://adelitasco.com/broadway)
+
+![Food at Adelita's Cocina y Cantina](https://scontent-den2-1.cdninstagram.com/v/t51.82787-15/613123013_18548997439013277_3939489977073889825_n.jpg?stp=dst-jpg_e35_p640x640_sh0.08_tt6&_nc_ht=scontent-den2-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gGOPmukWoVfhm8DTdHVOTkT2FPYVWoVlN4ofjK9ANrt6p3C3g_ONGr815sszvpCNwM&_nc_ohc=iLYVJdlGPqkQ7kNvwGYXxRf&_nc_gid=kgw_LGGlCstlr8atKAnKvg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfzFSGpDYoJvZgnPU4TNWtTE9edWf1OBfRS0K6M4cAkP6A&oe=69C24DC2&_nc_sid=8b3546)
 
 The nachos at this Baker neighborhood gem come piled high with actual layers. They're not precious about it either. Expect generous amounts of beans, cheese, and your choice of carne asada or chicken. The portions are stupid big, the chips stay crispy even under all that toppings weight, and they don't skimp on the jalapeños.
 
@@ -1106,8 +1107,9 @@ Here's context that makes the nachos hit different: Adelita's is a Latin and wom
 The carne asada here is the move. It's seasoned properly, portioned generously, and it does not apologize for existing. Pair it with one of their mezcal cocktails and your nacho situation becomes legitimately excellent. They offer a late-night menu to satisfy your after dark cravings, and after 9pm, they dim the lights so your nachos feel more cinematic. Weekend crowds can be intense, so plan accordingly or just accept that you'll spend twenty minutes waiting outside and that it will be worth it.
 
 ## Illegal Pete's
-**Address:** 2001 E Colfax Ave, Denver, CO 80206
-**Neighborhood:** Cap Hill / Colfax
+**Address:** 2001 E Colfax Ave, Denver, CO 80206 | **Neighborhood:** Cap Hill / Colfax | [Visit Website](https://illegalpetes.com)
+
+![Food at Illegal Pete's](https://cdn.sanity.io/images/v6mnhs8n/production/f36baf4d81d4bfea604d449bb17d15f4ab3f677f-1800x1200.jpg)
 
 Yeah, it's a chain. Yeah, locals have opinions about it. But their queso game is legitimately solid if you're in the liquid cheese camp, and the Colfax location has enough personality to make you forget you're at a chain for at least three bites.
 
@@ -1116,8 +1118,9 @@ Illegal Pete's describes their signature queso as "liquid gold," made fresh with
 The Colfax location is on the iconic Colfax Avenue and features a full bar with a wide selection of local beer on tap. Multiple locations mean you're never far from a reliable nacho fix. The Colfax spot does consistent work, has two levels, a patio, and trivia nights if you need to feel productive while eating nachos. The vibe is casual in the best way. No dress code. No pretense. Just chips, queso, and a cold beer from a local brewery that definitely has a funny name involving mountains or bears.
 
 ## Historians Ale House
-**Address:** 24 Broadway #102, Denver, CO 80203
-**Neighborhood:** Baker
+**Address:** 24 Broadway #102, Denver, CO 80203 | **Neighborhood:** Baker | [Visit Website](https://historiansalehouse.com)
+
+![Food at Historians Ale House](https://historiansalehouse.com/wp-content/uploads/2019/05/SUMMERADE-_-El-Diablo.jpg)
 
 Historians doesn't mess around with their nachos, mainly because they've rerouted the entire concept into Irish nacho territory and it is a better decision than most things decided in this city.
 
@@ -1128,8 +1131,9 @@ Historians has dozens of beers on tap and a large rooftop patio, which makes the
 Happy hour runs Monday through Friday from 2 to 6pm. Show up during that window, order the Irish nachos, and tell them the internet sent you. They won't know what that means but it'll be fun.
 
 ## Avanti F&B (hit up Quiero Arepas inside)
-**Address:** 3200 N Pecos St, Denver, CO 80211
-**Neighborhood:** LoHi
+**Address:** 3200 N Pecos St, Denver, CO 80211 | **Neighborhood:** LoHi | [Visit Website](https://avantifandb.com)
+
+![Food at Avanti F&B](https://scontent-den2-1.cdninstagram.com/v/t51.82787-15/652019919_18158228413434889_4405764246065659317_n.jpg?stp=dst-jpg_e35_p640x640_sh0.08_tt6&_nc_ht=scontent-den2-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gF_oCEy9OUWu9DCDf2UUbGqrUSo9o2w2aim6rMIAdhnW_QUplqck_V8d64EbMcEFs4&_nc_ohc=3QYmPLSwmsgQ7kNvwHcEfyv&_nc_gid=kAwIOxv75WxJsafSOXrE8A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfwGfi96R3XcQI2eq56P4K2h6EEFKrZMyiXxgPZTmK4SJw&oe=69C250EB&_nc_sid=8b3546)
 
 Hit up Quiero Arepas inside this LoHi food hall for their Venezuelan take on the nacho format. Plantain chips form the base, and they actually crisp them fresh. The layering situation is on point, and the addition of black beans and queso fresco brings flavors you won't find at your standard sports bar.
 
@@ -1138,8 +1142,9 @@ Quiero Arepas makes Venezuelan-style food in the traditional way, with everythin
 Avanti has been on a mission to deliver an unparalleled food and drink experience since opening the Denver location in 2015, with an eclectic mix of talented chefs and an inventive drink program. So while you're eating your Venezuelan plantain nachos, you can also grab drinks from the main bar and argue with your friends about which of the other seven kitchens to hit next. Grab a seat on the rooftop if the weather cooperates. The views of downtown Denver from up there are excellent and you'll feel like a very cultured person eating nachos in the sunshine, which is the exact kind of cognitive dissonance Denver does best.
 
 ## Hayter's & Co.
-**Address:** 1920 Blake St, Denver, CO 80202
-**Neighborhood:** LoDo / Ballpark
+**Address:** 1920 Blake St, Denver, CO 80202 | **Neighborhood:** LoDo / Ballpark | [Visit Website](https://www.haytersandco.com)
+
+![Food at Hayter's and Co](https://images.squarespace-cdn.com/content/v1/54d25b62e4b0c9bd00306a53/1609247721647-2F2B8E4XG3ZWENSFV8U3/Menu+Graphic.jpg)
 
 Quick note on the original post calling this one a Stapleton spot: Hayter's is actually LoDo, two blocks from Coors Field, which makes the "beginning of the month, feeling sassy" nacho energy even more appropriate given the Rockies game-day crowd nearby.
 
@@ -1148,8 +1153,9 @@ Hayter's head chef created a menu described as "pub fare with a twist," starting
 Proper layers, generous protein portions, and they don't drown everything in cheese to the point where it becomes soup. The bar boasts over 20 big screens including two 100-inch HD projectors, so if you're eating nachos and also watching a game, Hayter's covers both needs without compromise. Solid neighborhood sports bar doing fundamentals right, with a rooftop patio for when you need air and want to eat nachos with a view simultaneously.
 
 ## Star Bar
-**Address:** 2137 Larimer St, Denver, CO 80205
-**Neighborhood:** Ballpark
+**Address:** 2137 Larimer St, Denver, CO 80205 | **Neighborhood:** Ballpark | [Visit Website](https://www.thestarbardenver.com)
+
+![Star Bar Denver](https://scontent-den2-1.cdninstagram.com/v/t51.71878-15/652766779_914385231302399_2300329164176186797_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-den2-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gGFm0DOXu6XD1lAkStH4hNK2zDSdALzwzWwx5SB4MTIVNSZPEYcLg3F1ixwoM2oC4M&_nc_ohc=c6LT2crkz_EQ7kNvwHwa_J2&_nc_gid=kezPZnk8B2quWMLBV8nGZQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfwvXKlOksDOs8zMaBBLFwEp6dOVriHemc3pUwNX3g8hdg&oe=69C25877&_nc_sid=8b3546)
 
 This Ballpark neighborhood dive gets it. Their nachos come out with individually topped chips when they're not slammed, and even during rushes, the cheese distribution is democratic. Nothing fancy, just good execution on a classic.
 
