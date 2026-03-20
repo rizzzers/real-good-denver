@@ -6,7 +6,6 @@ import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 
 const navItems = [
-  { name: "Blog", path: "/blog" },
   { name: "Best of Denver", path: "/best-of-denver" },
   { name: "Podcast", path: "/podcast" },
   { name: "Newsletter", path: "/newsletter" },
