@@ -1,58 +1,60 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { Metadata } from 'next';
+import Navigation from '@/components/Navigation';
+import Footer from '@/components/Footer';
 import { posts } from '@/lib/posts';
 
-export const metadata = {
-  title: 'Blog | Real Good Denver',
-  description: 'The best local spots in Denver, sourced from real Denverites on Reddit.',
+export const metadata: Metadata = {
+  title: 'Blog',
+  description: "Denver's best local spots, sourced from real Denverites on Reddit.",
 };
 
 export default function BlogIndex() {
   return (
-    <main className="min-h-screen bg-[#0c0c0c] text-zinc-100">
-      <header className="border-b border-zinc-800 px-6 py-4">
-        <div className="max-w-5xl mx-auto flex items-center gap-4">
-          <Link href="/" className="text-orange-500 font-bold text-lg hover:text-orange-400 transition-colors">
-            Real Good Denver
-          </Link>
-          <span className="text-zinc-600 text-sm">/ Blog</span>
-        </div>
-      </header>
+    <div className="relative min-h-screen">
+      <Navigation />
 
-      <div className="max-w-5xl mx-auto px-6 py-12">
-        <h1 className="text-3xl font-bold text-zinc-100 mb-2">The Blog</h1>
-        <p className="text-zinc-500 mb-10">Denver's best spots, sourced from real locals on Reddit.</p>
+      <main className="pt-28 pb-20 px-6">
+        <div className="max-w-5xl mx-auto">
+          <h1 className="text-4xl font-bold text-foreground mb-2">The Blog</h1>
+          <p className="text-muted-foreground mb-12 text-lg">
+            Denver&apos;s best spots, sourced from real locals on Reddit.
+          </p>
 
-        <div className="grid gap-8 sm:grid-cols-2">
-          {posts.map((post) => (
-            <Link
-              key={post.slug}
-              href={`/blog/${post.slug}`}
-              className="group rounded-xl border border-zinc-800 bg-zinc-900 overflow-hidden hover:border-zinc-600 transition-colors"
-            >
-              <div className="relative h-52 w-full bg-zinc-800">
-                <Image
-                  src={post.featuredImage}
-                  alt={post.featuredImageAlt}
-                  fill
-                  className="object-cover group-hover:scale-[1.02] transition-transform duration-300"
-                />
-              </div>
-              <div className="p-5">
-                <p className="text-xs text-zinc-500 mb-2">
-                  {new Date(post.publishedAt).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
-                  {' · '}
-                  <span className="text-orange-500/70">{post.author}</span>
-                </p>
-                <h2 className="text-lg font-semibold text-zinc-100 group-hover:text-orange-400 transition-colors leading-snug">
-                  {post.title}
-                </h2>
-                <p className="mt-2 text-sm text-zinc-400 line-clamp-3">{post.intro[0]}</p>
-              </div>
-            </Link>
-          ))}
+          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            {posts.map((post) => (
+              <Link
+                key={post.slug}
+                href={`/blog/${post.slug}`}
+                className="group rounded-2xl border border-border bg-card overflow-hidden hover:shadow-lg transition-shadow"
+              >
+                <div className="relative h-52 w-full bg-muted">
+                  <Image
+                    src={post.featuredImage}
+                    alt={post.featuredImageAlt}
+                    fill
+                    className="object-cover group-hover:scale-[1.02] transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-5">
+                  <p className="text-xs text-muted-foreground mb-2">
+                    {new Date(post.publishedAt).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+                    {' · '}
+                    <span className="text-primary font-medium">{post.author}</span>
+                  </p>
+                  <h2 className="text-base font-semibold text-foreground group-hover:text-primary transition-colors leading-snug">
+                    {post.title}
+                  </h2>
+                  <p className="mt-2 text-sm text-muted-foreground line-clamp-3">{post.intro[0]}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
         </div>
-      </div>
-    </main>
+      </main>
+
+      <Footer />
+    </div>
   );
 }
