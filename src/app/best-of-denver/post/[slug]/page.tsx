@@ -20,8 +20,8 @@ const parseMarkdownContent = (content: string): string => {
     .replace(/🥇|🥈|🥉/g, '<span class="text-2xl inline-block mr-1">$&</span>')
     .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" class="w-full rounded-xl my-6 object-cover" style="max-height:420px;" />')
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-primary underline underline-offset-2 hover:opacity-75 transition-opacity">$1</a>')
-    .replace(/(https?:\/\/[^\s<"]+)/g, '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>')
-    .replace(/www\.([^\s<"]+)/g, '<a href="https://www.$1" target="_blank" rel="noopener noreferrer">www.$1</a>')
+    .replace(/(?<![="'(])(https?:\/\/[^\s<"]+)/g, '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>')
+    .replace(/(?<![="'(])www\.([^\s<"]+)/g, '<a href="https://www.$1" target="_blank" rel="noopener noreferrer">www.$1</a>')
     .split(/\n\n+/)
     .map(block => {
       const trimmed = block.trim();
