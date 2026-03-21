@@ -104,20 +104,19 @@ const HeroSection = () => {
             <p className="text-white font-semibold">Check your inbox — you&apos;re in.</p>
           </div>
         ) : (
-          <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2.5 max-w-md">
+          <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 w-full max-w-md">
             <input
               type="email"
               placeholder="your@email.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="flex-1 h-13 px-5 rounded-2xl bg-white/8 border border-white/12 text-white placeholder:text-white/30 text-sm outline-none focus:border-blue-500 focus:bg-white/11 transition-all"
-              style={{ height: "52px" }}
+              className="flex-1 h-14 sm:h-[52px] px-5 rounded-2xl bg-white/12 border-2 border-white/20 text-white placeholder:text-white/40 text-base outline-none focus:border-blue-500 focus:bg-white/14 transition-all"
             />
             <button
               type="submit"
               disabled={isSubmitting}
-              className="h-[52px] px-7 bg-blue-500 hover:bg-blue-400 text-white font-bold text-sm rounded-2xl transition-all hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50 whitespace-nowrap shadow-[0_6px_24px_rgba(25,113,255,0.45)] flex items-center justify-center gap-2"
+              className="w-full sm:w-auto h-14 sm:h-[52px] px-8 bg-blue-500 hover:bg-blue-400 text-white font-bold text-base rounded-2xl transition-all hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50 whitespace-nowrap shadow-[0_6px_24px_rgba(25,113,255,0.5)] flex items-center justify-center gap-2"
             >
               {isSubmitting ? (
                 <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
