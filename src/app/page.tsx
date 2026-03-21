@@ -1,9 +1,11 @@
 import { Metadata } from "next";
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
-import ContentShowcase from "@/components/ContentShowcase";
+import StoriesGrid from "@/components/StoriesGrid";
+import StatementSection from "@/components/StatementSection";
+import ChannelsSection from "@/components/ChannelsSection";
+import PullQuote from "@/components/PullQuote";
 import LatestIssues from "@/components/LatestIssues";
-import SocialProofSection from "@/components/SocialProofSection";
 import NewsletterCTA from "@/components/NewsletterCTA";
 import Footer from "@/components/Footer";
 
@@ -17,9 +19,11 @@ export default function Home() {
     <div className="relative min-h-screen">
       <Navigation />
       <HeroSection />
-      <ContentShowcase />
+      <StoriesGrid />
+      <StatementSection />
+      <ChannelsSection />
+      <PullQuote />
       <LatestIssues />
-      <SocialProofSection />
       <NewsletterCTA />
       <Footer />
     </div>
