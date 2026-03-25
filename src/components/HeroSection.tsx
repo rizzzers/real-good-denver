@@ -55,6 +55,9 @@ const HeroSection = () => {
             src={src}
             alt=""
             aria-hidden
+            width={1920}
+            height={1080}
+            loading={i === 0 ? "eager" : "lazy"}
             className="absolute inset-0 w-full h-full object-cover object-center"
             style={{
               opacity: 0,
