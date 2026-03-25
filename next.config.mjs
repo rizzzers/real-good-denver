@@ -39,6 +39,11 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      { source: "/restaurant-finder", destination: "/", permanent: true },
+    ];
+  },
   async headers() {
     return [
       {
