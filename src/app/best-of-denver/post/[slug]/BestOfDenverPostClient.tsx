@@ -134,12 +134,6 @@ export default function BestOfDenverPostClient() {
         </div>
       </section>
 
-      <section className="py-8 md:py-12 bg-background">
-        <div className="max-w-3xl mx-auto px-6">
-          <AuthorBio />
-        </div>
-      </section>
-
       <section className="bg-foreground py-20">
         <div className="max-w-2xl mx-auto px-6 text-center">
           <p className="text-sm font-medium uppercase tracking-widest text-primary mb-4">Stay in the loop</p>
