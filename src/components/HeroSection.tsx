@@ -90,7 +90,7 @@ const HeroSection = () => {
         <h1 className="text-5xl sm:text-7xl md:text-8xl font-black leading-[0.9] tracking-[-0.045em] text-white mb-7">
           Denver.<br />
           <span className="text-blue-400">Sunny.</span><br />
-          <span className="text-white/25 italic font-light">Insufferable.</span>
+          <span className="text-white/25 italic font-light">Real Good.</span>
         </h1>
 
         {/* Subtext */}
