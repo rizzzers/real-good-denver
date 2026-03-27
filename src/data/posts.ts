@@ -1078,6 +1078,126 @@ Baker has absorbed every era it has lived through. It has never fully erased the
     tags: ['Baker', 'Neighborhoods', 'History', 'Vinyl', 'South Broadway', 'Local Culture']
   },
   {
+    id: 17,
+    slug: "best-posole-denver",
+    title: "The 5 Best Posole Restaurants in Denver",
+    excerpt: "Denver has a posole scene that punches way above its weight. We searched Reddit, Yelp, Westword, and the Michelin Guide so you don't have to. These five spots are the real ones.",
+    category: "food",
+    author: "Ryan Estes",
+    date: "2026-03-27",
+    readTime: "7 min read",
+    image: "/images/posole-featured.png",
+    featured: true,
+    tags: ["Posole", "Mexican Food", "Best Of", "Denver Restaurants"],
+    fullContent: `Denver has a lot going for it. 300 days of sunshine. Mountains in your backyard. A green chile obsession that borders on a civic religion. And quietly, without much fanfare, a posole scene that punches way above its weight.
+
+Posole is not a complicated food. Hominy, broth, meat, and time. But when it goes wrong, it really goes wrong. And when it goes right? You are canceling your dinner plans on a Tuesday to drive across town for another bowl. We searched Reddit, Yelp, Westword, and the Michelin Guide so you don't have to. These five spots are the real ones.
+
+---
+
+## 1. La Diabla Pozole y Mezcal
+
+**Neighborhood:** Five Points / Ballpark
+**Address:** [2233 Larimer St, Denver, CO 80205](https://www.ladiabladenver.com)
+**Website:** [ladiabladenver.com](https://www.ladiabladenver.com)
+
+![La Diabla pozole bowl](https://www.ladiabladenver.com/uploads/3/1/8/3/31838817/editor/img-4551.jpg)
+
+If Denver has a posole landmark, this is it. Chef Jose Avila opened La Diabla in 2021 and the Michelin Guide showed up almost immediately, handing it a Bib Gourmand for good food at honest prices. The menu does something clever: it does not just offer rojo and verde. You get white, black (built on roasted chiles with a smoky depth that will make you reconsider your whole life), and a vegetarian version made with mushroom and chayote that does not feel like a consolation prize. The mezcal list is equally serious. Thursdays are two-for-one bowls. In early 2026, Michelin also named the pambazo de carnitas one of the best sandwiches in North America, so clearly these people know what they are doing.
+
+**What to order:** Pozole Negro, Pozole Verde, Pambazo de Carnitas, Spicy Mezcal Margarita, Concha French Toast on weekends
+
+> "Super authentic Mexican food. We had the green and black pozoles. The spicy mezcal margarita was a standout. A unique and incredibly delicious experience. La Diabla will be my first stop on every return trip to Denver."
+> *Tripadvisor reviewer*
+
+> "We go about once a week. The pozole is incredible and so filling. The nino pobre and a verde pozole is what dreams are made of."
+> *findmeglutenfree.com reviewer*
+
+---
+
+## 2. Tarasco's New Latino Cuisine
+
+**Neighborhood:** Athmar Park / Federal Blvd
+**Address:** [470 S Federal Blvd, Denver, CO 80219](https://tarascosrestaurantdenver.com)
+**Website:** [tarascosrestaurantdenver.com](https://tarascosrestaurantdenver.com)
+
+![Tarasco's pozole rojo](https://www.westword.com/imager/tarascos-new-latino-cuisine/u/magnum/5584447/tarascos_food_1.jpg)
+
+Do not let the strip-mall location fool you. From the outside, Tarasco's looks like it could be a cell phone repair shop that moonlights as a restaurant. Walk in and order the posole, and all is forgiven. Chef Noe Bermudez has been running this Michoacan kitchen for years, making posole the old way: rich broth, tender pork shoulder, award-winning results. The side plate of cabbage, radishes, and limes arrives separately so you can build the bowl at your own pace and feel like you know what you are doing. The seven-chile mole is made from scratch with 33 ingredients. Westword called the posole "like eating Christmas in a bowl," which is a bold quote but not inaccurate.
+
+**What to order:** Pozole Rojo, Mole Siete Chiles, Sweet Corn Tamales, Sopa Tarasca, Natural Juices
+
+> "The broth was flavorful, the pork shoulder very tender and plentiful. They served shredded cabbage and fresh limes on the side. Delicious."
+> *Tripadvisor reviewer*
+
+> "Tarasco's has a way of creating beauty and perfection in even the humblest of dishes. The posole is award-winning. Doctored up, it is like eating Christmas in a bowl."
+> *Westword*
+
+---
+
+## 3. Adelitas Cocina y Cantina
+
+**Neighborhood:** Platt Park
+**Address:** [1294 S Broadway, Denver, CO 80210](https://adelitasco.com)
+**Website:** [adelitasco.com](https://adelitasco.com)
+
+![Adelitas posole bowl](https://adelitasco.com/wp-content/uploads/2022/01/pozole.jpg)
+
+Adelitas is a Latin and woman-owned family restaurant that has been feeding Platt Park since before Platt Park was a thing people bragged about. The posole is a family recipe, made with guajillo and served with the full garnish spread: chopped radishes, cabbage, cilantro-flecked onions, and enough lime to clean a countertop. It tastes like someone's grandmother made it, which in this case is not far from the truth. Head chef and matriarch Silvia Andaya runs the kitchen. The atmosphere is loud and festive in the best possible way. Daily specials include $1 Taco Tuesdays and two-for-one margaritas on Mondays, which means there is never a bad time to go. Come for the posole. Stay for the tres leches. Regret nothing.
+
+**What to order:** Posole Guajillo, Mole Enchiladas, Tierra Mar y Cielo Molcajete, Carne Asada, House Margarita, Tres Leches
+
+> "Every time I visit Denver, I make it a point to dine at Adelitas. The ambiance, the service, and most importantly the food is impeccable."
+> *Adelitas website reviewer*
+
+> "Pozole is a must try. By far the best Mexican restaurant, no debate required."
+> *Nextdoor reviewer*
+
+---
+
+## 4. Ni Tuyo
+
+**Neighborhood:** Bonnie Brae
+**Address:** [730 S University Blvd, Denver, CO 80209](https://nituyo.com)
+**Website:** [nituyo.com](https://nituyo.com)
+
+![Ni Tuyo pozole Denver](https://nituyo.com/wp-content/uploads/2023/08/IMG_6040-scaled.jpg)
+
+Ni Tuyo is the newest project from the family behind Adelitas and La Dona Mezcaleria, which means the posole here carries serious family credibility. Chef Silvia Andaya's kitchen rotates between red and green posole, sometimes both, with the off-menu versions showing up as specials and disappearing fast. The molcajete gets most of the attention on social media, and it deserves it. But the posole has its own loyal following among regulars who have learned to ask about it before ordering anything else. The mezcal program is excellent. The charro beans have chorizo, bacon, and chicharrones in them, because these people understand priorities. No reservations unless you are a party of six or more, so show up early or accept your fate.
+
+**What to order:** Red or Green Pozole, Ni Tuyo Molcajete, Charro Beans, Elote, Chips + Salsa Flight, Half-Priced Mezcal Wednesdays
+
+> "The red pozole is bomb. Like, damn, so good. Service was on point and such a great vibe all night long. I also ordered some to take home."
+> *Sagemenu.com reviewer*
+
+> "The pozole is awesome. They have done a red and green one and I love them both. Don't skip the charro beans: chorizo, bacon, and chicharrones. Good tacos and margs."
+> *Yelp reviewer*
+
+---
+
+## 5. La Vecindad de la Chilanga
+
+**Neighborhood:** Westwood / Morrison Rd
+**Address:** [4801 Morrison Rd, Denver, CO 80219](https://www.lavecindaddelachilangas.com)
+**Website:** [lavecindaddelachilangas.com](https://www.lavecindaddelachilangas.com)
+
+![La Vecindad De La Chilanga Denver](https://www.lavecindaddelachilangas.com/uploads/1/3/6/2/136231977/published/img-2823.jpg)
+
+Run by sisters Alejandra and Gabriela, who grew up in Mexico City cooking alongside their mother, La Vecindad de la Chilanga is the kind of restaurant that makes the Yelp top-10 lists and then gets protected like a secret by the people who found it first. The posole here leans Mexico City-style, hearty and deeply savory, with that particular richness that comes from someone actually caring about the broth. It is a neighborhood joint in every sense: small, warm, always at least one regular who knows everyone's order. Morrison Road does not get enough food coverage for how much good cooking happens on it. This is one of the main reasons.
+
+**What to order:** Pozole, Tacos al Pastor, Birria, Caldo, Agua Fresca
+
+> "Very good service. Very clean and the food was great. Big servings too."
+> *Google reviewer*
+
+> "Super rico, el ambiente sensacional, y lo mejor: la comida y el servicio. 10 de 10."
+> *Google reviewer*
+
+---
+
+*Best of Denver covers local food, neighborhoods, and things worth knowing about the city. All recommendations are based on community sources including Reddit, Yelp, Westword, and the Michelin Guide.*`,
+  },
+  {
     id: 16,
     slug: "best-nachos-denver",
     title: "The Best Nachos in Denver (That Actually Layer the Damn Cheese)",
