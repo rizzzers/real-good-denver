@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-went-dark-dia-lost-power-lamb-of-god-fillmore",
+    title: "Denver went dark, DIA lost power, 463 flights froze, and somehow Lamb of God still played the Fillmore on Friday",
+    date: "2026-03-27",
+    description: "Denver's biggest power outage in years knocked out DIA, froze hundreds of flights, and plunged neighborhoods dark — and Lamb of God played anyway.",
+    htmlFile: "/newsletter-issues/denver-went-dark-dia-lost-power-lamb-of-god-fillmore.html",
+  },
+  {
     slug: "denver-did-denver-things-snowstorm-sunday",
     title: "Denver did Denver things: snowstorm Sunday, 85 degrees Friday, a flying semi, 20,000 without power",
     date: "2026-03-18",
