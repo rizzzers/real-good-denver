@@ -1101,7 +1101,7 @@ Posole is not a complicated food. Hominy, broth, meat, and time. But when it goe
 **Address:** [2233 Larimer St, Denver, CO 80205](https://www.ladiabladenver.com)
 **Website:** [ladiabladenver.com](https://www.ladiabladenver.com)
 
-![La Diabla pozole bowl](https://www.ladiabladenver.com/uploads/3/1/8/3/31838817/editor/img-4551.jpg)
+![La Diabla pozole bowl](/images/posole-ladiabla.jpg)
 
 If Denver has a posole landmark, this is it. Chef Jose Avila opened La Diabla in 2021 and the Michelin Guide showed up almost immediately, handing it a Bib Gourmand for good food at honest prices. The menu does something clever: it does not just offer rojo and verde. You get white, black (built on roasted chiles with a smoky depth that will make you reconsider your whole life), and a vegetarian version made with mushroom and chayote that does not feel like a consolation prize. The mezcal list is equally serious. Thursdays are two-for-one bowls. In early 2026, Michelin also named the pambazo de carnitas one of the best sandwiches in North America, so clearly these people know what they are doing.
 
@@ -1121,7 +1121,7 @@ If Denver has a posole landmark, this is it. Chef Jose Avila opened La Diabla in
 **Address:** [470 S Federal Blvd, Denver, CO 80219](https://tarascosrestaurantdenver.com)
 **Website:** [tarascosrestaurantdenver.com](https://tarascosrestaurantdenver.com)
 
-![Tarasco's pozole rojo](https://www.westword.com/imager/tarascos-new-latino-cuisine/u/magnum/5584447/tarascos_food_1.jpg)
+![Tarasco's pozole rojo](/images/posole-tarascos.jpg)
 
 Do not let the strip-mall location fool you. From the outside, Tarasco's looks like it could be a cell phone repair shop that moonlights as a restaurant. Walk in and order the posole, and all is forgiven. Chef Noe Bermudez has been running this Michoacan kitchen for years, making posole the old way: rich broth, tender pork shoulder, award-winning results. The side plate of cabbage, radishes, and limes arrives separately so you can build the bowl at your own pace and feel like you know what you are doing. The seven-chile mole is made from scratch with 33 ingredients. Westword called the posole "like eating Christmas in a bowl," which is a bold quote but not inaccurate.
 
@@ -1141,7 +1141,7 @@ Do not let the strip-mall location fool you. From the outside, Tarasco's looks l
 **Address:** [1294 S Broadway, Denver, CO 80210](https://adelitasco.com)
 **Website:** [adelitasco.com](https://adelitasco.com)
 
-![Adelitas posole bowl](https://adelitasco.com/wp-content/uploads/2022/01/pozole.jpg)
+![Adelitas posole bowl](/images/posole-adelitas.jpg)
 
 Adelitas is a Latin and woman-owned family restaurant that has been feeding Platt Park since before Platt Park was a thing people bragged about. The posole is a family recipe, made with guajillo and served with the full garnish spread: chopped radishes, cabbage, cilantro-flecked onions, and enough lime to clean a countertop. It tastes like someone's grandmother made it, which in this case is not far from the truth. Head chef and matriarch Silvia Andaya runs the kitchen. The atmosphere is loud and festive in the best possible way. Daily specials include $1 Taco Tuesdays and two-for-one margaritas on Mondays, which means there is never a bad time to go. Come for the posole. Stay for the tres leches. Regret nothing.
 
@@ -1161,7 +1161,7 @@ Adelitas is a Latin and woman-owned family restaurant that has been feeding Plat
 **Address:** [730 S University Blvd, Denver, CO 80209](https://nituyo.com)
 **Website:** [nituyo.com](https://nituyo.com)
 
-![Ni Tuyo pozole Denver](https://nituyo.com/wp-content/uploads/2023/08/IMG_6040-scaled.jpg)
+![Ni Tuyo pozole Denver](/images/posole-nituyo.jpg)
 
 Ni Tuyo is the newest project from the family behind Adelitas and La Dona Mezcaleria, which means the posole here carries serious family credibility. Chef Silvia Andaya's kitchen rotates between red and green posole, sometimes both, with the off-menu versions showing up as specials and disappearing fast. The molcajete gets most of the attention on social media, and it deserves it. But the posole has its own loyal following among regulars who have learned to ask about it before ordering anything else. The mezcal program is excellent. The charro beans have chorizo, bacon, and chicharrones in them, because these people understand priorities. No reservations unless you are a party of six or more, so show up early or accept your fate.
 
@@ -1181,7 +1181,7 @@ Ni Tuyo is the newest project from the family behind Adelitas and La Dona Mezcal
 **Address:** [4801 Morrison Rd, Denver, CO 80219](https://www.lavecindaddelachilangas.com)
 **Website:** [lavecindaddelachilangas.com](https://www.lavecindaddelachilangas.com)
 
-![La Vecindad De La Chilanga Denver](https://www.lavecindaddelachilangas.com/uploads/1/3/6/2/136231977/published/img-2823.jpg)
+![La Vecindad De La Chilanga Denver](/images/posole-lavecindad.jpg)
 
 Run by sisters Alejandra and Gabriela, who grew up in Mexico City cooking alongside their mother, La Vecindad de la Chilanga is the kind of restaurant that makes the Yelp top-10 lists and then gets protected like a secret by the people who found it first. The posole here leans Mexico City-style, hearty and deeply savory, with that particular richness that comes from someone actually caring about the broth. It is a neighborhood joint in every sense: small, warm, always at least one regular who knows everyone's order. Morrison Road does not get enough food coverage for how much good cooking happens on it. This is one of the main reasons.
 
