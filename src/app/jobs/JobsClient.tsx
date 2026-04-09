@@ -47,10 +47,16 @@ export default function JobsClient() {
     };
 
     loadScript('https://www.jobstream.tech/signup/v1/jobstream-modal.js', () => {
+      console.log('[Jobstream] jobstream-modal.js loaded');
       loadScript('https://www.jobstream.tech/signup/v1/job-alerts-embed.js', () => {
+        console.log('[Jobstream] job-alerts-embed.js loaded');
         const w = window as JobAlertsWindow;
+        console.log('[Jobstream] JobAlertsEmbed on window:', w.JobAlertsEmbed);
         if (w.JobAlertsEmbed && !w.JobAlertsEmbed.instance.isInitialized) {
           w.JobAlertsEmbed.instance.init('realgooddenver');
+          console.log('[Jobstream] init called');
+        } else {
+          console.log('[Jobstream] already initialized or not found');
         }
       });
     });
@@ -83,7 +89,11 @@ export default function JobsClient() {
           <button
             id="job-alerts-btn-board"
             className="inline-flex items-center gap-2 bg-primary text-primary-foreground hover:bg-primary/90 rounded-xl font-semibold px-8 py-4 hover:scale-[1.02] transition-all"
-            onClick={() => (window as JobAlertsWindow).JobAlertsEmbed?.instance.show()}
+            onClick={() => {
+              const w = window as JobAlertsWindow;
+              console.log('[Jobstream] button clicked, JobAlertsEmbed:', w.JobAlertsEmbed);
+              w.JobAlertsEmbed?.instance.show();
+            }}
           >
             Start Your Job Search <ArrowRight className="ml-2 h-5 w-5" />
           </button>
