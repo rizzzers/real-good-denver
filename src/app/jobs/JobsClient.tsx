@@ -81,6 +81,7 @@ export default function JobsClient() {
           <p className="text-background/40 mb-10">Powered by Jobstream</p>
 
           <button
+            id="job-alerts-btn-board"
             className="inline-flex items-center gap-2 bg-primary text-primary-foreground hover:bg-primary/90 rounded-xl font-semibold px-8 py-4 hover:scale-[1.02] transition-all"
             onClick={() => (window as JobAlertsWindow).JobAlertsEmbed?.instance.show()}
           >
@@ -164,6 +165,7 @@ const FinalCTA = () => {
     <div ref={ref} className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
       <h2 className="text-3xl md:text-5xl font-bold text-background mb-6">Big gig or side gig,<br />we&apos;ll help you land it.</h2>
       <button
+        id="job-alerts-btn-board-2"
         className="inline-flex items-center gap-2 bg-primary text-primary-foreground hover:bg-primary/90 rounded-xl font-semibold px-8 py-4 hover:scale-[1.02] transition-all mb-8"
         onClick={() => (window as JobAlertsWindow).JobAlertsEmbed?.instance.show()}
       >
