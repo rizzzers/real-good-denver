@@ -1,7 +1,6 @@
 "use client";
 
-import React from 'react';
-import Script from 'next/script';
+import React, { useEffect } from 'react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Target, MapPin, Bell, ArrowRight, Building2, CheckCircle } from 'lucide-react';
@@ -33,20 +32,32 @@ interface JobAlertsWindow extends Window {
 }
 
 export default function JobsClient() {
+  useEffect(() => {
+    const loadScript = (src: string, onLoad?: () => void) => {
+      // Don't add duplicate scripts
+      if (document.querySelector(`script[src="${src}"]`)) {
+        onLoad?.();
+        return;
+      }
+      const script = document.createElement('script');
+      script.src = src;
+      script.async = true;
+      if (onLoad) script.onload = onLoad;
+      document.head.appendChild(script);
+    };
+
+    loadScript('https://www.jobstream.tech/signup/v1/jobstream-modal.js', () => {
+      loadScript('https://www.jobstream.tech/signup/v1/job-alerts-embed.js', () => {
+        const w = window as JobAlertsWindow;
+        if (w.JobAlertsEmbed && !w.JobAlertsEmbed.instance.isInitialized) {
+          w.JobAlertsEmbed.instance.init('realgooddenver');
+        }
+      });
+    });
+  }, []);
 
   return (
     <div className="min-h-screen bg-background">
-      <Script src="https://www.jobstream.tech/signup/v1/jobstream-modal.js" strategy="afterInteractive" />
-      <Script
-        src="https://www.jobstream.tech/signup/v1/job-alerts-embed.js"
-        strategy="afterInteractive"
-        onLoad={() => {
-          const w = window as JobAlertsWindow;
-          if (w.JobAlertsEmbed && !w.JobAlertsEmbed.instance.isInitialized) {
-            w.JobAlertsEmbed.instance.init('realgooddenver');
-          }
-        }}
-      />
       <Navigation />
 
       <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden bg-foreground pt-28">
