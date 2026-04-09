@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useEffect } from 'react';
+import React from 'react';
+import Script from 'next/script';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Target, MapPin, Bell, ArrowRight, Building2, CheckCircle } from 'lucide-react';
@@ -32,15 +33,20 @@ interface JobAlertsWindow extends Window {
 }
 
 export default function JobsClient() {
-  useEffect(() => {
-    const w = window as JobAlertsWindow;
-    if (w.JobAlertsEmbed && !w.JobAlertsEmbed.instance.isInitialized) {
-      w.JobAlertsEmbed.instance.init('realgooddenver');
-    }
-  }, []);
 
   return (
     <div className="min-h-screen bg-background">
+      <Script src="https://www.jobstream.tech/signup/v1/jobstream-modal.js" strategy="afterInteractive" />
+      <Script
+        src="https://www.jobstream.tech/signup/v1/job-alerts-embed.js"
+        strategy="afterInteractive"
+        onLoad={() => {
+          const w = window as JobAlertsWindow;
+          if (w.JobAlertsEmbed && !w.JobAlertsEmbed.instance.isInitialized) {
+            w.JobAlertsEmbed.instance.init('realgooddenver');
+          }
+        }}
+      />
       <Navigation />
 
       <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden bg-foreground pt-28">
