@@ -8,6 +8,20 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-turkeys-debt-pig-roast-cop",
+    title: "Denver is being invaded by turkeys, debt, and a woman who tried to throw a pig roast for a cop.",
+    date: "2026-04-09",
+    description: "Wild turkeys taking over Denver neighborhoods, Burger Jim's new bun maker, a Denver content creator meetup, the Sloan's Lake bar crawl golf tournament, and all the front range tea.",
+    htmlFile: "/newsletter-issues/denver-turkeys-debt-pig-roast-cop.html",
+  },
+  {
+    slug: "denver-dia-blackout-flights-metal-show",
+    title: "Denver's Friday from hell: The DIA blackout, 463 frozen flights, and the metal show that refused to die",
+    date: "2026-04-01",
+    description: "DIA lost power and froze 463 flights, the Nuggets and Avs are on fire, the Rockies are practicing, and a metal show played on anyway. Plus Rockies Opening Day and the Ramen Renaissance.",
+    htmlFile: "/newsletter-issues/denver-dia-blackout-flights-metal-show.html",
+  },
+  {
     slug: "denver-went-dark-dia-lost-power-lamb-of-god-fillmore",
     title: "Denver went dark, DIA lost power, 463 flights froze, and somehow Lamb of God still played the Fillmore on Friday",
     date: "2026-03-27",
