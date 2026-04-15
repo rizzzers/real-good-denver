@@ -71,6 +71,19 @@ const websiteSchema = {
   },
 };
 
+const siteNavigationSchema = {
+  "@context": "https://schema.org",
+  "@type": "SiteNavigationElement",
+  name: ["Best of Denver", "Podcast", "Newsletter", "Jobs", "Work With Us"],
+  url: [
+    "https://realgooddenver.com/best-of-denver",
+    "https://realgooddenver.com/podcast",
+    "https://realgooddenver.com/newsletter",
+    "https://realgooddenver.com/jobs",
+    "https://realgooddenver.com/work-with-us",
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -88,6 +101,11 @@ export default function RootLayout({
           id="schema-website"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+        <Script
+          id="schema-navigation"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteNavigationSchema) }}
         />
       </head>
       <body className="antialiased">{children}</body>
