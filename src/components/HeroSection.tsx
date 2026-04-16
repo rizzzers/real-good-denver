@@ -110,7 +110,7 @@ const HeroSection = () => {
           <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 w-full max-w-md">
             <input
               type="email"
-              placeholder="your@email.com"
+              placeholder="add your email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
