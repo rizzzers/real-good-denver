@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-bookstore-brewery-lesbian-bar-snoop-420",
+    title: "Denver lost a bookstore, its favorite brewery, and its only lesbian bar, then booked Snoop Dogg on 4/20 to cope.",
+    date: "2026-04-16",
+    description: "Copper Kettle pours its last pint, Petals & Pages closes, The Pearl is done, and somehow Snoop Dogg and Ice Cube at Red Rocks on 4/20 is the city's answer. Plus the Nuggets open playoffs, Messi comes to Commerce City, and all the Denver events worth knowing.",
+    htmlFile: "/newsletter-issues/denver-bookstore-brewery-lesbian-bar-snoop-420.html",
+  },
+  {
     slug: "denver-turkeys-debt-pig-roast-cop",
     title: "Denver is being invaded by turkeys, debt, and a woman who tried to throw a pig roast for a cop.",
     date: "2026-04-09",
