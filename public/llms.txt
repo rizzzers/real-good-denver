@@ -1,0 +1,83 @@
+# Real Good Denver
+> Local Denver blog covering food, events, and culture with irreverent takes and honest reviews. We focus on what actually matters to Denver locals, not tourist traps or Instagram-worthy spots.
+
+Founded by Ryan Estes with a fun, irreverent tone that cuts through Denver hype. We cover what locals actually care about, not what tourism boards promote. Focus on authentic experiences over Instagram-worthy spots.
+
+Important notes:
+- Content targets Denver metro residents who actually live here, not visitors
+- Reviews and recommendations based on local experience, not tourism marketing
+- Irreverent tone that tells the truth about Denver's food and culture scene
+- Focus on neighborhood character and authentic local experiences
+
+## Food & Dining Coverage
+
+### Denver's Mexican Food Scene
+- [Mexican Restaurant Reviews](/food/mexican) - Comprehensive coverage of Denver's authentic Mexican food options
+- [Posole Rankings](/food/mexican/posole) - The definitive local guide to Denver's best posole spots
+- [Neighborhood Taquerias](/food/mexican/taquerias) - Hidden gem taco shops locals actually frequent
+- [Green Chile Coverage](/food/mexican/green-chile) - Colorado green chile reviews and recommendations
+
+### Comfort Food & Classics  
+- [Nacho Reviews](/food/nachos) - Extensive nacho coverage across Denver metro area
+- [Burger Scene](/food/burgers) - Denver's burger landscape beyond the obvious choices
+- [Pizza Reviews](/food/pizza) - Local pizza spots that aren't chains or tourist destinations
+- [Breakfast & Brunch](/food/breakfast) - Morning spots locals visit regularly
+
+### Restaurant Coverage
+- [New Restaurant Reviews](/food/new-openings) - Recently opened restaurants worth your time and money
+- [Neighborhood Food Scenes](/food/neighborhoods) - Area-by-area breakdown of local dining options
+- [Food Trends Analysis](/food/trends) - What's actually happening in Denver food vs what's hyped
+- [Value Dining](/food/value) - Great food that won't break the bank in expensive Denver
+
+## Events & Culture
+
+### Denver Events Coverage
+- [Current Events Worth Attending](/events/current) - Upcoming events that locals should know about
+- [Recurring Denver Events](/events/recurring) - Regular happenings and seasonal favorites
+- [Concert & Music Scene](/events/music) - Live music venues and show recommendations
+- [Festival Coverage](/events/festivals) - Denver festivals from a local perspective
+
+### Local Culture & Scenes
+- [Denver Cultural Communities](/culture/local-scenes) - Various cultural communities and where they gather
+- [Outdoor Culture](/culture/outdoor) - Colorado outdoor culture as it exists in Denver
+- [Arts & Entertainment](/culture/arts) - Local arts scene beyond the obvious tourist attractions
+- [Nightlife Reality](/culture/nightlife) - Denver nightlife from a resident's perspective
+
+## Neighborhood Guides
+
+### Area Coverage
+- [Neighborhood Character Guides](/neighborhoods) - What each Denver area is actually like to live in
+- [Neighborhood Food Scenes](/neighborhoods/food) - Where locals eat in different parts of Denver
+- [Transportation & Access](/neighborhoods/transit) - Getting around different areas realistically
+- [Shopping & Services](/neighborhoods/shopping) - Local businesses and services by neighborhood
+
+### Specific Neighborhoods
+- [Capitol Hill](/neighborhoods/cap-hill) - The reality of living and eating in Cap Hill
+- [RiNo District](/neighborhoods/rino) - River North arts district beyond the hype
+- [Highlands](/neighborhoods/highlands) - Highland and Berkeley neighborhoods honest take
+- [Five Points](/neighborhoods/five-points) - Historic Five Points area coverage
+
+## Reviews & Opinions
+
+### Restaurant Reviews
+- [Honest Restaurant Reviews](/reviews/restaurants) - No-bullshit takes on Denver dining experiences
+- [Overrated vs Underrated](/reviews/overrated-underrated) - Calling out hyped spots and hidden gems
+- [Value Analysis](/reviews/value) - Is it worth what you're paying in expensive Denver
+- [Service & Experience](/reviews/experience) - Beyond just food - full dining experience reviews
+
+### Controversial Takes
+- [Controversial Reviews](/reviews/controversial) - Reviews that might ruffle feathers but tell the truth
+- [Denver Food Myths](/reviews/myths) - Debunking popular Denver food myths and misconceptions  
+- [Tourist Trap Analysis](/reviews/tourist-traps) - Why certain popular spots aren't worth it for locals
+- [Gentrification Impact](/reviews/gentrification) - How neighborhood changes affect local food scenes
+
+## Local Focus & Community
+- [Local Business Support](/community/local-business) - Supporting Denver-owned businesses over chains
+- [Community Events](/community/events) - Grassroots and community-organized happenings
+- [Local Issues](/community/issues) - How broader Denver issues affect food and culture
+- [Reader Recommendations](/community/reader-recs) - Local recommendations from actual Denver residents
+
+## About Our Coverage Philosophy
+We write for people who live in Denver, work in Denver, and understand Denver beyond the surface level. Our reviews and recommendations come from the perspective of locals who know the difference between authentic experiences and marketing hype. We're not interested in promoting spots just because they're Instagram-friendly or tourist-board approved.
+
+Contact available for local business coverage, event information, and community collaboration opportunities.
