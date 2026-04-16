@@ -123,9 +123,9 @@ export default function PartnershipClient() {
 const PricingSection = () => {
   const { ref, isVisible } = useScrollReveal();
   const tiers = [
-    { name: 'Starter Visibility', price: '$5,000', best: 'Best for testing the channel and building initial presence.', features: ['50,000 guaranteed impressions', 'Weekly newsletter placements', 'Host-read podcast ads', 'Short-form video edits for your channels', 'Campaign reporting on verified human engagement'] },
-    { name: 'Growth Visibility', price: '$12,000', best: 'Best for brands ready to build consistent awareness and momentum.', featured: true, features: ['160,000 guaranteed impressions', 'Priority newsletter placement across campaign period', 'Multiple host-read podcast integrations', 'Expanded short-form video asset package', 'Performance reporting and optimization insights'] },
-    { name: 'Dominant Visibility', price: '$19,000', best: 'Best for brands that want to own the conversation and maximize reach.', features: ['380,000 guaranteed impressions', 'Premium newsletter positioning', 'Ongoing host-read podcast integrations', 'Full short-form video content suite for repurposing', 'Strategic campaign reporting and audience insights'] },
+    { name: 'Growth Visibility', price: '$12,000', best: 'Best for brands ready to build consistent awareness and momentum.', featured: false, features: ['160,000 guaranteed impressions', 'Priority newsletter placement across campaign period', 'Multiple host-read podcast integrations', 'Expanded short-form video asset package', 'Performance reporting and optimization insights'] },
+    { name: 'Dominant Visibility', price: '$19,000', best: 'Best for brands that want to own the conversation and maximize reach.', featured: true, features: ['380,000 guaranteed impressions', 'Premium newsletter positioning', 'Ongoing host-read podcast integrations', 'Full short-form video content suite for repurposing', 'Strategic campaign reporting and audience insights'] },
+    { name: 'Buyout', price: null, best: 'Exclusive category ownership across all Real Good Denver channels. Contact us for availability.', features: ['Full newsletter exclusivity', 'Unlimited host-read podcast integrations', 'Complete short-form video suite', 'Custom content and editorial partnerships', 'Dedicated campaign strategy and reporting'] },
   ];
   return (
     <div ref={ref} className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
@@ -137,7 +137,11 @@ const PricingSection = () => {
         {tiers.map((tier) => (
           <div key={tier.name} className={`rounded-2xl border p-6 flex flex-col ${tier.featured ? 'border-primary bg-primary/10 ring-1 ring-primary/30' : 'border-background/10 bg-background/5'}`}>
             <h3 className="text-lg font-semibold text-background mb-1">{tier.name}</h3>
-            <p className="text-3xl font-bold text-primary mb-3">{tier.price}</p>
+            {tier.price ? (
+              <p className="text-3xl font-bold text-primary mb-3">{tier.price}</p>
+            ) : (
+              <p className="text-lg font-semibold text-primary mb-3">Contact for availability</p>
+            )}
             <p className="text-sm text-background/50 mb-5">{tier.best}</p>
             <ul className="space-y-2.5 flex-1">
               {tier.features.map((f) => (
@@ -290,9 +294,9 @@ const ApplicationForm = ({ name, email, productLink, budgetRange, campaignGoals,
           <div><label className="text-sm font-medium">Budget Range</label>
             <select value={budgetRange} onChange={(e) => onBudgetRangeChange(e.target.value)} required className={selectClass}>
               <option value="">Select a range</option>
-              <option value="$5,000 - Starter">$5,000 — Starter Visibility</option>
               <option value="$12,000 - Growth">$12,000 — Growth Visibility</option>
               <option value="$19,000 - Dominant">$19,000 — Dominant Visibility</option>
+              <option value="Buyout">Buyout — Contact for availability</option>
               <option value="Custom">Custom / Not sure yet</option>
             </select></div>
           <div><label className="text-sm font-medium">Campaign Goals</label>
