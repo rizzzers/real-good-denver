@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { ArrowRight, ArrowUpRight, Send } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, Send, Search, X } from 'lucide-react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { supabase } from '@/lib/supabase';
@@ -97,11 +97,7 @@ export default function NewsletterClient() {
       <section className="py-24 md:py-32 bg-background">
         <div className="max-w-4xl mx-auto px-6">
           <ArchiveHeader />
-          <div className="divide-y divide-border">
-            {newsletterIssues.map((issue, index) => (
-              <IssueRow key={issue.slug} issue={issue} index={index} />
-            ))}
-          </div>
+          <NewsletterSearch issues={newsletterIssues} />
         </div>
       </section>
 
@@ -109,6 +105,56 @@ export default function NewsletterClient() {
     </div>
   );
 }
+
+const NewsletterSearch = ({ issues }: { issues: typeof newsletterIssues }) => {
+  const [searchQuery, setSearchQuery] = useState('');
+  const q = searchQuery.trim().toLowerCase();
+  const filtered = q
+    ? issues.filter(
+        (issue) =>
+          issue.title.toLowerCase().includes(q) ||
+          issue.description.toLowerCase().includes(q)
+      )
+    : issues;
+
+  return (
+    <>
+      <div className="relative max-w-md mb-10">
+        <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground pointer-events-none" />
+        <input
+          type="text"
+          placeholder="Search issues..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          className="w-full pl-9 pr-9 py-2.5 rounded-lg border border-border bg-background text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-colors"
+        />
+        {searchQuery && (
+          <button
+            onClick={() => setSearchQuery('')}
+            className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground transition-colors"
+            aria-label="Clear search"
+          >
+            <X className="h-4 w-4" />
+          </button>
+        )}
+      </div>
+
+      {q && (
+        <p className="text-sm text-muted-foreground mb-6">
+          {filtered.length === 0
+            ? `No issues found for "${searchQuery.trim()}"`
+            : `${filtered.length} issue${filtered.length !== 1 ? 's' : ''} matching "${searchQuery.trim()}"`}
+        </p>
+      )}
+
+      <div className="divide-y divide-border">
+        {filtered.map((issue, index) => (
+          <IssueRow key={issue.slug} issue={issue} index={index} />
+        ))}
+      </div>
+    </>
+  );
+};
 
 const ArchiveHeader = () => {
   const { ref, isVisible } = useScrollReveal();
