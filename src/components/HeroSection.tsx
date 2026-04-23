@@ -110,7 +110,7 @@ const HeroSection = () => {
           <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 w-full max-w-md">
             <input
               type="email"
-              placeholder="add your email"
+              placeholder="drop your email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
@@ -130,7 +130,7 @@ const HeroSection = () => {
           </form>
         )}
 
-        <p className="text-xs text-white/22 mt-3">Free forever. No Fort Collins coverage. Unsubscribe anytime.</p>
+        <p className="text-xs text-white mt-3">Free forever. No Fort Collins coverage. Unsubscribe anytime.</p>
       </div>
 
       <style>{`
