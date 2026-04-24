@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-spring-playoff-hockey-basketball-hemp-fraud-bovine-baron",
+    title: "Denver is having the spring of all springs: Playoff hockey, playoff basketball, hemp fraud, and a man named the bovine baron",
+    date: "2026-04-24",
+    description: "The Avs take a 2-0 series lead on the Kings with Wedgewood's 28-save performance, the Nuggets and Wolves are tied 1-1 heading into Game 3, a Colorado hemp company is caught in a massive fraud scheme, and somehow there's a man going by the bovine baron. Plus Olive & Finch opens its biggest location yet and the Sloan's Lake bar crawl golf tournament is coming.",
+    htmlFile: "/newsletter-issues/denver-spring-playoff-hockey-basketball-hemp-fraud-bovine-baron.html",
+  },
+  {
     slug: "denver-bookstore-brewery-lesbian-bar-snoop-420",
     title: "Denver lost a bookstore, its favorite brewery, and its only lesbian bar, then booked Snoop Dogg on 4/20 to cope.",
     date: "2026-04-16",
