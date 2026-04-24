@@ -114,7 +114,7 @@ const HeroSection = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="flex-1 h-14 sm:h-[52px] px-5 rounded-2xl bg-white/12 border-2 border-white/20 text-white placeholder:text-white/40 text-base outline-none focus:border-blue-500 focus:bg-white/14 transition-all"
+              className="flex-1 h-14 sm:h-[52px] px-5 rounded-2xl bg-white/12 border-2 border-white/20 text-white placeholder:text-gray-400 text-base outline-none focus:border-blue-500 focus:bg-white/14 transition-all"
             />
             <button
               type="submit"
