@@ -58,7 +58,7 @@ const HeroSection = () => {
             width={1920}
             height={1080}
             loading={i === 0 ? "eager" : "lazy"}
-            className="absolute inset-0 w-full h-full object-cover object-center"
+            className="absolute inset-0 w-full h-full object-cover object-[50%_30%]"
             style={{
               opacity: 0,
               animation: `heroFade 60s infinite`,
@@ -114,12 +114,12 @@ const HeroSection = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="flex-1 h-14 sm:h-[52px] px-5 rounded-2xl bg-white/12 border-2 border-white/20 text-white placeholder:text-gray-400 text-base outline-none focus:border-blue-500 focus:bg-white/14 transition-all"
+              className="flex-1 h-28 sm:h-[52px] px-5 rounded-2xl bg-white/12 border-2 border-white/20 text-white placeholder:text-gray-400 text-base outline-none focus:border-blue-500 focus:bg-white/14 transition-all"
             />
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full sm:w-auto h-14 sm:h-[52px] px-8 bg-blue-500 hover:bg-blue-400 text-white font-bold text-base rounded-2xl transition-all hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50 whitespace-nowrap shadow-[0_6px_24px_rgba(25,113,255,0.5)] flex items-center justify-center gap-2"
+              className="w-full sm:w-auto h-28 sm:h-[52px] px-8 bg-blue-500 hover:bg-blue-400 text-white font-bold text-base rounded-2xl transition-all hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50 whitespace-nowrap shadow-[0_6px_24px_rgba(25,113,255,0.5)] flex items-center justify-center gap-2"
             >
               {isSubmitting ? (
                 <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />

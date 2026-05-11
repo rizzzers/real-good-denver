@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-stadiums-nuggets-rally-lewis-capaldi-red-rocks",
+    title: "Denver keeps building stadiums while the Nuggets RALLY and Lewis Capaldi heals at Red Rocks",
+    date: "2026-04-29",
+    description: "The Nuggets are fighting back in the playoffs, Lewis Capaldi is healing at Red Rocks, Denver's 16th Street Mall gets the 'Central Social District' treatment, the George Floyd protest verdict stands at $14.75M, and The Pearl — Denver's only lesbian bar — is closing its doors. Plus new restaurants, drought news, and the jobs page is finally fixed.",
+    htmlFile: "/newsletter-issues/denver-stadiums-nuggets-rally-lewis-capaldi-red-rocks.html",
+  },
+  {
     slug: "denver-spring-playoff-hockey-basketball-hemp-fraud-bovine-baron",
     title: "Denver is having the spring of all springs: Playoff hockey, playoff basketball, hemp fraud, and a man named the bovine baron",
     date: "2026-04-24",
