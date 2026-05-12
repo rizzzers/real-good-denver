@@ -198,6 +198,16 @@ export const communityEvents: CommunityEvent[] = [
     link: "https://www.opentable.com/restref/client/?rid=1401487&restref=1401487&accessRuleToken=7c3cb57f-f676-4041-a360-c2e6dc7557f2&covers=1&dateTime=2026-05-29T17:30",
   },
   {
+    id: "networking-practice-lab-2026",
+    title: "Networking Practice Lab",
+    date: "2026-06-18",
+    time: "June 18–19",
+    location: "Denver, CO",
+    description:
+      "A two-day workshop for entrepreneurs, professionals, community builders, career changers, or anyone tired of networking feeling transactional. You'll practice conversations that put the person before the profession, learn how to prepare for events strategically, strengthen your current network, build a 90-day networking plan, and put your skills into action at a real event. Two things can be true at the same time: networking can be thoughtful, generous, and authentic while also creating real opportunities, referrals, partnerships, and growth.",
+    link: "https://www.articulated-intelligence.com/practice-lab",
+  },
+  {
     id: "romyo-rite-v-kamigami-2026",
     title: "Six Nights, Six Rites at Rōmyō — Rite V: Kamigami",
     date: "2026-06-19",
