@@ -6,6 +6,7 @@ const navigation = {
     { name: "Newsletter", href: "/newsletter" },
     { name: "Podcast", href: "/podcast" },
     { name: "Best of Denver", href: "/best-of-denver" },
+    { name: "Events", href: "/events" },
     { name: "Book Club", href: "/book-club" },
     { name: "Jobs", href: "/jobs" },
     { name: "Resources", href: "/resources" },
