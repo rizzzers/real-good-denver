@@ -92,6 +92,16 @@ export const communityEvents: CommunityEvent[] = [
       "Free to enter. Rope a bull dummy at 40 ft for a shot at $5,000 cash — smaller prizes for shorter throws. Benefits the Denver Children's Foundation.",
   },
   {
+    id: "senor-bear-tajin-tahini-dinner-2026",
+    title: "Tajín & Tahini Fusion Dinner at Señor Bear",
+    date: "2026-05-28",
+    time: "5:00 PM",
+    location: "Señor Bear, Denver",
+    description:
+      "Señor Bear's Blake Edmunds and Ash'Kara's Reggie Dotson team up for an intimate, high-energy dinner blending Latin flavor with Mediterranean soul. Expect dishes like Gordo Crunch hummus and falafel with creamy salsa verde, Turkish ezma relish, and sorrel. The evening is part of The Culinary Creative Group's (CCG) mission to invest in culinary talent: Edmunds was recently promoted to culinary director after more than a decade with CCG, while Dotson led Ash'Kara to a Michelin Bib Gourmand three times in a row. Multi-course dinner is $55 per person, with an optional curated beverage pairing for an extra $36.",
+    link: "https://www.opentable.com/r/senor-bear-denver",
+  },
+  {
     id: "drink-red-wear-red-2026",
     title: "Drink Red Wear Red",
     date: "2026-05-28",
