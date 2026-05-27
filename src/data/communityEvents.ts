@@ -237,4 +237,58 @@ export const communityEvents: CommunityEvent[] = [
       "See the change come together and become a character in the restaurant's story with Wes Anderson-style photo stations placed in colorful spots around the space. The final event in the 'Six Nights, Six Rites' series, hosted by Bonanno Concepts as the Larimer Square transformation reaches its conclusion. Free, reservation only. Each event in the series includes an offering, a ritual, and a token. Space is limited.",
     link: "https://www.opentable.com/restref/client/?rid=1401487&restref=1401487&accessRuleToken=7c3cb57f-f676-4041-a360-c2e6dc7557f2&covers=1&dateTime=2026-06-26T17:30",
   },
+  {
+    id: "ritz-carlton-padel-haus-stay-play",
+    title: "The Ritz-Carlton x Padel Haus Stay & Play Package",
+    date: "2026-05-27",
+    location: "The Ritz-Carlton, Denver",
+    description:
+      "The Ritz-Carlton, Denver has partnered with Padel Haus to launch an exclusive Stay & Play Package, timed to the debut of Padel Haus Denver, the newest location from the leading premium indoor padel club in the U.S. The package includes two nights at the Ritz-Carlton, transfers to and from Padel Haus, a private lesson with a coach, two hours of play, dinner at Elway's Downtown (up to $250), and a custom Ritz-Carlton x Padel Haus racket with shirt and water bottle. Starting rate: $1,100/night.",
+  },
+  {
+    id: "denver-press-club-book-talk-melissa-doman",
+    title: "Book Talk: Cornered Office with Melissa Doman",
+    date: "2026-05-28",
+    time: "6:30 PM",
+    location: "Denver Press Club, 1330 Glenarm Place",
+    description:
+      "Colorado-based organizational psychologist Melissa Doman brings her new book to the Denver Press Club for an evening conversation about leadership mental health. Cornered Office makes the case that leaders need support too, with data-backed research and practical steps for managers and executives. Doman has worked with Google, Microsoft, Salesforce, and Siemens, spoken at SXSW, and been featured in CNN, Vogue, NPR, and Fast Company. General Admission: $15. Member Admission: $5. Limited tickets.",
+    link: "https://denverpressclub.org/event/book-talk-with-melissa-doman-ma/",
+  },
+  {
+    id: "art-hotel-chef-cycle-sip-for-a-cause",
+    title: "Sip for a Cause: Chef Cycle at FIRE Restaurant",
+    date: "2026-06-01",
+    time: "Throughout June",
+    location: "FIRE Restaurant & Lounge at The ART Hotel Denver",
+    description:
+      "The ART Hotel Denver is supporting the 2026 Chef Cycle, a 200-mile race uniting chefs and hospitality professionals to fight childhood hunger for No Kid Hungry. All June at FIRE Restaurant, Tito's will donate $1 to No Kid Hungry for every Tito's Handmade Vodka cocktail sold. AGM Tobias Burkhalter is riding for the fourth consecutive year alongside Michelin-starred Chef Byron Gomez, having raised over $7,600 of his $13,000 goal. The Commonwealth Hotels team has collectively raised approximately $10,000 for the cause.",
+  },
+  {
+    id: "maria-empanada-world-cup",
+    title: "World Cup Fútbol HQ at Maria Empanada",
+    date: "2026-06-11",
+    time: "June 11 through July 19",
+    location: "Maria Empanada (South Broadway and Riverview locations)",
+    description:
+      "Maria Empanada's South Broadway and Riverview locations are your fútbol headquarters for the World Cup. Both spots will air every match during operating hours with beer bucket specials and a family-friendly game-day atmosphere. Fresh Baked Bundles are available starting June 1: 3 empanadas with one dipping sauce for $15, 6 with two sauces for $30, or 12 with four sauces for $60. Available in-store and for takeout.",
+  },
+  {
+    id: "ay-papi-world-cup",
+    title: "Fútbol Lives Here at Ay Papi",
+    date: "2026-06-11",
+    time: "June 11 through July 19",
+    location: "Ay Papi, Cherry Creek",
+    description:
+      "Cherry Creek's destination for Latin culture and cocktails just installed brand-new big-screen TVs for the World Cup. Ay Papi will stream every match during operating hours and open early for select games. Limited-time drinks include The Ti Breaker (Ti punch with St. Benevolence Haitian Rum), Bicycle Kick (Carajillo-inspired with Mexican Coke, Licor 43, and Mr. Black), and The Pitch (Casamigos Margaritas), plus beer and cocktail pitcher specials. Reservations encouraged at aypapidenver.com.",
+  },
+  {
+    id: "mister-oso-boulder-world-cup",
+    title: "World Cup Watching at Mister Oso Boulder",
+    date: "2026-06-11",
+    time: "June 11 through July 19",
+    location: "Mister Oso Boulder",
+    description:
+      "Mister Oso Boulder's cozy yet energetic atmosphere makes it the ideal spot in Boulder for World Cup watching, with ample TV screens and delicious Latin fare throughout the tournament. Daily happy hour runs 3 to 6 p.m. Bonus: free valet parking at the Boulder Moxy Hotel.",
+  },
 ];
