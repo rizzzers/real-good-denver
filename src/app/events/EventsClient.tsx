@@ -183,18 +183,6 @@ function SubmitSection() {
             </form>
           )}
 
-          {event.url && (
-            <div className="mt-6">
-              <a
-                href={event.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center px-5 py-2.5 rounded-full bg-primary text-primary-foreground text-sm font-medium hover:opacity-90 transition-opacity"
-              >
-                Get Tickets
-              </a>
-            </div>
-          )}
         </div>
       </div>
     </section>
