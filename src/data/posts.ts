@@ -1282,7 +1282,7 @@ You can eat nachos and shoot pool without anyone side-eyeing you. You can wear w
 The nacho standards in Denver can be higher. These spots prove it's possible to layer cheese, keep chips crispy, and not treat toppings like an afterthought. Revolutionary concepts, apparently.
 
 The common thread across all of them: kitchens that care about the chip-to-topping ratio and don't cut corners on the thing that makes nachos worth eating. Cheese on every chip is not a premium request. It is the baseline. Go forth, eat nachos, and hold your local bars to a higher standard. They can handle it.`,
-  },,
+  },
   {
     id: 18,
     slug: "best-green-chile-denver",
