@@ -1282,7 +1282,95 @@ You can eat nachos and shoot pool without anyone side-eyeing you. You can wear w
 The nacho standards in Denver can be higher. These spots prove it's possible to layer cheese, keep chips crispy, and not treat toppings like an afterthought. Revolutionary concepts, apparently.
 
 The common thread across all of them: kitchens that care about the chip-to-topping ratio and don't cut corners on the thing that makes nachos worth eating. Cheese on every chip is not a premium request. It is the baseline. Go forth, eat nachos, and hold your local bars to a higher standard. They can handle it.`,
-  },
+  },,
+  {
+    id: 18,
+    slug: "best-green-chile-denver",
+    title: "The Best Green Chile in Denver (And Why You're Wrong About Yours)",
+    excerpt: "Green chile is not a condiment. It's the whole damn point. In Denver, it separates the real deal diners from the tourist traps, and your favorite spot is probably not as good as you think.",
+    fullContent: `Green chile is not a condiment. It is not a topping. It is not something you pour on your burrito as an afterthought while you stare at your phone. In Denver, green chile is the whole point. It is the reason certain diners have lines out the door at 7am on a Tuesday. It is the thing people argue about at Thanksgiving with the kind of intensity usually reserved for politics and parking. And it is, quietly, one of the things this city does better than almost anywhere else on earth.
+
+Here's the truth: Denver green chile has its own identity. It is not New Mexico green chile, even though r/DenverFood regulars will absolutely go to war about which is superior. It is not Tex-Mex salsa verde. It is a pork-forward, Hatch-or-Pueblo-pepper-based, flour-thickened (sometimes), slow-cooked thing that has been feeding this city for generations. It is humble. It is violent. It is perfect.
+
+You probably think your favorite spot has the best green chile in Denver. You are probably wrong. Here is the definitive list, in descending order of how much they will make you question every life decision that led you somewhere other than their table.
+
+---
+
+### 1. **[Chubby's](https://theoriginalchubbysinc.com/)**
+
+1231 W 38th Ave, Denver, CO 80211 (Sunnyside) | $ | Reservations: No
+
+There is no atmosphere at Chubby's. There is a window. You order through it. You stand on the sidewalk or sit in your car, and you eat something that will rearrange your understanding of what green chile can be. The pork is shredded, the heat is real, the consistency is thick enough to hold its own on anything you put it on. This is the benchmark. Everything else gets measured against this window on 38th. Locals on r/Denver treat this place with the kind of reverence usually reserved for things that no longer exist, and the fact that it does still exist, still serving through that window, still charging almost nothing, is one of Denver's great ongoing miracles.
+
+---
+
+### 2. **[La Loma Restaurant](https://www.lalomarestaurants.com/)**
+
+2527 W 26th Ave, Denver, CO 80211 (Jefferson Park) | $$$ | Reservations: Recommended
+
+La Loma has been feeding Denver long enough that its green chile is basically load-bearing infrastructure for this city's food culture. It is smooth, it is complex, it has depth that comes from decades of refinement. The space is beautiful in that old-Denver basement way, all exposed stone and low light, and a well-upvoted thread on r/DenverFood praised the chile rellenos here specifically, with a visitor noting they were the crispiest version they'd ever had. That is fine. But the green chile is the reason to make the reservation. Pour it on everything.
+
+---
+
+### 3. **[Brewery Bar II](https://www.brewerybars.com/)**
+
+150 Kalamath St, Denver, CO 80223 (Baker) | $ | Reservations: No
+
+Brewery Bar II is not glamorous. It is a no-nonsense Denver institution that has been operating in the background of this city's green chile conversation for decades, mostly because it refuses to advertise and doesn't need to. The chile here is old-school Denver, tomatillo-bright, pork-heavy, and deeply savory. If you want to understand where Denver's green chile tradition actually comes from, before the Instagram crowds and the modern Mexican restaurants, you eat here. Cash is your best friend.
+
+---
+
+### 4. **[El Taco de Mexico](https://eltacodemexicodenver.com/)**
+
+714 Santa Fe Dr, Denver, CO 80204 (Lincoln Park) | $ | Reservations: No
+
+There is a line at El Taco de Mexico. There is almost always a line at El Taco de Mexico. The green chile here is thinner than some of the others on this list, more brothy, with a heat that creeps up on you and then stays for an uncomfortable amount of time. Order the breakfast burrito smothered. Order it at 9am or midnight because the hours here are generous in a way that the city should build a monument to. The Santa Fe Arts District crowd has known about this place forever, and the price point is so reasonable it borders on civic charity.
+
+---
+
+### 5. **[Santiago's Mexican Restaurant](https://eatatsantiagos.com/)**
+
+571 Santa Fe Dr, Denver, CO 80204 (Lincoln Park) | $ | Reservations: No
+
+Santiago's is a Denver institution in the truest sense, which means it has multiple locations, it has loyalists who treat it like family, and it has detractors who say it has gone downhill since whenever. The green chile here is consistent. That is not a backhanded compliment. Consistency is hard. Consistency at scale is even harder. The breakfast burrito smothered in green chile from Santiago's is a thing you eat when you need to feel like Denver is still Denver, and it delivers every single time.
+
+---
+
+### 6. **[Sam's No. 3](https://www.samsno3.com/)**
+
+1500 Curtis St, Denver, CO 80202 (Downtown) | $$ | Reservations: No
+
+Sam's No. 3 is Denver's diner, and the green chile here is the reason it stays crowded from before dawn until late at night. A somewhat skeptical thread on r/Denver asked recently why everyone claims Sam's is a staple, with the original poster suggesting the green chile was mediocre at best. That post got some traction, and the debate that followed was real. The honest answer: Sam's green chile is not the most transcendent version on this list. But it is reliably solid, poured generously, and available at hours when other places have given up on you. Sometimes that is exactly what the situation calls for.
+
+---
+
+### 7. **20th Street Cafe**
+
+**20th Street Cafe** | 1123 20th St, Denver, CO 80202 (Downtown) | $ | Reservations: No
+
+The green chile at 20th Street Cafe became a local conversation piece when r/DenverFood noticed something remarkable: a five dollar breakfast burrito that is, by most accounts, approximately the size of a human forearm. Cheese, potatoes, egg, and green chile, wrapped in a way that challenges the structural limits of a tortilla. The green chile is not the most complex on this list. It does not need to be. It is doing exactly what it needs to do inside a burrito that costs five dollars in downtown Denver, and that is genuinely heroic.
+
+---
+
+### 8. **Tacos Acapulco**
+
+**Tacos Acapulco** | 8890 E Colfax Ave, Denver, CO 80220 (East Colfax) | $ | Reservations: No
+
+East Colfax does not get enough credit for its food, which is a conversation r/DenverFood has been having on and off for years without reaching a satisfying conclusion. Tacos Acapulco is the kind of place where the green chile shows up on things you didn't expect and improves them immediately. The room is small, the prices are honest, and the clientele is the full spectrum of Colfax humanity, which is to say extremely Denver. Go once and you will understand why this strip of road punches above its weight.
+
+---
+
+**The Verdict**
+
+Denver's green chile is not one thing. It is a spectrum from thin and bright to thick and violent, from old-school diners to walk-up windows, from downtown to East Colfax to Sunnyside. The argument about which is best is the point. The argument keeps you eating. But if you are brand new to this and you need a single starting place, you start at Chubby's window on 38th and you eat whatever they hand you. Then you work your way down this list and you decide for yourself. That is the only correct approach. Everything else is just homework.`,
+    category: "food",
+    author: "Ryan Estes",
+    date: "2026-05-28",
+    readTime: "6 min read",
+    image: "/images/best-green-chile-denver.png",
+    featured: false,
+    tags: ["Green Chile", "Mexican Food", "Best Of", "Denver Restaurants"],
+  }
 ];
 
 export const categories = [
