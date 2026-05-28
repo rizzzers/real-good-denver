@@ -1370,6 +1370,94 @@ Denver's green chile is not one thing. It is a spectrum from thin and bright to 
     image: "/images/best-green-chile-denver.png",
     featured: false,
     tags: ["Green Chile", "Mexican Food", "Best Of", "Denver Restaurants"],
+  },
+  {
+    id: 19,
+    slug: "best-breakfast-burrito-denver",
+    title: "Best Breakfast Burrito in Denver: A Foil-Wrapped Holy War",
+    excerpt: "The breakfast burrito isn't just breakfast in Denver. It's your civic identity, the thing you'll drive across town for in light snow, the hill you'll actually die on at parties.",
+    fullContent: `Let's be honest with each other. The breakfast burrito is not just a breakfast item in Denver. It's a civic identity. It's the thing you defend at parties, the thing you drive across town for at 8am on a Saturday in a light snow, the thing you have opinions about that are entirely disproportionate to any reasonable standard of discourse. Someone will tell you Santiago's is mid and someone else will tell you they'd die in a ditch for it, and both of them are equally certain, and neither of them is totally wrong.
+
+r/DenverFood knows this. There's a reason someone once created an entire crowd-sourced breakfast burrito map for the city, a document that immediately generated fierce debate about gaps on Federal, missing spots in east Denver, and the apparently eternal question of whether Santiago's deserves to exist at all. The map had barely loaded before the corrections started pouring in. That's not a bug. That's Denver's relationship with the breakfast burrito.
+
+This list doesn't pretend to be the final word. There is no final word. But these are eight spots worth knowing about, ranked with some degree of honesty, covering everything from the greasy-spoon institution to the polarizing brunch darling. Get a foil-wrapped burrito. Eat it in your car if you have to. That's fine. That's actually preferred.
+
+---
+
+### 1. **[El Taco de Mexico](https://eltacodemexico5280.com/)**
+
+714 Santa Fe Dr, Denver, CO 80204 (Santa Fe Art District) | $ | Reservations: No
+
+This place doesn't need your hype. It's been here. It will be here after all of us are gone. The breakfast burrito at El Taco de Mexico is the kind of thing that ruins other breakfast burritos for you. Green chile that has actual personality, eggs that aren't overcooked into sadness, flour tortilla wrapped with the confidence of someone who has done this ten thousand times. Because they have. The line out the door on a weekend morning is not a deterrent. It's confirmation that you're in the right place. Cash-only, chaotic, completely worth it. This is the benchmark.
+
+---
+
+### 2. **[Santiago's Mexican Restaurant](https://eatatsantiagos.com/)**
+
+571 Santa Fe Dr, Denver, CO 80204 (Santa Fe Art District) | $ | Reservations: No
+
+Santiago's is Denver's most reliably divisive breakfast burrito spot, and the discourse around it is genuinely one of the more entertaining things on r/DenverFood. One well-upvoted comment from a r/Denver breakfast burrito thread noted that folks who knock Santiago's skew toward a specific demographic profile, which, fair point, make of that what you will. Here's the actual truth: Santiago's is consistent in a way that matters. Hot green chile, reasonable price, fast. Is it the most transcendent burrito you'll ever eat? No. Will it be exactly what you needed at 7:45am before you deal with whatever your Tuesday has in store? Almost certainly yes. The haters are loud. The regulars are loyal. Both camps show up.
+
+---
+
+### 3. **[Chubby's](https://theoriginalchubbysinc.com/)**
+
+1231 W 38th Ave, Denver, CO 80211 (Sunnyside) | $ | Reservations: No
+
+Chubby's is the late-night emergency room of Denver breakfast burritos, except it also works at breakfast, which is a very useful quality in a burrito. The green chile here is aggressively good in that way where you're not entirely sure it's food-safe and you don't care. The burrito is large. It is smothered. You will need napkins. r/Denver regulars have been recommending this spot in breakfast burrito threads for years, consistently, without much ambiguity. That kind of sustained community consensus is not an accident. This is a place that knows what it is and refuses to be anything else.
+
+---
+
+### 4. **[Pete's Kitchen](https://petesrestaurants.com/)**
+
+1962 E Colfax Ave, Denver, CO 80206 (East Colfax) | $$ | Reservations: No
+
+Pete's is a Colfax institution, which means it has absorbed decades of Denver at its most unfiltered. The breakfast burrito here is old-school diner-adjacent. It's not trying to be artisan. It's not trying to be anything except what it is: eggs, green chile, tortilla, served by people who have seen things. There's something deeply comforting about that. Pete's at 2am after a concert and Pete's at 9am the morning after are two different experiences and both are valid. The green chile has a particular quality that longtime regulars treat with the kind of reverence usually reserved for religious texts.
+
+---
+
+### 5. **[Steuben's Food Service](https://steubens.com/)**
+
+523 E 17th Ave, Denver, CO 80203 (Uptown) | $$ | Reservations: Recommended
+
+Steuben's takes American comfort food seriously and applies that same earnestness to its breakfast burrito, which is perhaps not what the form was designed for but ends up working. This is the burrito you order when you also want a good cocktail and a server who doesn't look at you like you're a problem. It skews more brunch than breakfast burrito institution, and you should calibrate your expectations accordingly. But the execution is solid, the green chile is respectable, and the room is pleasant. Sometimes you want your breakfast burrito in a booth with good lighting. Steuben's is that place.
+
+---
+
+### 6. **[Denver Biscuit Company](https://www.theatomiccowboy.com/)**
+
+3237 E Colfax Ave, Denver, CO 80206 (East Colfax) | $$ | Reservations: No
+
+Denver Biscuit Company's whole identity is flour-based excess, and the breakfast burrito fits comfortably in that worldview. This is a bigger, louder, more aggressively Instagrammable burrito than you strictly need. The tortilla-to-filling ratio trends toward theatrical. The lines on weekends are a commitment. The community sentiment on r/DenverFood is mixed in the way that popular places with weekend waits always generate mixed feelings, some people love it unconditionally, some people think the wait isn't worth it. The biscuit side of the menu is the main event here, but the burrito holds its own if you're in the neighborhood.
+
+---
+
+### 7. **[Snooze, an A.M. Eatery](https://www.snoozeeatery.com/)**
+
+1701 Wynkoop St, Denver, CO 80202 (LoDo) | $$ | Reservations: Recommended
+
+Look. Snooze is fun. Snooze is a good time. The breakfast burrito here has actual creativity behind it. Rotating preparations, interesting ingredients, green chile that has been thought about. The issue is the wait, and the issue is the vibe, which is very much brunch scene rather than breakfast burrito pilgrimage. If you've made the trek to El Taco de Mexico and stood outside in February, Snooze can feel like a different sport entirely. But if you're brunching with a group of people who have different preferences and someone's definitely ordering a pancake flight, Snooze makes everyone happy. That's a real thing to be. The breakfast burrito specifically is better than people who dismiss it tend to admit.
+
+---
+
+### 8. **Root Down**
+
+1600 W 33rd Ave, Denver, CO 80211 (LoHi) | $$$ | Reservations: Recommended
+
+Root Down makes a breakfast burrito for people who are thinking carefully about what they put in their body, which is not an insult, it's just a category. The ingredients are sourced thoughtfully. The green chile is present. The execution is clean. This is genuinely the furthest thing from a greasy-spoon smothered burrito and it doesn't apologize for that. r/DenverFood generally files Root Down under the good-but-pricey column, the kind of place you go for a special occasion brunch rather than a Tuesday morning craving. If your Tuesday morning craving leads you here anyway, you'll eat well. Just know what you're signing up for.
+
+---
+
+**The Verdict**
+
+The best breakfast burrito in Denver is, fundamentally, a personal matter. The r/DenverFood crowd figured this out when someone assembled a crowd-sourced map and the entire comments section immediately turned into a referendum on every personal preference and neighborhood loyalty in the city. That's correct behavior. The breakfast burrito is worth fighting about. What this list can tell you is that El Taco de Mexico is where you start if you haven't already, that Santiago's deserves more grace than the internet gives it, and that Chubby's late-night green chile is not something to be dismissed. Everything else on this list is real and good and valid for different reasons on different mornings. Denver does not have one best breakfast burrito. Denver has an entire genre, and the genre is thriving.`,
+    category: "food",
+    author: "Ryan Estes",
+    date: "2026-05-28",
+    readTime: "7 min read",
+    image: "/images/best-breakfast-burrito-denver.png",
+    featured: false,
+    tags: ["Breakfast Burrito", "Mexican Food", "Best Of", "Denver Restaurants"],
   }
 ];
 
