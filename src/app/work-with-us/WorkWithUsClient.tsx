@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { CheckCircle, Mail } from 'lucide-react';
-import { supabase } from '@/lib/supabase';
 import { useToast } from '@/hooks/use-toast';
 import { useScrollReveal } from '@/hooks/use-scroll-reveal';
 

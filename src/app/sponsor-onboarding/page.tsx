@@ -5,7 +5,6 @@ import Navigation from "@/components/Navigation";
 import NewsletterCTA from "@/components/NewsletterCTA";
 import Footer from "@/components/Footer";
 import { useToast } from "@/hooks/use-toast";
-import { supabase } from "@/lib/supabase";
 
 export default function SponsorOnboardingPage() {
   const { toast } = useToast();
