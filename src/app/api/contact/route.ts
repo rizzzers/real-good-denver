@@ -1,5 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
+import { createClient } from "@supabase/supabase-js";
+
+function getDb() {
+  return createClient(
+    "https://xrpbjtdbwuodfixgpapx.supabase.co",
+    process.env.SUPABASE_SERVICE_ROLE_KEY!
+  );
+}
 
 export async function POST(req: NextRequest) {
   const body = await req.json();
@@ -80,6 +88,18 @@ export async function POST(req: NextRequest) {
     html = `<pre>${JSON.stringify(body, null, 2)}</pre>`;
   }
 
+  // Save to database first — record persists even if email fails
+  let emailSent = false;
+  const db = getDb();
+  await db.from("form_submissions").insert({
+    type,
+    name: name || null,
+    email,
+    subject,
+    body,
+    email_sent: false,
+  });
+
   try {
     await resend.emails.send({
       from: "Real Good Denver <noreply@ryanestes.info>",
@@ -88,8 +108,18 @@ export async function POST(req: NextRequest) {
       subject,
       html,
     });
-    return NextResponse.json({ ok: true });
+    emailSent = true;
+    // Update record to mark email as sent
+    await db
+      .from("form_submissions")
+      .update({ email_sent: true })
+      .eq("email", email)
+      .eq("type", type)
+      .order("created_at", { ascending: false })
+      .limit(1);
   } catch {
-    return NextResponse.json({ error: "Failed to send." }, { status: 500 });
+    // Email failed — record is still saved in DB
   }
+
+  return NextResponse.json({ ok: true, saved: true, emailed: emailSent });
 }
