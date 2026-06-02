@@ -53,17 +53,12 @@ export default function BestOfDenverPostClient() {
   const { ref: heroRef, isVisible: heroVisible } = useScrollReveal();
   const { ref: contentRef, isVisible: contentVisible } = useScrollReveal(0.05);
 
-  if (!post) {
-    router.push('/best-of-denver');
-    return null;
-  }
-
-  const isBakerPost = post.slug === 'best-of-denver-baker';
-  const isBestOfPost = post.slug.startsWith('best-');
+  const isBakerPost = post?.slug === 'best-of-denver-baker';
+  const isBestOfPost = post?.slug.startsWith('best-') ?? false;
 
   // Split content into intro / #1 pick / rest for best-* posts
   const bestOfSections = React.useMemo(() => {
-    if (!isBestOfPost || isBakerPost) return null;
+    if (!post || !isBestOfPost || isBakerPost) return null;
     const parts = post.fullContent.split(/\n\n---\n\n/);
     const firstPickIdx = parts.findIndex(p => /^###\s/.test(p.trim()));
     if (firstPickIdx === -1) return null;
@@ -72,7 +67,12 @@ export default function BestOfDenverPostClient() {
       firstPick: parts[firstPickIdx],
       rest: parts.slice(firstPickIdx + 1).join('\n\n---\n\n'),
     };
-  }, [post.fullContent, isBestOfPost, isBakerPost]);
+  }, [post, isBestOfPost, isBakerPost]);
+
+  if (!post) {
+    router.push('/best-of-denver');
+    return null;
+  }
 
   const renderBakerContent = () => {
     const sections = post.fullContent.split(/(?=^## )/m);
