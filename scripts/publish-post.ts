@@ -121,7 +121,7 @@ function appendPostToFile(post: Post, dryRun: boolean): void {
 function gitCommitAndPush(title: string): void {
   const commitMsg = `Add post: ${title}`;
   try {
-    execSync(`git -C "${PROJECT_ROOT}" add src/data/posts.ts public/images/`, {
+    execSync(`git -C "${PROJECT_ROOT}" add src/data/posts.ts public/images/ scripts/best-of-denver-queue.json`, {
       stdio: "pipe",
     });
     execSync(`git -C "${PROJECT_ROOT}" commit -m ${JSON.stringify(commitMsg)}`, {

@@ -55,8 +55,9 @@
       "Denver Restaurants"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": null
+    "status": "published",
+    "season": null,
+    "publishedAt": "2026-06-02T16:31:00.000Z"
   },
   {
     "slug": "best-smashburger-denver",
@@ -674,10 +675,10 @@
   },
   {
     "slug": "best-apres-ski-bar-denver",
-    "title": "Best Après-Ski Bar Within Driving Distance of Denver",
+    "title": "Best Apr\u00e8s-Ski Bar Within Driving Distance of Denver",
     "category": "nightlife",
     "tags": [
-      "Après-Ski",
+      "Apr\u00e8s-Ski",
       "Best Of",
       "Denver Bars",
       "Winter"
