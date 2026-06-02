@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { ArrowRight } from "lucide-react";
-import { supabase } from "@/lib/supabase";
 import { useToast } from "@/hooks/use-toast";
 
 const slides = [
@@ -30,10 +29,12 @@ const HeroSection = () => {
     if (!email.trim()) return;
     setIsSubmitting(true);
     try {
-      const { error } = await supabase.functions.invoke("newsletter-signup", {
-        body: { name: name.trim(), email: email.trim(), source: "homepage-hero" },
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ type: "newsletter_signup", name: name.trim(), email: email.trim() }),
       });
-      if (error) throw error;
+      if (!res.ok) throw new Error("Failed");
       setSubmitted(true);
       setName("");
       setEmail("");

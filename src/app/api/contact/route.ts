@@ -13,7 +13,14 @@ export async function POST(req: NextRequest) {
   let subject = "New form submission — Real Good Denver";
   let html = "";
 
-  if (type === "contact") {
+  if (type === "newsletter_signup") {
+    subject = `New newsletter signup: ${name || email}`;
+    html = `
+      <p><strong>Name:</strong> ${name || "—"}</p>
+      <p><strong>Email:</strong> ${email}</p>
+      <p><strong>Source:</strong> Homepage hero</p>
+    `;
+  } else if (type === "contact") {
     subject = `Message from ${name} — Real Good Denver`;
     html = `
       <p><strong>From:</strong> ${name} &lt;${email}&gt;</p>
