@@ -63,7 +63,7 @@ export async function POST(req: NextRequest) {
   try {
     await resend.emails.send({
       from: "Real Good Denver <onboarding@resend.dev>",
-      to: "ryan@ryanestes.info",
+      to: ["ryan@ryanestes.info", "fernanda@ryanestes.info"],
       replyTo: email,
       subject,
       html,
