@@ -8,6 +8,7 @@ import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import AuthorBio from '@/components/AuthorBio';
 import { SpaTreatmentFinder } from '@/components/SpaTreatmentFinder';
+import SuggestionForm from '@/components/SuggestionForm';
 import InstagramPhotoGrid from '@/components/InstagramPhotoGrid';
 import { useScrollReveal } from '@/hooks/use-scroll-reveal';
 import { posts } from '@/data/posts';
@@ -57,6 +58,7 @@ export default function BestOfDenverPostClient() {
   }
 
   const isBakerPost = post.slug === 'best-of-denver-baker';
+  const isBestOfPost = post.slug.startsWith('best-');
 
   const renderBakerContent = () => {
     const sections = post.fullContent.split(/(?=^## )/m);
@@ -125,6 +127,7 @@ export default function BestOfDenverPostClient() {
 
       <section className="py-16 md:py-24 bg-background">
         <div ref={contentRef} className={`max-w-3xl mx-auto px-6 transition-all duration-700 ${contentVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
+          {isBestOfPost && <SuggestionForm postTitle={post.title} />}
           {isBakerPost ? (
             renderBakerContent()
           ) : (
