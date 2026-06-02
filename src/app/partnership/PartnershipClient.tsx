@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { supabase } from "@/lib/supabase";
 import { useToast } from "@/hooks/use-toast";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 import { Users, Target, TrendingUp, ExternalLink } from "lucide-react";
@@ -23,10 +22,12 @@ export default function PartnershipClient() {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      const { error } = await supabase.functions.invoke('create-sponsorship-deposit', {
-        body: { name, email, productLink, budgetRange, campaignGoals, timeline, message }
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type: 'sponsorship', name, email, productLink, budgetRange, campaignGoals, timeline, message }),
       });
-      if (error) throw error;
+      if (!res.ok) throw new Error('Failed');
       toast({ title: "Application Submitted!", description: "We'll be in touch soon to discuss your campaign." });
       setName(""); setEmail(""); setProductLink(""); setBudgetRange(""); setCampaignGoals(""); setTimeline(""); setMessage("");
     } catch {

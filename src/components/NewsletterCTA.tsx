@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { ArrowRight } from "lucide-react";
-import { supabase } from "@/lib/supabase";
 import { toast } from "@/hooks/use-toast";
 
 interface NewsletterCTAProps {
@@ -23,10 +22,12 @@ const NewsletterCTA = ({ isNightMode = false }: NewsletterCTAProps) => {
     setIsLoading(true);
 
     try {
-      const { error } = await supabase.functions.invoke("newsletter-signup", {
-        body: { name: name.trim(), email: email.trim(), source: "newsletter" },
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type: 'newsletter_signup', name: name.trim(), email: email.trim(), source: 'newsletter-cta' }),
       });
-      if (error) throw error;
+      if (!res.ok) throw new Error('Failed');
       toast({ title: "You're in!", description: "Welcome to Real Good Denver. Check your inbox soon." });
       setName("");
       setEmail("");

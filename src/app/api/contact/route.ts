@@ -18,7 +18,20 @@ export async function POST(req: NextRequest) {
     html = `
       <p><strong>Name:</strong> ${name || "—"}</p>
       <p><strong>Email:</strong> ${email}</p>
-      <p><strong>Source:</strong> Homepage hero</p>
+      <p><strong>Source:</strong> ${body.source || "—"}</p>
+    `;
+  } else if (type === "sponsorship") {
+    subject = `Sponsorship inquiry from ${name}`;
+    html = `
+      <p><strong>Name:</strong> ${name}</p>
+      <p><strong>Email:</strong> ${email}</p>
+      <p><strong>Product Link:</strong> ${body.productLink || "—"}</p>
+      <p><strong>Budget Range:</strong> ${body.budgetRange || "—"}</p>
+      <p><strong>Timeline:</strong> ${body.timeline || "—"}</p>
+      <p><strong>Campaign Goals:</strong></p>
+      <p>${(body.campaignGoals || "").replace(/\n/g, "<br/>")}</p>
+      <p><strong>Message:</strong></p>
+      <p>${(body.message || "").replace(/\n/g, "<br/>")}</p>
     `;
   } else if (type === "contact") {
     subject = `Message from ${name} — Real Good Denver`;
