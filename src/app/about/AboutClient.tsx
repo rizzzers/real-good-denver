@@ -128,7 +128,7 @@ const TeamPhoto = () => {
       <img
         src="/images/about-team.jpg"
         alt="Ryan Estes and Tom Donahue, Real Good Denver"
-        className="w-full max-h-[50vh] object-cover object-top"
+        className="w-full max-w-2xl mx-auto block"
       />
     </div>
   );
