@@ -9,6 +9,7 @@ import Footer from '@/components/Footer';
 import AuthorBio from '@/components/AuthorBio';
 import { SpaTreatmentFinder } from '@/components/SpaTreatmentFinder';
 import SuggestionForm from '@/components/SuggestionForm';
+import EstesPickSection from '@/components/EstesPickSection';
 import InstagramPhotoGrid from '@/components/InstagramPhotoGrid';
 import { useScrollReveal } from '@/hooks/use-scroll-reveal';
 import { posts } from '@/data/posts';
@@ -59,6 +60,19 @@ export default function BestOfDenverPostClient() {
 
   const isBakerPost = post.slug === 'best-of-denver-baker';
   const isBestOfPost = post.slug.startsWith('best-');
+
+  // Split content into intro / #1 pick / rest for best-* posts
+  const bestOfSections = React.useMemo(() => {
+    if (!isBestOfPost || isBakerPost) return null;
+    const parts = post.fullContent.split(/\n\n---\n\n/);
+    const firstPickIdx = parts.findIndex(p => /^###\s/.test(p.trim()));
+    if (firstPickIdx === -1) return null;
+    return {
+      intro: parts.slice(0, firstPickIdx).join('\n\n---\n\n'),
+      firstPick: parts[firstPickIdx],
+      rest: parts.slice(firstPickIdx + 1).join('\n\n---\n\n'),
+    };
+  }, [post.fullContent, isBestOfPost, isBakerPost]);
 
   const renderBakerContent = () => {
     const sections = post.fullContent.split(/(?=^## )/m);
@@ -128,7 +142,17 @@ export default function BestOfDenverPostClient() {
       <section className="py-16 md:py-24 bg-background">
         <div ref={contentRef} className={`max-w-3xl mx-auto px-6 transition-all duration-700 ${contentVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
           {isBestOfPost && <SuggestionForm postTitle={post.title} />}
-          {isBakerPost ? (
+          {bestOfSections ? (
+            <>
+              {bestOfSections.intro && (
+                <div className="post-content" dangerouslySetInnerHTML={{ __html: parseMarkdownContent(bestOfSections.intro) }} />
+              )}
+              <EstesPickSection html={parseMarkdownContent(bestOfSections.firstPick)} />
+              {bestOfSections.rest && (
+                <div className="post-content" dangerouslySetInnerHTML={{ __html: parseMarkdownContent(bestOfSections.rest) }} />
+              )}
+            </>
+          ) : isBakerPost ? (
             renderBakerContent()
           ) : (
             <div className="post-content" dangerouslySetInnerHTML={{ __html: renderedContent }} />

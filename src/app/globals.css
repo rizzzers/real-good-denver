@@ -150,6 +150,22 @@ a:not([class]) { color: hsl(var(--link-blue)); }
 a:not([class]):hover { opacity: 0.8; }
 .post-content br + br { display: none; }
 
+/* Estes Pick #1 section — light text on dark navy background */
+.estes-pick-content {
+  color: rgba(255,255,255,0.88);
+  font-size: 1.05rem;
+}
+.estes-pick-content p { color: rgba(255,255,255,0.78); }
+.estes-pick-content h3 {
+  color: #ffffff;
+  border-bottom-color: rgba(249,115,22,0.35);
+  margin-top: 0;
+}
+.estes-pick-content strong { color: #ffffff; }
+.estes-pick-content em { color: rgba(255,255,255,0.6); }
+.estes-pick-content a { color: #fbbf24; }
+.estes-pick-content a:hover { opacity: 0.8; }
+
 /* Newsletter issue content */
 .newsletter-issue-content {
   color: hsl(var(--background) / 0.8);
