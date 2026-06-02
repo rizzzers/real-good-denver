@@ -127,7 +127,7 @@ const TeamPhoto = () => {
     <div ref={ref} className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
       <img
         src="/images/about-team.jpg"
-        alt="Ryan Estes and Tom Donahue — Real Good Denver"
+        alt="Ryan Estes and Tom Donahue, Real Good Denver"
         className="w-full object-cover"
       />
     </div>
@@ -151,7 +151,7 @@ const CreatorBios = () => {
           </div>
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              Tom is an entrepreneur and house DJ who bleeds Denver. A CSU alumni, he brings the energy, the beats, and a genuine obsession with what makes this city move — from the underground music scene to the people building something real here.
+              Tom is an entrepreneur and house DJ who bleeds Denver. A CSU alumni, he brings the energy, the beats, and a genuine obsession with what makes this city move, from the underground music scene to the people building something real here.
             </p>
             <p>
               His ear for culture and instinct for what Denver actually cares about shapes everything Real Good Denver puts out. When he&apos;s not behind the decks, he&apos;s out in the city living the stories we tell.
@@ -174,7 +174,7 @@ const CreatorBios = () => {
           </div>
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              Born and raised in Denver, Ryan is a founder, investor, and creator with a bias toward action and a deep loyalty to his city. He co-created Real Good Denver to give Denver the platform it deserves — loud, honest, and unapologetically local.
+              Born and raised in Denver, Ryan is a founder, investor, and creator with a bias toward action and a deep loyalty to his city. He co-created Real Good Denver to give Denver the platform it deserves: loud, honest, and unapologetically local.
             </p>
             <p>
               Off the mic, Ryan is an avid sportsman who trains in Brazilian Jiu-Jitsu (purple belt) and capoeira (yellow cord). He volunteers as a finance mentor and alongside his team contributes over 300 hours annually to local non-profits.

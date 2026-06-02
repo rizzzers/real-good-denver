@@ -2,7 +2,7 @@
 
 ## Writing Style
 
-- **No em dashes (—).** Never use em dashes in any copy written for this site. Use a comma, period, or rewrite the sentence instead.
+- **No em dashes (—). Ever.** This applies to every file: JSX, metadata, data files, email templates, alt text, event descriptions, newsletter copy, everything. Use a comma, colon, period, or rewrite the sentence instead. An ESLint rule (`no-em-dash/no-em-dash`) enforces this and will fail the build if violated.
 
 ---
 

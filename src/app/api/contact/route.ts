@@ -18,31 +18,31 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Missing required fields." }, { status: 400 });
   }
 
-  let subject = "New form submission — Real Good Denver";
+  let subject = "New form submission: Real Good Denver";
   let html = "";
 
   if (type === "newsletter_signup") {
     subject = `New newsletter signup: ${name || email}`;
     html = `
-      <p><strong>Name:</strong> ${name || "—"}</p>
+      <p><strong>Name:</strong> ${name || "N/A"}</p>
       <p><strong>Email:</strong> ${email}</p>
-      <p><strong>Source:</strong> ${body.source || "—"}</p>
+      <p><strong>Source:</strong> ${body.source || "N/A"}</p>
     `;
   } else if (type === "sponsorship") {
     subject = `Sponsorship inquiry from ${name}`;
     html = `
       <p><strong>Name:</strong> ${name}</p>
       <p><strong>Email:</strong> ${email}</p>
-      <p><strong>Product Link:</strong> ${body.productLink || "—"}</p>
-      <p><strong>Budget Range:</strong> ${body.budgetRange || "—"}</p>
-      <p><strong>Timeline:</strong> ${body.timeline || "—"}</p>
+      <p><strong>Product Link:</strong> ${body.productLink || "N/A"}</p>
+      <p><strong>Budget Range:</strong> ${body.budgetRange || "N/A"}</p>
+      <p><strong>Timeline:</strong> ${body.timeline || "N/A"}</p>
       <p><strong>Campaign Goals:</strong></p>
       <p>${(body.campaignGoals || "").replace(/\n/g, "<br/>")}</p>
       <p><strong>Message:</strong></p>
       <p>${(body.message || "").replace(/\n/g, "<br/>")}</p>
     `;
   } else if (type === "contact") {
-    subject = `Message from ${name} — Real Good Denver`;
+    subject = `Message from ${name}: Real Good Denver`;
     html = `
       <p><strong>From:</strong> ${name} &lt;${email}&gt;</p>
       <p><strong>Message:</strong></p>
@@ -53,21 +53,21 @@ export async function POST(req: NextRequest) {
     html = `
       <p><strong>Name:</strong> ${name}</p>
       <p><strong>Email:</strong> ${email}</p>
-      <p><strong>Phone:</strong> ${body.phone || "—"}</p>
-      <p><strong>Interests:</strong> ${(body.interests || []).join(", ") || "—"}</p>
+      <p><strong>Phone:</strong> ${body.phone || "N/A"}</p>
+      <p><strong>Interests:</strong> ${(body.interests || []).join(", ") || "N/A"}</p>
       <p><strong>Message:</strong></p>
       <p>${(body.message || "").replace(/\n/g, "<br/>")}</p>
     `;
   } else if (type === "event") {
-    subject = `Event submission: ${body.eventName || "—"}`;
+    subject = `Event submission: ${body.eventName || "N/A"}`;
     html = `
       <p><strong>From:</strong> ${name} &lt;${email}&gt;</p>
-      <p><strong>Event:</strong> ${body.eventName || "—"}</p>
+      <p><strong>Event:</strong> ${body.eventName || "N/A"}</p>
       <p><strong>Details:</strong></p>
       <p>${(body.message || "").replace(/\n/g, "<br/>")}</p>
     `;
   } else if (type === "sponsor_onboarding") {
-    subject = `Sponsor onboarding: ${body.data?.companyName || "—"}`;
+    subject = `Sponsor onboarding: ${body.data?.companyName || "N/A"}`;
     const d = body.data || {};
     html = `
       <p><strong>Company:</strong> ${d.companyName}</p>
@@ -88,7 +88,7 @@ export async function POST(req: NextRequest) {
     html = `<pre>${JSON.stringify(body, null, 2)}</pre>`;
   }
 
-  // Save to database first — record persists even if email fails
+  // Save to database first: record persists even if email fails
   let emailSent = false;
   const db = getDb();
   await db.from("form_submissions").insert({
@@ -118,7 +118,7 @@ export async function POST(req: NextRequest) {
       .order("created_at", { ascending: false })
       .limit(1);
   } catch {
-    // Email failed — record is still saved in DB
+    // Email failed: record is still saved in DB
   }
 
   return NextResponse.json({ ok: true, saved: true, emailed: emailSent });

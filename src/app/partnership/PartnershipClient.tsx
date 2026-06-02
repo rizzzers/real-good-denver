@@ -168,13 +168,13 @@ const VerifiedImpressions = () => {
         <p className="text-sm font-medium uppercase tracking-widest text-primary mb-3">Why It Matters</p>
         <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">Real impressions. Real people.</h2>
         <p className="text-muted-foreground max-w-2xl mx-auto text-lg leading-relaxed">
-          Unlike social media impressions that count bots, scrolls, and phantom views — every impression we report is a <strong className="text-foreground">verified unique email open</strong> from a real human inbox.
+          Unlike social media impressions that count bots, scrolls, and phantom views, every impression we report is a <strong className="text-foreground">verified unique email open</strong> from a real human inbox.
         </p>
       </div>
       <div className="grid md:grid-cols-3 gap-6">
         {[
-          { icon: Users, title: 'Verified Unique Opens', desc: 'Every impression is tracked via unique email open — no inflated scroll counts, no bot traffic, no guesswork.' },
-          { icon: Target, title: '47% Open Rate', desc: 'More than double the industry average. Our audience actively reads — they don\'t just scroll past.' },
+          { icon: Users, title: 'Verified Unique Opens', desc: 'Every impression is tracked via unique email open, no inflated scroll counts, no bot traffic, no guesswork.' },
+          { icon: Target, title: '47% Open Rate', desc: 'More than double the industry average. Our audience actively reads, they don\'t just scroll past.' },
           { icon: TrendingUp, title: 'Guaranteed Minimums', desc: 'Every tier comes with a guaranteed impression floor. If we don\'t hit it, we keep running your campaign until we do.' },
         ].map((item) => {
           const Icon = item.icon;
@@ -191,7 +191,7 @@ const VerifiedImpressions = () => {
       </div>
       <div className="mt-10 rounded-2xl border border-primary/20 bg-primary/5 p-6 text-center">
         <p className="text-foreground font-medium">
-          &ldquo;50,000 impressions&rdquo; from us means <strong>50,000 real humans opened their email and saw your brand.</strong> That&apos;s not comparable to 50K impressions on social — it&apos;s far more valuable.
+          &ldquo;50,000 impressions&rdquo; from us means <strong>50,000 real humans opened their email and saw your brand.</strong> That&apos;s not comparable to 50K impressions on social, it&apos;s far more valuable.
         </p>
       </div>
     </div>
@@ -295,9 +295,9 @@ const ApplicationForm = ({ name, email, productLink, budgetRange, campaignGoals,
           <div><label className="text-sm font-medium">Budget Range</label>
             <select value={budgetRange} onChange={(e) => onBudgetRangeChange(e.target.value)} required className={selectClass}>
               <option value="">Select a range</option>
-              <option value="$12,000 - Growth">$12,000 — Growth Visibility</option>
-              <option value="$19,000 - Dominant">$19,000 — Dominant Visibility</option>
-              <option value="Buyout">Buyout — Contact for availability</option>
+              <option value="$12,000 - Growth">$12,000: Growth Visibility</option>
+              <option value="$19,000 - Dominant">$19,000: Dominant Visibility</option>
+              <option value="Buyout">Buyout: Contact for availability</option>
               <option value="Custom">Custom / Not sure yet</option>
             </select></div>
           <div><label className="text-sm font-medium">Campaign Goals</label>

@@ -4,7 +4,7 @@ import NewsletterCTA from "@/components/NewsletterCTA";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Terms of Service & Privacy Policy — Real Good Denver",
+  title: "Terms of Service & Privacy Policy: Real Good Denver",
 };
 
 export default function TermsAndPrivacyPage() {

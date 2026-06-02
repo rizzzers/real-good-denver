@@ -11,7 +11,7 @@ import NewsletterCTA from "@/components/NewsletterCTA";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Real Good Denver — Denver's Newsletter & Podcast",
+  title: "Real Good Denver: Denver's Newsletter & Podcast",
   description: "Denver events, local news, jobs, and the stuff worth knowing, delivered to your inbox every week. Denver's fastest growing newsletter.",
 };
 

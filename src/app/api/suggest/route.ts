@@ -54,7 +54,7 @@ export async function POST(req: NextRequest) {
       .order("created_at", { ascending: false })
       .limit(1);
   } catch {
-    // Email failed — record is still in DB
+    // Email failed: record is still in DB
   }
 
   return NextResponse.json({ ok: true, saved: true, emailed: emailSent });

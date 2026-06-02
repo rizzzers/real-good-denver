@@ -105,7 +105,7 @@ const HeroSection = () => {
             <div className="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center">
               <ArrowRight className="w-5 h-5 text-white" />
             </div>
-            <p className="text-white font-semibold">Check your inbox — you&apos;re in.</p>
+            <p className="text-white font-semibold">Check your inbox. You&apos;re in.</p>
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 w-full max-w-md">

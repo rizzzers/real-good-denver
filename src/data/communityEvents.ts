@@ -1,7 +1,7 @@
 export interface CommunityEvent {
   id: string;
   title: string;
-  date: string; // "YYYY-MM-DD" — use start date for multi-day events
+  date: string; // "YYYY-MM-DD": use start date for multi-day events
   time?: string; // e.g. "1:00–8:00 PM"
   location: string;
   description: string;
@@ -11,7 +11,7 @@ export interface CommunityEvent {
 export const communityEvents: CommunityEvent[] = [
   {
     id: "olive-finch-golden-triangle-grand-opening",
-    title: "Olive & Finch Golden Triangle — Grand Opening Weekend",
+    title: "Olive & Finch Golden Triangle: Grand Opening Weekend",
     date: "2026-04-25",
     location: "1140 Bannock St., Denver (Golden Triangle)",
     description:
@@ -27,12 +27,12 @@ export const communityEvents: CommunityEvent[] = [
   },
   {
     id: "lets-vibe-boulder-cinco-de-vibo",
-    title: "Let's Vibe Boulder — Cinco de Vibo",
+    title: "Let's Vibe Boulder: Cinco de Vibo",
     date: "2026-05-05",
     time: "3:45–7:00 PM",
     location: "Junkyard Social, Boulder, CO",
     description:
-      "AI meetup for builders, hackers, and vibe coders of all levels. Kick off with Vibe Coding Power Hour (3:45–5:00 PM) — grab an idea, build something fast, and demo it. Then the full Let's Vibe meetup runs 5:00–7:00 PM with networking, sharing, and the latest in AI tools. Facilitated by Danny Newman. Junkyard Social is a non-profit venue — sign the waiver ahead of time at the link below.",
+      "AI meetup for builders, hackers, and vibe coders of all levels. Kick off with Vibe Coding Power Hour (3:45–5:00 PM): grab an idea, build something fast, and demo it. Then the full Let's Vibe meetup runs 5:00–7:00 PM with networking, sharing, and the latest in AI tools. Facilitated by Danny Newman. Junkyard Social is a non-profit venue: sign the waiver ahead of time at the link below.",
     link: "https://revelco.org/events/bsw-2026?session=77fc0b76-ea21-417e-a2eb-baf3e1c99827",
   },
   {
@@ -70,12 +70,12 @@ export const communityEvents: CommunityEvent[] = [
     time: "11:00 AM – 7:00 PM daily (runs through June 28)",
     location: "Denver Pavilions, 500 16th Street Mall, Suite 280, Denver",
     description:
-      "U.S. debut of this globally touring exhibition, seen by 5M+ people across 60+ cities. Explore real preserved human specimens organized by body system — respiration, movement, nervous system, and more — presented in English and Spanish. Open daily 11 AM–7 PM through June 28. Tickets from $17 (kids) / $36 (adults) on weekends; weekday discounts available. $1 of each ticket benefits local nonprofits.",
+      "U.S. debut of this globally touring exhibition, seen by 5M+ people across 60+ cities. Explore real preserved human specimens organized by body system: respiration, movement, nervous system, and more: presented in English and Spanish. Open daily 11 AM–7 PM through June 28. Tickets from $17 (kids) / $36 (adults) on weekends; weekday discounts available. $1 of each ticket benefits local nonprofits.",
     link: "https://www.bodiestour.com",
   },
   {
     id: "swing-for-hope-topgolf-2026",
-    title: "Swing for Hope — DCAC Fundraiser at Topgolf",
+    title: "Swing for Hope: DCAC Fundraiser at Topgolf",
     date: "2026-05-14",
     location: "Topgolf, Denver",
     description:
@@ -84,12 +84,12 @@ export const communityEvents: CommunityEvent[] = [
   },
   {
     id: "dcf-cattle-roping-union-station-2026",
-    title: "Cattle Roping Competition — Denver Children's Foundation",
+    title: "Cattle Roping Competition: Denver Children's Foundation",
     date: "2026-05-16",
     time: "12:30–5:30 PM",
     location: "Union Station, Denver",
     description:
-      "Free to enter. Rope a bull dummy at 40 ft for a shot at $5,000 cash — smaller prizes for shorter throws. Benefits the Denver Children's Foundation.",
+      "Free to enter. Rope a bull dummy at 40 ft for a shot at $5,000 cash: smaller prizes for shorter throws. Benefits the Denver Children's Foundation.",
   },
   {
     id: "senor-bear-tajin-tahini-dinner-2026",
@@ -108,16 +108,16 @@ export const communityEvents: CommunityEvent[] = [
     time: "6:00–9:30 PM",
     location: "Mile High Station & Ironworks, Denver",
     description:
-      "Denver's kickoff to summer party season. Dress in red (funky to formal) and dig into unlimited bites from 20+ local restaurants — STK, Tavernetta, Matsuhisa, Table 6, and more — plus endless wine tastings, signature cocktails, beer, N/A options, big-energy DJs, a Best Dressed contest, and a silent auction of culinary experiences. VIP access includes the Ironworks exclusive area and top-tier restaurant tastings. Benefits the Colorado Restaurant Foundation and the Mile High Chapter Hardship Fund for hospitality workers.",
+      "Denver's kickoff to summer party season. Dress in red (funky to formal) and dig into unlimited bites from 20+ local restaurants: STK, Tavernetta, Matsuhisa, Table 6, and more: plus endless wine tastings, signature cocktails, beer, N/A options, big-energy DJs, a Best Dressed contest, and a silent auction of culinary experiences. VIP access includes the Ironworks exclusive area and top-tier restaurant tastings. Benefits the Colorado Restaurant Foundation and the Mile High Chapter Hardship Fund for hospitality workers.",
     link: "https://corestaurant.org/drink-red-wear-red-2026/",
   },
   {
     id: "flight-club-denver-spring-menu-2026",
-    title: "Flight Club Denver — Spring in Bloom Menu",
+    title: "Flight Club Denver: Spring in Bloom Menu",
     date: "2026-05-05",
     location: "Flight Club Denver",
     description:
-      "Ongoing. Flight Club's new seasonal menu is here — bright citrus cocktails, shareable bites (sliders, tacos, easy pass-around plates), and Social Darts®. Good excuse to rally the group chat.",
+      "Ongoing. Flight Club's new seasonal menu is here: bright citrus cocktails, shareable bites (sliders, tacos, easy pass-around plates), and Social Darts®. Good excuse to rally the group chat.",
     link: "https://www.flightclubdartsusa.com/denver",
   },
   {
@@ -132,11 +132,11 @@ export const communityEvents: CommunityEvent[] = [
   },
   {
     id: "soda-club-denver-opening-2026",
-    title: "Soda Club Denver — Opening August 2026",
+    title: "Soda Club Denver: Opening August 2026",
     date: "2026-08-01",
     location: "Denver (exact address TBD)",
     description:
-      "The beloved NYC pasta and natural wine spot is coming to Denver. Known for handmade pasta, a vibrant natural wine program, and a romantic, playful atmosphere — Soda Club is bringing the whole vibe to the Mile High City. Opening August 2026.",
+      "The beloved NYC pasta and natural wine spot is coming to Denver. Known for handmade pasta, a vibrant natural wine program, and a romantic, playful atmosphere: Soda Club is bringing the whole vibe to the Mile High City. Opening August 2026.",
     link: "https://www.sodaclubnyc.com/soda-club-denver",
   },
   {
@@ -146,12 +146,12 @@ export const communityEvents: CommunityEvent[] = [
     time: "10:00 AM – 8:00 PM (Sat & Sun, June 6–7)",
     location: "Golden Triangle Creative District, Denver (Speer Blvd, Colfax Ave & Lincoln St)",
     description:
-      "Free, family-friendly. 200+ professional, amateur, and student artists transform the streets of Denver's Golden Triangle into a massive open-air chalk gallery — inspired by the 400-year-old Italian tradition of street painting. Watch art come to life in real time, meet artists, vote in the People's Choice Award, and stick around for live music, food trucks, craft drinks, and interactive art experiences. One of Denver's most photogenic summer traditions.",
+      "Free, family-friendly. 200+ professional, amateur, and student artists transform the streets of Denver's Golden Triangle into a massive open-air chalk gallery: inspired by the 400-year-old Italian tradition of street painting. Watch art come to life in real time, meet artists, vote in the People's Choice Award, and stick around for live music, food trucks, craft drinks, and interactive art experiences. One of Denver's most photogenic summer traditions.",
     link: "https://denverchalk.art",
   },
   {
     id: "dcf-barn-party-littleton-polo-2026",
-    title: "Barn Party — Denver Children's Foundation",
+    title: "Barn Party: Denver Children's Foundation",
     date: "2026-06-06",
     location: "Littleton Polo Reserve",
     description:
@@ -159,7 +159,7 @@ export const communityEvents: CommunityEvent[] = [
   },
   {
     id: "romyo-rite-i-the-making-2026",
-    title: "Six Nights, Six Rites at Rōmyō — Rite I: The Making",
+    title: "Six Nights, Six Rites at Rōmyō: Rite I: The Making",
     date: "2026-05-08",
     time: "5:30 PM",
     location: "Larimer Square, Denver (Rōmyō)",
@@ -169,7 +169,7 @@ export const communityEvents: CommunityEvent[] = [
   },
   {
     id: "romyo-rite-ii-transformation-2026",
-    title: "Six Nights, Six Rites at Rōmyō — Rite II: Transformation",
+    title: "Six Nights, Six Rites at Rōmyō: Rite II: Transformation",
     date: "2026-05-15",
     time: "5:30 PM",
     location: "Larimer Square, Denver (Rōmyō)",
@@ -189,7 +189,7 @@ export const communityEvents: CommunityEvent[] = [
   },
   {
     id: "romyo-rite-iii-first-taste-2026",
-    title: "Six Nights, Six Rites at Rōmyō — Rite III: First Taste",
+    title: "Six Nights, Six Rites at Rōmyō: Rite III: First Taste",
     date: "2026-05-22",
     time: "5:30 PM",
     location: "Larimer Square, Denver (Rōmyō)",
@@ -199,7 +199,7 @@ export const communityEvents: CommunityEvent[] = [
   },
   {
     id: "romyo-rite-iv-unlikely-alliances-2026",
-    title: "Six Nights, Six Rites at Rōmyō — Rite IV: Unlikely Alliances",
+    title: "Six Nights, Six Rites at Rōmyō: Rite IV: Unlikely Alliances",
     date: "2026-05-29",
     time: "5:30 PM",
     location: "Larimer Square, Denver (Rōmyō)",
@@ -219,7 +219,7 @@ export const communityEvents: CommunityEvent[] = [
   },
   {
     id: "romyo-rite-v-kamigami-2026",
-    title: "Six Nights, Six Rites at Rōmyō — Rite V: Kamigami",
+    title: "Six Nights, Six Rites at Rōmyō: Rite V: Kamigami",
     date: "2026-06-19",
     time: "5:30 PM",
     location: "Larimer Square, Denver (Rōmyō)",
@@ -229,7 +229,7 @@ export const communityEvents: CommunityEvent[] = [
   },
   {
     id: "romyo-rite-vi-bearing-happy-witness-2026",
-    title: "Six Nights, Six Rites at Rōmyō — Rite VI: Bearing Happy Witness",
+    title: "Six Nights, Six Rites at Rōmyō: Rite VI: Bearing Happy Witness",
     date: "2026-06-26",
     time: "5:30 PM",
     location: "Larimer Square, Denver (Rōmyō)",

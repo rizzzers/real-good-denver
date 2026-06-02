@@ -11,7 +11,7 @@ export const newsletterIssues: NewsletterIssue[] = [
     slug: "denver-stadiums-nuggets-rally-lewis-capaldi-red-rocks",
     title: "Denver keeps building stadiums while the Nuggets RALLY and Lewis Capaldi heals at Red Rocks",
     date: "2026-04-29",
-    description: "The Nuggets are fighting back in the playoffs, Lewis Capaldi is healing at Red Rocks, Denver's 16th Street Mall gets the 'Central Social District' treatment, the George Floyd protest verdict stands at $14.75M, and The Pearl — Denver's only lesbian bar — is closing its doors. Plus new restaurants, drought news, and the jobs page is finally fixed.",
+    description: "The Nuggets are fighting back in the playoffs, Lewis Capaldi is healing at Red Rocks, Denver's 16th Street Mall gets the 'Central Social District' treatment, the George Floyd protest verdict stands at $14.75M, and The Pearl, Denver's only lesbian bar, is closing its doors. Plus new restaurants, drought news, and the jobs page is finally fixed.",
     htmlFile: "/newsletter-issues/denver-stadiums-nuggets-rally-lewis-capaldi-red-rocks.html",
   },
   {
@@ -46,7 +46,7 @@ export const newsletterIssues: NewsletterIssue[] = [
     slug: "denver-went-dark-dia-lost-power-lamb-of-god-fillmore",
     title: "Denver went dark, DIA lost power, 463 flights froze, and somehow Lamb of God still played the Fillmore on Friday",
     date: "2026-03-27",
-    description: "Denver's biggest power outage in years knocked out DIA, froze hundreds of flights, and plunged neighborhoods dark — and Lamb of God played anyway.",
+    description: "Denver's biggest power outage in years knocked out DIA, froze hundreds of flights, and plunged neighborhoods dark, and Lamb of God played anyway.",
     htmlFile: "/newsletter-issues/denver-went-dark-dia-lost-power-lamb-of-god-fillmore.html",
   },
   {
@@ -60,7 +60,7 @@ export const newsletterIssues: NewsletterIssue[] = [
     slug: "denver-kept-together-hospital-shooting-trail-cpr-mafia-poker",
     title: "Denver kept it together this week: hospital shooting, trail CPR, mafia poker, frozen shelters",
     date: "2026-03-12",
-    description: "A week of wild Denver stories — a hospital shooting, a trail rescue, underground poker, and shelters pushed to the limit in the cold.",
+    description: "A week of wild Denver stories, a hospital shooting, a trail rescue, underground poker, and shelters pushed to the limit in the cold.",
     htmlFile: "/newsletter-issues/denver-kept-together-hospital-shooting-trail-cpr-mafia-poker.html",
   },
   {
