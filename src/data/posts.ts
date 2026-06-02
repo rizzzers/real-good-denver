@@ -1602,6 +1602,72 @@ Denver's chile relleno scene is anchored by El Taco De Mexico, full stop. Everyt
     image: "/images/best-chile-relleno-denver.png",
     featured: false,
     tags: ["Chile Relleno", "Mexican Food", "Best Of", "Denver Restaurants"],
+  },
+  {
+    id: 22,
+    slug: "best-smashburger-denver",
+    title: "Best Smashburger in Denver: A Greasy Investigation",
+    excerpt: "Here's the thing about smashburgers: they're not complicated. You press beef violently against a screaming-hot flat top, let the Maillard reaction work its magic, and you get something crispy-edged and devastatingly good.",
+    fullContent: `Here's the thing about smashburgers. They're not complicated. They're not supposed to be. You take a ball of beef, you press it violently against a screaming-hot flat top, you let the Maillard reaction do its dark magic, and you end up with something crispy-edged and devastatingly good. No thick patties. No "medium rare, please." Just pure, greasy, unapologetic contact sport.
+
+Denver has quietly become a genuinely solid city for this style of burger. The smash technique has gone from diner shorthand to a full-blown culinary philosophy, and places across the metro are treating it with the kind of seriousness usually reserved for brisket or ramen. Some spots are doing it with great local beef. Some are doing it late night when you need it most. Some are charging you fine-dining prices for something your grandma would recognize as just a hamburger, and honestly, fair enough if the product is there.
+
+This is not a sponsored list. This is a greasy investigation. There's no single best smashburger in Denver because the city is big and chaotic and the right answer depends on where you are, what time it is, and how desperate you've become. But these are the spots worth driving for.
+
+---
+
+### **[Sam's No. 3](https://samsno3.com/)**
+1500 Curtis Street, Denver, CO 80202 (Downtown) | $ | Reservations: No
+
+Sam's No. 3 is the kind of place that has no interest in being trendy. It has been here since 1927, and it will be here after whatever the next food trend is dies a quiet death. The smash situation here is old-school in the best possible way. The flat top is ancient, the edges are lacy and caramelized, and the whole thing arrives without ceremony. Locals on r/Denver consistently bring this place up when the conversation turns to burgers that don't require an explanation. No one is inventing anything new here. They're just doing it right, and have been, for longer than most of your favorite restaurants have existed.
+
+---
+
+### **[Steuben's Uptown](http://www.steubens.com/)**
+523 E 17th Ave, Denver, CO 80203 (Uptown) | $$ | Reservations: No
+
+Steuben's is the American comfort food restaurant that Denver didn't know it needed until it showed up. The burger here is a classic smash-style execution, thin patty, tight crust, American cheese doing the work it was born to do. It fits perfectly alongside the rest of the menu, which reads like a love letter to mid-century diner cooking. The milkshake situation is also, it should be said, not optional. You're getting one. The price is reasonable for Uptown. The atmosphere is warm without being fussy. r/DenverFood regulars tend to mention this one in the same breath as places that have earned their reputation through consistency rather than hype, which is the highest compliment available.
+
+---
+
+### **[Cart-Driver RiNo](http://www.cart-driver.com/)**
+2500 Larimer St #100, Denver, CO 80205 (RiNo) | $$ | Reservations: No
+
+Cart-Driver is primarily known as a pizza place. Which is correct. But the burger here is a legitimate dark horse in this conversation. It is a smash-style situation with high-quality beef, good cheese pull, and the kind of char that suggests someone back there genuinely cares how this thing comes out. It shows up on r/DenverFood recommendation threads with some regularity, often as a surprise mention from people who came for the pizza and left thinking about the burger. That is exactly the energy you want. RiNo is crowded and loud and the parking situation is what it is, but the food earns the effort.
+
+---
+
+### **[Hop Alley](http://www.hopalleydenver.com/)**
+3500 Larimer St, Denver, CO 80205 (RiNo) | $$$ | Reservations: Recommended
+
+This one is going to require some explanation. Hop Alley is a Chinese-American restaurant, and it is one of the best restaurants in Denver full stop. The burger here is a smash patty served on a milk bun with a sauce situation that pulls from both sides of the menu's identity. It is not a traditional smashburger in any sense, but it earns its place on this list because it is one of the most thoughtfully constructed burgers you're going to eat in this city. Threads on r/Denver describing it tend to drift into actual reverence, the kind usually reserved for things people ate on vacation. Go with dinner. Order the burger as an appetizer if you're the type to do that. No judgment.
+
+---
+
+### **[Watercourse Foods](https://www.watercoursefoods.com/)**
+837 E 17th Ave, Denver, CO 80218 (Uptown) | $$ | Reservations: No
+
+Yes, this is a vegetarian restaurant. Yes, it belongs on a smashburger list. The plant-based smash at Watercourse is the kind of thing that makes you stop mid-bite and recalibrate. They've figured out how to get actual crust on a non-meat patty, which is harder than it sounds and something most places get catastrophically wrong. The cheese is vegan. The bun is soft. The whole thing holds together better than it has any right to. A well-upvoted thread on r/DenverFood once described it as the only veggie burger in Denver worth arguing about. That framing is correct.
+
+---
+
+### **[Edwards Meats](http://www.edwardsmeats.com/)**
+12280 W 44th Ave, Wheat Ridge, CO 80033 (Wheat Ridge) | $ | Reservations: No
+
+This is a butcher shop. They also make burgers. These two facts are connected in a way that should tell you everything. Edwards Meats grinds their own beef, which means the patty going onto that flat top is built from the jump to be something worth eating. The smash here is no-frills, counter service, eat it in the parking lot if you have to. The quality of the beef does most of the talking. Locals in the know have been making the drive out to Wheat Ridge for years, and it comes up periodically in r/Denver threads specifically because it flies under the radar of anyone who hasn't made the effort to find it. Make the effort.
+
+---
+
+**The Verdict**
+
+The smashburger in Denver is not one thing. It's a late-night Sam's No. 3 situation. It's a bougie Hop Alley fever dream. It's a butcher counter in Wheat Ridge where the beef is doing the heavy lifting and the ambiance is a parking lot. What all the good ones share is the same thing: a hot surface, enough pressure, and someone who gives a damn about the crust. That crust is non-negotiable. The rest is style. Go find yours.`,
+    category: "food",
+    author: "Ryan Estes",
+    date: "2026-06-02",
+    readTime: "5 min read",
+    image: "/images/best-smashburger-denver.png",
+    featured: false,
+    tags: ["Smashburger", "Burgers", "Best Of", "Denver Restaurants"],
   }
 ];
 
