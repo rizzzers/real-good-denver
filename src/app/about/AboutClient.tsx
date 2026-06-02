@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
-import { Music, Calendar, Palette, Trophy, UtensilsCrossed, MapPin, Mountain, Clock, CheckCircle } from 'lucide-react';
+import { Music, Calendar, Palette, Trophy, UtensilsCrossed, MapPin, Mountain, Clock, CheckCircle, Heart } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import { useToast } from '@/hooks/use-toast';
 import { useScrollReveal } from '@/hooks/use-scroll-reveal';
@@ -75,7 +75,17 @@ export default function AboutClient() {
         </div>
       </section>
 
-      <section className="py-24 md:py-32 bg-background">
+      <section className="bg-background">
+        <TeamPhoto />
+      </section>
+
+      <section className="py-20 md:py-28 bg-background">
+        <div className="max-w-5xl mx-auto px-6">
+          <CreatorBios />
+        </div>
+      </section>
+
+      <section className="py-24 md:py-32 bg-background border-t border-border">
         <div className="max-w-3xl mx-auto px-6">
           <StoryBlock />
         </div>
@@ -109,6 +119,78 @@ export default function AboutClient() {
     </div>
   );
 }
+
+const TeamPhoto = () => {
+  const { ref, isVisible } = useScrollReveal();
+  return (
+    <div ref={ref} className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
+      <img
+        src="/images/about-team.jpg"
+        alt="Ryan Estes and Tom Donahue — Real Good Denver"
+        className="w-full max-h-[70vh] object-cover object-top"
+      />
+    </div>
+  );
+};
+
+const CreatorBios = () => {
+  const { ref, isVisible } = useScrollReveal();
+  return (
+    <div ref={ref} className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
+      <div className="text-center mb-14">
+        <p className="text-sm font-medium uppercase tracking-widest text-primary mb-3">The creators</p>
+        <h2 className="text-3xl md:text-5xl font-bold text-foreground">Built by Denverites.</h2>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+        {/* Ryan Estes */}
+        <div className="space-y-5">
+          <div>
+            <h3 className="text-2xl font-bold text-foreground mb-1">Ryan Estes</h3>
+            <p className="text-sm font-medium text-primary uppercase tracking-widest">Co-creator &amp; Producer</p>
+          </div>
+          <div className="space-y-4 text-muted-foreground leading-relaxed">
+            <p>
+              Born and raised in Denver, Ryan is a founder, investor, and creator with a bias toward action and a deep loyalty to his city. He co-created Real Good Denver to give Denver the platform it deserves — loud, honest, and unapologetically local.
+            </p>
+            <p>
+              Off the mic, Ryan is an avid sportsman who trains in Brazilian Jiu-Jitsu (purple belt) and capoeira (yellow cord). He volunteers as a finance mentor and alongside his team contributes over 300 hours annually to local non-profits.
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-2 pt-1">
+            {['Denver Native', 'BJJ Purple Belt', 'Capoeira Yellow Cord', 'Finance Mentor', '300+ Volunteer Hours'].map(tag => (
+              <span key={tag} className="px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/20">
+                {tag}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        {/* Tom Donahue */}
+        <div className="space-y-5">
+          <div>
+            <h3 className="text-2xl font-bold text-foreground mb-1">Tom Donahue</h3>
+            <p className="text-sm font-medium text-primary uppercase tracking-widest">Co-creator &amp; Producer</p>
+          </div>
+          <div className="space-y-4 text-muted-foreground leading-relaxed">
+            <p>
+              Tom is an entrepreneur and house DJ who bleeds Denver. A CSU alumni, he brings the energy, the beats, and a genuine obsession with what makes this city move — from the underground music scene to the people building something real here.
+            </p>
+            <p>
+              His ear for culture and instinct for what Denver actually cares about shapes everything Real Good Denver puts out. When he&apos;s not behind the decks, he&apos;s out in the city living the stories we tell.
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-2 pt-1">
+            {['Entrepreneur', 'House DJ', 'CSU Alumni', 'Denver'].map(tag => (
+              <span key={tag} className="px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/20">
+                {tag}
+              </span>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const StoryBlock = () => {
   const { ref, isVisible } = useScrollReveal();

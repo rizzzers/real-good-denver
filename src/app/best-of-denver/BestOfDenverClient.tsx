@@ -46,7 +46,7 @@ export default function BestOfDenverClient() {
         </div>
       </section>
 
-      <div className="bg-background border-b border-border sticky top-[72px] z-30">
+      <div className="bg-background border-b border-border">
         <div className="max-w-5xl mx-auto px-6 py-4 space-y-3">
           <div className="relative">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground pointer-events-none z-10" />

@@ -11,6 +11,7 @@ const navItems = [
   { name: "Podcast", path: "/podcast" },
   { name: "Newsletter", path: "/newsletter" },
   { name: "Jobs", path: "/jobs" },
+  { name: "About", path: "/about" },
   { name: "Work With Us", path: "/work-with-us" },
 ];
 
