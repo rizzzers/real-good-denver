@@ -55,7 +55,7 @@ export default function SuggestionForm({ postTitle }: Props) {
           <div className="text-center py-6">
             <p className="text-2xl mb-2">✌️</p>
             <p className="font-semibold text-background">Got it. Thanks for the tip.</p>
-            <p className="text-sm text-background/40 mt-1">We'll check it out.</p>
+            <p className="text-sm text-background/40 mt-1">We&apos;ll check it out.</p>
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="space-y-3">
