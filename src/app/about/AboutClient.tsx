@@ -127,7 +127,7 @@ const TeamPhoto = () => {
       <img
         src="/images/about-team.jpg"
         alt="Ryan Estes and Tom Donahue — Real Good Denver"
-        className="w-full max-h-[70vh] object-cover object-top"
+        className="w-full object-cover"
       />
     </div>
   );
@@ -142,30 +142,7 @@ const CreatorBios = () => {
         <h2 className="text-3xl md:text-5xl font-bold text-foreground">Built by Denverites.</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-        {/* Ryan Estes */}
-        <div className="space-y-5">
-          <div>
-            <h3 className="text-2xl font-bold text-foreground mb-1">Ryan Estes</h3>
-            <p className="text-sm font-medium text-primary uppercase tracking-widest">Co-creator &amp; Producer</p>
-          </div>
-          <div className="space-y-4 text-muted-foreground leading-relaxed">
-            <p>
-              Born and raised in Denver, Ryan is a founder, investor, and creator with a bias toward action and a deep loyalty to his city. He co-created Real Good Denver to give Denver the platform it deserves — loud, honest, and unapologetically local.
-            </p>
-            <p>
-              Off the mic, Ryan is an avid sportsman who trains in Brazilian Jiu-Jitsu (purple belt) and capoeira (yellow cord). He volunteers as a finance mentor and alongside his team contributes over 300 hours annually to local non-profits.
-            </p>
-          </div>
-          <div className="flex flex-wrap gap-2 pt-1">
-            {['Denver Native', 'BJJ Purple Belt', 'Capoeira Yellow Cord', 'Finance Mentor', '300+ Volunteer Hours'].map(tag => (
-              <span key={tag} className="px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/20">
-                {tag}
-              </span>
-            ))}
-          </div>
-        </div>
-
-        {/* Tom Donahue */}
+        {/* Tom Donahue — left */}
         <div className="space-y-5">
           <div>
             <h3 className="text-2xl font-bold text-foreground mb-1">Tom Donahue</h3>
@@ -181,6 +158,29 @@ const CreatorBios = () => {
           </div>
           <div className="flex flex-wrap gap-2 pt-1">
             {['Entrepreneur', 'House DJ', 'CSU Alumni', 'Denver'].map(tag => (
+              <span key={tag} className="px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/20">
+                {tag}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        {/* Ryan Estes — right */}
+        <div className="space-y-5">
+          <div>
+            <h3 className="text-2xl font-bold text-foreground mb-1">Ryan Estes</h3>
+            <p className="text-sm font-medium text-primary uppercase tracking-widest">Co-creator &amp; Producer</p>
+          </div>
+          <div className="space-y-4 text-muted-foreground leading-relaxed">
+            <p>
+              Born and raised in Denver, Ryan is a founder, investor, and creator with a bias toward action and a deep loyalty to his city. He co-created Real Good Denver to give Denver the platform it deserves — loud, honest, and unapologetically local.
+            </p>
+            <p>
+              Off the mic, Ryan is an avid sportsman who trains in Brazilian Jiu-Jitsu (purple belt) and capoeira (yellow cord). He volunteers as a finance mentor and alongside his team contributes over 300 hours annually to local non-profits.
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-2 pt-1">
+            {['Denver Native', 'BJJ Purple Belt', 'Capoeira Yellow Cord', 'Finance Mentor', '300+ Volunteer Hours'].map(tag => (
               <span key={tag} className="px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/20">
                 {tag}
               </span>
@@ -245,7 +245,7 @@ const TopicsGrid = ({ topics }: { topics: { name: string; icon: React.ElementTyp
 const StatsSection = () => {
   const { ref, isVisible } = useScrollReveal();
   const stats = [
-    { value: '20,000+', label: 'Weekly readers' },
+    { value: '37,000+', label: 'Weekly readers' },
     { value: '200+', label: 'Episodes released' },
     { value: '500+', label: 'Venues featured' },
     { value: 'Top 1%', label: 'Global podcast ranking' },
