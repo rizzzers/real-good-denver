@@ -1602,6 +1602,94 @@ Denver's chile relleno scene is anchored by El Taco De Mexico, full stop. Everyt
     image: "/images/best-chile-relleno-denver.png",
     featured: false,
     tags: ["Chile Relleno", "Mexican Food", "Best Of", "Denver Restaurants"],
+  },
+  {
+    id: 22,
+    slug: "best-chile-relleno-denver",
+    title: "The Best Chile Relleno in Denver, Ranked by Crisis Level",
+    excerpt: "The chile relleno is not a forgiving dish. It asks a lot of everyone involved, and honestly, most Denver spots are getting it wrong.",
+    fullContent: `The chile relleno is not a forgiving dish. It asks a lot of everyone involved. The pepper has to be roasted right, peeled without falling apart, stuffed with something that actually deserves to be inside it, battered in a way that stays crispy for more than forty-five seconds, and then sauced with enough confidence to tie the whole thing together. One wrong move at any step and you've got a soggy, bitter, structurally compromised mess sitting in a puddle of regret. Denver has no shortage of people attempting this. The gap between attempting it and actually pulling it off is enormous.
+
+The crisis level ranking system here is simple. A low-crisis relleno is one you eat calmly, appreciatively, maybe with a beer. A high-crisis relleno is the kind that makes you put your fork down and stare at the wall for a moment because something just happened to you and you need a second. Both ends of that spectrum exist in this city. Some of these spots are going to surprise you. A few of them are going to disappoint you. That's the relleno game.
+
+Locals on r/Denver have been arguing about this dish for years, mostly in threads that start about tacos and then spiral. The consensus, if you can call it that, is that Denver's Mexican food scene is better than it gets credit for and the relleno specifically is underordered, underrated, and the true tell for whether a kitchen actually knows what it's doing. That's not wrong. Order accordingly.
+
+---
+
+### El Taco De Mexico
+
+**El Taco De Mexico** | 714 Santa Fe Dr, Denver, CO 80204 (Santa Fe Arts District) | $ | Reservations: No
+
+Crisis Level: Maximum. You are on a plastic tray at a counter ordering window and you are about to eat one of the most honest chile rellenos in Denver. The batter is not fancy. The sauce is not subtle. The cheese is melted into the kind of unified, drooping mass that makes you question why you ever ate anything else. El Taco De Mexico has been operating with zero interest in impressing anyone for decades and the relleno is exactly that energy. r/DenverFood regulars cite this place constantly as the baseline by which everything else gets measured. Get here early. It gets loud. That's part of it.
+
+---
+
+### **[Adelitas Cocina Y Cantina](https://www.adelitasco.com/)**
+
+**[Adelitas Cocina Y Cantina](https://www.adelitasco.com/)** | 1294 S Broadway, Denver, CO 80210 (South Broadway) | $$ | Reservations: No
+
+Crisis Level: High. South Broadway doesn't always get the credit it deserves for serious Mexican food and Adelitas is one of the reasons that's frustrating. The relleno here is substantial, properly blistered, and comes with a red sauce that has some backbone to it. The dining room is loud and comfortable and the kind of place where you can eat too much without feeling bad about it. A well-upvoted thread on r/Denver specifically flagged this spot when someone asked where to find a relleno that doesn't taste like it came out of a steam table. Adelitas was the answer. It still is.
+
+---
+
+### **[Senor Bear](https://www.senorbeardenver.com/)**
+
+**[Senor Bear](https://www.senorbeardenver.com/)** | 3301 Tejon St, Denver, CO 80211 (Jefferson Park) | $$$ | Reservations: Recommended
+
+Crisis Level: Elevated Chic. Senor Bear is doing Latin American food with serious technique and the relleno reflects that. The pepper is treated with actual respect. The stuffing leans into flavor combinations that feel considered rather than default. The bar program is excellent if you need something cold and strong while you process what you're eating. This is not your grandmother's relleno and it doesn't want to be. r/DenverFood has called Senor Bear one of the most underappreciated restaurants in the neighborhood and the relleno is part of why. The room is beautiful. The food earns it.
+
+---
+
+### **[Los Chingones RiNo](http://www.loschingonesmexican.com/)**
+
+**[Los Chingones RiNo](http://www.loschingonesmexican.com/)** | 2463 Larimer St, Denver, CO 80205 (RiNo) | $$ | Reservations: No
+
+Crisis Level: Controlled Chaos. Troy Guard's Mexican spot in RiNo has been feeding the brunch and dinner crowd for years and the relleno is one of those menu items that gets quietly ordered by people who know what they're doing. The kitchen keeps things tight. The batter holds up. The pepper is actually roasted and not just warm. It's not the most adventurous version in the city but it's consistent in a way that matters, especially in a neighborhood where restaurants open and close like they're auditioning.
+
+---
+
+### **[Mexico City Restaurant and Lounge](https://www.ilovemexicocitytacos.com/)**
+
+**[Mexico City Restaurant and Lounge](https://www.ilovemexicocitytacos.com/)** | 2115 Larimer St, Denver, CO 80205 (RiNo/Five Points) | $ | Reservations: No
+
+Crisis Level: Quietly Intense. This place operates at a volume that suggests they are not worried about you. The menu is long, the room is lived-in, and the relleno is the kind of thing you find on the menu almost as an afterthought and then end up talking about for two weeks. Locals on r/Denver who stumble onto this spot tend to describe the experience as finding something they didn't know they were looking for. The sauce here is particularly good. Don't overthink it.
+
+---
+
+### **[Tamayo By Chef Richard Sandoval](https://www.eattamayo.com/?utm_source=extnet&utm_medium=Yext)**
+
+**[Tamayo By Chef Richard Sandoval](https://www.eattamayo.com/?utm_source=extnet&utm_medium=Yext)** | 1400 Larimer St, Denver, CO 80202 (LoDo) | $$$$ | Reservations: Yes
+
+Crisis Level: Aspirational. Tamayo sits above Larimer Square with a rooftop view that makes it easy to forgive the prices. The relleno is polished, refined, and plated in a way that makes you feel like you're making good choices in your life. Richard Sandoval's kitchen has the technique and the relleno shows it. Is it the most soul-rattling version in Denver? No. Is it an excellent version of the dish in a beautiful room where you can justify a very expensive margarita? Absolutely.
+
+---
+
+### **[Steuben's Uptown](http://www.steubens.com/)**
+
+**[Steuben's Uptown](http://www.steubens.com/)** | 523 E 17th Ave, Denver, CO 80203 (Uptown) | $$ | Reservations: No
+
+Crisis Level: Comfort Adjacent. Steuben's is an American comfort food institution and the relleno on their menu is the kind of crossover move that either delights you or confuses you depending on your expectations. It's approachable, well-executed in a diner-with-better-lighting kind of way, and probably the right call if you're with someone who isn't fully committed to going deep on Mexican food but needs to be fed.
+
+---
+
+### **Casa Bonita**
+
+**Casa Bonita** | 6715 W Colfax Ave, Lakewood, CO 80214 | $$ | Reservations: No
+
+Crisis Level: Existential. You already know about Casa Bonita. Everyone knows about Casa Bonita. The relleno is not the point of Casa Bonita. The cliff divers are the point. The pink tower visible from Colfax is the point. The childhood memory you're chasing is the point. Is the food good? It's fine. It's improved since the Trey Parker and Matt Stone acquisition. But you are not going to Casa Bonita for the chile relleno and if you tell people that's why you went they will not believe you. That said, eating a relleno while a man dives into a fake cave pool next to your table is a specific experience this planet offers in exactly one location.
+
+---
+
+**The Verdict**
+
+If you are optimizing purely for relleno quality, start at El Taco De Mexico and work your way up from there. The dish lives at that counter in a way it doesn't always live in rooms with better lighting. Adelitas and Senor Bear are doing versions that deserve more conversation than they get. Tamayo is the move when someone else is paying. Casa Bonita is the move when you need to explain Denver to someone who has never been here and words are failing you. The relleno is a test. This city passes it more often than it should get credit for.`,
+    category: "food",
+    author: "Ryan Estes",
+    date: "2026-06-02",
+    readTime: "6 min read",
+    image: "/images/best-chile-relleno-denver.png",
+    featured: false,
+    tags: ["Chile Relleno", "Mexican Food", "Best Of", "Denver Restaurants"],
   }
 ];
 
