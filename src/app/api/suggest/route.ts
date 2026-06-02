@@ -12,7 +12,7 @@ export async function POST(req: NextRequest) {
   try {
     await resend.emails.send({
       from: "Real Good Denver <onboarding@resend.dev>",
-      to: ["ryan@ryanestes.info", "fernanda@ryanestes.info"],
+      to: "ryan@ryanestes.info",
       replyTo: email,
       subject: `Tip for "${postTitle}"`,
       html: `
