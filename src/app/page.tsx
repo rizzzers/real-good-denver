@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
+import NewsletterTicker from "@/components/NewsletterTicker";
 import StoriesGrid from "@/components/StoriesGrid";
 import StatementSection from "@/components/StatementSection";
 import ChannelsSection from "@/components/ChannelsSection";
@@ -19,6 +20,7 @@ export default function Home() {
     <div className="relative min-h-screen">
       <Navigation />
       <HeroSection />
+      <NewsletterTicker />
       <StoriesGrid />
       <StatementSection />
       <ChannelsSection />

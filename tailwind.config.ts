@@ -52,7 +52,8 @@ const config: Config = {
         'pulse-soft': { '0%, 100%': { transform: 'scale(1)', opacity: '1' }, '50%': { transform: 'scale(1.05)', opacity: '0.8' } },
         'fade-in': { '0%': { opacity: '0', transform: 'translateY(20px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
         'slide-in-right': { '0%': { opacity: '0', transform: 'translateX(50px)' }, '100%': { opacity: '1', transform: 'translateX(0)' } },
-        'scale-in': { '0%': { opacity: '0', transform: 'scale(0.9)' }, '100%': { opacity: '1', transform: 'scale(1)' } }
+        'scale-in': { '0%': { opacity: '0', transform: 'scale(0.9)' }, '100%': { opacity: '1', transform: 'scale(1)' } },
+        'ticker': { '0%': { transform: 'translateX(0)' }, '100%': { transform: 'translateX(-33.333%)' } }
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
@@ -62,7 +63,8 @@ const config: Config = {
         'spin-slow': 'spin 8s linear infinite',
         'fade-in': 'fade-in 0.6s ease-out',
         'slide-in-right': 'slide-in-right 0.6s ease-out',
-        'scale-in': 'scale-in 0.4s ease-out'
+        'scale-in': 'scale-in 0.4s ease-out',
+        'ticker': 'ticker 30s linear infinite'
       }
     }
   },
