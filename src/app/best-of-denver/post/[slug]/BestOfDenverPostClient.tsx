@@ -54,18 +54,19 @@ export default function BestOfDenverPostClient() {
   const { ref: contentRef, isVisible: contentVisible } = useScrollReveal(0.05);
 
   const isBakerPost = post?.slug === 'best-of-denver-baker';
-  const isBestOfPost = post?.slug.startsWith('best-') ?? false;
 
-  // Split content into intro / #1 pick / rest for best-* posts
+  // Split content into intro / #1 pick / rest for all Best of Denver posts
   const bestOfSections = React.useMemo(() => {
-    if (!post || !isBestOfPost || isBakerPost) return null;
+    if (!post || isBakerPost) return null;
     const content = post.fullContent;
     const SEP = '\n\n---\n\n';
     const HEADING = /^#{2,3}\s/;
+    const BOLD_ENTRY = /^\*\*[A-Z]/;
 
+    // 1. Posts with --- separator
     if (content.includes(SEP)) {
       const parts = content.split(SEP);
-      const idx = parts.findIndex(p => HEADING.test(p.trim()));
+      const idx = parts.findIndex(p => HEADING.test(p.trim()) || BOLD_ENTRY.test(p.trim()));
       if (idx === -1) return null;
       return {
         intro: parts.slice(0, idx).join(SEP),
@@ -74,16 +75,28 @@ export default function BestOfDenverPostClient() {
       };
     }
 
-    // No --- separator: split at heading boundaries (## or ###)
-    const byHeading = content.split(/\n\n(?=#{2,3} )/);
-    const headingIdx = byHeading.findIndex(p => HEADING.test(p.trim()));
-    if (headingIdx === -1) return null;
+    // 2. No --- separator, ## or ### headings
+    if (/\n\n#{2,3}[\s*]/.test(content)) {
+      const byHeading = content.split(/\n\n(?=#{2,3}[\s*])/);
+      const headingIdx = byHeading.findIndex(p => HEADING.test(p.trim()));
+      if (headingIdx === -1) return null;
+      return {
+        intro: byHeading.slice(0, headingIdx).join('\n\n'),
+        firstPick: byHeading[headingIdx],
+        rest: byHeading.slice(headingIdx + 1).join('\n\n'),
+      };
+    }
+
+    // 3. Bold-only entries (**Name**)
+    const byBold = content.split(/\n\n(?=\*\*[A-Z])/);
+    const boldIdx = byBold.findIndex(p => BOLD_ENTRY.test(p.trim()));
+    if (boldIdx === -1) return null;
     return {
-      intro: byHeading.slice(0, headingIdx).join('\n\n'),
-      firstPick: byHeading[headingIdx],
-      rest: byHeading.slice(headingIdx + 1).join('\n\n'),
+      intro: byBold.slice(0, boldIdx).join('\n\n'),
+      firstPick: byBold[boldIdx],
+      rest: byBold.slice(boldIdx + 1).join('\n\n'),
     };
-  }, [post, isBestOfPost, isBakerPost]);
+  }, [post, isBakerPost]);
 
   if (!post) {
     router.push('/best-of-denver');
@@ -157,7 +170,7 @@ export default function BestOfDenverPostClient() {
 
       <section className="py-16 md:py-24 bg-background">
         <div ref={contentRef} className={`max-w-3xl mx-auto px-6 transition-all duration-700 ${contentVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
-          {isBestOfPost && <SuggestionForm postTitle={post.title} />}
+          <SuggestionForm postTitle={post.title} />
           {bestOfSections ? (
             <>
               {bestOfSections.intro && (

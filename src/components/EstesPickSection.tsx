@@ -5,11 +5,12 @@ interface Props {
 }
 
 export default function EstesPickSection({ html }: Props) {
-  // Split at the end of the h3 so heading sits beside the graphic
-  // and the body copy runs full-width below both columns
-  const splitAt = html.indexOf("</h3>");
-  const headingHtml = splitAt !== -1 ? html.slice(0, splitAt + 5) : "";
-  const bodyHtml = splitAt !== -1 ? html.slice(splitAt + 5) : html;
+  // Split heading (h3 or first bold paragraph) from body copy
+  const h3End = html.indexOf("</h3>");
+  const pEnd = html.indexOf("</p>");
+  const splitAt = h3End !== -1 ? h3End + 5 : pEnd !== -1 ? pEnd + 4 : -1;
+  const headingHtml = splitAt !== -1 ? html.slice(0, splitAt) : "";
+  const bodyHtml = splitAt !== -1 ? html.slice(splitAt) : html;
 
   return (
     <div className="relative mb-10 rounded-2xl overflow-hidden">
