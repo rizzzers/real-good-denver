@@ -10,6 +10,7 @@ import AuthorBio from '@/components/AuthorBio';
 import { SpaTreatmentFinder } from '@/components/SpaTreatmentFinder';
 import SuggestionForm from '@/components/SuggestionForm';
 import EstesPickSection from '@/components/EstesPickSection';
+import PostMap from '@/components/PostMap';
 import InstagramPhotoGrid from '@/components/InstagramPhotoGrid';
 import { useScrollReveal } from '@/hooks/use-scroll-reveal';
 import { posts } from '@/data/posts';
@@ -185,6 +186,9 @@ export default function BestOfDenverPostClient() {
             renderBakerContent()
           ) : (
             <div className="post-content" dangerouslySetInnerHTML={{ __html: renderedContent }} />
+          )}
+          {post.slug === 'best-chile-relleno-denver' && (
+            <PostMap content={post.fullContent} />
           )}
           <AuthorBio />
         </div>
