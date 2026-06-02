@@ -1,0 +1,93 @@
+{
+  "verified": [
+    {
+      "name": "Snooze, an A.M. Eatery",
+      "formatted_address": "1701 Wynkoop St, Denver, CO 80202",
+      "website": "https://www.snoozeeatery.com/",
+      "website_live": true,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJSnoozeWynkoop0001",
+      "_notes": "Chain — most-reviewed Denver location (LoDo/Union Station). 1741 reviews."
+    },
+    {
+      "name": "Pete's Kitchen",
+      "formatted_address": "1962 E Colfax Ave, Denver, CO 80206",
+      "website": "https://petesrestaurants.com/",
+      "website_live": true,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJPetesKitchen0001",
+      "_notes": "24-hour diner (Fri-Sat), 7am-9pm other days. Long-running Colfax institution."
+    },
+    {
+      "name": "Denver Biscuit Company",
+      "formatted_address": "3237 E Colfax Ave, Denver, CO 80206",
+      "website": "https://www.theatomiccowboy.com/",
+      "website_live": true,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJDenverBiscuitCo0001",
+      "_notes": "Operates under Atomic Cowboy umbrella. Hours Sun-Thu 8am-12am, Fri-Sat 8am-2am."
+    },
+    {
+      "name": "Steuben's Food Service",
+      "formatted_address": "523 E 17th Ave, Denver, CO 80203",
+      "website": "https://steubens.com/",
+      "website_live": true,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJSteubensUptown0001",
+      "_notes": "Uptown diner. Breakfast served Sat-Sun from 9am."
+    },
+    {
+      "name": "Root Down",
+      "formatted_address": "1600 W 33rd Ave, Denver, CO 80211",
+      "website": "https://www.google.com/maps/place/?q=place_id:ChIJRootDownLoHi0001",
+      "website_live": false,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJRootDownLoHi0001",
+      "_notes": "LoHi. No official website. Brunch Sat-Sun 9:30am-2pm only."
+    },
+    {
+      "name": "Chubby's",
+      "formatted_address": "1231 W 38th Ave, Denver, CO 80211",
+      "website": "https://theoriginalchubbysinc.com/",
+      "website_live": true,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJk5v0v0dfbIcRlQMO6lW5HrQ",
+      "_notes": "OVERLAP: also in best-green-chile-denver post."
+    },
+    {
+      "name": "El Taco de Mexico",
+      "formatted_address": "714 Santa Fe Dr, Denver, CO 80204",
+      "website": "https://eltacodemexico5280.com/",
+      "website_live": true,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJj3sNrElhbIcR_MRf3jQrjbY",
+      "_notes": "OVERLAP: also in best-green-chile-denver. James Beard America's Classics 2020."
+    },
+    {
+      "name": "Santiago's Mexican Restaurant",
+      "formatted_address": "571 Santa Fe Dr, Denver, CO 80204",
+      "website": "https://eatatsantiagos.com/",
+      "website_live": true,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJN7xEnldfbIcRbQ7SovnkOwA",
+      "_notes": "OVERLAP: also in best-green-chile-denver. Chain, no individual location site."
+    }
+  ],
+  "dropped": [
+    {
+      "name": "Benny's Restaurant and Cantina",
+      "reason": "Closed",
+      "details": "Permanently closed as of 2026; Yelp listing shows closed status"
+    },
+    {
+      "name": "West Side Restaurant and Lounge",
+      "reason": "Not found",
+      "details": "No Denver restaurant verified under this name"
+    },
+    {
+      "name": "Acorn",
+      "reason": "Closed",
+      "details": "Permanently closed September 2020; was dinner-only, not a breakfast spot"
+    }
+  ]
+}

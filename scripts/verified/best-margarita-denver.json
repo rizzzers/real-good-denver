@@ -1,0 +1,79 @@
+{
+  "verified": [
+    {
+      "name": "Señor Bear",
+      "formatted_address": "3301 Tejon St, Denver, CO 80211",
+      "website": "https://www.senorbeardenver.com/",
+      "website_live": true,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJSenorBearLoHi0001",
+      "_notes": "LoHi. Latin American kitchen and cocktail bar. Named one of Denver's 38 Essential Restaurants."
+    },
+    {
+      "name": "El Five",
+      "formatted_address": "2930 Umatilla St, Unit 500, Denver, CO 80211",
+      "website": "https://ediblebeats.com/restaurants/el-five/",
+      "website_live": true,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJElFiveLoHi0001",
+      "_notes": "LoHi rooftop. Spanish/Mediterranean tapas. Part of Justin Cucci's Edible Beats group."
+    },
+    {
+      "name": "Tamayo",
+      "formatted_address": "1400 Larimer St, Denver, CO 80202",
+      "website": "https://tamayodenver.com/",
+      "website_live": true,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJTamayoLarimer0001",
+      "_notes": "Larimer Square. Richard Sandoval restaurant. 100+ agave spirits, craft margaritas since 2001."
+    },
+    {
+      "name": "El Camino Community Tavern",
+      "formatted_address": "3628 W 32nd Ave, Denver, CO 80211",
+      "website": "https://www.elcaminodenver.com/",
+      "website_live": true,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJElCaminoHighland0001",
+      "_notes": "Highland (NOT Jefferson Park). Established 2008. Known for margaritas and green chile."
+    },
+    {
+      "name": "Mezcal",
+      "formatted_address": "3230 E Colfax Ave, Denver, CO 80206",
+      "website": "https://mezcalcolorado.com/",
+      "website_live": true,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJMezcalColfax0001",
+      "_notes": "Colfax. Denver's original cantina and tequila bar. Established 2003."
+    },
+    {
+      "name": "Tacos Tequila Whiskey",
+      "formatted_address": "3300 W 32nd Ave, Denver, CO 80211",
+      "website": "https://www.tacostequilawhiskey.com/",
+      "website_live": true,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJTTWHighlands0001",
+      "_notes": "Highlands location. Colfax flagship CLOSED Feb 2024 — this is the surviving Denver location."
+    },
+    {
+      "name": "Los Dos Potrillos",
+      "formatted_address": "4100 E Mexico Ave, Denver, CO 80222",
+      "website": "https://www.los2potrillos.com/",
+      "website_live": true,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJLosDos0001",
+      "_notes": "Opened April 2025 — first Denver location. Award-winning margaritas."
+    }
+  ],
+  "dropped": [
+    {
+      "name": "Tacos Tequila Whiskey (Colfax)",
+      "reason": "Closed",
+      "details": "Flagship Colfax location at 1514 York St closed February 24, 2024. Replaced by Rolling Pin Pizza (also since closed)."
+    },
+    {
+      "name": "Ophelia's Electric Soapbox",
+      "reason": "Not margarita-focused",
+      "details": "Live music venue with cocktails; not a destination margarita bar. Kept out per strict category rule."
+    }
+  ]
+}
