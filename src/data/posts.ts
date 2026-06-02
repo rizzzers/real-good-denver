@@ -1690,6 +1690,86 @@ If you are optimizing purely for relleno quality, start at El Taco De Mexico and
     image: "/images/best-chile-relleno-denver.png",
     featured: false,
     tags: ["Chile Relleno", "Mexican Food", "Best Of", "Denver Restaurants"],
+  },
+  {
+    id: 23,
+    slug: "best-chile-relleno-denver",
+    title: "The Best Chile Relleno in Denver, Ranked by Crisis Level",
+    excerpt: "Chile relleno is not a dish you order casually. You don't glance at a menu, shrug, and say sure, why not—you order it because something in you has decided this is the moment, and Denver has options that'll actually change your life.",
+    fullContent: `Chile relleno is not a dish you order casually. You don't glance at a menu, shrug, and say sure, why not. You order a chile relleno because something in you has decided this is the moment. Maybe you grew up eating them. Maybe you had a transcendent one once in a strip mall in Albuquerque and you've been chasing that feeling ever since. Either way, you are committed. You are in crisis. And Denver, bless this city, has some opinions about how to handle that crisis properly.
+
+The formula sounds simple enough. Take a poblano. Stuff it. Batter it. Fry it. Drown it in sauce. But anybody who's eaten a bad chile relleno knows that simplicity is a trap. A soggy batter is a personal offense. An underseasoned filling is a betrayal. And a chile that sweats through its coating and collapses into a sad puddle before it reaches your table? That's the kind of thing you don't forget. You just quietly never go back.
+
+Denver's Mexican food scene has been earning more respect lately, and the chile relleno is one of the better arguments for why. A few spots are doing genuinely serious work. Others are doing perfectly acceptable work for a Tuesday. One entry on this list is a cultural institution that exists in its own category entirely, where the rules of food criticism simply do not apply.
+
+---
+
+### El Taco De Mexico
+
+**El Taco De Mexico** | 714 Santa Fe Dr, Denver, CO 80204 (Santa Fe Arts District) | $ | Reservations: No
+
+This is the one. This is where locals point when someone asks where to actually eat a chile relleno in Denver. The line snakes out the door. The menu is laminated and the prices are aggressively reasonable and the chile relleno is the kind of thing that makes you quiet mid-bite because your brain needs a second to process what just happened. The batter is fried to exactly the right side of golden. The filling is honest. The red sauce does what red sauce is supposed to do. Regulars on r/DenverFood bring this place up constantly when the chile relleno conversation surfaces, and the consensus is pretty clear: if you haven't been, you're doing it wrong. Cash only, small space, no frills. Go anyway.
+
+---
+
+### Los Chingones RiNo
+
+**[Los Chingones RiNo](http://www.loschingonesmexican.com/)** | 2463 Larimer St, Denver, CO 80205 (RiNo) | $$ | Reservations: Recommended
+
+Troy Guard's Mexican spot in RiNo is loud and fun and very much aware of itself, which could easily tip into annoying but mostly doesn't. The chile relleno here leans contemporary. It's got ambition. The preparation pulls in some modern technique without completely abandoning what makes the dish work. This is where you take someone who claims they don't really love Mexican food and watch them reconsider their entire position. r/Denver threads about RiNo dining spots regularly surface Los Chingones as one of the few places in the neighborhood that doesn't feel like it's coasting on location alone. Order a margarita. You're already here.
+
+---
+
+### Tamayo By Chef Richard Sandoval
+
+**[Tamayo By Chef Richard Sandoval](https://www.eattamayo.com/?utm_source=extnet&utm_medium=Yext)** | 1400 Larimer St, Denver, CO 80202 (LoDo) | $$$ | Reservations: Recommended
+
+Tamayo is rooftop dining with a direct sightline to the mountains and a menu that takes upscale Mexican food seriously. The chile relleno here is polished. It's not the version your abuela made, and it doesn't try to be. It's composed, thoughtfully sauced, and priced accordingly. If you're bringing someone to impress, or you need the chile relleno experience plus a view of the Rockies plus a cocktail program that can hold its own, this is where you go. The gap between this and El Taco De Mexico in terms of price is significant. The gap in terms of satisfaction is much narrower than you'd expect. That's a compliment to both of them.
+
+---
+
+### Steuben's Uptown
+
+**[Steuben's Uptown](http://www.steubens.com/)** | 523 E 17th Ave, Denver, CO 80203 (Uptown) | $$ | Reservations: Yes
+
+Steuben's is technically an American comfort food restaurant, which makes its chile relleno a bit of a wildcard entry. But they've been doing a version of it long enough that it's earned its place in the conversation. It's approachable. It's satisfying. It's the chile relleno you order when you're at Steuben's for brunch and you see it on the menu and you decide, correctly, that today is the day. Don't expect the depth of a dedicated Mexican kitchen. Do expect something that will make you happy.
+
+---
+
+### Watercourse Foods
+
+**[Watercourse Foods](https://www.watercoursefoods.com/)** | 837 E 17th Ave, Denver, CO 80218 (Uptown) | $$ | Reservations: Yes
+
+Watercourse is Denver's most beloved all-vegan spot, which means their chile relleno is doing something the others are not. No cheese in the traditional sense. No meat. And yet, somehow, it works. The filling is creative and the batter is still properly fried and the whole thing doesn't feel like a consolation prize. It feels like an actual choice. The community around r/Denver's vegetarian and vegan discussions treats Watercourse with a kind of loyal devotion that borders on protective. If dietary restrictions are part of your life or the lives of the people you're feeding, this spot deserves more credit than it usually gets in chile relleno rankings.
+
+---
+
+### Wynkoop Brewing Company
+
+**[Wynkoop Brewing Company](https://wynkoop.com/)** | 1634 18th St, Denver, CO 80202 (LoDo) | $$ | Reservations: Yes
+
+Wynkoop is a Denver institution, Colorado's first brewpub, a historic building with good beer and a menu that covers a lot of ground. The chile relleno shows up here as a reliable option rather than a destination dish. You're not coming to Wynkoop specifically for the chile relleno. You're coming because you're in LoDo and you want a beer and some food that won't disappoint you. On that scale, it succeeds. Sometimes that's exactly what the crisis calls for.
+
+---
+
+### Casa Bonita
+
+**Casa Bonita** | 6715 W Colfax Ave, Lakewood, CO 80214 (Lakewood) | $$ | Reservations: No
+
+Look. Casa Bonita is not a restaurant in the conventional sense. It is a 52,000 square foot fever dream of cliff divers and puppet shows and pink neon that happens to also serve food. The chile relleno at Casa Bonita is not the best chile relleno in Denver. That is not the point and has never been the point. The point is that you are here, watching someone leap into a pool from a fake cliff, eating a chile relleno that is perfectly fine, and having an experience that exists nowhere else on earth. You cannot rank Casa Bonita against real restaurants. It is simply its own thing. Go. Order the chile relleno anyway. Embrace it.
+
+---
+
+**The Verdict**
+
+If you are in actual chile relleno crisis, meaning you need one right now and you need it to be good, you go to El Taco De Mexico and you wait in whatever line exists and you don't complain about it. If you want an elevated version with a view and a cocktail, Tamayo handles that. If you want something modern and fun in RiNo, Los Chingones delivers. And if someone in your group doesn't eat meat or dairy, Watercourse is not a backup plan. It's a real option. Denver's chile relleno scene is quietly better than most people give it credit for, which is very on-brand for this city. Stop sleeping on it.`,
+    category: "food",
+    author: "Ryan Estes",
+    date: "2026-06-02",
+    readTime: "6 min read",
+    image: "/images/best-chile-relleno-denver.png",
+    featured: false,
+    tags: ["Chile Relleno", "Mexican Food", "Best Of", "Denver Restaurants"],
   }
 ];
 
