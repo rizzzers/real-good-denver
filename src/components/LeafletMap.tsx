@@ -68,24 +68,22 @@ export default function LeafletMap({ pins }: { pins: MapPin[] }) {
       <FitBounds pins={pins} />
       {pins.map((pin, i) => (
         <Marker key={i} position={[pin.lat, pin.lng]} icon={makeIcon(!!pin.isTop)}>
-          <Popup>
-            <div style={{ fontFamily: "inherit", minWidth: 160 }}>
-              {pin.isTop && (
-                <span style={{ display: "inline-block", background: "linear-gradient(90deg,#f97316,#f59e0b)", color: "#0a1628", fontSize: 10, fontWeight: 700, letterSpacing: "0.08em", padding: "2px 8px", borderRadius: 99, marginBottom: 6 }}>
-                  #1 PICK
-                </span>
-              )}
-              <div style={{ fontWeight: 700, fontSize: 14, marginBottom: 4 }}>{pin.name}</div>
-              <div style={{ fontSize: 12, color: "#666", marginBottom: 8 }}>{pin.address}</div>
-              <a
-                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(pin.name + " " + pin.address)}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ fontSize: 12, color: "#3b7fff", textDecoration: "none", fontWeight: 600 }}
-              >
-                Open in Google Maps →
-              </a>
-            </div>
+          <Popup minWidth={180}>
+            <b style={{ display: "block", fontSize: 14, color: "#111", marginBottom: 4 }}>{pin.name}</b>
+            {pin.isTop && (
+              <span style={{ display: "inline-block", background: "linear-gradient(90deg,#f97316,#f59e0b)", color: "#fff", fontSize: 10, fontWeight: 700, padding: "1px 7px", borderRadius: 99, marginBottom: 5 }}>
+                #1 Pick
+              </span>
+            )}
+            <span style={{ display: "block", fontSize: 12, color: "#555", marginBottom: 7 }}>{pin.address}</span>
+            <a
+              href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(pin.name + " " + pin.address)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ fontSize: 12, color: "#1d6ff5", fontWeight: 600 }}
+            >
+              Open in Google Maps →
+            </a>
           </Popup>
         </Marker>
       ))}
