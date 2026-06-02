@@ -27,10 +27,12 @@ export default function WorkWithUsClient() {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      const { error } = await supabase.functions.invoke('send-form-submission', {
-        body: { type: 'partnership', name: formData.name, email: formData.email, phone: formData.phone, interests: formData.interests, message: formData.message }
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type: 'partnership', name: formData.name, email: formData.email, phone: formData.phone, interests: formData.interests, message: formData.message }),
       });
-      if (error) throw error;
+      if (!res.ok) throw new Error('Failed');
       setSubmitted(true);
       setFormData({ name: '', email: '', phone: '', interests: [], message: '' });
       toast({ title: "Success!", description: "Thank you for your partnership inquiry. We'll get back to you soon!" });

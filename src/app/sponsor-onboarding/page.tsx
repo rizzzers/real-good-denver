@@ -27,10 +27,12 @@ export default function SponsorOnboardingPage() {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      const { error } = await supabase.functions.invoke("send-form-submission", {
-        body: { type: "sponsor_onboarding", data: formData },
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ type: "sponsor_onboarding", email: formData.email, data: formData }),
       });
-      if (error) throw error;
+      if (!res.ok) throw new Error("Failed");
       toast({ title: "Success!", description: "Your partner onboarding form has been submitted successfully." });
       setFormData({ companyName: "", websiteUrl: "", brandDescription: "", contactName: "", email: "", phone: "", socialMediaLinks: "", campaignObjective: "", brandAssetsLink: "", taglineLink: "", pressKitLink: "", adCopyLink: "", cta: "", promoCode: "", trackingUrl: "", keyBrandMessage: "", audioJingleLink: "", includeLink: "" });
     } catch (error) {

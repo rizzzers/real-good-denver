@@ -80,24 +80,24 @@ function SubmitSection() {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      const { error } = await supabase.functions.invoke("send-form-submission", {
-        body: {
-          type: "contact",
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          type: "event",
           name: form.name,
           email: form.email,
+          eventName: form.eventName,
           message: [
-            "EVENT SUBMISSION",
-            "",
-            `Event: ${form.eventName}`,
             `Date: ${form.eventDate}`,
             `Time: ${form.eventTime || "Not specified"}`,
             `Location: ${form.location}`,
             `Description: ${form.description}`,
             `Link: ${form.link || "None"}`,
           ].join("\n"),
-        },
+        }),
       });
-      if (error) throw error;
+      if (!res.ok) throw new Error("Failed");
       setSubmitted(true);
       setForm({ name: "", email: "", eventName: "", eventDate: "", eventTime: "", location: "", description: "", link: "" });
       toast({ title: "Event submitted!", description: "We'll review it and add it to the calendar." });
