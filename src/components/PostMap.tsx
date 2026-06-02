@@ -25,12 +25,17 @@ function parseRestaurants(markdown: string): { name: string; address: string; is
     const headingLine = lines.find(l => /^#{2,3}\s/.test(l));
     if (!headingLine) continue;
 
-    // Extract name: handles ### **[Name](url)**, ### 1. Name, ### Name
+    // Extract name — handles all observed heading formats:
+    //   ### **[Name](url)**
+    //   ### 6. **[Name](url)**
+    //   ### 1. Name
+    //   ### 🥇 1. Name
+    //   ### Name
     const nameMatch =
-      headingLine.match(/^#{2,3}\s+\*?\*?\[([^\]]+)\]/) ||
-      headingLine.match(/^#{2,3}\s+\*?\*?(?:\d+\.\s*🥇?\s*)?([^*\n(]+)/);
+      headingLine.match(/^#{2,3}\s+(?:\d+\.\s*)?(?:🥇\s*)?\*?\*?\[([^\]]+)\]/) ||
+      headingLine.match(/^#{2,3}\s+\*?\*?(?:\d+\.\s*)?(?:🥇\s*)?([^*\n[(]+)/);
     if (!nameMatch) continue;
-    const name = nameMatch[1].replace(/\*/g, "").trim();
+    const name = nameMatch[1].replace(/\*/g, "").replace(/^\d+\.\s*/, "").trim();
     if (!name || name.toLowerCase().includes("verdict") || name.toLowerCase().includes("conclusion")) continue;
 
     // Find address line: contains CO zip or known Denver suburb
