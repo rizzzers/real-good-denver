@@ -129,6 +129,22 @@ Pre-verified JSON format:
 }
 ```
 
+### Post Page Features (automatic on all Best of Denver posts)
+
+Every Best of Denver post automatically renders two features driven by the post content — no extra work needed in the pipeline:
+
+1. **Estes Picks #1 section** — The first restaurant/place in each post gets a highlighted navy/orange callout block with the Estes Picks circular graphic on the left and a `#1 Pick` badge. Driven by `src/components/EstesPickSection.tsx`. Works by detecting the first `###`, `##`, or `**Name**` heading after the intro.
+
+2. **Interactive map** — A Leaflet/OpenStreetMap map showing a pin for every location mentioned in the post. Geocodes addresses via Nominatim, caches in `localStorage`. Orange pin = #1 pick, blue = rest. Driven by `src/components/PostMap.tsx`. Works by extracting lines containing Colorado city/state patterns from each `###`/`##` section.
+
+**For the auto-publish pipeline:** Ensure every restaurant entry in generated posts follows the format:
+```
+### **[Restaurant Name](url)**
+
+Street Address, City, CO ZIP (Neighborhood) | $$ | Reservations: Yes/No
+```
+The address line (containing `, CO` or a Denver suburb) is what the map uses to geocode. If the address line is missing or malformed, that pin will be skipped silently.
+
 ### What NOT to Touch
 
 - Do not modify the `id` field of existing posts in `src/data/posts.ts`. IDs are permanent once published.

@@ -187,9 +187,7 @@ export default function BestOfDenverPostClient() {
           ) : (
             <div className="post-content" dangerouslySetInnerHTML={{ __html: renderedContent }} />
           )}
-          {post.slug === 'best-chile-relleno-denver' && (
-            <PostMap content={post.fullContent} />
-          )}
+          <PostMap content={post.fullContent} />
           <AuthorBio />
         </div>
       </section>
