@@ -59,13 +59,29 @@ export default function BestOfDenverPostClient() {
   // Split content into intro / #1 pick / rest for best-* posts
   const bestOfSections = React.useMemo(() => {
     if (!post || !isBestOfPost || isBakerPost) return null;
-    const parts = post.fullContent.split(/\n\n---\n\n/);
-    const firstPickIdx = parts.findIndex(p => /^###\s/.test(p.trim()));
-    if (firstPickIdx === -1) return null;
+    const content = post.fullContent;
+    const SEP = '\n\n---\n\n';
+    const HEADING = /^#{2,3}\s/;
+
+    if (content.includes(SEP)) {
+      const parts = content.split(SEP);
+      const idx = parts.findIndex(p => HEADING.test(p.trim()));
+      if (idx === -1) return null;
+      return {
+        intro: parts.slice(0, idx).join(SEP),
+        firstPick: parts[idx],
+        rest: parts.slice(idx + 1).join(SEP),
+      };
+    }
+
+    // No --- separator: split at heading boundaries (## or ###)
+    const byHeading = content.split(/\n\n(?=#{2,3} )/);
+    const headingIdx = byHeading.findIndex(p => HEADING.test(p.trim()));
+    if (headingIdx === -1) return null;
     return {
-      intro: parts.slice(0, firstPickIdx).join('\n\n---\n\n'),
-      firstPick: parts[firstPickIdx],
-      rest: parts.slice(firstPickIdx + 1).join('\n\n---\n\n'),
+      intro: byHeading.slice(0, headingIdx).join('\n\n'),
+      firstPick: byHeading[headingIdx],
+      rest: byHeading.slice(headingIdx + 1).join('\n\n'),
     };
   }, [post, isBestOfPost, isBakerPost]);
 
