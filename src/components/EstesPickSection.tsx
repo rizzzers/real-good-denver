@@ -5,6 +5,12 @@ interface Props {
 }
 
 export default function EstesPickSection({ html }: Props) {
+  // Split at the end of the h3 so heading sits beside the graphic
+  // and the body copy runs full-width below both columns
+  const splitAt = html.indexOf("</h3>");
+  const headingHtml = splitAt !== -1 ? html.slice(0, splitAt + 5) : "";
+  const bodyHtml = splitAt !== -1 ? html.slice(splitAt + 5) : html;
+
   return (
     <div className="relative mb-10 rounded-2xl overflow-hidden">
       {/* Background */}
@@ -32,36 +38,45 @@ export default function EstesPickSection({ html }: Props) {
         }}
       />
 
-      <div className="relative flex flex-col sm:flex-row gap-6 p-6 md:p-8">
-        {/* Left column: graphic only */}
-        <div className="flex-shrink-0 flex items-start justify-center sm:justify-start">
-          <img
-            src="/images/estes-picks.png"
-            alt="Estes Picks"
-            className="w-44 h-44 md:w-52 md:h-52 rounded-full object-cover"
-            style={{
-              boxShadow:
-                "0 0 0 3px #f97316, 0 0 32px rgba(249,115,22,0.4), 0 8px 30px rgba(0,0,0,0.6)",
-            }}
-          />
+      <div className="relative p-6 md:p-8">
+        {/* Header row: graphic left, badge + restaurant name right */}
+        <div className="flex flex-col sm:flex-row gap-5 mb-5">
+          {/* Left: graphic */}
+          <div className="flex-shrink-0 flex items-center justify-center sm:justify-start">
+            <img
+              src="/images/estes-picks.png"
+              alt="Estes Picks"
+              className="w-44 h-44 md:w-52 md:h-52 rounded-full object-cover"
+              style={{
+                boxShadow:
+                  "0 0 0 3px #f97316, 0 0 32px rgba(249,115,22,0.4), 0 8px 30px rgba(0,0,0,0.6)",
+              }}
+            />
+          </div>
+
+          {/* Right: badge + h3 heading */}
+          <div className="flex flex-col justify-center min-w-0">
+            <div
+              className="inline-flex self-start items-center px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest mb-3"
+              style={{
+                background: "linear-gradient(90deg, #f97316, #f59e0b)",
+                color: "#0a1628",
+              }}
+            >
+              #1 Pick
+            </div>
+            <div
+              className="post-content estes-pick-content"
+              dangerouslySetInnerHTML={{ __html: headingHtml }}
+            />
+          </div>
         </div>
 
-        {/* Right column: badge + content */}
-        <div className="flex flex-col flex-1 min-w-0">
-          <div
-            className="inline-flex self-start items-center px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest mb-3"
-            style={{
-              background: "linear-gradient(90deg, #f97316, #f59e0b)",
-              color: "#0a1628",
-            }}
-          >
-            #1 Pick
-          </div>
-          <div
-            className="post-content estes-pick-content"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
-        </div>
+        {/* Body copy: full width, same margins as rest of post */}
+        <div
+          className="post-content estes-pick-content"
+          dangerouslySetInnerHTML={{ __html: bodyHtml }}
+        />
       </div>
 
       {/* Bottom accent line */}
