@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-golf-ball-hail-anti-vax-lawsuit-parady-resigns",
+    title: "Denver this week: golf ball hail, a $4M anti-vax lawsuit, and the progressive council voice who just ran out of runway.",
+    date: "2026-06-03",
+    description: "Golf-ball hail slammed Denver on June 1, denting cars and disrupting flights, an anti-vax dating app is suing Recess Beer Garden for $4 million, and progressive councilmember Sarah Parady is resigning over an undisclosed illness. Plus three new bars open in Wash Park, on Colfax, and in RiNo, council aides move to unionize, and summer heat finally arrives.",
+    htmlFile: "/newsletter-issues/denver-golf-ball-hail-anti-vax-lawsuit-parady-resigns.html",
+  },
+  {
     slug: "denver-stadiums-nuggets-rally-lewis-capaldi-red-rocks",
     title: "Denver keeps building stadiums while the Nuggets RALLY and Lewis Capaldi heals at Red Rocks",
     date: "2026-04-29",
