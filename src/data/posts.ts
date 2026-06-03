@@ -1668,6 +1668,88 @@ The smashburger in Denver is not one thing. It's a late-night Sam's No. 3 situat
     image: "/images/best-smashburger-denver.png",
     featured: false,
     tags: ["Smashburger", "Burgers", "Best Of", "Denver Restaurants"],
+  },
+  {
+    id: 23,
+    slug: "best-smashburger-denver",
+    title: "Best Smashburger in Denver: A Greasy Investigation",
+    excerpt: "Denver has strong opinions about a lot of things: snow tires, the Broncos, whether Cheesman Park is a neighborhood or just vibes. But the best smashburger in Denver? That's where people actually fight.",
+    fullContent: `Denver has strong opinions about a lot of things. Snow tires. The Broncos offensive line. Whether Cheesman Park counts as a neighborhood or just a vibe. But quietly, consistently, on threads that pop up every few months like clockwork, the question of the best smashburger in Denver generates a specific kind of heat. Not argument-heat. More like everyone-has-a-horse-in-this-race heat. The smash technique, for the uninitiated, is not complicated: ball of beef, screaming hot flat-top, aggressive press, Maillard reaction goes absolutely feral, you get a lacy-edged crispy patty that tastes like it was engineered by someone who genuinely cared whether you had a good Tuesday.
+
+Here's the thing Denver has figured out that a lot of cities haven't: the smashburger isn't a lesser burger. It's not what you order when you can't afford a steakhouse patty. It's its own category, and it demands its own criteria. Crust-to-interior ratio. Cheese melt. Bun integrity under pressure. Sauce that earns its place. Denver has some genuinely excellent answers to these questions, and some places that are still figuring it out.
+
+Before we get into the list, let's be honest about what this investigation is and isn't. This is about the smash style specifically, which means thick pub burgers and wagyu towers are sitting this one out. And one item in the restaurant data above is very obviously a dispensary and not a burger spot, so we're skipping that with zero explanation required. What's left is a pretty solid tour through Denver's flat-top burger landscape.
+
+---
+
+### **[Steuben's Uptown](http://www.steubens.com/)** — The Anchor
+
+523 E 17th Ave, Denver, CO 80203 (Uptown) | $$ | Reservations: No
+
+If you ask around on r/Denver about where to take someone who's visiting and needs to understand the city in a single meal, Steuben's comes up constantly. The burger here, a smashed and griddle-cooked situation on a soft bun, is the kind of thing that locals treat like a civic institution. It's not flashy. It doesn't need to be. The crust is real, the cheese pull is generous, and the whole thing holds together with the confidence of a place that has been doing this correctly for years. Locals on r/DenverFood regularly point to this as a baseline for what a reliable Denver smashburger should feel like. Sometimes reliable is the highest compliment.
+
+---
+
+### **[Ace Eat Serve](http://www.aceeatserve.com/)** — The Underdog That Keeps Winning
+
+501 E 17th Ave, Denver, CO 80203 (Uptown) | $$ | Reservations: No
+
+You know it as the ping pong bar. You maybe forgot it had a kitchen. That would be a mistake. The smashburger at Ace is one of those quiet overachievements that Denver does well, and r/DenverFood regulars who've stumbled onto it tend to be disproportionately enthusiastic in their write-ups. The char is aggressive in the best way. The cheese situation is correct. It's a bar burger in the most flattering possible sense, and the fact that you can eat it while watching someone throw a paddle at their friend's head somehow makes it better.
+
+---
+
+### ****TAG Burger Bar**** — Stadiums and Sincerity
+
+**TAG Burger Bar**
+10155 E 29th Dr Suite 160, Denver, CO 80238 (Stapleton/Central Park) | $$ | Reservations: No
+
+Out near the planned-community stretch of Central Park, TAG Burger Bar is doing something earnest and pretty technically sound with the smash format. The crust is legitimate. The patty is thin enough to get full caramelization without leaving you with something that tastes more like steam than beef. It lacks the gritty neighborhood atmosphere of some entries on this list, and there are threads on r/Denver where people debate whether the location hurts it by association with the strip-mall energy of the surrounding area. It shouldn't. The burger is good. The zip code is not its fault.
+
+---
+
+### ****Sam's No. 3**** — History With a Side of Grease
+
+**Sam's No. 3**
+1500 Curtis Street, Denver, CO 80202 (Downtown) | $ | Reservations: No
+
+Sam's No. 3 is old Denver in the best and sometimes most chaotic sense. The menu is enormous and slightly overwhelming, the service is diner-fast and diner-efficient, and the smashburger here comes out with the kind of greasy confidence you only develop after decades of feeding the city. This is not a precious burger. It is not asking for your respect. It is simply showing up, doing the work, and tasting exactly like what you want at 11am on a Saturday when your judgment is impaired in various directions. A perennial recommendation in well-upvoted threads on r/Denver for exactly this use case.
+
+---
+
+### **[Atomic Cowboy home of Denver Biscuit Co & Fat Sully's NY Pizza](https://www.theatomiccowboy.com/locations)** — The Colfax Wildcard
+
+3237 E Colfax Ave, Denver, CO 80206 (East Colfax) | $$ | Reservations: No
+
+Everything about this place is maximalist, including the name, and the burger follows suit. It's griddled, it's messy, it's Colfax in burger form, which means there's a slight unhinged energy to it that you either find charming or exhausting. The smash technique is solid. The bun selection here is doing more work than it gets credit for. If you're already on Colfax for biscuits and somehow have room for a second visit or a very large stomach, the burger is worth your attention.
+
+---
+
+### **[Watercourse Foods](https://www.watercoursefoods.com/)** — The Plant-Based Argument
+
+837 E 17th Ave, Denver, CO 80218 (Uptown) | $$ | Reservations: Recommended
+
+Listen. I know what you're thinking. But Watercourse has been making Denver carnivores reconsider their assumptions for years, and the smash-style veggie burger here is genuinely good by any standard, not just the plant-based curve. The crust is real, which is the thing that usually fails in this category. The toppings are thoughtful. r/DenverFood has had more than a few threads where non-vegans admit, with appropriate reluctance, that Watercourse's burger is something they'd order again without being dragged to. That's the endorsement.
+
+---
+
+### **[Smashburger](https://smashburger.com/locations/us/co/westminster/6415-w-104th?utm_medium=organic&utm_source=local&utm_campaign=googlelistings&utm_content=website&utm_term=1651)** — Yes, the Chain. You Asked.
+
+6415 W 104th Ave #100, Westminster, CO 80020 (Westminster) | $ | Reservations: No
+
+The franchise that named the technique. Founded in Denver. And honestly? Fine. More than fine on the right day. The smash here is technically competent, the Smash Sauce does its job, and if you're in Westminster and need a burger with no complications in your life, there's no shame in it. r/Denver has the appropriate mixed feelings about recommending a chain in a best-of list, and those feelings are valid. But the origin story matters a little, and the execution is consistent enough that leaving it off entirely would be a lie.
+
+---
+
+**The Verdict**
+
+Denver's smashburger scene is better than people give it credit for, mostly because people confuse the chain association with the technique and dismiss both. Don't do that. Steuben's is your safest bet for a reliable, no-drama smashburger that captures something genuinely Denver about the whole enterprise. Ace Eat Serve is your move if you want to be slightly surprised. Sam's No. 3 is where you go when you're hungry and done thinking. And the Watercourse argument is real, even if you weren't expecting it. Denver doesn't owe you a simple answer on this one, and frankly that's part of why it's worth asking.`,
+    category: "food",
+    author: "Ryan Estes",
+    date: "2026-06-03",
+    readTime: "6 min read",
+    image: "/images/best-smashburger-denver.png",
+    featured: false,
+    tags: ["Smashburger", "Burgers", "Best Of", "Denver Restaurants"],
   }
 ];
 
