@@ -143,7 +143,7 @@ const CreatorBios = () => {
         <h2 className="text-3xl md:text-5xl font-bold text-foreground">Built by Denverites.</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-        {/* Tom Donahue — left */}
+        {/* Tom Donahue, left */}
         <div className="space-y-5">
           <div>
             <h3 className="text-2xl font-bold text-foreground mb-1">Tom Donahue</h3>
@@ -166,7 +166,7 @@ const CreatorBios = () => {
           </div>
         </div>
 
-        {/* Ryan Estes — right */}
+        {/* Ryan Estes, right */}
         <div className="space-y-5">
           <div>
             <h3 className="text-2xl font-bold text-foreground mb-1">Ryan Estes</h3>
@@ -174,10 +174,16 @@ const CreatorBios = () => {
           </div>
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              Born and raised in Denver, Ryan is a founder, investor, and creator with a bias toward action and a deep loyalty to his city. He co-created Real Good Denver to give Denver the platform it deserves: loud, honest, and unapologetically local.
+              I started Real Good Denver because I wanted one place that made Denver feel more connected. A publication focused on the people, businesses, events, restaurants, neighborhoods, and stories that give the city its energy.
             </p>
             <p>
-              Off the mic, Ryan is an avid sportsman who trains in Brazilian Jiu-Jitsu (purple belt) and capoeira (yellow cord). He volunteers as a finance mentor and alongside his team contributes over 300 hours annually to local non-profits.
+              I&rsquo;ve spent the last decade building media companies, hosting podcasts, interviewing founders, and helping brands grow through storytelling and community.
+            </p>
+            <p>
+              I was born and raised in Denver (Asbury, Whittier, Baker, South, Metro, CU - Sko Buffs) and have bounced around the neighborhoods (DU, Observatory, S Broadway, Sunnyside, Sloans Lake) with my wife and two kids. I care deeply about local culture, entrepreneurship, the creative community, and the small moments that make cities feel alive.
+            </p>
+            <p>
+              Real Good Denver is part city guide, part community bulletin board, and part ongoing conversation about what&rsquo;s happening across Denver right now.
             </p>
           </div>
           <div className="flex flex-wrap gap-2 pt-1">
