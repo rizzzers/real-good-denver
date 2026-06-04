@@ -283,6 +283,16 @@ export const communityEvents: CommunityEvent[] = [
       "Cherry Creek's destination for Latin culture and cocktails just installed brand-new big-screen TVs for the World Cup. Ay Papi will stream every match during operating hours and open early for select games. Limited-time drinks include The Ti Breaker (Ti punch with St. Benevolence Haitian Rum), Bicycle Kick (Carajillo-inspired with Mexican Coke, Licor 43, and Mr. Black), and The Pitch (Casamigos Margaritas), plus beer and cocktail pitcher specials. Reservations encouraged at aypapidenver.com.",
   },
   {
+    id: "number-thirty-eight-world-cup",
+    title: "World Cup Watch Parties at Number Thirty Eight",
+    date: "2026-06-11",
+    time: "1:00 PM",
+    location: "Number Thirty Eight, 3560 Chestnut Place, Denver CO 80216",
+    description:
+      "Number Thirty Eight is hosting World Cup watch parties all tournament long in partnership with Mile High Sports, showing every USA, Mexico, Germany, Japan, and Brazil match, plus the semi-finals and the final, with full game audio. Watch parties are presented by Truly, Modelo, Paulaner, and Kirin Ichiban, each with giveaways, samples, and activations. The venue has 10 indoor TVs, two outdoor TVs, and a 220-inch outdoor LED wall. The Gameday Party Pack ($138) reserves a table for up to 10 guests and includes 3 lbs of buffalo wings, a 24-inch party pizza, chips and salsa, and a choice of two add-ons: a High Noon bucket, a pitcher of any Breck beer, or a pitcher of Bud Light.",
+    link: "https://www.nmbr38.com/world-cup",
+  },
+  {
     id: "mister-oso-boulder-world-cup",
     title: "World Cup Watching at Mister Oso Boulder",
     date: "2026-06-11",
