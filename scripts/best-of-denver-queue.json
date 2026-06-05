@@ -85,8 +85,9 @@
       "Denver Restaurants"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": null
+    "status": "published",
+    "season": null,
+    "publishedAt": "2026-06-05T16:58:50.149Z"
   },
   {
     "slug": "best-dive-bar-denver",
@@ -676,10 +677,10 @@
   },
   {
     "slug": "best-apres-ski-bar-denver",
-    "title": "Best Apr\u00e8s-Ski Bar Within Driving Distance of Denver",
+    "title": "Best Après-Ski Bar Within Driving Distance of Denver",
     "category": "nightlife",
     "tags": [
-      "Apr\u00e8s-Ski",
+      "Après-Ski",
       "Best Of",
       "Denver Bars",
       "Winter"

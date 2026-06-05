@@ -1684,6 +1684,102 @@ Denver's smashburger scene is better than people give it credit for, mostly beca
     image: "/images/best-smashburger-denver.png",
     featured: false,
     tags: ["Smashburger", "Burgers", "Best Of", "Denver Restaurants"],
+  },
+  {
+    id: 24,
+    slug: "best-cheese-pizza-denver",
+    title: "Best Cheese Pizza in Denver (For People Who Don't Need 14 Toppings to Feel Alive)",
+    excerpt: "There's a version of you that has very strong opinions about cheese pizza—maybe you developed them in childhood, or maybe you just got tired of scraping sun-dried tomatoes off your dinner. Either way, you're here: you want cheese, sauce, and a crust worth respecting.",
+    fullContent: `There's a version of you that has very strong opinions about cheese pizza. Maybe you developed them in childhood, maybe it was a particularly revelatory drunk slice at 2am, maybe you just got tired of scraping sun-dried tomatoes and truffle oil off your dinner. Either way, you're here. You want cheese. Maybe some sauce. A crust worth respecting. That's the whole assignment.
+
+Denver has spent the last decade or so becoming a legitimately serious pizza city. Neapolitan wood-fired spots, New York-style foldable slabs, deep dish for people who miss Chicago, tavern-cut squares for people who've accepted that Chicago-style pizza is actually casserole. Through all of it, the cheese pizza has remained the truth-teller. You can't hide behind toppings. You can't blame the soppressata if the crust is bad. It's just dough, sauce, and cheese, and either you've got it or you don't.
+
+Locals on r/DenverFood have made this argument more than once: a place that can't do a basic cheese pie with conviction probably can't do anything else well either. The cheese pizza is the baseline. Here's where Denver and its surroundings are clearing it.
+
+---
+
+### **[Marco's Coal Fired | Ballpark](https://www.marcoscfp.com/)**
+
+2129 Larimer St, Denver, CO 80205 (Ballpark) | $$ | Reservations: Recommended
+
+Marco's has been doing Neapolitan pizza in Denver long enough to have earned a real reputation, and the cheese pizza is where that reputation was built. The coal-fired oven runs absurdly hot, which means you're getting a crust with actual char on the underside, a soft leopard-spotted top, and that slightly chewy, slightly airy interior that you only get when someone knows what they're doing. The mozzarella here is fresh, the sauce is simple and bright, and nothing is overdone. This is the kind of pizza that makes you understand why Italians get annoyed when Americans explain pizza to them. r/Denver regulars have pointed to Marco's as the standard-setter for Neapolitan in the city, and on the cheese pie specifically, it's hard to argue with them.
+
+---
+
+### **[Angelo's Taverna](http://angelosdenver.com/)**
+
+620 E 6th Ave, Denver, CO 80203 (Capitol Hill) | $$ | Reservations: Yes
+
+Angelo's is a neighborhood spot in the best possible way. The kind of place that feels like it's been there forever, slightly worn around the edges, and absolutely not trying to impress you with its interior design. What it does instead is make solid, honest pizza in a thin-crust style that holds up without getting floppy. The cheese pizza gets a generous application of mozzarella, good sauce with actual herb presence, and a crust that has some snap to it. This is weeknight pizza. Eat-it-in-your-car-on-the-way-home pizza. It doesn't need to be more than that, and it isn't.
+
+---
+
+### ****Denver Pizza Company****
+
+1116 Broadway, Denver, CO 80203 (Golden Triangle) | $ | Reservations: No
+
+**Denver Pizza Company** is a low-frills, high-conviction pizza operation that doesn't particularly care whether you find the aesthetic charming. The cheese pizza is generous, the price is honest, and the slice-shop energy is real. This is the kind of place r/DenverFood threads about when someone asks where to get pizza by the slice that won't disappoint. The sauce has some sweetness to it, the cheese ratio is properly excessive, and the crust is somewhere between New York and Denver in a way that mostly works. Not the most refined pie on this list. Among the most satisfying.
+
+---
+
+### **[Esters Virginia Village](https://www.estersdenver.com/)**
+
+1950 S Holly St, Denver, CO 80222 (Virginia Village) | $$ | Reservations: No
+
+Esters is primarily known as a craft beer destination, and that reputation is deserved. But the pizza program here is serious and tends to get undersold because of the beer situation. The cheese pizza has a thin, cracker-like crust with just enough give, quality mozzarella, and a sauce that doesn't try to steal the show. The neighborhood location in Virginia Village means you're going to be sitting next to regulars who've been coming here for years, which is exactly the energy you want around a good cheese pizza. Pair it with one of their local pours and reconsider every food decision you made in your twenties.
+
+---
+
+### **[Watercourse Foods](https://www.watercoursefoods.com/)**
+
+837 E 17th Ave, Denver, CO 80218 (Uptown) | $$ | Reservations: Recommended
+
+Watercourse is an all-vegan restaurant that has been making Denver's plant-forward crowd very happy for a long time, and if you write off the cheese pizza here because of the dairy situation, you are making a mistake. The vegan cheese they're using actually melts, actually browns, and actually behaves like cheese on a hot pie instead of doing that sad plastic thing that lesser vegan cheese does. The crust is good, the sauce has depth, and the whole thing comes together in a way that impresses people who didn't expect to be impressed. r/Denver threads on vegan dining in the city consistently surface Watercourse as the spot that converts skeptics, and the pizza is a big reason why.
+
+---
+
+### ****Lechuga's Italian Restaurant****
+
+3609 Tejon St, Denver, CO 80211 (Highland) | $$ | Reservations: Yes
+
+**Lechuga's Italian Restaurant** is the kind of old-school neighborhood Italian spot that Denver needs more of and doesn't always appreciate enough while it has them. The cheese pizza here is red sauce Italian-American in the best tradition. Thick enough to matter, cheese browned properly at the edges, sauce that tastes like someone put time into it. This isn't a trendy spot. The decor isn't going to make your Instagram feed. What it will do is give you a cheese pizza that feels genuinely earned and remind you why this style of pizza got so many people through so many decades before the wood-fired Neapolitan craze arrived.
+
+---
+
+### **[Vital Root](https://ediblebeats.com/restaurants/vital-root/)**
+
+3915 Tennyson St, Denver, CO 80212 (Berkeley) | $$ | Reservations: Recommended
+
+Another entry from the Edible Beats universe, Vital Root on Tennyson operates on the plant-based side of things with a lot more style and intention than most spots in that lane. The pizza here leans creative, but the cheese pizza keeps it grounded, with a well-developed crust, good acid in the sauce, and cheese that performs. The Tennyson Street location means you're surrounded by people who came here on purpose and know what they want, which gives the whole experience a comfortable, intentional feeling. Worth noting for the cheese pizza specifically if you want something plant-based that doesn't feel like a compromise.
+
+---
+
+### **[Steuben's Uptown](http://www.steubens.com/)**
+
+523 E 17th Ave, Denver, CO 80203 (Uptown) | $$ | Reservations: Recommended
+
+Steuben's is primarily an American comfort food institution, but the pizza here is a quiet little secret that the regulars guard with mild territorial instinct. The cheese pizza is thin, simple, and properly executed, with a crust that gets genuinely crispy without going cardboard, and a mozzarella application that hits the right balance between generous and restrained. It's the kind of pizza you order because you trust the kitchen, and it confirms that trust every single time.
+
+---
+
+### **[Beau Jo's Arvada](https://www.beaujos.com/locations/arvada/)**
+
+7525 W 53rd Ave, Arvada, CO 80002 (Arvada) | $$ | Reservations: Yes
+
+Beau Jo's is a Colorado institution and it requires acknowledgment even when you're talking about cheese pizza, which is not where the Colorado Mountain Pie style traditionally shines. The thick, braided crust is iconic. The honey-dipping tradition is divisive. The cheese pizza here is a different animal from the wood-fired and thin-crust entries on this list, piled high with mozzarella and built for people who want pizza as an event rather than a snack. A well-upvoted thread on r/Denver once landed on Beau Jo's as the quintessential Colorado pizza experience regardless of personal pizza philosophy, and that's probably right. It's not for every mood, but when it's for your mood, there's nothing else like it in the state.
+
+---
+
+**The Verdict**
+
+Denver's cheese pizza scene is stronger than most people are giving it credit for, mostly because everyone's busy talking about the toppings. Marco's is the technical peak. Denver Pizza Company is the honest workingman's slice. Lechuga's is the old-school comfort anchor. Watercourse and Vital Root are doing things with plant-based cheese that should be embarrassing the dairy spots. And Beau Jo's remains a Colorado rite of passage whether you love it or need to be talked into it. Strip everything down to dough, sauce, and cheese, and you've got a city that knows what it's doing.`,
+    category: "food",
+    author: "Ryan Estes",
+    date: "2026-06-05",
+    readTime: "7 min read",
+    image: "/images/best-cheese-pizza-denver.png",
+    featured: false,
+    tags: ["Pizza", "Cheese Pizza", "Best Of", "Denver Restaurants"],
   }
 ];
 
