@@ -27,6 +27,7 @@ interface QueueEntry {
   scheduledFor: string | null;
   status: "pending" | "published" | "failed";
   season: "summer" | "fall" | "winter" | null;
+  publishedAt?: string;
 }
 
 // ---------------------------------------------------------------------------
@@ -97,17 +98,35 @@ function runScript(
 
 async function main() {
   const dryRun = process.argv.includes("--dry-run");
+  // Catch-up runs pass this so a second daily cron only publishes when the
+  // primary run did not (e.g. GitHub dropped or badly delayed the first job).
+  const skipIfPublishedToday = process.argv.includes("--skip-if-published-today");
   const today = new Date();
 
   const queuePath = path.join(__dirname, "best-of-denver-queue.json");
   const queue: QueueEntry[] = JSON.parse(fs.readFileSync(queuePath, "utf-8"));
 
+  const log = createLogger("run");
+
+  if (skipIfPublishedToday) {
+    const todayStr = today.toISOString().split("T")[0];
+    const already = queue.find(
+      (e) => e.status === "published" && e.publishedAt?.split("T")[0] === todayStr
+    );
+    if (already) {
+      log(
+        `Catch-up run: "${already.title}" already published today ` +
+          `(${already.publishedAt}). Nothing to do.`
+      );
+      process.exit(0);
+    }
+    log("Catch-up run: nothing published yet today. Proceeding with publish.");
+  }
+
   // Find the first pending entry that is in-season
   const next = queue.find(
     (e) => e.status === "pending" && isEntrySchedulable(e, today)
   );
-
-  const log = createLogger(next?.slug ?? "no-post");
 
   if (!next) {
     const season = getCurrentSeason(today);

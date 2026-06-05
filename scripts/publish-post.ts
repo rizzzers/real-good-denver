@@ -199,8 +199,11 @@ async function main() {
     appendPostToFile(post, dryRun);
 
     if (!dryRun) {
-      gitCommitAndPush(post.title);
+      // Mark the queue entry published BEFORE committing, so the status change
+      // is included in the same commit. Otherwise the queue stays "pending" in
+      // the repo and the next run republishes the same post.
       markPublished(slug);
+      gitCommitAndPush(post.title);
       console.log(`\n[publish-post] Done. "${post.title}" is live.`);
     } else {
       console.log(

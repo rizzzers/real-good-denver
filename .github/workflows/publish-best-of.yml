@@ -2,10 +2,15 @@ name: Publish Best of Denver Post
 
 on:
   schedule:
-    # 9:00 AM Mountain Daylight Time = 15:00 UTC (MDT, used May-Nov)
-    # 9:00 AM Mountain Standard Time = 16:00 UTC (MST, used Nov-Mar)
-    # Using 15:00 UTC to hit 9am MDT in summer; runs at 8am MST in winter (close enough)
-    - cron: "0 15 * * 1,3,5"
+    # Primary run: ~9:27 AM Mountain Daylight Time (15:27 UTC).
+    # Offset off the top of the hour on purpose: GitHub's cron scheduler is
+    # heavily contended at :00 and was delaying on-the-hour runs by hours or
+    # dropping them entirely. A minute past the hour dodges most of that.
+    - cron: "27 15 * * 1,3,5"
+    # Catch-up run: ~1:27 PM MDT (19:27 UTC). Publishes ONLY if no post went
+    # out earlier today (run-publish.ts --skip-if-published-today), so a
+    # dropped/late primary run still gets a post out the same day.
+    - cron: "27 19 * * 1,3,5"
 
   # Allow manual trigger from GitHub Actions UI for testing
   workflow_dispatch:
@@ -51,10 +56,16 @@ jobs:
           GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
         run: |
           DRY_RUN="${{ github.event.inputs.dry_run }}"
+          SCHEDULE="${{ github.event.schedule }}"
+          FLAGS=""
+          # The later catch-up cron only publishes if the primary run didn't.
+          if [ "$SCHEDULE" = "27 19 * * 1,3,5" ]; then
+            FLAGS="--skip-if-published-today"
+          fi
           if [ "$DRY_RUN" = "true" ]; then
-            npx tsx scripts/run-publish.ts --dry-run
+            npx tsx scripts/run-publish.ts --dry-run $FLAGS
           else
-            npx tsx scripts/run-publish.ts
+            npx tsx scripts/run-publish.ts $FLAGS
           fi
 
       - name: Upload logs as artifact

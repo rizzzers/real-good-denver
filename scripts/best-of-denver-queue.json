@@ -70,8 +70,9 @@
       "Denver Restaurants"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": null
+    "status": "published",
+    "season": null,
+    "publishedAt": "2026-06-03T18:38:54.000Z"
   },
   {
     "slug": "best-cheese-pizza-denver",
