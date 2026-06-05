@@ -1684,6 +1684,79 @@ Denver's smashburger scene is better than people give it credit for, mostly beca
     image: "/images/best-smashburger-denver.png",
     featured: false,
     tags: ["Smashburger", "Burgers", "Best Of", "Denver Restaurants"],
+  },
+  {
+    id: 24,
+    slug: "best-smashburger-denver",
+    title: "Best Smashburger in Denver: A Greasy Investigation",
+    excerpt: "Let's get something straight: a smashburger isn't just a burger that got sat on. It's a technique, a philosophy, a greasy covenant between you and a flat-top griddle that changes everything.",
+    fullContent: `Let's get something straight before we go any further. A smashburger is not just a burger that got sat on. It's a technique, a philosophy, a greasy covenant between you and a flat-top griddle. You take a ball of beef, you press it hard against screaming-hot cast iron, and what comes out the other side is thin, crispy-edged, deeply caramelized, and fundamentally better than whatever thick-patty monstrosity your uncle insists on at every cookout. Denver has quietly developed some serious opinions about this format, and those opinions deserve investigation.
+
+Here's the honest truth: the smashburger scene in Denver is uneven. There are spots getting it exactly right, spots riding the trend without understanding it, and at least one place on this list that has no business being here but has been making people happy for decades anyway. We're not here to gatekeep. We're here to rank.
+
+One thing worth noting before you click away: the corporate chain called **[Smashburger](https://smashburger.com/locations/us/co/westminster/6415-w-104th?utm_medium=organic&utm_source=local&utm_campaign=googlelistings&utm_content=website&utm_term=1651)**, located at 6415 W 104th Ave #100, Westminster, CO 80020, was founded in Denver back in 2007 and deserves at minimum a footnote in this history. It's fine. It's the Applebee's of this genre. We are not here to talk about it further.
+
+---
+
+### **[The Cherry Cricket](https://cherrycricket.com/)** — The Loud, Beloved Anchor
+2641 E 2nd Ave, Denver, CO 80206 (Cherry Creek) | $$ | Reservations: No
+
+The Cricket is an institution, full stop. It's loud, it's old, it's packed on weekends, and the burgers are enormous and unapologetically greasy. This is not a precision smashburger operation. The patties are thicker than the strict technique demands. But the flat-top execution is solid, the char is real, and the toppings list reads like a choose-your-own-adventure novel. Locals on r/Denver have been recommending this place to newcomers for years as the foundational Denver burger experience, and they're not wrong. It's earned its reputation through sheer repetition and consistency.
+
+---
+
+### **[Hopdoddy Burger Bar](https://www.hopdoddy.com/locations/unionstation)** — Technically Proficient, Spiritually Corporate
+1747 Wynkoop St, Denver, CO 80202 (Union Station) | $$ | Reservations: No
+
+Look, Hopdoddy understands the smash. The technique is there. The crust on the patty is real. The buns are good. The problem is that eating here feels like eating in an airport that has been tastefully decorated to feel local. The Union Station location is convenient and the burgers are genuinely better than most. r/DenverFood regulars tend to acknowledge Hopdoddy as a solid option while also gently suggesting you could do better if you tried. They're right. But if you're already in LoDo and hungry, don't be a hero. Just go.
+
+---
+
+### **[Steuben's Uptown](http://www.steubens.com/)** — Comfort Food Done Right
+523 E 17th Ave, Denver, CO 80203 (Uptown) | $$ | Reservations: Recommended
+
+Steuben's is an American comfort food diner that happens to do a very good burger. The smash here is unpretentious in the best possible way. Thin patty, good melt on the cheese, soft bun. Nobody is going to write a think piece about it. You're going to eat it and feel correct about your life. The rest of the menu, the mac and cheese, the onion rings, the cocktails, gives this place a full-meal gravity that most burger spots can't match. A well-upvoted thread on r/Denver described it as the place you bring people when you want to show off Denver without trying too hard. That lands.
+
+---
+
+### **[The Original Chubby's Denver](https://theoriginalchubbysdenver.com/)** — Not a Smashburger. Doesn't Care. Won't Apologize.
+1231 W 38th Ave, Denver, CO 80211 (Sunnyside) | $ | Reservations: No
+
+We are including Chubby's because to not include Chubby's in any Denver burger conversation is dishonest. Is it a smashburger? No. Is it a burger experience that will alter your brain chemistry at 1am after a long night? Absolutely yes. The green chile here is not optional. It is the entire point. The patties are loose, the operation is chaotic in the best way, and you're going to eat standing in a parking lot and feel like everything is going to be okay. Respect the institution.
+
+---
+
+### **[Linger](https://ediblebeats.com/restaurants/linger/)** — Smash with a View and an Agenda
+2030 W 30th Ave, Denver, CO 80211 (LoHi) | $$$ | Reservations: Recommended
+
+Linger is a globally-inspired small plates restaurant built inside a former mortuary, which is not the weirdest thing about it. The burger here, when it appears on the menu, is not a traditional smashburger, but the flat-top technique is present and the execution is sharp. The rooftop patio has one of the better views in Denver. You're paying for the atmosphere and the vibe as much as the food, which is fine as long as you know that going in. r/DenverFood has a complicated relationship with Linger, the usual complaints about price-to-portion ratio, but the burger consistently avoids that criticism.
+
+---
+
+### **[Watercourse Foods](https://www.watercoursefoods.com/)** — The Vegan Wildcard That Actually Works
+837 E 17th Ave, Denver, CO 80218 (Uptown) | $$ | Reservations: Recommended
+
+We know. You came here for beef. But Watercourse has been making a plant-based smash-style burger that genuinely earns its place on this list, and ignoring it would be editorial cowardice. The crust on the patty is real, the melt situation is handled correctly, and the whole thing tastes like something you chose rather than something you settled for. If you have someone in your crew who doesn't eat meat, stop making them sad at other burger joints and just come here. Everybody wins.
+
+---
+
+### **[Ted's Montana Grill](https://www.tedsmontanagrill.com/tmg015.html)** — The Bison Detour Worth Taking
+16495 E 40th Cir, Aurora, CO 80011 (Aurora) | $$$ | Reservations: Yes
+
+You're going to drive to Aurora for this, which already requires commitment. But Ted's serves bison burgers, and bison smashes against a flat-top in a way that produces something leaner, slightly sweeter, and more interesting than standard beef. The chain is owned by Ted Turner, which is a sentence that exists. The burger is good. The drive is inconvenient. Only you can decide if that math works for your Saturday.
+
+---
+
+**The Verdict**
+
+The Cherry Cricket is the safest answer if someone puts a gun to your head and says name a Denver smashburger right now. But the more honest answer is that Denver's best smash experiences are scattered across formats and neighborhoods, from the plant-based commitment at Watercourse to the green chile chaos at Chubby's. The technique matters. The beef quality matters. The flat-top temperature matters. What you don't need is a $22 burger at a place that uses the word "artisanal" without irony. Denver's smash scene is greasier and more democratic than that, and that's exactly why it works.`,
+    category: "food",
+    author: "Ryan Estes",
+    date: "2026-06-05",
+    readTime: "5 min read",
+    image: "/images/best-smashburger-denver.png",
+    featured: false,
+    tags: ["Smashburger", "Burgers", "Best Of", "Denver Restaurants"],
   }
 ];
 
