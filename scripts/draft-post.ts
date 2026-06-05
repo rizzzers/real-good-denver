@@ -856,35 +856,66 @@ Under 200 characters. Output ONLY the prompt.`,
 
   console.log(`[image] Prompt: ${imagePrompt}`);
 
-  try {
-    const openai = new OpenAI({ apiKey: openaiKey });
-    const response = await openai.images.generate({
-      model: "gpt-image-1",
-      prompt: imagePrompt,
-      n: 1,
-      size: "1536x1024",
-      quality: "medium",
-    } as Parameters<typeof openai.images.generate>[0]);
+  const openai = new OpenAI({ apiKey: openaiKey });
+  const maxAttempts = 4;
+  let lastErr: unknown;
 
-    const imageData = response.data[0];
-    if (!imageData) throw new Error("No image data returned");
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      const response = await openai.images.generate({
+        model: "gpt-image-1",
+        prompt: imagePrompt,
+        n: 1,
+        size: "1536x1024",
+        quality: "medium",
+      } as Parameters<typeof openai.images.generate>[0]);
 
-    if ((imageData as any).b64_json) {
-      const buffer = Buffer.from((imageData as any).b64_json as string, "base64");
-      fs.writeFileSync(imagePath, buffer);
-      console.log(`[image] Saved (base64) → ${imagePath}`);
+      const imageData = (response as { data?: any[] }).data?.[0];
+      if (!imageData) throw new Error("No image data returned");
+
+      if ((imageData as any).b64_json) {
+        const buffer = Buffer.from((imageData as any).b64_json as string, "base64");
+        fs.writeFileSync(imagePath, buffer);
+      } else {
+        const imgUrl: string | null = (imageData as any).url ?? null;
+        if (!imgUrl) throw new Error("No URL or base64 in response");
+        await downloadFile(imgUrl, imagePath);
+      }
+
+      // Verify a real file actually landed before letting the post reference it.
+      const size = fs.existsSync(imagePath) ? fs.statSync(imagePath).size : 0;
+      if (size < 10_000) {
+        throw new Error(`Image file missing or too small (${size} bytes)`);
+      }
+
+      console.log(
+        `[image] Saved → ${imagePath} (${size} bytes, attempt ${attempt}/${maxAttempts})`
+      );
       return publicPath;
+    } catch (err) {
+      lastErr = err;
+      console.error(`[image] Attempt ${attempt}/${maxAttempts} failed: ${err}`);
+      // Remove any partial/corrupt file so the next attempt (or the publish-time
+      // existence check) cannot be fooled by leftover bytes.
+      try {
+        if (fs.existsSync(imagePath)) fs.unlinkSync(imagePath);
+      } catch {
+        // best effort
+      }
+      if (attempt < maxAttempts) {
+        const delayMs = 3000 * attempt; // 3s, 6s, 9s backoff
+        console.log(`[image] Retrying in ${delayMs / 1000}s...`);
+        await new Promise((r) => setTimeout(r, delayMs));
+      }
     }
-
-    const imgUrl: string | null = (imageData as any).url ?? null;
-    if (!imgUrl) throw new Error("No URL or base64 in response");
-    await downloadFile(imgUrl, imagePath);
-    console.log(`[image] Saved (URL) → ${imagePath}`);
-    return publicPath;
-  } catch (err) {
-    console.error(`[image] Error: ${err}`);
-    return publicPath;
   }
+
+  // Every attempt failed. Throw instead of returning a dangling path, so the
+  // draft never gets built pointing at a missing image. run-publish leaves the
+  // queue entry pending and the next scheduled run retries from scratch.
+  throw new Error(
+    `Failed to generate hero image for "${slug}" after ${maxAttempts} attempts: ${lastErr}`
+  );
 }
 
 // ---------------------------------------------------------------------------
