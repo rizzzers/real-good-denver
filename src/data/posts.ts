@@ -1689,7 +1689,7 @@ Denver's smashburger scene is better than people give it credit for, mostly beca
     id: 24,
     slug: "best-cheese-pizza-denver",
     title: "Best Cheese Pizza in Denver (For People Who Don't Need 14 Toppings to Feel Alive)",
-    excerpt: "There's a version of you that has very strong opinions about cheese pizza—maybe you developed them in childhood, or maybe you just got tired of scraping sun-dried tomatoes off your dinner. Either way, you're here: you want cheese, sauce, and a crust worth respecting.",
+    excerpt: "There's a version of you that has very strong opinions about cheese pizza, maybe you developed them in childhood, or maybe you just got tired of scraping sun-dried tomatoes off your dinner. Either way, you're here: you want cheese, sauce, and a crust worth respecting.",
     fullContent: `There's a version of you that has very strong opinions about cheese pizza. Maybe you developed them in childhood, maybe it was a particularly revelatory drunk slice at 2am, maybe you just got tired of scraping sun-dried tomatoes and truffle oil off your dinner. Either way, you're here. You want cheese. Maybe some sauce. A crust worth respecting. That's the whole assignment.
 
 Denver has spent the last decade or so becoming a legitimately serious pizza city. Neapolitan wood-fired spots, New York-style foldable slabs, deep dish for people who miss Chicago, tavern-cut squares for people who've accepted that Chicago-style pizza is actually casserole. Through all of it, the cheese pizza has remained the truth-teller. You can't hide behind toppings. You can't blame the soppressata if the crust is bad. It's just dough, sauce, and cheese, and either you've got it or you don't.

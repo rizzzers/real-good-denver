@@ -48,6 +48,24 @@ interface QueueEntry {
 }
 
 // ---------------------------------------------------------------------------
+// House style: no em dashes, ever (also enforced by ESLint on src/). The model
+// keeps generating them, so replace every em dash with a comma before the post
+// is written to posts.ts. Collapses surrounding spaces so " — " and "x—y" both
+// become a clean comma.
+// ---------------------------------------------------------------------------
+
+function stripEmDashes(post: Post): Post {
+  const fix = (s: string) => s.replace(/\s*—\s*/g, ", ");
+  return {
+    ...post,
+    title: fix(post.title),
+    excerpt: fix(post.excerpt),
+    fullContent: fix(post.fullContent),
+    tags: post.tags.map(fix),
+  };
+}
+
+// ---------------------------------------------------------------------------
 // Serialize a Post object to TypeScript source string
 // ---------------------------------------------------------------------------
 
@@ -188,7 +206,11 @@ async function main() {
 
   const rawDraft = JSON.parse(fs.readFileSync(draftPath, "utf-8"));
   // Strip _verification metadata before serializing (not part of Post interface)
-  const { _verification: _stripped, ...post } = rawDraft as Post & { _verification?: unknown };
+  const { _verification: _stripped, ...rawPost } = rawDraft as Post & { _verification?: unknown };
+  // Enforce the no-em-dash house style on generated content. The model still
+  // produces em dashes; replace every one with a comma before it lands in
+  // posts.ts so the rule holds without a manual cleanup pass.
+  const post = stripEmDashes(rawPost);
 
   console.log(`\n[publish-post] Publishing: ${post.title}`);
   if (dryRun) {
