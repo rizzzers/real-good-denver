@@ -217,6 +217,21 @@ async function main() {
     console.log("[publish-post] DRY RUN MODE: no files will be modified or pushed.");
   }
 
+  // Refuse to publish a post whose hero image was never written. draft-post's
+  // generateImage() swallows failures and returns the path anyway, so a flaky
+  // image API would otherwise ship a post with broken artwork. Exit without
+  // marking the entry failed so the next run retries (regenerating the image).
+  if (!dryRun) {
+    const imageFsPath = path.join(PROJECT_ROOT, "public", post.image.replace(/^\//, ""));
+    if (!fs.existsSync(imageFsPath)) {
+      console.error(
+        `[publish-post] Hero image missing at ${imageFsPath}. Refusing to ` +
+          `publish "${post.title}" with broken artwork. Queue entry left pending for retry.`
+      );
+      process.exit(1);
+    }
+  }
+
   try {
     appendPostToFile(post, dryRun);
 
