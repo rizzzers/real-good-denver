@@ -1780,6 +1780,78 @@ Denver's cheese pizza scene is stronger than most people are giving it credit fo
     image: "/images/best-cheese-pizza-denver.png",
     featured: false,
     tags: ["Pizza", "Cheese Pizza", "Best Of", "Denver Restaurants"],
+  },
+  {
+    id: 25,
+    slug: "best-dive-bar-denver",
+    title: "Best Dive Bar in Denver: Where to Go When You've Made Bad Decisions",
+    excerpt: "Dive bars in Denver don't need your approval. They need sticky floors, cheap beer, a jukebox with questionable taste, and regulars who've been glued to the same stool since the Broncos were actually good.",
+    fullContent: `Dive bars in Denver don't need your approval. They don't need a curated cocktail menu, a QR code instead of a menu, or Edison bulbs hung at exactly the right height to look effortlessly rustic. They need sticky floors, cheap beer, a jukebox with questionable taste, and the kind of regulars who've been sitting on the same stool since the Broncos were good. Denver has all of this. You just have to know where to look.
+
+Here's the thing about Denver's dive bar scene that doesn't get talked about enough. The city has spent the last decade aggressively gentrifying its drinking culture, trading well whiskey and pool tables for $18 smash burgers and "elevated" tap lists. And yet the dives survived. Some thrived. The ones that made it through the craft cocktail invasion did so by being exactly what they always were, loud, cheap, a little rough around the edges, and genuinely unbothered. That's not a small thing. That's a whole identity.
+
+This list exists because sometimes you don't want ambiance. You want a cold can of something that costs three dollars, a bar stool that doesn't require a reservation, and the freedom to make decisions you'll have to explain to someone tomorrow. Denver delivers. Here's where to go.
+
+---
+
+### The Thin Man
+
+**The Thin Man** | 2015 E 17th Ave, Denver, CO 80206 (Congress Park) | $$ | Reservations: No
+
+The Thin Man is the kind of place that makes you feel immediately at home even though you've never been there, and also like you might get judged just a little bit for ordering wrong. Dark, narrow, genuinely weird in the best possible way. The beer selection is solid without being pretentious about it. The crowd on any given night is a perfect chaos of off-duty service industry workers, grad students, and people who just got out of whatever is happening at the bar down the street. Locals on r/Denver consistently bring this one up when the conversation turns to bars that haven't sold out, and the sentiment is basically that The Thin Man feels like it belongs to Denver in a way newer spots simply don't.
+
+---
+
+### **[The Horseshoe Lounge](http://www.thehorseshoelounge.com/)**
+
+**[The Horseshoe Lounge](http://www.thehorseshoelounge.com/)** | 414 E 20th Ave, Denver, CO 80205 (Uptown) | $ | Reservations: No
+
+If you need a bar that will not ask anything of you, The Horseshoe is it. Cash bar. No frills. The kind of place where the lighting is exactly as dark as it needs to be to help you forget what you were thinking about before you walked in. The jukebox is doing real work here. The drinks are priced the way drinks should be priced at a place like this, which is to say you won't be doing the math on your phone when the bill comes. r/DenverFood regulars have noted this is the spot you take out-of-towners when you want them to understand that Denver is not just farm-to-table and rooftop bars. This is the correction.
+
+---
+
+### Adrift
+
+**Adrift** | 218 S Broadway, Denver, CO 80209 (South Broadway) | $$ | Reservations: No
+
+South Broadway is its own ecosystem and Adrift belongs to it completely. Tiki-ish vibes, strong drinks, a back patio that gets genuinely chaotic on warm nights. This is not a dive bar in the traditional sense of the word but it operates on dive bar principles, which are: the vibe matters more than the brand, you should be able to order fast and get out of the way, and no one should be sober when the night is over. The crowd skews younger and louder than some of the other spots on this list but the energy is earned. A well-upvoted thread on r/Denver called Broadway between Iowa and Ellsworth the best bar crawl stretch in the city and Adrift is a big part of why that argument holds up.
+
+---
+
+### Forest Room 5
+
+**Forest Room 5** | 2532 15th St, Denver, CO 80211 (LoHi) | $$ | Reservations: No
+
+Forest Room 5 is aesthetically a woodland fever dream, which sounds like the opposite of a dive bar, but stay with it. There's a tree growing through the middle of the place. The lighting is low. The drinks are strong and not complicated. Nobody is here to be seen. The back patio is the kind of hidden-feeling outdoor space that Denver does really well when it isn't charging you for the privilege. Locals on r/Denver have pointed to this spot when the question of underrated bars in LoHi comes up, usually noting that it somehow avoided becoming the kind of place where you feel bad about wearing the wrong shoes. That's the highest compliment a bar can receive.
+
+---
+
+### **[Atomic Cowboy home of Denver Biscuit Co & Fat Sully's NY Pizza](https://www.theatomiccowboy.com/locations)**
+
+**[Atomic Cowboy home of Denver Biscuit Co & Fat Sully's NY Pizza](https://www.theatomiccowboy.com/locations)** | 3237 E Colfax Ave, Denver, CO 80206 (East Colfax) | $$ | Reservations: No
+
+Colfax Ave has always been Denver's id, messy and honest and a little bit feral, and Atomic Cowboy is a perfect artifact of that. Yes, there is very good pizza here. Yes, there are biscuits in the morning. But the bar itself, loud, sprawling, covered in the kind of decor that looks like someone had one big vision and absolutely committed, is a proper dive experience with better food than you deserve at this hour. The patio fills up fast and the inside gets loud fast and that is the whole point. r/DenverFood has praised the combination of late-night pizza and cheap drinks more than once, usually in threads that start with someone asking where to go after midnight and end with a consensus that Colfax is still the answer.
+
+---
+
+### **[Wynkoop Brewing Company](https://wynkoop.com/)**
+
+**[Wynkoop Brewing Company](https://wynkoop.com/)** | 1634 18th St, Denver, CO 80202 (LoDo) | $$ | Reservations: Recommended on weekends
+
+Technically a brewpub, but Wynkoop earned its place on this list by being genuinely old Denver in a part of the city that has aggressively erased old Denver. It's been here since 1988. The pool tables in the back are real pool tables, not decorative ones. The beer is good and abundant and not pretending to be anything other than beer you drink in a bar. It's bigger than a dive and louder than a dive but it has the soul of a place that survived by just being reliably itself, which is more than most bars newer than the millennium can claim.
+
+---
+
+**The Verdict**
+
+Denver's best dive bars are doing something that sounds simple and is actually very hard. They're staying exactly who they are while the city around them changes, gets more expensive, gets more curated, gets more anxious about its own identity. The Thin Man doesn't care about any of that. The Horseshoe Lounge never did. Adrift is loud on a Tuesday because Tuesday is as good a reason as any. These are the places you go when you've made bad decisions, or when you're about to make them, or when you just need to be somewhere that will let you sit down without making it a whole thing. Denver has those places. Protect them.`,
+    category: "nightlife",
+    author: "Ryan Estes",
+    date: "2026-06-08",
+    readTime: "6 min read",
+    image: "/images/best-dive-bar-denver.png",
+    featured: false,
+    tags: ["Dive Bar", "Best Of", "Denver Bars"],
   }
 ];
 
