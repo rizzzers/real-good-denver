@@ -7,6 +7,17 @@ import type { MapPin } from "./LeafletMap";
 
 const LeafletMap = dynamic(() => import("./LeafletMap"), { ssr: false });
 
+// Matches a "<City>, CO/Colorado" address fragment within a single segment
+// (no pipe between city and state). Used to locate the address line AND, when
+// name + address share one line, the specific pipe-segment that is the address.
+const CITY_CO =
+  /\b(Denver|Lakewood|Aurora|Westminster|Englewood|Littleton|Edgewater|Arvada|Wheat Ridge|Boulder|Golden|Commerce City|Thornton|Northglenn|Centennial|Glendale|Greenwood Village)\b[^|]*?\b(CO|Colorado)\b/;
+
+// Colorado bounding box (lng/lat) for Nominatim, so an ambiguously-named place
+// can never resolve to a same-named bar in another state. viewbox is
+// left,top,right,bottom; bounded=1 discards anything outside it.
+const CO_VIEWBOX = "-109.06,41.003,-102.04,36.99";
+
 // Extract restaurant name + address from markdown content
 function parseRestaurants(markdown: string): { name: string; address: string; isTop: boolean }[] {
   const SEP = "\n\n---\n\n";
@@ -25,7 +36,7 @@ function parseRestaurants(markdown: string): { name: string; address: string; is
     const headingLine = lines.find(l => /^#{2,3}\s/.test(l));
     if (!headingLine) continue;
 
-    // Extract name — handles all observed heading formats:
+    // Extract name, handles all observed heading formats:
     //   ### **[Name](url)**
     //   ### 6. **[Name](url)**
     //   ### 1. Name
@@ -38,17 +49,21 @@ function parseRestaurants(markdown: string): { name: string; address: string; is
     const name = nameMatch[1].replace(/\*/g, "").replace(/^\d+\.\s*/, "").trim();
     if (!name || name.toLowerCase().includes("verdict") || name.toLowerCase().includes("conclusion")) continue;
 
-    // Find address line: contains CO zip or known Denver suburb
-    const addrLine = lines.find(l =>
-      /\b(Denver|Lakewood|Aurora|Westminster|Englewood|Littleton|Edgewater|Arvada|Wheat Ridge),?\s*(CO|Colorado)\b/.test(l)
-    );
+    // Find address line: contains a "<City>, CO" fragment.
+    const addrLine = lines.find(l => CITY_CO.test(l));
     if (!addrLine) continue;
 
-    // Clean address: take everything before | or ( or **
-    const address = addrLine
-      .split(/[|(]/)[0]
-      .replace(/\*+/g, "")
+    // The address line may be just the address, OR "Name | Street, City, CO ZIP
+    // (Hood) | $ | ...". Pick the pipe-segment that actually holds the address,
+    // not blindly the first segment (which would be the bar name).
+    const segments = addrLine.split("|");
+    const addrSegment = segments.find(s => CITY_CO.test(s)) ?? segments[0];
+
+    // Clean: unwrap markdown links, drop the (Neighborhood) parens, strip bold.
+    const address = addrSegment
       .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+      .replace(/\([^)]*\)/g, "")
+      .replace(/\*+/g, "")
       .trim();
 
     if (address.length < 8) continue;
@@ -65,7 +80,7 @@ async function geocodeOne(address: string): Promise<{ lat: number; lng: number }
     const cached = localStorage.getItem(key);
     if (cached) return JSON.parse(cached);
 
-    const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(address)}&format=json&limit=1&countrycodes=us`;
+    const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(address)}&format=json&limit=1&countrycodes=us&viewbox=${CO_VIEWBOX}&bounded=1`;
     const res = await fetch(url, {
       headers: { "User-Agent": "RealGoodDenver/1.0 (realgooddenver.com)" },
     });
