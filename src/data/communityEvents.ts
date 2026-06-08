@@ -293,6 +293,16 @@ export const communityEvents: CommunityEvent[] = [
     link: "https://www.nmbr38.com/world-cup",
   },
   {
+    id: "englewood-second-saturday-june-2026",
+    title: "Englewood's Second Saturday",
+    date: "2026-06-13",
+    time: "10:00 AM – 9:00 PM",
+    location: "Various locations along S. Broadway and surrounding streets, Englewood, CO",
+    description:
+      "On the second Saturday of each month, Englewood's galleries, studios, and small businesses open their doors for a day-long art walk and neighborhood celebration. June 13 adds a new twist: a free expanded BERT bus route running every 30 minutes from 10 a.m. to 9 p.m., looping south down Broadway to Inca, hitting Belleview, S. Navajo St., and S. Kalamath St., then back up to Englewood City Center. Park once and ride the rest. Participating spaces include Black Cube Nomadic Art Museum, Blue Tile Art Gallery, EASEL, NKollectiv Gallery, SeeSaw Gallery, Continuum Art Studios, Mutiny Comics and Coffee, and more. Stick around for food and drinks at Lady Justice Brewing, Englewood Grand, Brewability/Pizzability, and Western Sky Bar and Tap Room. Look for the red balloons.",
+    link: "https://www.easel-co.com/secondsaturdays",
+  },
+  {
     id: "mister-oso-boulder-world-cup",
     title: "World Cup Watching at Mister Oso Boulder",
     date: "2026-06-11",
