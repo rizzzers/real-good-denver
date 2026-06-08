@@ -2,15 +2,20 @@ name: Publish Best of Denver Post
 
 on:
   schedule:
-    # Primary run: ~9:27 AM Mountain Daylight Time (15:27 UTC).
-    # Offset off the top of the hour on purpose: GitHub's cron scheduler is
-    # heavily contended at :00 and was delaying on-the-hour runs by hours or
-    # dropping them entirely. A minute past the hour dodges most of that.
-    - cron: "27 15 * * 1,3,5"
-    # Catch-up run: ~1:27 PM MDT (19:27 UTC). Publishes ONLY if no post went
-    # out earlier today (run-publish.ts --skip-if-published-today), so a
-    # dropped/late primary run still gets a post out the same day.
-    - cron: "27 19 * * 1,3,5"
+    # GitHub's cron scheduler is best-effort: on-the-hour runs get delayed by
+    # hours or dropped entirely during high load, and even offset runs miss.
+    # So instead of one scheduled time we fire FOUR every Mon/Wed/Fri, two
+    # hours apart. The first (9:27 AM MDT) publishes unconditionally; the rest
+    # are catch-ups that publish ONLY if nothing went out yet that day
+    # (run-publish.ts --skip-if-published-today). GitHub would have to drop all
+    # four windows to miss a day. Minutes are offset off :00 to dodge peak
+    # contention. The catch-up condition lives in the "Run publish pipeline"
+    # step below and keys off the primary cron string, so if you change the
+    # primary time, update it there too.
+    - cron: "27 15 * * 1,3,5" # primary  ~9:27 AM MDT (15:27 UTC)
+    - cron: "27 17 * * 1,3,5" # catch-up ~11:27 AM MDT (17:27 UTC)
+    - cron: "27 19 * * 1,3,5" # catch-up ~1:27 PM MDT (19:27 UTC)
+    - cron: "27 21 * * 1,3,5" # catch-up ~3:27 PM MDT (21:27 UTC)
 
   # Allow manual trigger from GitHub Actions UI for testing
   workflow_dispatch:
@@ -58,8 +63,10 @@ jobs:
           DRY_RUN="${{ github.event.inputs.dry_run }}"
           SCHEDULE="${{ github.event.schedule }}"
           FLAGS=""
-          # The later catch-up cron only publishes if the primary run didn't.
-          if [ "$SCHEDULE" = "27 19 * * 1,3,5" ]; then
+          # Every scheduled window EXCEPT the primary one is a catch-up that
+          # only publishes if nothing went out yet today. A manual run
+          # (workflow_dispatch) has an empty schedule, so it always publishes.
+          if [ -n "$SCHEDULE" ] && [ "$SCHEDULE" != "27 15 * * 1,3,5" ]; then
             FLAGS="--skip-if-published-today"
           fi
           if [ "$DRY_RUN" = "true" ]; then
