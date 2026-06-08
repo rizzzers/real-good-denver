@@ -114,8 +114,9 @@
       "Outdoor Dining"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": null
+    "status": "published",
+    "season": null,
+    "publishedAt": "2026-06-08T18:12:14.352Z"
   },
   {
     "slug": "best-old-fashioned-denver",
