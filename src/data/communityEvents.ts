@@ -303,6 +303,15 @@ export const communityEvents: CommunityEvent[] = [
     link: "https://www.easel-co.com/secondsaturdays",
   },
   {
+    id: "cats-on-mats-denver-animal-shelter-2026",
+    title: "Cats on Mats at Denver Animal Shelter",
+    date: "2026-06-11",
+    time: "Wednesdays, 5:30 PM (June through August)",
+    location: "Denver Animal Shelter, 1241 W. Bayaud Ave., Denver",
+    description:
+      "Every Wednesday from June through August, Denver Animal Shelter hosts Cats on Mats: a professionally instructed yoga class made better by roaming kittens. Bring your mat and enjoy an hour of downward dogs and kitten cuddles. Classes start promptly at 5:30 p.m. in the Community Room. Free to attend.",
+  },
+  {
     id: "mister-oso-boulder-world-cup",
     title: "World Cup Watching at Mister Oso Boulder",
     date: "2026-06-11",
