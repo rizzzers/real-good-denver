@@ -303,10 +303,118 @@ export const communityEvents: CommunityEvent[] = [
     link: "https://www.easel-co.com/secondsaturdays",
   },
   {
-    id: "cats-on-mats-denver-animal-shelter-2026",
+    id: "cats-on-mats-2026-06-03",
     title: "Cats on Mats at Denver Animal Shelter",
-    date: "2026-06-11",
-    time: "Wednesdays, 5:30 PM (June through August)",
+    date: "2026-06-03",
+    time: "5:30 PM",
+    location: "Denver Animal Shelter, 1241 W. Bayaud Ave., Denver",
+    description:
+      "Every Wednesday from June through August, Denver Animal Shelter hosts Cats on Mats: a professionally instructed yoga class made better by roaming kittens. Bring your mat and enjoy an hour of downward dogs and kitten cuddles. Classes start promptly at 5:30 p.m. in the Community Room. Free to attend.",
+  },
+  {
+    id: "cats-on-mats-2026-06-10",
+    title: "Cats on Mats at Denver Animal Shelter",
+    date: "2026-06-10",
+    time: "5:30 PM",
+    location: "Denver Animal Shelter, 1241 W. Bayaud Ave., Denver",
+    description:
+      "Every Wednesday from June through August, Denver Animal Shelter hosts Cats on Mats: a professionally instructed yoga class made better by roaming kittens. Bring your mat and enjoy an hour of downward dogs and kitten cuddles. Classes start promptly at 5:30 p.m. in the Community Room. Free to attend.",
+  },
+  {
+    id: "cats-on-mats-2026-06-17",
+    title: "Cats on Mats at Denver Animal Shelter",
+    date: "2026-06-17",
+    time: "5:30 PM",
+    location: "Denver Animal Shelter, 1241 W. Bayaud Ave., Denver",
+    description:
+      "Every Wednesday from June through August, Denver Animal Shelter hosts Cats on Mats: a professionally instructed yoga class made better by roaming kittens. Bring your mat and enjoy an hour of downward dogs and kitten cuddles. Classes start promptly at 5:30 p.m. in the Community Room. Free to attend.",
+  },
+  {
+    id: "cats-on-mats-2026-06-24",
+    title: "Cats on Mats at Denver Animal Shelter",
+    date: "2026-06-24",
+    time: "5:30 PM",
+    location: "Denver Animal Shelter, 1241 W. Bayaud Ave., Denver",
+    description:
+      "Every Wednesday from June through August, Denver Animal Shelter hosts Cats on Mats: a professionally instructed yoga class made better by roaming kittens. Bring your mat and enjoy an hour of downward dogs and kitten cuddles. Classes start promptly at 5:30 p.m. in the Community Room. Free to attend.",
+  },
+  {
+    id: "cats-on-mats-2026-07-01",
+    title: "Cats on Mats at Denver Animal Shelter",
+    date: "2026-07-01",
+    time: "5:30 PM",
+    location: "Denver Animal Shelter, 1241 W. Bayaud Ave., Denver",
+    description:
+      "Every Wednesday from June through August, Denver Animal Shelter hosts Cats on Mats: a professionally instructed yoga class made better by roaming kittens. Bring your mat and enjoy an hour of downward dogs and kitten cuddles. Classes start promptly at 5:30 p.m. in the Community Room. Free to attend.",
+  },
+  {
+    id: "cats-on-mats-2026-07-08",
+    title: "Cats on Mats at Denver Animal Shelter",
+    date: "2026-07-08",
+    time: "5:30 PM",
+    location: "Denver Animal Shelter, 1241 W. Bayaud Ave., Denver",
+    description:
+      "Every Wednesday from June through August, Denver Animal Shelter hosts Cats on Mats: a professionally instructed yoga class made better by roaming kittens. Bring your mat and enjoy an hour of downward dogs and kitten cuddles. Classes start promptly at 5:30 p.m. in the Community Room. Free to attend.",
+  },
+  {
+    id: "cats-on-mats-2026-07-15",
+    title: "Cats on Mats at Denver Animal Shelter",
+    date: "2026-07-15",
+    time: "5:30 PM",
+    location: "Denver Animal Shelter, 1241 W. Bayaud Ave., Denver",
+    description:
+      "Every Wednesday from June through August, Denver Animal Shelter hosts Cats on Mats: a professionally instructed yoga class made better by roaming kittens. Bring your mat and enjoy an hour of downward dogs and kitten cuddles. Classes start promptly at 5:30 p.m. in the Community Room. Free to attend.",
+  },
+  {
+    id: "cats-on-mats-2026-07-22",
+    title: "Cats on Mats at Denver Animal Shelter",
+    date: "2026-07-22",
+    time: "5:30 PM",
+    location: "Denver Animal Shelter, 1241 W. Bayaud Ave., Denver",
+    description:
+      "Every Wednesday from June through August, Denver Animal Shelter hosts Cats on Mats: a professionally instructed yoga class made better by roaming kittens. Bring your mat and enjoy an hour of downward dogs and kitten cuddles. Classes start promptly at 5:30 p.m. in the Community Room. Free to attend.",
+  },
+  {
+    id: "cats-on-mats-2026-07-29",
+    title: "Cats on Mats at Denver Animal Shelter",
+    date: "2026-07-29",
+    time: "5:30 PM",
+    location: "Denver Animal Shelter, 1241 W. Bayaud Ave., Denver",
+    description:
+      "Every Wednesday from June through August, Denver Animal Shelter hosts Cats on Mats: a professionally instructed yoga class made better by roaming kittens. Bring your mat and enjoy an hour of downward dogs and kitten cuddles. Classes start promptly at 5:30 p.m. in the Community Room. Free to attend.",
+  },
+  {
+    id: "cats-on-mats-2026-08-05",
+    title: "Cats on Mats at Denver Animal Shelter",
+    date: "2026-08-05",
+    time: "5:30 PM",
+    location: "Denver Animal Shelter, 1241 W. Bayaud Ave., Denver",
+    description:
+      "Every Wednesday from June through August, Denver Animal Shelter hosts Cats on Mats: a professionally instructed yoga class made better by roaming kittens. Bring your mat and enjoy an hour of downward dogs and kitten cuddles. Classes start promptly at 5:30 p.m. in the Community Room. Free to attend.",
+  },
+  {
+    id: "cats-on-mats-2026-08-12",
+    title: "Cats on Mats at Denver Animal Shelter",
+    date: "2026-08-12",
+    time: "5:30 PM",
+    location: "Denver Animal Shelter, 1241 W. Bayaud Ave., Denver",
+    description:
+      "Every Wednesday from June through August, Denver Animal Shelter hosts Cats on Mats: a professionally instructed yoga class made better by roaming kittens. Bring your mat and enjoy an hour of downward dogs and kitten cuddles. Classes start promptly at 5:30 p.m. in the Community Room. Free to attend.",
+  },
+  {
+    id: "cats-on-mats-2026-08-19",
+    title: "Cats on Mats at Denver Animal Shelter",
+    date: "2026-08-19",
+    time: "5:30 PM",
+    location: "Denver Animal Shelter, 1241 W. Bayaud Ave., Denver",
+    description:
+      "Every Wednesday from June through August, Denver Animal Shelter hosts Cats on Mats: a professionally instructed yoga class made better by roaming kittens. Bring your mat and enjoy an hour of downward dogs and kitten cuddles. Classes start promptly at 5:30 p.m. in the Community Room. Free to attend.",
+  },
+  {
+    id: "cats-on-mats-2026-08-26",
+    title: "Cats on Mats at Denver Animal Shelter",
+    date: "2026-08-26",
+    time: "5:30 PM",
     location: "Denver Animal Shelter, 1241 W. Bayaud Ave., Denver",
     description:
       "Every Wednesday from June through August, Denver Animal Shelter hosts Cats on Mats: a professionally instructed yoga class made better by roaming kittens. Bring your mat and enjoy an hour of downward dogs and kitten cuddles. Classes start promptly at 5:30 p.m. in the Community Room. Free to attend.",
