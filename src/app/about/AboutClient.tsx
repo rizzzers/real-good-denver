@@ -151,14 +151,14 @@ const CreatorBios = () => {
           </div>
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              Tom is an entrepreneur and house DJ who bleeds Denver. A CSU alumni, he brings the energy, the beats, and a genuine obsession with what makes this city move, from the underground music scene to the people building something real here.
+              Tom&rsquo;s spent the better part of the last 12 years in Colorado, and gives us a transplant&rsquo;s look into our local scene. Hailing from New Jersey, he brings a skeptical eye while evaluating all things pizza, bagels, and Italian around town.
             </p>
             <p>
-              His ear for culture and instinct for what Denver actually cares about shapes everything Real Good Denver puts out. When he&apos;s not behind the decks, he&apos;s out in the city living the stories we tell.
+              As a music producer, DJ and nightlife connoisseur, Tom makes sure Real Good Denver listeners have a finger on the pulse of our amazing music scene. His microphone also sounds way better than Ryan&rsquo;s too!
             </p>
           </div>
           <div className="flex flex-wrap gap-2 pt-1">
-            {['Entrepreneur', 'House DJ', 'CSU Alumni', 'Denver'].map(tag => (
+            {['New Jersey Native', 'Music Producer', 'DJ', 'Nightlife'].map(tag => (
               <span key={tag} className="px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/20">
                 {tag}
               </span>
