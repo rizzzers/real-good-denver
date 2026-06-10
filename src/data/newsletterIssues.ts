@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-rough-one-linebacker-arrest-mcclain-reversal-park-water-cuts",
+    title: "Denver's rough one: a linebacker arrested, an appeals court reversal, and a city that cuts park water while it opens ice cream shops",
+    date: "2026-06-10",
+    description: "Broncos linebacker Jonathon Cooper is arrested on domestic violence charges, the Colorado Court of Appeals throws out the convictions in the Elijah McClain case and sends the paramedics back for new trials, and Denver Parks cuts irrigation 20 percent as Gov. Polis declares a statewide drought emergency. Plus the World Cup watch parties arrive, Sundae ice cream opens on 16th Street, and a 358-unit transit-oriented community breaks ground at 38th and Blake.",
+    htmlFile: "/newsletter-issues/denver-rough-one-linebacker-arrest-mcclain-reversal-park-water-cuts.html",
+  },
+  {
     slug: "denver-golf-ball-hail-anti-vax-lawsuit-parady-resigns",
     title: "Denver this week: golf ball hail, a $4M anti-vax lawsuit, and the progressive council voice who just ran out of runway.",
     date: "2026-06-03",
