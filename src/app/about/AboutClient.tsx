@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Music, Calendar, Palette, Trophy, UtensilsCrossed, MapPin, Mountain, Clock, CheckCircle } from 'lucide-react';
@@ -194,6 +195,36 @@ const CreatorBios = () => {
             ))}
           </div>
         </div>
+      </div>
+
+      {/* Picks badges + CTA */}
+      <div className="mt-16 text-center">
+        <p className="text-sm font-medium uppercase tracking-widest text-primary mb-3">The picks</p>
+        <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+          Ryan and Tom call their shots.
+        </h3>
+        <p className="text-muted-foreground max-w-2xl mx-auto mb-10">
+          Every Best of Denver guide gets two hand-picked favorites: Ryan kicks it off with the #1 pick, and Tom closes it out with his. See who called what.
+        </p>
+        <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 mb-10">
+          <img
+            src="/images/estes-picks.png"
+            alt="Estes Picks"
+            className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover"
+            style={{ boxShadow: '0 0 0 3px #f97316, 0 0 32px rgba(249,115,22,0.4), 0 8px 30px rgba(0,0,0,0.25)' }}
+          />
+          <img
+            src="/images/toms-picks.png"
+            alt="Tom's Picks"
+            className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover"
+            style={{ boxShadow: '0 0 0 3px #f97316, 0 0 32px rgba(249,115,22,0.4), 0 8px 30px rgba(0,0,0,0.25)' }}
+          />
+        </div>
+        <Link href="/best-of-denver">
+          <button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-xl font-semibold px-8 py-4 text-lg transition-colors">
+            Explore Best of Denver
+          </button>
+        </Link>
       </div>
     </div>
   );
