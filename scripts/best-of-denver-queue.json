@@ -143,8 +143,9 @@
       "Denver Bars"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": null
+    "status": "published",
+    "season": null,
+    "publishedAt": "2026-06-10T18:14:20.480Z"
   },
   {
     "slug": "best-ramen-denver",

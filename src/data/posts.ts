@@ -2052,6 +2052,94 @@ Williams & Graham is the answer if someone asks you where to get an Old Fashione
     image: "/images/best-old-fashioned-denver.png",
     featured: false,
     tags: ["Old Fashioned", "Cocktails", "Best Of", "Denver Bars"],
+  },
+  {
+    id: 28,
+    slug: "best-happy-hour-denver",
+    title: "Best Happy Hour in Denver: A Field Guide to Drinking on a Budget",
+    excerpt: "Happy hour in Denver is serious business, not in a suit-and-tie kind of way, but in a this-city-has-200-plus-breweries-and-nobody-here-is-paying-full-price kind of way. Denver drinkers are principled: they know when specials start, they know when they end, and they will absolutely bounce at 6:01pm rather than pay retail for a pint.",
+    fullContent: `Happy hour in Denver is serious business. Not in a suit-and-tie, loosening-your-collar kind of way. In a this-city-has-200-plus-breweries-and-nobody-here-is-paying-full-price kind of way. Denver drinkers are principled. They know when the specials start, they know when they end, and they will absolutely leave at 6:01pm rather than pay retail for a pint.
+
+The good news: Denver rewards this behavior. The city has quietly built one of the better happy hour ecosystems in the country, and it covers everything from craft pints at historic brewpubs to cocktails at spots nice enough that you feel a little smug sitting there on a Tuesday. The bad news: not every place calling itself a happy hour destination has earned that title. Some of them are just offering two-dollar off a sixteen-dollar drink and hoping you don't do the math.
+
+This list does the math. Locals on r/Denver have been waging this debate for years, arguing over which spots are genuinely worth the 4 to 6 window and which ones are just scenery. We paid attention. Here's what actually holds up.
+
+---
+
+### **[Wynkoop Brewing Company](https://wynkoop.com/)**
+
+1634 18th St, Denver, CO 80202 (LoDo) | $$ | Reservations: No
+
+Denver's oldest brewpub and still one of its most reliable. Wynkoop has been doing this since 1988, which means they've had decades to figure out what a good happy hour actually looks like. Draft specials, discounted bar bites, and a room that feels like it earned its wood paneling rather than buying it at a design showroom. If you're in LoDo and someone suggests Wynkoop for happy hour, the correct response is yes, immediately, without negotiating. r/Denver regulars consistently point to this one as a baseline, the place you take people when you want to show them Denver without having to explain anything.
+
+---
+
+### **[Steuben's Uptown](http://www.steubens.com/)**
+
+523 E 17th Ave, Denver, CO 80203 (Uptown) | $$ | Reservations: No
+
+Steuben's is an American comfort food institution with a bar program that doesn't mess around. Happy hour here means discounted cocktails and half-price appetizers that are actually worth ordering, not the afterthought stuff. The deviled eggs alone justify the trip. The vibe is unpretentious in that very particular Denver way, where the room is nice enough to impress a date but relaxed enough that nobody's performing. Uptown locals treat this place like a neighborhood resource, and they're right to.
+
+---
+
+### **[The Kitchen American Bistro](https://www.thekitchen.com/location/the-kitchen-bistros-denver/)**
+
+1560 Wazee St, Denver, CO 80202 (LoDo) | $$$ | Reservations: Recommended
+
+This is the happy hour you go to when you want to feel like a functional adult who makes good decisions. The Kitchen's bar scene during the late afternoon window is legitimately excellent, with wine and cocktail specials and small plates that punch well above their happy hour price. The room has warmth without being precious about it. A well-upvoted thread on r/DenverFood called this one of the better spots for a solo drink at the bar, which is high praise because solo bar culture is a real litmus test for how good a place actually is.
+
+---
+
+### **[Rioja](http://www.riojadenver.com/)**
+
+1431 Larimer St, Denver, CO 80202 (Larimer Square) | $$$ | Reservations: Recommended
+
+Jennifer Jasinski's Larimer Square flagship does a happy hour that feels almost unfair given what you're getting. Spanish-inflected small plates and wine at reduced prices in one of Denver's most reliably excellent restaurants. The kind of situation where you come in planning to stay for one drink and find yourself still there an hour later with a collection of small plates in front of you and no regrets. Larimer Square is crowded and the rent reflects it, but Rioja earns every bit of its reputation and the happy hour is one of the better deals going in that neighborhood.
+
+---
+
+### **[Ocean Prime](https://www.ocean-prime.com/locations-menus/denver-larimer-square)**
+
+1465 Larimer St, Denver, CO 80202 (Larimer Square) | $$$$ | Reservations: Recommended
+
+Yes, this is a chain. No, you shouldn't care. Ocean Prime does a happy hour called Five to Seven, and it is the rare instance of an upscale steakhouse and seafood chain actually delivering on the concept. Cocktails, raw bar items, and bites at prices that let you play in a room that would otherwise require a very good reason to visit on a Wednesday. r/DenverFood types have a complicated relationship with recommending chains, but the consensus here is that the happy hour at Ocean Prime is genuinely worth the stop, no apologies needed.
+
+---
+
+### **[Our Mutual Friend Brewing](http://omfbeer.com/)**
+
+2810 Larimer St, Denver, CO 80205 (RiNo) | $ | Reservations: No
+
+OMF is a RiNo institution, the kind of place that was good before good was required in that neighborhood. The taproom is unpretentious, the beer is serious, and the whole operation has a we're-here-because-we-love-beer energy that translates directly to how it feels to drink there. Happy hour specials on pints, a room full of people who actually live in Denver, and zero pressure to be doing anything other than sitting there with your drink. Locals on r/Denver have a lot of affection for this one as a neighborhood original.
+
+---
+
+### **[The Source Hotel](https://www.thesourcehotel.com/)**
+
+3330 Brighton Blvd, Denver, CO 80216 (RiNo) | $$$ | Reservations: Recommended
+
+The rooftop bar at The Source Hotel is one of those spots that makes you feel like Denver finally figured something out. The views are legitimately good, the cocktails are actually interesting, and happy hour takes some of the sting out of the pricing. It gets crowded because it should get crowded. Go early, get a spot with a view, and don't be the person who shows up at 5:45 and wonders why there's nowhere to sit.
+
+---
+
+### **[Mizuna](https://www.bonannoconcepts.com/restaurant/mizuna/)**
+
+225 E 7th Ave, Denver, CO 80203 (Uptown) | $$$$ | Reservations: Recommended
+
+Frank Bonanno's flagship is one of Denver's finest dining rooms, full stop. It is also one of the sneakier happy hour plays in the city. The bar program here runs specials that let you drink and eat in a room that otherwise requires a serious commitment of both planning and money. If you haven't done Mizuna's happy hour, you're leaving something on the table. r/DenverFood has pointed to this one repeatedly as evidence that Denver's fine dining scene is more accessible than people assume.
+
+---
+
+A note on what didn't make the cut: **Denver Beer Co.** (Denver Beer Co., Denver, CO 80202) is a legitimate option if you're in the area and want a straightforward taproom experience, but the happy hour structure varies enough by location that it's harder to make a blanket call. Worth checking. **TAG Burger Bar** (10155 E 29th Dr Ste 160, Denver, CO 80238) has its fans in Stapleton and nearby, and the burger-and-beer pairing concept is solid, but it skews more neighborhood convenience than destination happy hour. Also: Frasca Food and Wine is in Boulder, not Denver. Beautiful restaurant, zero jurisdiction here.
+
+**The Verdict:** Denver's happy hour scene rewards people who know where to look and show up before 6pm with the determination of someone who means it. Wynkoop for no-excuses reliability. Rioja and The Kitchen when you want a little more room. OMF when you want to remember why craft beer culture in this city still has a soul. The city keeps getting more expensive and some of these windows are shrinking, so drink accordingly and tip your bartender like you mean it.`,
+    category: "nightlife",
+    author: "Ryan Estes",
+    date: "2026-06-10",
+    readTime: "6 min read",
+    image: "/images/best-happy-hour-denver.png",
+    featured: false,
+    tags: ["Happy Hour", "Best Of", "Denver Bars"],
   }
 ];
 
