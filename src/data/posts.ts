@@ -1948,6 +1948,110 @@ The honest truth about Denver patio culture is that you have very few excuses to
     image: "/images/best-patio-denver.png",
     featured: false,
     tags: ["Patio", "Best Of", "Denver Bars", "Outdoor Dining"],
+  },
+  {
+    id: 27,
+    slug: "best-old-fashioned-denver",
+    title: "Best Old Fashioned in Denver, Stirred by People Who Actually Care",
+    excerpt: "The Old Fashioned is deceptively simple: whiskey, sugar, bitters, ice. Half the bars in Denver still manage to wreck it, but the good ones? They actually care about every single detail.",
+    fullContent: `The Old Fashioned is deceptively simple. Whiskey, sugar, bitters, ice. That's it. Four ingredients and somehow half the bars in any given city manage to screw it up completely. Too sweet, too diluted, a sad maraschino cherry floating in neon orange juice like a garnish from 1987. Denver, to its credit, has some people who actually take this seriously. People who think about the ice, the orange expression, the ratio. People who would rather hand you nothing than hand you something embarrassing.
+
+This list exists because a good Old Fashioned is one of the great pleasures of a Denver evening and a bad one is genuinely offensive. The difference between the two is almost entirely about whether the person behind the bar cares. So here are the places where they care, ranked by how much you should rearrange your evening to get there.
+
+A few things to note before we get into it. Locals on r/Denver have strong feelings about cocktail bars in this city, and the Old Fashioned specifically comes up constantly as a litmus test drink. The consensus is basically that Denver's craft cocktail scene has quietly gotten very good over the last decade, but the gap between the serious bars and the not-serious bars is enormous. Order one at the wrong place and you'll know immediately. Order one at the right place and you'll understand why people have opinions about this.
+
+---
+
+### Williams & Graham
+
+**[Williams & Graham](http://williamsandgraham.com/)** | 3160 Tejon St, Denver, CO 80211 (LoHi) | $$$ | Reservations: Recommended
+
+This is the one. This has been the one for years. Williams & Graham is a Prohibition-themed speakeasy entered through a fake bookshelf, which sounds like a gimmick, and yes it is a little bit of a gimmick, but the drinks are so good that you forgive the theatrics immediately. Their Old Fashioned is exactly what it should be: whiskey-forward, properly diluted, balanced in a way that makes you slow down and actually taste it. The bar staff here aren't just bartenders. They're the kind of people who have opinions about rye versus bourbon in a classic format and will tell you those opinions if you ask.
+
+R/DenverFood regulars consistently name this as the best cocktail bar in Denver, full stop. Not just for Old Fashioneds. For everything. It makes the list first because if you only go to one place on this list, it should be this one.
+
+---
+
+### Cruise Room
+
+**[Cruise Room](https://www.theoxfordhotel.com/eat-drink/the-cruise-room)** | 1600 17th St CO, Denver, CO 80202 (LoDo) | $$$ | Reservations: No
+
+The Cruise Room inside the Oxford Hotel is one of the oldest cocktail bars in Denver and it looks exactly like it should. Art Deco everything. Low light. The kind of room where you feel like you should be wearing a hat. The Old Fashioned here benefits enormously from atmosphere, but it also just happens to be a well-made drink. There's a seriousness to the bar program that matches the room, and that's not an accident.
+
+A well-upvoted thread on r/Denver once described the experience of sitting at the Cruise Room bar on a weeknight as one of the most underrated things you can do in this city. That feels right. It's not flashy. It's just genuinely excellent.
+
+---
+
+### Mizuna
+
+**[Mizuna](https://www.bonannoconcepts.com/restaurant/mizuna/)** | 225 E 7th Ave, Denver, CO 80203 (Capitol Hill) | $$$$ | Reservations: Yes
+
+Mizuna is a serious restaurant. The kind where the food is the main event and the cocktails exist to support a very good meal. Their Old Fashioned is made with that same seriousness. Clean, precise, not trying to do too much. When a fine dining bar program does a classic cocktail well it's because someone decided not to mess with it, and that restraint is its own skill.
+
+If you're already going to Mizuna for dinner, start with an Old Fashioned at the bar and you will be in exactly the right headspace for what comes next.
+
+---
+
+### Potager
+
+**[Potager](http://www.potagerrestaurant.com/)** | 1109 N Ogden St, Denver, CO 80218 (Capitol Hill) | $$$ | Reservations: Recommended
+
+Potager is a neighborhood restaurant that operates with more care than most places twice its size and profile. The cocktail list is focused, intentional, and the Old Fashioned is treated as a foundational thing, not an afterthought. The room is intimate, the bar is small, and the whole experience has a warmth to it that the bigger cocktail bars sometimes lack.
+
+People in the r/Denver food community talk about Potager in that affectionate, slightly protective way that locals talk about places they don't want to get too crowded. That's a real tell.
+
+---
+
+### Steuben's Uptown
+
+**[Steuben's Uptown](http://www.steubens.com/)** | 523 E 17th Ave, Denver, CO 80203 (Uptown) | $$ | Reservations: No
+
+Steuben's is a diner that decided to have a genuinely good bar program, and that combination is worth celebrating. The Old Fashioned here is straightforward and well-executed, served in the context of a place where the fries are also excellent and the booth you're in is extremely comfortable. There's something specifically right about a strong, properly made Old Fashioned in a diner setting. It doesn't need to be fancy. It just needs to be made by someone paying attention. Steuben's pays attention.
+
+---
+
+### Tamayo by Chef Richard Sandoval
+
+**[Tamayo by Chef Richard Sandoval](https://www.eattamayo.com/)** | 1400 Larimer St, Denver, CO 80202 (LoDo) | $$$ | Reservations: Yes
+
+Tamayo's bar program leans into agave spirits in a way that makes their mezcal Old Fashioned one of the more interesting variations in the city. If you're the kind of person who thinks an Old Fashioned only works with bourbon or rye, you owe yourself one of these to reconsider that position. The smoke and the earthiness of a good mezcal in this format is not a gimmick. It's a genuinely different and worthwhile drink. The Larimer Square location also means the people-watching while you drink it is excellent.
+
+---
+
+### Denver ChopHouse & Brewery
+
+**Denver ChopHouse & Brewery** | 1735 19th St Ste 100, Denver, CO 80202 (LoDo) | $$$ | Reservations: Yes
+
+The ChopHouse is a steakhouse, which means it operates in a tradition where the Old Fashioned is practically a required menu item. They've been doing this for a long time and it shows. This is a no-surprises, dependably good version of the drink, served in a room designed for the specific pleasure of eating a large piece of beef and feeling fine about that. It belongs on this list because consistency matters and because sometimes you want an Old Fashioned that doesn't have a story attached to it. It just shows up, does its job, and leaves you alone.
+
+---
+
+### Adrift
+
+**Adrift** | 218 S Broadway, Denver, CO 80209 (South Broadway) | $$ | Reservations: No
+
+Adrift is a tiki bar and tiki bars are not where you go for an Old Fashioned under normal circumstances. But Adrift is good enough at what they do that the classic cocktails on the menu are treated with the same care as the rum punches, which is to say quite a lot of care. This is a value pick and a fun-night pick. South Broadway at its best. R/DenverFood has a lot of love for this block and this bar specifically.
+
+---
+
+### Sam's No. 3
+
+**[Sam's No. 3](https://samsno3.com/)** | 1500 Curtis Street, Denver, CO 80202 (Downtown) | $ | Reservations: No
+
+Look, Sam's No. 3 is a diner that has been feeding Denver since 1927. You do not go to Sam's No. 3 for a meticulously crafted Old Fashioned. You go because it's open, because you need breakfast food at an hour when breakfast food should not still be available, and because there's something comforting about a place that has simply been here forever. The Old Fashioned is fine. It's an honest drink at an honest price at a place with no pretensions. That counts for something.
+
+---
+
+**The Verdict**
+
+Williams & Graham is the answer if someone asks you where to get an Old Fashioned in Denver. It's not close. But the Cruise Room is the answer if the question involves atmosphere, and Mizuna is the answer if the question involves dinner, and Potager is the answer if the question involves a neighborhood spot that actually cares. Denver's cocktail culture has developed real depth in the last decade and the Old Fashioned is a fine way to take its temperature. Four ingredients. No hiding. The bars on this list have nothing to hide.`,
+    category: "nightlife",
+    author: "Ryan Estes",
+    date: "2026-06-10",
+    readTime: "7 min read",
+    image: "/images/best-old-fashioned-denver.png",
+    featured: false,
+    tags: ["Old Fashioned", "Cocktails", "Best Of", "Denver Bars"],
   }
 ];
 
