@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
@@ -134,6 +135,45 @@ const HeroSection = () => {
         <p className="text-xs text-white mt-3">Free forever. No Fort Collins coverage. Unsubscribe anytime.</p>
       </div>
 
+      {/* Floating picks badges, hop over to Best of Denver */}
+      <div className="hidden lg:block absolute inset-0 z-20 pointer-events-none">
+        <Link
+          href="/best-of-denver"
+          aria-label="See Ryan's Best of Denver picks"
+          className="group pointer-events-auto absolute right-[16%] top-[22%]"
+        >
+          <div style={{ animation: "heroFloat1 7s ease-in-out infinite" }}>
+            <img
+              src="/images/estes-picks.png"
+              alt="Ryan's Picks"
+              className="w-32 xl:w-40 h-auto rounded-full transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-3"
+              style={{ filter: "drop-shadow(0 14px 28px rgba(0,0,0,0.55))" }}
+            />
+            <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 whitespace-nowrap px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-widest text-white bg-blue-500 shadow-lg opacity-0 translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+              Ryan&rsquo;s Picks
+            </span>
+          </div>
+        </Link>
+
+        <Link
+          href="/best-of-denver"
+          aria-label="See Tom's Best of Denver picks"
+          className="group pointer-events-auto absolute right-[5%] top-[52%]"
+        >
+          <div style={{ animation: "heroFloat2 8s ease-in-out infinite", animationDelay: "0.6s" }}>
+            <img
+              src="/images/toms-picks.png"
+              alt="Tom's Picks"
+              className="w-28 xl:w-36 h-auto rounded-full transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3"
+              style={{ filter: "drop-shadow(0 14px 28px rgba(0,0,0,0.55))" }}
+            />
+            <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 whitespace-nowrap px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-widest text-white bg-blue-500 shadow-lg opacity-0 translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+              Tom&rsquo;s Picks
+            </span>
+          </div>
+        </Link>
+      </div>
+
       <style>{`
         @keyframes heroFade {
           0%   { opacity: 0; }
@@ -141,6 +181,17 @@ const HeroSection = () => {
           15%  { opacity: 1; }
           20%  { opacity: 0; }
           100% { opacity: 0; }
+        }
+        @keyframes heroFloat1 {
+          0%, 100% { transform: translateY(0) rotate(-4deg); }
+          50%      { transform: translateY(-18px) rotate(3deg); }
+        }
+        @keyframes heroFloat2 {
+          0%, 100% { transform: translateY(0) rotate(4deg); }
+          50%      { transform: translateY(-22px) rotate(-3deg); }
+        }
+        @media (prefers-reduced-motion: reduce) {
+          [style*="heroFloat1"], [style*="heroFloat2"] { animation: none !important; }
         }
       `}</style>
     </section>
