@@ -420,6 +420,16 @@ export const communityEvents: CommunityEvent[] = [
       "Every Wednesday from June through August, Denver Animal Shelter hosts Cats on Mats: a professionally instructed yoga class made better by roaming kittens. Bring your mat and enjoy an hour of downward dogs and kitten cuddles. Classes start promptly at 5:30 p.m. in the Community Room. Free to attend.",
   },
   {
+    id: "kong-50th-anniversary-nmbr38-2026",
+    title: "KONG 50th Anniversary Celebration",
+    date: "2026-08-07",
+    time: "5:00–9:00 PM",
+    location: "Number Thirty Eight, 3560 Chestnut Place, Denver CO 80216",
+    description:
+      "Celebrate 50 years of KONG at Number Thirty Eight with local vendors, KONG giveaways, and pup cups featuring special edition birthday cake flavored treats. Enter prize drawings and grab a limited-edition KONG pint glass, with proceeds benefiting Foothills Animal Shelter. Come raise a glass and celebrate!",
+    link: "https://www.nmbr38.com/calendar/kong-50th-anniversary-celebration",
+  },
+  {
     id: "mister-oso-boulder-world-cup",
     title: "World Cup Watching at Mister Oso Boulder",
     date: "2026-06-11",
