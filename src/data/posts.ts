@@ -2140,6 +2140,67 @@ A note on what didn't make the cut: **Denver Beer Co.** (Denver Beer Co., Denver
     image: "/images/best-happy-hour-denver.png",
     featured: false,
     tags: ["Happy Hour", "Best Of", "Denver Bars"],
+  },
+  {
+    id: 29,
+    slug: "best-ramen-denver",
+    title: "Best Ramen in Denver: Slurping Through the Mile High City",
+    excerpt: "Denver doesn't have a ramen problem. Denver has a ramen reputation problem, and it's time to fix it. The city's bowls rival anything on the coasts, but nobody's paying attention because we're stuck at 5,280 feet and far from the hype.",
+    fullContent: `Denver doesn't have a ramen problem. Denver has a ramen reputation problem. The city sits at 5,280 feet, far from the coastal Japanese restaurant clusters that dominate every national best-of list, and so people assume the bowls here are an afterthought. Lukewarm broth. Sad noodles from a bag. The kind of ramen that exists because someone had to fill a menu slot.
+
+That assumption is wrong. And if you've been living by it, you've been eating badly.
+
+The ramen scene here is uneven, sure. You'll find spots that are riding the wave without doing the work. But buried in Denver's neighborhoods are bowls that deserve genuine attention. Rich tonkotsu that clings to your spoon. Broths that have been going since before you woke up. Noodle textures that make you understand why the whole thing matters. Locals on r/Denver have been quietly building consensus on the good ones for years, and r/DenverFood regulars tend to get into surprisingly heated territory when the topic comes up. This list is the result of taking all of that seriously. Here's where to actually slurp in the Mile High City.
+
+---
+
+### **[Uncle](http://uncleramen.com/)**
+2215 W 32nd Ave, Denver, CO 80211 (LoHi) | $$ | Reservations: No
+
+Uncle is the move. Full stop. This is the bowl that converted the skeptics, the place that r/DenverFood regulars keep circling back to when someone asks where to go for ramen that actually means something. The space is small and unpretentious in a way that feels earned rather than designed. You will wait. Accept it. The tonkotsu here is rich in a way that borders on absurd, the kind of broth that coats your lips and makes you immediately rethink your lunch plans for the rest of the week. The noodles have chew. The soft-boiled egg is marinated properly, not as an afterthought. If you're new to Denver or new to ramen, this is your first stop. No debate.
+
+---
+
+### **[JINYA Ramen Bar - Union Station](https://www.jinyaramenbar.com/locations/denver-union-station/?utm_medium=soci&utm_source=gmb)**
+1710 Wynkoop St, Denver, CO 80202 (Union Station) | $$ | Reservations: No
+
+Yes, it's a chain. And yes, it still belongs on this list. JINYA has figured out something a lot of independent spots haven't, which is consistency. You walk in knowing what you're going to get, and what you're going to get is a solid, well-executed bowl. The broth options are broad, the customization is real, and the Union Station location specifically benefits from a room that doesn't feel like a franchise. The chicken broth options hold up better than you'd expect. The spicy options are worth investigating. It won't be the most transcendent ramen experience of your life, but if you're in the neighborhood and the craving hits, you are not slumming it here.
+
+---
+
+### **[Linger](https://ediblebeats.com/restaurants/linger/)**
+2030 W 30th Ave, Denver, CO 80211 (LoHi) | $$$ | Reservations: Recommended
+
+Linger is a global small-plates restaurant housed in a former mortuary, which tells you a lot about the energy of the place. Ramen isn't the whole menu here, it's one thread in a larger fabric of internationally influenced dishes. But when Linger has a ramen on the menu, it tends to be inventive in ways that the more straightforward ramen-focused spots aren't. Think elevated components, unexpected flavor pairings, broth that comes from a culinary angle rather than a traditional one. The atmosphere is genuinely great, and the cocktail program makes this a full evening rather than a quick bowl. A well-upvoted thread on r/Denver once debated whether Linger qualifies as a ramen destination or a restaurant that happens to do ramen well. The honest answer is the second one, but that doesn't make the bowl less worth ordering.
+
+---
+
+### **[Hapa Sushi Grill and Sake Bar](http://www.hapasushi.com/)**
+1514 Blake St, Denver, CO 80202 (LoDo) | $$ | Reservations: Yes
+
+Hapa is primarily a sushi spot, and the sushi is the reason most people go. But the ramen here is a legitimate secondary reason to show up, particularly on a cold night when you walked from Union Station and the wind off the Platte hit different. The broth is clean and restrained, which some people love and some people find underwhelming. If you want aggressive richness, look elsewhere. If you want something balanced and well-proportioned that won't destroy you before a night out, Hapa is your answer. The sake program pairs well with it in a way that feels intentional rather than accidental.
+
+---
+
+### **[Sushi Den](http://www.sushiden.net/)**
+1487 S Pearl St, Denver, CO 80210 (Platt Park) | $$$ | Reservations: Recommended
+
+Sushi Den is one of Denver's genuinely iconic restaurants, and its ramen, when available, benefits from the same sourcing discipline that makes the fish program exceptional. This is a place that takes ingredients seriously at a level that most Denver restaurants don't bother with. The ramen here isn't always a menu staple, which is part of why it doesn't lead the list. But when it appears, it's worth your attention. Locals on r/Denver have flagged Sushi Den repeatedly as the kind of restaurant that does fewer things than it could but does them at a level that justifies the prices and the occasional wait for a table.
+
+---
+
+**The Verdict**
+
+Denver's ramen scene rewards people who know where to look and penalizes people who assume the city can't do it. Uncle is your anchor. It's the bowl that earns the most consistent, passionate local defense and delivers on that reputation. JINYA fills the accessible, reliable middle. Linger gives you ramen as part of something bigger and more theatrical. Hapa and Sushi Den are for nights when ramen is the second priority and the full dining experience is the first.
+
+What Denver doesn't have yet is the kind of deep, neighborhood-by-neighborhood ramen density that a city like Seattle or Los Angeles takes for granted. That gap is real, and r/DenverFood will tell you the same thing. But the city is building something. The foundations are here. And in the meantime, the bowls worth eating are worth eating seriously.`,
+    category: "food",
+    author: "Ryan Estes",
+    date: "2026-06-12",
+    readTime: "5 min read",
+    image: "/images/best-ramen-denver.png",
+    featured: false,
+    tags: ["Ramen", "Japanese Food", "Best Of", "Denver Restaurants"],
   }
 ];
 

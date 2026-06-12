@@ -158,8 +158,9 @@
       "Denver Restaurants"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": null
+    "status": "published",
+    "season": null,
+    "publishedAt": "2026-06-12T17:45:33.623Z"
   },
   {
     "slug": "best-banh-mi-denver",
