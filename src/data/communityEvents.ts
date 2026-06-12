@@ -283,13 +283,153 @@ export const communityEvents: CommunityEvent[] = [
       "Cherry Creek's destination for Latin culture and cocktails just installed brand-new big-screen TVs for the World Cup. Ay Papi will stream every match during operating hours and open early for select games. Limited-time drinks include The Ti Breaker (Ti punch with St. Benevolence Haitian Rum), Bicycle Kick (Carajillo-inspired with Mexican Coke, Licor 43, and Mr. Black), and The Pitch (Casamigos Margaritas), plus beer and cocktail pitcher specials. Reservations encouraged at aypapidenver.com.",
   },
   {
-    id: "number-thirty-eight-world-cup",
-    title: "World Cup Watch Parties at Number Thirty Eight",
-    date: "2026-06-11",
+    id: "nmbr38-wc-brazil-morocco",
+    title: "World Cup Watch Party: Brazil vs Morocco",
+    date: "2026-06-13",
+    time: "4:00 PM",
+    location: "Number Thirty Eight, 3560 Chestnut Place, Denver CO 80216",
+    description:
+      "Number Thirty Eight hosts World Cup watch parties all tournament long with Mile High Sports, with full game audio on every match. The venue has 10 indoor TVs, two outdoor TVs, and a 220-inch outdoor LED wall. The Gameday Party Pack ($138) reserves a table for up to 10 guests, including 3 lbs of buffalo wings, a 24-inch party pizza, chips and salsa, and a choice of two add-ons: a High Noon bucket, a pitcher of any Breck beer, or a pitcher of Bud Light.",
+    link: "https://www.nmbr38.com/world-cup",
+  },
+  {
+    id: "nmbr38-wc-germany-curacao",
+    title: "World Cup Watch Party: Germany vs Curacao",
+    date: "2026-06-14",
+    time: "11:00 AM",
+    location: "Number Thirty Eight, 3560 Chestnut Place, Denver CO 80216",
+    description:
+      "Number Thirty Eight hosts World Cup watch parties all tournament long with Mile High Sports, with full game audio on every match. The venue has 10 indoor TVs, two outdoor TVs, and a 220-inch outdoor LED wall. The Gameday Party Pack ($138) reserves a table for up to 10 guests, including 3 lbs of buffalo wings, a 24-inch party pizza, chips and salsa, and a choice of two add-ons: a High Noon bucket, a pitcher of any Breck beer, or a pitcher of Bud Light.",
+    link: "https://www.nmbr38.com/world-cup",
+  },
+  {
+    id: "nmbr38-wc-japan-netherlands",
+    title: "World Cup Watch Party: Japan vs Netherlands",
+    date: "2026-06-14",
+    time: "2:00 PM",
+    location: "Number Thirty Eight, 3560 Chestnut Place, Denver CO 80216",
+    description:
+      "Number Thirty Eight hosts World Cup watch parties all tournament long with Mile High Sports, with full game audio on every match. The venue has 10 indoor TVs, two outdoor TVs, and a 220-inch outdoor LED wall. The Gameday Party Pack ($138) reserves a table for up to 10 guests, including 3 lbs of buffalo wings, a 24-inch party pizza, chips and salsa, and a choice of two add-ons: a High Noon bucket, a pitcher of any Breck beer, or a pitcher of Bud Light.",
+    link: "https://www.nmbr38.com/world-cup",
+  },
+  {
+    id: "nmbr38-wc-mexico-south-korea",
+    title: "World Cup Watch Party: Mexico vs South Korea",
+    date: "2026-06-18",
+    time: "7:00 PM",
+    location: "Number Thirty Eight, 3560 Chestnut Place, Denver CO 80216",
+    description:
+      "Number Thirty Eight hosts World Cup watch parties all tournament long with Mile High Sports, with full game audio on every match. The venue has 10 indoor TVs, two outdoor TVs, and a 220-inch outdoor LED wall. The Gameday Party Pack ($138) reserves a table for up to 10 guests, including 3 lbs of buffalo wings, a 24-inch party pizza, chips and salsa, and a choice of two add-ons: a High Noon bucket, a pitcher of any Breck beer, or a pitcher of Bud Light.",
+    link: "https://www.nmbr38.com/world-cup",
+  },
+  {
+    id: "nmbr38-wc-usa-australia",
+    title: "World Cup Watch Party: USA vs Australia",
+    date: "2026-06-19",
     time: "1:00 PM",
     location: "Number Thirty Eight, 3560 Chestnut Place, Denver CO 80216",
     description:
-      "Number Thirty Eight is hosting World Cup watch parties all tournament long in partnership with Mile High Sports, showing every USA, Mexico, Germany, Japan, and Brazil match, plus the semi-finals and the final, with full game audio. Watch parties are presented by Truly, Modelo, Paulaner, and Kirin Ichiban, each with giveaways, samples, and activations. The venue has 10 indoor TVs, two outdoor TVs, and a 220-inch outdoor LED wall. The Gameday Party Pack ($138) reserves a table for up to 10 guests and includes 3 lbs of buffalo wings, a 24-inch party pizza, chips and salsa, and a choice of two add-ons: a High Noon bucket, a pitcher of any Breck beer, or a pitcher of Bud Light.",
+      "Number Thirty Eight hosts World Cup watch parties all tournament long with Mile High Sports, with full game audio on every match. The venue has 10 indoor TVs, two outdoor TVs, and a 220-inch outdoor LED wall. The Gameday Party Pack ($138) reserves a table for up to 10 guests, including 3 lbs of buffalo wings, a 24-inch party pizza, chips and salsa, and a choice of two add-ons: a High Noon bucket, a pitcher of any Breck beer, or a pitcher of Bud Light.",
+    link: "https://www.nmbr38.com/world-cup",
+  },
+  {
+    id: "nmbr38-wc-brazil-haiti",
+    title: "World Cup Watch Party: Brazil vs Haiti",
+    date: "2026-06-19",
+    time: "6:30 PM",
+    location: "Number Thirty Eight, 3560 Chestnut Place, Denver CO 80216",
+    description:
+      "Number Thirty Eight hosts World Cup watch parties all tournament long with Mile High Sports, with full game audio on every match. The venue has 10 indoor TVs, two outdoor TVs, and a 220-inch outdoor LED wall. The Gameday Party Pack ($138) reserves a table for up to 10 guests, including 3 lbs of buffalo wings, a 24-inch party pizza, chips and salsa, and a choice of two add-ons: a High Noon bucket, a pitcher of any Breck beer, or a pitcher of Bud Light.",
+    link: "https://www.nmbr38.com/world-cup",
+  },
+  {
+    id: "nmbr38-wc-germany-ivory-coast",
+    title: "World Cup Watch Party: Germany vs Ivory Coast",
+    date: "2026-06-20",
+    time: "2:00 PM",
+    location: "Number Thirty Eight, 3560 Chestnut Place, Denver CO 80216",
+    description:
+      "Number Thirty Eight hosts World Cup watch parties all tournament long with Mile High Sports, with full game audio on every match. The venue has 10 indoor TVs, two outdoor TVs, and a 220-inch outdoor LED wall. The Gameday Party Pack ($138) reserves a table for up to 10 guests, including 3 lbs of buffalo wings, a 24-inch party pizza, chips and salsa, and a choice of two add-ons: a High Noon bucket, a pitcher of any Breck beer, or a pitcher of Bud Light.",
+    link: "https://www.nmbr38.com/world-cup",
+  },
+  {
+    id: "nmbr38-wc-brazil-scotland",
+    title: "World Cup Watch Party: Brazil vs Scotland",
+    date: "2026-06-24",
+    time: "4:00 PM",
+    location: "Number Thirty Eight, 3560 Chestnut Place, Denver CO 80216",
+    description:
+      "Number Thirty Eight hosts World Cup watch parties all tournament long with Mile High Sports, with full game audio on every match. The venue has 10 indoor TVs, two outdoor TVs, and a 220-inch outdoor LED wall. The Gameday Party Pack ($138) reserves a table for up to 10 guests, including 3 lbs of buffalo wings, a 24-inch party pizza, chips and salsa, and a choice of two add-ons: a High Noon bucket, a pitcher of any Breck beer, or a pitcher of Bud Light.",
+    link: "https://www.nmbr38.com/world-cup",
+  },
+  {
+    id: "nmbr38-wc-mexico-czechia",
+    title: "World Cup Watch Party: Mexico vs Czechia",
+    date: "2026-06-24",
+    time: "7:00 PM",
+    location: "Number Thirty Eight, 3560 Chestnut Place, Denver CO 80216",
+    description:
+      "Number Thirty Eight hosts World Cup watch parties all tournament long with Mile High Sports, with full game audio on every match. The venue has 10 indoor TVs, two outdoor TVs, and a 220-inch outdoor LED wall. The Gameday Party Pack ($138) reserves a table for up to 10 guests, including 3 lbs of buffalo wings, a 24-inch party pizza, chips and salsa, and a choice of two add-ons: a High Noon bucket, a pitcher of any Breck beer, or a pitcher of Bud Light.",
+    link: "https://www.nmbr38.com/world-cup",
+  },
+  {
+    id: "nmbr38-wc-germany-ecuador",
+    title: "World Cup Watch Party: Germany vs Ecuador",
+    date: "2026-06-25",
+    time: "2:00 PM",
+    location: "Number Thirty Eight, 3560 Chestnut Place, Denver CO 80216",
+    description:
+      "Number Thirty Eight hosts World Cup watch parties all tournament long with Mile High Sports, with full game audio on every match. The venue has 10 indoor TVs, two outdoor TVs, and a 220-inch outdoor LED wall. The Gameday Party Pack ($138) reserves a table for up to 10 guests, including 3 lbs of buffalo wings, a 24-inch party pizza, chips and salsa, and a choice of two add-ons: a High Noon bucket, a pitcher of any Breck beer, or a pitcher of Bud Light.",
+    link: "https://www.nmbr38.com/world-cup",
+  },
+  {
+    id: "nmbr38-wc-japan-sweden",
+    title: "World Cup Watch Party: Japan vs Sweden",
+    date: "2026-06-25",
+    time: "5:00 PM",
+    location: "Number Thirty Eight, 3560 Chestnut Place, Denver CO 80216",
+    description:
+      "Number Thirty Eight hosts World Cup watch parties all tournament long with Mile High Sports, with full game audio on every match. The venue has 10 indoor TVs, two outdoor TVs, and a 220-inch outdoor LED wall. The Gameday Party Pack ($138) reserves a table for up to 10 guests, including 3 lbs of buffalo wings, a 24-inch party pizza, chips and salsa, and a choice of two add-ons: a High Noon bucket, a pitcher of any Breck beer, or a pitcher of Bud Light.",
+    link: "https://www.nmbr38.com/world-cup",
+  },
+  {
+    id: "nmbr38-wc-usa-turkiye",
+    title: "World Cup Watch Party: USA vs Türkiye",
+    date: "2026-06-25",
+    time: "8:00 PM",
+    location: "Number Thirty Eight, 3560 Chestnut Place, Denver CO 80216",
+    description:
+      "Number Thirty Eight hosts World Cup watch parties all tournament long with Mile High Sports, with full game audio on every match. The venue has 10 indoor TVs, two outdoor TVs, and a 220-inch outdoor LED wall. The Gameday Party Pack ($138) reserves a table for up to 10 guests, including 3 lbs of buffalo wings, a 24-inch party pizza, chips and salsa, and a choice of two add-ons: a High Noon bucket, a pitcher of any Breck beer, or a pitcher of Bud Light.",
+    link: "https://www.nmbr38.com/world-cup",
+  },
+  {
+    id: "nmbr38-wc-semifinal-714",
+    title: "World Cup Semi-Final Watch Party",
+    date: "2026-07-14",
+    time: "1:00 PM",
+    location: "Number Thirty Eight, 3560 Chestnut Place, Denver CO 80216",
+    description:
+      "Number Thirty Eight hosts World Cup watch parties all tournament long with Mile High Sports, with full game audio on every match. The venue has 10 indoor TVs, two outdoor TVs, and a 220-inch outdoor LED wall. The Gameday Party Pack ($138) reserves a table for up to 10 guests, including 3 lbs of buffalo wings, a 24-inch party pizza, chips and salsa, and a choice of two add-ons: a High Noon bucket, a pitcher of any Breck beer, or a pitcher of Bud Light.",
+    link: "https://www.nmbr38.com/world-cup",
+  },
+  {
+    id: "nmbr38-wc-semifinal-715",
+    title: "World Cup Semi-Final Watch Party",
+    date: "2026-07-15",
+    time: "1:00 PM",
+    location: "Number Thirty Eight, 3560 Chestnut Place, Denver CO 80216",
+    description:
+      "Number Thirty Eight hosts World Cup watch parties all tournament long with Mile High Sports, with full game audio on every match. The venue has 10 indoor TVs, two outdoor TVs, and a 220-inch outdoor LED wall. The Gameday Party Pack ($138) reserves a table for up to 10 guests, including 3 lbs of buffalo wings, a 24-inch party pizza, chips and salsa, and a choice of two add-ons: a High Noon bucket, a pitcher of any Breck beer, or a pitcher of Bud Light.",
+    link: "https://www.nmbr38.com/world-cup",
+  },
+  {
+    id: "nmbr38-wc-final",
+    title: "World Cup Final Watch Party",
+    date: "2026-07-19",
+    time: "1:00 PM",
+    location: "Number Thirty Eight, 3560 Chestnut Place, Denver CO 80216",
+    description:
+      "Number Thirty Eight hosts the World Cup Final watch party in partnership with Mile High Sports, with full game audio and the full venue energy. The venue has 10 indoor TVs, two outdoor TVs, and a 220-inch outdoor LED wall. The Gameday Party Pack ($138) reserves a table for up to 10 guests, including 3 lbs of buffalo wings, a 24-inch party pizza, chips and salsa, and a choice of two add-ons: a High Noon bucket, a pitcher of any Breck beer, or a pitcher of Bud Light.",
     link: "https://www.nmbr38.com/world-cup",
   },
   {
