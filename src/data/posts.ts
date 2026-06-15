@@ -2201,6 +2201,86 @@ What Denver doesn't have yet is the kind of deep, neighborhood-by-neighborhood r
     image: "/images/best-ramen-denver.png",
     featured: false,
     tags: ["Ramen", "Japanese Food", "Best Of", "Denver Restaurants"],
+  },
+  {
+    id: 30,
+    slug: "best-banh-mi-denver",
+    title: "Best Banh Mi in Denver (The Sandwich That Saved Lunch)",
+    excerpt: "Here's the thing about banh mi: it shouldn't work this well, but Denver's got spots that prove this six-dollar sandwich is legitimately one of the greatest things you can shove in your face.",
+    fullContent: `Here's the thing about banh mi. It shouldn't work this well. You've got a French baguette, Vietnamese pickled vegetables, some combination of pork, pâté, cilantro, and jalapeños, and the whole thing costs you maybe six dollars. It should be a novelty. A fusion footnote. Instead it's one of the greatest sandwiches ever assembled by human hands, and Denver, if you know where to look, has spots doing it serious justice.
+
+The problem is knowing where to look. Denver's Vietnamese food scene is concentrated hard along South Federal Boulevard, which is exactly where you should be spending your lunch money. This stretch of Federal, running through the Mar Lee and Barnum neighborhoods, is the real deal. Strip malls that look unassuming from the outside, restaurants that have been feeding the Vietnamese-American community here for decades. If you've been sleeping on South Federal, that's on you, and this list is your wake-up call.
+
+A note on the data: banh mi tends to live inside pho restaurants in Denver, which means the places on this list are primarily noodle spots that also happen to make sandwiches worth crossing town for. That's not a complaint. That's just how it works here. The sandwich exists alongside the bowl, and often the same kitchen that makes transcendent broth also makes transcendent banh mi. Order both. You'll figure out the logistics.
+
+---
+
+### **[Tony Pho Vietnamese Restaurant Noodle soup and Grill](https://www.tonypho.com/)**
+
+1002 S Federal Blvd, Denver, CO 80219 (Mar Lee) | $ | Reservations: No
+
+Tony Pho is a South Federal institution, and the banh mi here is the kind of thing that ruins you for sad desk lunches forever. The bread matters, and it matters a lot. You want that baguette with actual crunch, the kind that makes noise when you bite it, and Tony Pho delivers. The fillings are generous without being sloppy, the pickled daikon and carrots are punchy and bright, and the pâté situation is handled with appropriate seriousness. Locals on r/Denver have pointed to South Federal broadly as the corridor for legitimate Vietnamese food in the city, and Tony Pho is one of the anchors of that reputation. The room is no-frills and the service moves fast, which is exactly what you want when you're there for the food and not the ambiance.
+
+---
+
+### **[GOLDEN SAIGON Restaurant](http://goldensaigon.com/)**
+
+2648 S Parker Rd Unit 2, Aurora, CO 80014 (Aurora) | $ | Reservations: No
+
+Yes, it's in Aurora. Yes, you should go anyway. Golden Saigon is the kind of place that gets quietly passed around in Vietnamese food conversations on r/DenverFood as a reason to venture past the Denver city limits. The banh mi here is built correctly. That means real pork, real liver pâté, fresh herbs that look like they were cut today, and enough jalapeño to remind you that you're alive. The Parker Road location puts it in the middle of Aurora's Vietnamese dining corridor, which has its own serious credentials. If you're already heading out to the 'burbs for something, make it this.
+
+---
+
+### **Phở 95**
+
+1401 S Federal Blvd, Denver, CO 80219 (Barnum) | $ | Reservations: No
+
+Pho 95 sits right on South Federal and has the kind of neighborhood-regular energy that tells you everything you need to know. The menu is broad, the prices are genuinely fair, and the banh mi holds its own against anything on the block. This is a lunch spot. It's a get-in-get-out spot. It's the place you end up at on a Tuesday when you want something that actually tastes like someone cared about making it. The r/Denver crowd has flagged South Federal repeatedly as underappreciated by people who don't live in the surrounding neighborhoods, and Pho 95 is a perfect example of why that reputation is earned.
+
+---
+
+### **Pho Duy Denver**
+
+925 S Federal Blvd, Denver, CO 80219 (Mar Lee) | $ | Reservations: No
+
+Another South Federal entry, another spot that makes the case for why this stretch of road deserves more attention than Denver food media typically gives it. Pho Duy is no-frills in the best possible way. The banh mi is assembled with care. The bread is crusty. The protein options are solid. The price point will make you feel like you've discovered some kind of loophole in the food economy. If you're doing a South Federal banh mi crawl, and you absolutely should be doing a South Federal banh mi crawl, Pho Duy belongs on the route.
+
+---
+
+### **PHO 92 DIA**
+
+6691 Tower Rd #101, Denver, CO 80249 (Green Valley Ranch) | $ | Reservations: No
+
+Pho 92 Dia is out near the airport, in Green Valley Ranch, which means it serves a part of the city that doesn't always get a lot of food coverage but has a real Vietnamese-American community presence. The banh mi here does the job. Good bread, solid fillings, honest pricing. If you live or work on the east side of Denver and you've been driving all the way to Federal for your fix, Pho 92 Dia is worth knowing about. The r/DenverFood community has noted more than once that the airport-adjacent neighborhoods have Vietnamese spots that quietly outperform their low profile, and this one fits that description.
+
+---
+
+### **[What The Pho](http://whatthepho.epipay.com/)**
+
+1600 Champa St #110, Denver, CO 80202 (Downtown) | $$ | Reservations: No
+
+Look. The name. We know. But What The Pho exists in a part of Denver, downtown, where your Vietnamese food options thin out considerably, and that gives it a specific kind of value. The banh mi here is more polished than the Federal corridor spots, which is sometimes a good thing and sometimes means you're paying a little more for presentation. For a downtown lunch situation when you don't have time to drive to South Federal, this fills the gap competently. Don't expect the same raw authenticity as the neighborhood spots. Do expect a banh mi that's better than most of what else is available within walking distance of the 16th Street Mall.
+
+---
+
+### **[Phở Hương Việt](https://www.phohuong-viet.com/)**
+
+3175 1232 S Hover St C-200, Longmont, CO 80501 (Longmont) | $ | Reservations: No
+
+Longmont is a haul. That's just the truth. But Pho Huong Viet has built a following among people in Boulder County who know that good Vietnamese food doesn't require a trip to Denver. The banh mi is solid, the portions are generous, and if you're already up in that direction, this is the stop you want to make. The sandwich holds up. The broth is also excellent if you want to make a full meal of it, which, come on, you do.
+
+---
+
+**The Verdict**
+
+South Federal Boulevard is the spine of Denver's banh mi scene, and if you haven't spent a Saturday afternoon working your way up and down that corridor, you're leaving one of Denver's best food experiences on the table. Tony Pho and Pho Duy anchor the sandwich side of things with real consistency. Golden Saigon in Aurora is worth the drive when you want something that feels like it has nothing to prove. Pho 95 is your no-drama weekday lunch spot. And What The Pho, naming conventions aside, does the job when downtown is where you're stuck. The banh mi doesn't need to be complicated. It needs good bread, good pâté, aggressively pickled vegetables, and someone who understands that the whole thing falls apart without each piece working correctly. Denver has that. You just have to know where to go.`,
+    category: "food",
+    author: "Ryan Estes",
+    date: "2026-06-15",
+    readTime: "6 min read",
+    image: "/images/best-banh-mi-denver.png",
+    featured: false,
+    tags: ["Banh Mi", "Vietnamese Food", "Best Of", "Denver Restaurants"],
   }
 ];
 
