@@ -1,20 +1,7 @@
 import { serve } from "https://deno.land/std@0.190.0/http/server.ts";
-import { createClient } from "https://esm.sh/@supabase/supabase-js@2.45.0";
 import { Resend } from "npm:resend@2.0.0";
 
 const resend = new Resend(Deno.env.get("RESEND_API_KEY"));
-
-// Configurable sender + recipients. Resend's sandbox sender
-// (onboarding@resend.dev) can only deliver to the Resend account owner, so set
-// RESEND_FROM to an address on a domain you've verified in Resend for delivery
-// to actually work.
-const FROM_ADDRESS =
-  Deno.env.get("RESEND_FROM") ?? "Real Good Denver <notifications@realgooddenver.com>";
-const NOTIFY_TO = (Deno.env.get("SUBMISSION_NOTIFY_TO") ??
-  "ryan@ryanestes.info,fernanda@ryanestes.info")
-  .split(",")
-  .map((s) => s.trim())
-  .filter(Boolean);
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
@@ -155,59 +142,16 @@ const handler = async (req: Request): Promise<Response> => {
       throw new Error("Invalid submission type");
     }
 
-    // 1) Persist to the database FIRST so a submission is never lost, even if
-    //    the notification email fails to send.
-    const supabase = createClient(
-      Deno.env.get("SUPABASE_URL") ?? "",
-      Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "",
-      { auth: { persistSession: false } },
-    );
+    const emailResponse = await resend.emails.send({
+      from: "Real Good Denver <onboarding@resend.dev>",
+      to: ["ryan@ryanestes.info", "fernanda@ryanestes.info"],
+      subject: subject,
+      html: htmlContent,
+    });
 
-    // Normalize the common fields across form types; `data` keeps the full payload.
-    const flat: Record<string, any> = submission.type === "sponsor_onboarding"
-      ? submission.data
-      : (submission as unknown as Record<string, any>);
-    const record = {
-      type: submission.type,
-      name: (flat as any).name ?? (flat as any).contactName ?? null,
-      email: (flat as any).email ?? null,
-      phone: (flat as any).phone ?? null,
-      company: (flat as any).company ?? (flat as any).companyName ?? null,
-      message: (flat as any).message ?? null,
-      data: submission,
-    };
+    console.log("Email sent successfully:", emailResponse);
 
-    const { error: dbError } = await supabase
-      .from("form_submissions")
-      .insert(record);
-
-    if (dbError) {
-      // Saving is the critical path — if it fails, surface a real error.
-      console.error("Failed to save submission:", dbError);
-      throw new Error(`Failed to save submission: ${dbError.message}`);
-    }
-
-    // 2) Send the notification email. Non-fatal: the submission is already
-    //    safely stored, so an email failure must not fail the request.
-    let emailDelivered = false;
-    try {
-      const emailResponse = await resend.emails.send({
-        from: FROM_ADDRESS,
-        to: NOTIFY_TO,
-        subject: subject,
-        html: htmlContent,
-      });
-      if (emailResponse.error) {
-        console.error("Resend returned an error:", emailResponse.error);
-      } else {
-        emailDelivered = true;
-        console.log("Notification email sent:", emailResponse.data);
-      }
-    } catch (emailErr) {
-      console.error("Notification email failed (submission was still saved):", emailErr);
-    }
-
-    return new Response(JSON.stringify({ success: true, saved: true, emailDelivered }), {
+    return new Response(JSON.stringify({ success: true, emailResponse }), {
       status: 200,
       headers: {
         "Content-Type": "application/json",

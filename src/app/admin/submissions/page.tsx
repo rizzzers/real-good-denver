@@ -5,31 +5,33 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 
 interface Submission {
-  id: string;
+  id: number;
   created_at: string;
   type: string | null;
   name: string | null;
   email: string | null;
-  phone: string | null;
-  company: string | null;
-  message: string | null;
-  source: string | null;
-  data: Record<string, unknown> | null;
+  subject: string | null;
+  body: Record<string, unknown> | null;
+  email_sent: boolean | null;
 }
 
 const FILTERS: { key: string; label: string }[] = [
   { key: "all", label: "All" },
+  { key: "newsletter_signup", label: "Newsletter" },
   { key: "contact", label: "Contact" },
-  { key: "newsletter", label: "Newsletter" },
   { key: "partnership", label: "Partnership" },
+  { key: "sponsorship", label: "Sponsorship" },
   { key: "sponsor_onboarding", label: "Sponsor Onboarding" },
+  { key: "event", label: "Event" },
 ];
 
 const TYPE_LABELS: Record<string, string> = {
+  newsletter_signup: "Newsletter",
   contact: "Contact",
-  newsletter: "Newsletter",
   partnership: "Partnership",
+  sponsorship: "Sponsorship",
   sponsor_onboarding: "Sponsor Onboarding",
+  event: "Event",
 };
 
 function formatDateTime(dateStr: string): string {
@@ -48,7 +50,7 @@ export default function AdminSubmissionsPage() {
   const [filter, setFilter] = useState("all");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const [expanded, setExpanded] = useState<string | null>(null);
+  const [expanded, setExpanded] = useState<number | null>(null);
 
   const fetchData = useCallback(
     async (type: string) => {
@@ -153,6 +155,7 @@ export default function AdminSubmissionsPage() {
                   <th className="px-6 py-3">Type</th>
                   <th className="px-6 py-3">Name</th>
                   <th className="px-6 py-3">Email</th>
+                  <th className="px-6 py-3">Emailed</th>
                   <th className="px-6 py-3 text-right">Details</th>
                 </tr>
               </thead>
@@ -180,6 +183,17 @@ export default function AdminSubmissionsPage() {
                           "—"
                         )}
                       </td>
+                      <td className="px-6 py-3.5">
+                        {s.email_sent ? (
+                          <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-green-50 text-green-700">
+                            Sent
+                          </span>
+                        ) : (
+                          <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-amber-50 text-amber-700">
+                            Not sent
+                          </span>
+                        )}
+                      </td>
                       <td className="px-6 py-3.5 text-right">
                         <button
                           onClick={() => setExpanded(expanded === s.id ? null : s.id)}
@@ -192,20 +206,20 @@ export default function AdminSubmissionsPage() {
                     </tr>
                     {expanded === s.id && (
                       <tr className="bg-gray-50">
-                        <td colSpan={5} className="px-6 py-4">
-                          {s.message && (
+                        <td colSpan={6} className="px-6 py-4">
+                          {s.subject && (
                             <div className="mb-3">
                               <p className="text-xs font-medium text-gray-400 uppercase tracking-wide mb-1">
-                                Message
+                                Subject
                               </p>
-                              <p className="text-sm text-gray-700 whitespace-pre-wrap">{s.message}</p>
+                              <p className="text-sm text-gray-700">{s.subject}</p>
                             </div>
                           )}
                           <p className="text-xs font-medium text-gray-400 uppercase tracking-wide mb-1">
                             Full submission
                           </p>
                           <pre className="text-xs text-gray-700 bg-white border border-gray-200 rounded-lg p-3 overflow-x-auto">
-                            {JSON.stringify(s.data ?? s, null, 2)}
+                            {JSON.stringify(s.body ?? {}, null, 2)}
                           </pre>
                         </td>
                       </tr>
