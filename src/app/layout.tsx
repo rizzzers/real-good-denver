@@ -5,7 +5,7 @@ import Script from "next/script";
 
 export const metadata: Metadata = {
   title: {
-    default: "Real Good Denver — Denver's Weekly Newsletter",
+    default: "Real Good Denver: Denver's Weekly Newsletter",
     template: "%s | Real Good Denver",
   },
   description:
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "Real Good Denver",
     type: "website",
     locale: "en_US",
-    title: "Real Good Denver — Denver's Weekly Newsletter",
+    title: "Real Good Denver: Denver's Weekly Newsletter",
     description:
       "Your weekly guide to Denver events, local news, and the good stuff worth knowing. 20,000+ Denverites read us every Wednesday.",
     url: "https://realgooddenver.com",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@realgooddenver",
     creator: "@realgooddenver",
-    title: "Real Good Denver — Denver's Weekly Newsletter",
+    title: "Real Good Denver: Denver's Weekly Newsletter",
     description:
       "Your weekly guide to Denver events, local news, and the good stuff worth knowing. 20,000+ Denverites read us every Wednesday.",
     images: ["/og-image.jpg"],

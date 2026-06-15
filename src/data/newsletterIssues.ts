@@ -8,6 +8,27 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-rough-one-linebacker-arrest-mcclain-reversal-park-water-cuts",
+    title: "Denver's rough one: a linebacker arrested, an appeals court reversal, and a city that cuts park water while it opens ice cream shops",
+    date: "2026-06-10",
+    description: "Broncos linebacker Jonathon Cooper is arrested on domestic violence charges, the Colorado Court of Appeals throws out the convictions in the Elijah McClain case and sends the paramedics back for new trials, and Denver Parks cuts irrigation 20 percent as Gov. Polis declares a statewide drought emergency. Plus the World Cup watch parties arrive, Sundae ice cream opens on 16th Street, and a 358-unit transit-oriented community breaks ground at 38th and Blake.",
+    htmlFile: "/newsletter-issues/denver-rough-one-linebacker-arrest-mcclain-reversal-park-water-cuts.html",
+  },
+  {
+    slug: "denver-golf-ball-hail-anti-vax-lawsuit-parady-resigns",
+    title: "Denver this week: golf ball hail, a $4M anti-vax lawsuit, and the progressive council voice who just ran out of runway.",
+    date: "2026-06-03",
+    description: "Golf-ball hail slammed Denver on June 1, denting cars and disrupting flights, an anti-vax dating app is suing Recess Beer Garden for $4 million, and progressive councilmember Sarah Parady is resigning over an undisclosed illness. Plus three new bars open in Wash Park, on Colfax, and in RiNo, council aides move to unionize, and summer heat finally arrives.",
+    htmlFile: "/newsletter-issues/denver-golf-ball-hail-anti-vax-lawsuit-parady-resigns.html",
+  },
+  {
+    slug: "denver-stadiums-nuggets-rally-lewis-capaldi-red-rocks",
+    title: "Denver keeps building stadiums while the Nuggets RALLY and Lewis Capaldi heals at Red Rocks",
+    date: "2026-04-29",
+    description: "The Nuggets are fighting back in the playoffs, Lewis Capaldi is healing at Red Rocks, Denver's 16th Street Mall gets the 'Central Social District' treatment, the George Floyd protest verdict stands at $14.75M, and The Pearl, Denver's only lesbian bar, is closing its doors. Plus new restaurants, drought news, and the jobs page is finally fixed.",
+    htmlFile: "/newsletter-issues/denver-stadiums-nuggets-rally-lewis-capaldi-red-rocks.html",
+  },
+  {
     slug: "denver-spring-playoff-hockey-basketball-hemp-fraud-bovine-baron",
     title: "Denver is having the spring of all springs: Playoff hockey, playoff basketball, hemp fraud, and a man named the bovine baron",
     date: "2026-04-24",
@@ -39,7 +60,7 @@ export const newsletterIssues: NewsletterIssue[] = [
     slug: "denver-went-dark-dia-lost-power-lamb-of-god-fillmore",
     title: "Denver went dark, DIA lost power, 463 flights froze, and somehow Lamb of God still played the Fillmore on Friday",
     date: "2026-03-27",
-    description: "Denver's biggest power outage in years knocked out DIA, froze hundreds of flights, and plunged neighborhoods dark — and Lamb of God played anyway.",
+    description: "Denver's biggest power outage in years knocked out DIA, froze hundreds of flights, and plunged neighborhoods dark, and Lamb of God played anyway.",
     htmlFile: "/newsletter-issues/denver-went-dark-dia-lost-power-lamb-of-god-fillmore.html",
   },
   {
@@ -53,7 +74,7 @@ export const newsletterIssues: NewsletterIssue[] = [
     slug: "denver-kept-together-hospital-shooting-trail-cpr-mafia-poker",
     title: "Denver kept it together this week: hospital shooting, trail CPR, mafia poker, frozen shelters",
     date: "2026-03-12",
-    description: "A week of wild Denver stories — a hospital shooting, a trail rescue, underground poker, and shelters pushed to the limit in the cold.",
+    description: "A week of wild Denver stories, a hospital shooting, a trail rescue, underground poker, and shelters pushed to the limit in the cold.",
     htmlFile: "/newsletter-issues/denver-kept-together-hospital-shooting-trail-cpr-mafia-poker.html",
   },
   {

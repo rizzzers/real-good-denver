@@ -1,10 +1,10 @@
 "use client";
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Music, Calendar, Palette, Trophy, UtensilsCrossed, MapPin, Mountain, Clock, CheckCircle } from 'lucide-react';
-import { supabase } from '@/lib/supabase';
 import { useToast } from '@/hooks/use-toast';
 import { useScrollReveal } from '@/hooks/use-scroll-reveal';
 
@@ -35,10 +35,12 @@ export default function AboutClient() {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      const { error } = await supabase.functions.invoke('send-form-submission', {
-        body: { type: 'contact', name: formData.name, email: formData.email, message: formData.message }
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type: 'contact', name: formData.name, email: formData.email, message: formData.message }),
       });
-      if (error) throw error;
+      if (!res.ok) throw new Error('Failed');
       setSubmitted(true);
       setFormData({ name: '', email: '', message: '' });
       toast({ title: "Message Sent!", description: "Thanks for reaching out! We'll get back to you soon." });
@@ -75,7 +77,17 @@ export default function AboutClient() {
         </div>
       </section>
 
-      <section className="py-24 md:py-32 bg-background">
+      <section className="bg-background">
+        <TeamPhoto />
+      </section>
+
+      <section className="py-20 md:py-28 bg-background">
+        <div className="max-w-5xl mx-auto px-6">
+          <CreatorBios />
+        </div>
+      </section>
+
+      <section className="py-24 md:py-32 bg-background border-t border-border">
         <div className="max-w-3xl mx-auto px-6">
           <StoryBlock />
         </div>
@@ -109,6 +121,114 @@ export default function AboutClient() {
     </div>
   );
 }
+
+const TeamPhoto = () => {
+  const { ref, isVisible } = useScrollReveal();
+  return (
+    <div ref={ref} className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
+      <img
+        src="/images/about-team.jpg"
+        alt="Ryan Estes and Tom Donahue, Real Good Denver"
+        className="w-full max-w-2xl mx-auto block"
+      />
+    </div>
+  );
+};
+
+const CreatorBios = () => {
+  const { ref, isVisible } = useScrollReveal();
+  return (
+    <div ref={ref} className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
+      <div className="text-center mb-14">
+        <p className="text-sm font-medium uppercase tracking-widest text-primary mb-3">The creators</p>
+        <h2 className="text-3xl md:text-5xl font-bold text-foreground">Built by Denverites.</h2>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+        {/* Tom Donahue, left */}
+        <div className="space-y-5">
+          <div>
+            <h3 className="text-2xl font-bold text-foreground mb-1">Tom Donahue</h3>
+            <p className="text-sm font-medium text-primary uppercase tracking-widest">Co-creator &amp; Producer</p>
+          </div>
+          <div className="space-y-4 text-muted-foreground leading-relaxed">
+            <p>
+              Tom&rsquo;s spent the better part of the last 12 years in Colorado, and gives us a transplant&rsquo;s look into our local scene. Hailing from New Jersey, he brings a skeptical eye while evaluating all things pizza, bagels, and Italian around town.
+            </p>
+            <p>
+              As a music producer, DJ and nightlife connoisseur, Tom makes sure Real Good Denver listeners have a finger on the pulse of our amazing music scene. His microphone also sounds way better than Ryan&rsquo;s too!
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-2 pt-1">
+            {['New Jersey Native', 'Music Producer', 'DJ', 'Nightlife'].map(tag => (
+              <span key={tag} className="px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/20">
+                {tag}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        {/* Ryan Estes, right */}
+        <div className="space-y-5">
+          <div>
+            <h3 className="text-2xl font-bold text-foreground mb-1">Ryan Estes</h3>
+            <p className="text-sm font-medium text-primary uppercase tracking-widest">Co-creator &amp; Producer</p>
+          </div>
+          <div className="space-y-4 text-muted-foreground leading-relaxed">
+            <p>
+              I started Real Good Denver because I wanted one place that made Denver feel more connected. A publication focused on the people, businesses, events, restaurants, neighborhoods, and stories that give the city its energy.
+            </p>
+            <p>
+              I&rsquo;ve spent the last decade building media companies, hosting podcasts, interviewing founders, and helping brands grow through storytelling and community.
+            </p>
+            <p>
+              I was born and raised in Denver (Asbury, Whittier, Baker, South, Metro, CU - Sko Buffs) and have bounced around the neighborhoods (DU, Observatory, S Broadway, Sunnyside, Sloans Lake) with my wife and two kids. I care deeply about local culture, entrepreneurship, the creative community, and the small moments that make cities feel alive.
+            </p>
+            <p>
+              Real Good Denver is part city guide, part community bulletin board, and part ongoing conversation about what&rsquo;s happening across Denver right now.
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-2 pt-1">
+            {['Denver Native', 'BJJ Purple Belt', 'Capoeira Yellow Cord', 'Finance Mentor', '300+ Volunteer Hours'].map(tag => (
+              <span key={tag} className="px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/20">
+                {tag}
+              </span>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Picks badges + CTA */}
+      <div className="mt-16 text-center">
+        <p className="text-sm font-medium uppercase tracking-widest text-primary mb-3">The picks</p>
+        <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+          Ryan and Tom call their shots.
+        </h3>
+        <p className="text-muted-foreground max-w-2xl mx-auto mb-10">
+          Every Best of Denver guide gets two hand-picked favorites: Ryan kicks it off with the #1 pick, and Tom closes it out with his. See who called what.
+        </p>
+        <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 mb-10">
+          <img
+            src="/images/estes-picks.png"
+            alt="Estes Picks"
+            className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover"
+            style={{ boxShadow: '0 0 0 3px #f97316, 0 0 32px rgba(249,115,22,0.4), 0 8px 30px rgba(0,0,0,0.25)' }}
+          />
+          <img
+            src="/images/toms-picks.png"
+            alt="Tom's Picks"
+            className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover"
+            style={{ boxShadow: '0 0 0 3px #f97316, 0 0 32px rgba(249,115,22,0.4), 0 8px 30px rgba(0,0,0,0.25)' }}
+          />
+        </div>
+        <Link href="/best-of-denver">
+          <button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-xl font-semibold px-8 py-4 text-lg transition-colors">
+            Explore Best of Denver
+          </button>
+        </Link>
+      </div>
+    </div>
+  );
+};
 
 const StoryBlock = () => {
   const { ref, isVisible } = useScrollReveal();
@@ -163,7 +283,7 @@ const TopicsGrid = ({ topics }: { topics: { name: string; icon: React.ElementTyp
 const StatsSection = () => {
   const { ref, isVisible } = useScrollReveal();
   const stats = [
-    { value: '20,000+', label: 'Weekly readers' },
+    { value: '37,000+', label: 'Weekly readers' },
     { value: '200+', label: 'Episodes released' },
     { value: '500+', label: 'Venues featured' },
     { value: 'Top 1%', label: 'Global podcast ranking' },

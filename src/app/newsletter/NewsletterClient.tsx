@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { ArrowRight, ArrowUpRight, Send, Search, X } from 'lucide-react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
-import { supabase } from '@/lib/supabase';
 import { useToast } from '@/hooks/use-toast';
 import { useScrollReveal } from '@/hooks/use-scroll-reveal';
 import { newsletterIssues } from '@/data/newsletterIssues';
@@ -22,10 +21,12 @@ export default function NewsletterClient() {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      const { error } = await supabase.functions.invoke('send-form-submission', {
-        body: { type: 'newsletter', name, email }
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type: 'newsletter_signup', name, email }),
       });
-      if (error) throw error;
+      if (!res.ok) throw new Error('Failed');
       setSubmitted(true);
       setName('');
       setEmail('');

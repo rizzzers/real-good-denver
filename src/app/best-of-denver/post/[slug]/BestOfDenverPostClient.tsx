@@ -8,9 +8,25 @@ import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import AuthorBio from '@/components/AuthorBio';
 import { SpaTreatmentFinder } from '@/components/SpaTreatmentFinder';
+import SuggestionForm from '@/components/SuggestionForm';
+import EstesPickSection from '@/components/EstesPickSection';
+import TomPickSection from '@/components/TomPickSection';
+import PostMap from '@/components/PostMap';
 import InstagramPhotoGrid from '@/components/InstagramPhotoGrid';
 import { useScrollReveal } from '@/hooks/use-scroll-reveal';
 import { posts } from '@/data/posts';
+
+// Matches a "<City>, CO/Colorado" address fragment. Kept in sync with the
+// CITY_CO pattern in PostMap.tsx.
+const CITY_CO =
+  /\b(Denver|Lakewood|Aurora|Westminster|Englewood|Littleton|Edgewater|Arvada|Wheat Ridge|Boulder|Golden|Commerce City|Thornton|Northglenn|Centennial|Glendale|Greenwood Village)\b[^|]*?\b(CO|Colorado)\b/;
+
+// A section counts as an actual place (vs. a "The Verdict" style closing block)
+// when it has a real address line: a single line carrying both a "<City>, CO"
+// fragment and a 5-digit ZIP. Prose that merely name-drops "Denver ... Colorado"
+// across a sentence has no ZIP, so it does not qualify.
+const hasAddressLine = (section: string): boolean =>
+  section.split('\n').some(line => CITY_CO.test(line) && /\b\d{5}\b/.test(line));
 
 const parseMarkdownContent = (content: string): string => {
   return content
@@ -51,12 +67,70 @@ export default function BestOfDenverPostClient() {
   const { ref: heroRef, isVisible: heroVisible } = useScrollReveal();
   const { ref: contentRef, isVisible: contentVisible } = useScrollReveal(0.05);
 
+  const isBakerPost = post?.slug === 'best-of-denver-baker';
+
+  // Split content into intro / #1 pick / middle / last pick / closing for all
+  // Best of Denver posts. The #1 pick renders as Estes' Pick, the last place
+  // section renders as Tom's Pick. "Last place" means the last section that
+  // carries a Colorado address, so a trailing "The Verdict" block is left in
+  // the closing copy rather than mistaken for a pick.
+  const bestOfSections = React.useMemo(() => {
+    if (!post || isBakerPost) return null;
+    const content = post.fullContent;
+    const SEP = '\n\n---\n\n';
+    const HEADING = /^#{2,3}\s/;
+    const BOLD_ENTRY = /^\*\*[A-Z]/;
+
+    let parts: string[];
+    let joiner: string;
+    if (content.includes(SEP)) {
+      // 1. Posts with --- separator
+      parts = content.split(SEP);
+      joiner = SEP;
+    } else if (/\n\n#{2,3}[\s*]/.test(content)) {
+      // 2. No --- separator, ## or ### headings
+      parts = content.split(/\n\n(?=#{2,3}[\s*])/);
+      joiner = '\n\n';
+    } else {
+      // 3. Bold-only entries (**Name**)
+      parts = content.split(/\n\n(?=\*\*[A-Z])/);
+      joiner = '\n\n';
+    }
+
+    const isEntry = (p: string) => HEADING.test(p.trim()) || BOLD_ENTRY.test(p.trim());
+    const firstIdx = parts.findIndex(isEntry);
+    if (firstIdx === -1) return null;
+
+    // Last pick: the last section after the first with a real address line.
+    let lastIdx = -1;
+    for (let i = parts.length - 1; i > firstIdx; i--) {
+      if (hasAddressLine(parts[i])) { lastIdx = i; break; }
+    }
+
+    if (lastIdx <= firstIdx) {
+      // Only one identifiable pick: keep prior behavior (no Tom's Pick).
+      return {
+        intro: parts.slice(0, firstIdx).join(joiner),
+        firstPick: parts[firstIdx],
+        middle: parts.slice(firstIdx + 1).join(joiner),
+        lastPick: null as string | null,
+        closing: '',
+      };
+    }
+
+    return {
+      intro: parts.slice(0, firstIdx).join(joiner),
+      firstPick: parts[firstIdx],
+      middle: parts.slice(firstIdx + 1, lastIdx).join(joiner),
+      lastPick: parts[lastIdx] as string | null,
+      closing: parts.slice(lastIdx + 1).join(joiner),
+    };
+  }, [post, isBakerPost]);
+
   if (!post) {
     router.push('/best-of-denver');
     return null;
   }
-
-  const isBakerPost = post.slug === 'best-of-denver-baker';
 
   const renderBakerContent = () => {
     const sections = post.fullContent.split(/(?=^## )/m);
@@ -125,11 +199,29 @@ export default function BestOfDenverPostClient() {
 
       <section className="py-16 md:py-24 bg-background">
         <div ref={contentRef} className={`max-w-3xl mx-auto px-6 transition-all duration-700 ${contentVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
-          {isBakerPost ? (
+          <SuggestionForm postTitle={post.title} />
+          {bestOfSections ? (
+            <>
+              {bestOfSections.intro && (
+                <div className="post-content" dangerouslySetInnerHTML={{ __html: parseMarkdownContent(bestOfSections.intro) }} />
+              )}
+              <EstesPickSection html={parseMarkdownContent(bestOfSections.firstPick)} />
+              {bestOfSections.middle && (
+                <div className="post-content" dangerouslySetInnerHTML={{ __html: parseMarkdownContent(bestOfSections.middle) }} />
+              )}
+              {bestOfSections.lastPick && (
+                <TomPickSection html={parseMarkdownContent(bestOfSections.lastPick)} />
+              )}
+              {bestOfSections.closing && (
+                <div className="post-content" dangerouslySetInnerHTML={{ __html: parseMarkdownContent(bestOfSections.closing) }} />
+              )}
+            </>
+          ) : isBakerPost ? (
             renderBakerContent()
           ) : (
             <div className="post-content" dangerouslySetInnerHTML={{ __html: renderedContent }} />
           )}
+          <PostMap content={post.fullContent} />
           <AuthorBio />
         </div>
       </section>

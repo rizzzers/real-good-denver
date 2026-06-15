@@ -4,7 +4,6 @@ import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { useToast } from "@/hooks/use-toast";
-import { supabase } from "@/lib/supabase";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 import { BookOpen, Users, MapPin, Calendar, CheckCircle } from "lucide-react";
 
@@ -19,10 +18,12 @@ export default function BookClubClient() {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      const { error } = await supabase.functions.invoke("newsletter-signup", {
-        body: { name, email, source: 'bookclub' },
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type: 'newsletter_signup', name, email, source: 'bookclub' }),
       });
-      if (error) throw error;
+      if (!res.ok) throw new Error('Failed');
       toast({ title: "Welcome to the club!", description: "We'll send you details about our next book selection soon!" });
       setSubmitted(true);
     } catch (error) {

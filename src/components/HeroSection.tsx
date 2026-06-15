@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { supabase } from "@/lib/supabase";
 import { useToast } from "@/hooks/use-toast";
 
 const slides = [
@@ -30,10 +30,12 @@ const HeroSection = () => {
     if (!email.trim()) return;
     setIsSubmitting(true);
     try {
-      const { error } = await supabase.functions.invoke("newsletter-signup", {
-        body: { name: name.trim(), email: email.trim(), source: "homepage-hero" },
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ type: "newsletter_signup", name: name.trim(), email: email.trim() }),
       });
-      if (error) throw error;
+      if (!res.ok) throw new Error("Failed");
       setSubmitted(true);
       setName("");
       setEmail("");
@@ -58,7 +60,7 @@ const HeroSection = () => {
             width={1920}
             height={1080}
             loading={i === 0 ? "eager" : "lazy"}
-            className="absolute inset-0 w-full h-full object-cover object-center"
+            className="absolute inset-0 w-full h-full object-cover object-[50%_30%]"
             style={{
               opacity: 0,
               animation: `heroFade 60s infinite`,
@@ -104,7 +106,7 @@ const HeroSection = () => {
             <div className="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center">
               <ArrowRight className="w-5 h-5 text-white" />
             </div>
-            <p className="text-white font-semibold">Check your inbox — you&apos;re in.</p>
+            <p className="text-white font-semibold">Check your inbox. You&apos;re in.</p>
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 w-full max-w-md">
@@ -114,12 +116,12 @@ const HeroSection = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="flex-1 h-14 sm:h-[52px] px-5 rounded-2xl bg-white/12 border-2 border-white/20 text-white placeholder:text-gray-400 text-base outline-none focus:border-blue-500 focus:bg-white/14 transition-all"
+              className="flex-1 h-28 sm:h-[52px] px-5 rounded-2xl bg-white/90 border-2 border-white/20 text-gray-900 placeholder:text-gray-400 text-base outline-none focus:border-blue-500 focus:bg-white transition-all"
             />
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full sm:w-auto h-14 sm:h-[52px] px-8 bg-blue-500 hover:bg-blue-400 text-white font-bold text-base rounded-2xl transition-all hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50 whitespace-nowrap shadow-[0_6px_24px_rgba(25,113,255,0.5)] flex items-center justify-center gap-2"
+              className="w-full sm:w-auto h-28 sm:h-[52px] px-8 bg-blue-500 hover:bg-blue-400 text-white font-bold text-base rounded-2xl transition-all hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50 whitespace-nowrap shadow-[0_6px_24px_rgba(25,113,255,0.5)] flex items-center justify-center gap-2"
             >
               {isSubmitting ? (
                 <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
@@ -133,6 +135,45 @@ const HeroSection = () => {
         <p className="text-xs text-white mt-3">Free forever. No Fort Collins coverage. Unsubscribe anytime.</p>
       </div>
 
+      {/* Floating picks badges, hop over to Best of Denver */}
+      <div className="hidden lg:block absolute inset-0 z-20 pointer-events-none">
+        <Link
+          href="/best-of-denver"
+          aria-label="See Ryan's Best of Denver picks"
+          className="group pointer-events-auto absolute right-[16%] top-[22%]"
+        >
+          <div style={{ animation: "heroFloat1 7s ease-in-out infinite" }}>
+            <img
+              src="/images/estes-picks.png"
+              alt="Ryan's Picks"
+              className="w-32 xl:w-40 h-auto rounded-full transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-3"
+              style={{ filter: "drop-shadow(0 14px 28px rgba(0,0,0,0.55))" }}
+            />
+            <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 whitespace-nowrap px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-widest text-white bg-blue-500 shadow-lg opacity-0 translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+              Ryan&rsquo;s Picks
+            </span>
+          </div>
+        </Link>
+
+        <Link
+          href="/best-of-denver"
+          aria-label="See Tom's Best of Denver picks"
+          className="group pointer-events-auto absolute right-[5%] top-[52%]"
+        >
+          <div style={{ animation: "heroFloat2 8s ease-in-out infinite", animationDelay: "0.6s" }}>
+            <img
+              src="/images/toms-picks.png"
+              alt="Tom's Picks"
+              className="w-28 xl:w-36 h-auto rounded-full transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3"
+              style={{ filter: "drop-shadow(0 14px 28px rgba(0,0,0,0.55))" }}
+            />
+            <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 whitespace-nowrap px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-widest text-white bg-blue-500 shadow-lg opacity-0 translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+              Tom&rsquo;s Picks
+            </span>
+          </div>
+        </Link>
+      </div>
+
       <style>{`
         @keyframes heroFade {
           0%   { opacity: 0; }
@@ -140,6 +181,17 @@ const HeroSection = () => {
           15%  { opacity: 1; }
           20%  { opacity: 0; }
           100% { opacity: 0; }
+        }
+        @keyframes heroFloat1 {
+          0%, 100% { transform: translateY(0) rotate(-4deg); }
+          50%      { transform: translateY(-18px) rotate(3deg); }
+        }
+        @keyframes heroFloat2 {
+          0%, 100% { transform: translateY(0) rotate(4deg); }
+          50%      { transform: translateY(-22px) rotate(-3deg); }
+        }
+        @media (prefers-reduced-motion: reduce) {
+          [style*="heroFloat1"], [style*="heroFloat2"] { animation: none !important; }
         }
       `}</style>
     </section>

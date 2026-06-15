@@ -1,0 +1,75 @@
+{
+  "verified": [
+    {
+      "name": "La Loma Restaurant",
+      "formatted_address": "2527 W 26th Ave, Denver, CO 80211",
+      "website": "https://www.lalomarestaurants.com/",
+      "website_live": true,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJXatfkElfbIcRQv5B0QoCmL0"
+    },
+    {
+      "name": "Chubby's",
+      "formatted_address": "1231 W 38th Ave, Denver, CO 80211",
+      "website": "https://theoriginalchubbysinc.com/",
+      "website_live": true,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJk5v0v0dfbIcRlQMO6lW5HrQ"
+    },
+    {
+      "name": "El Taco de Mexico",
+      "formatted_address": "714 Santa Fe Dr, Denver, CO 80204",
+      "website": "https://eltacodemexicodenver.com/",
+      "website_live": true,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJj3sNrElhbIcR_MRf3jQrjbY"
+    },
+    {
+      "name": "Santiago's Mexican Restaurant",
+      "formatted_address": "571 Santa Fe Dr, Denver, CO 80204",
+      "website": "https://eatatsantiagos.com/",
+      "website_live": true,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJN7xEnldfbIcRbQ7SovnkOwA"
+    },
+    {
+      "name": "Brewery Bar II",
+      "formatted_address": "150 Kalamath St, Denver, CO 80223",
+      "website": "https://www.brewerybars.com/",
+      "website_live": true,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJQVIJe2BhbIcRTYRGFaI3d4E"
+    },
+    {
+      "name": "Sam's No. 3",
+      "formatted_address": "1500 Curtis St, Denver, CO 80202",
+      "website": "https://www.samsno3.com/",
+      "website_live": true,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJhaaJrTN_bIcR5zDxeEBfqzI"
+    },
+    {
+      "name": "20th Street Cafe",
+      "formatted_address": "1123 20th St, Denver, CO 80202",
+      "website": "https://www.google.com/maps/place/?q=place_id:ChIJZ3KGnzN_bIcRyBdnLfcTveE",
+      "website_live": false,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJZ3KGnzN_bIcRyBdnLfcTveE"
+    },
+    {
+      "name": "Tacos Acapulco",
+      "formatted_address": "8890 E Colfax Ave, Denver, CO 80220",
+      "website": "https://www.google.com/maps/place/?q=place_id:ChIJu9m4hLZ_bIcRe0d79WNkBE8",
+      "website_live": false,
+      "business_status": "OPERATIONAL",
+      "place_id": "ChIJu9m4hLZ_bIcRe0d79WNkBE8"
+    }
+  ],
+  "dropped": [
+    {
+      "name": "Lola Coastal Mexican",
+      "reason": "Closed",
+      "details": "Permanently closed September 2021"
+    }
+  ]
+}

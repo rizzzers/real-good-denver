@@ -1,0 +1,84 @@
+name: Publish Best of Denver Post
+
+on:
+  schedule:
+    # GitHub's cron scheduler is best-effort: on-the-hour runs get delayed by
+    # hours or dropped entirely during high load, and even offset runs miss.
+    # So instead of one scheduled time we fire FOUR every Mon/Wed/Fri, two
+    # hours apart. The first (9:27 AM MDT) publishes unconditionally; the rest
+    # are catch-ups that publish ONLY if nothing went out yet that day
+    # (run-publish.ts --skip-if-published-today). GitHub would have to drop all
+    # four windows to miss a day. Minutes are offset off :00 to dodge peak
+    # contention. The catch-up condition lives in the "Run publish pipeline"
+    # step below and keys off the primary cron string, so if you change the
+    # primary time, update it there too.
+    - cron: "27 15 * * 1,3,5" # primary  ~9:27 AM MDT (15:27 UTC)
+    - cron: "27 17 * * 1,3,5" # catch-up ~11:27 AM MDT (17:27 UTC)
+    - cron: "27 19 * * 1,3,5" # catch-up ~1:27 PM MDT (19:27 UTC)
+    - cron: "27 21 * * 1,3,5" # catch-up ~3:27 PM MDT (21:27 UTC)
+
+  # Allow manual trigger from GitHub Actions UI for testing
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (no git push)"
+        required: false
+        default: "false"
+        type: boolean
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Use PAT so the push triggers Vercel deploy webhook
+          token: ${{ secrets.PUBLISH_BOT_PAT }}
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Configure git identity
+        run: |
+          git config user.name "Real Good Denver Bot"
+          git config user.email "ryan@ryanestes.info"
+
+      - name: Run publish pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
+        run: |
+          DRY_RUN="${{ github.event.inputs.dry_run }}"
+          SCHEDULE="${{ github.event.schedule }}"
+          FLAGS=""
+          # Every scheduled window EXCEPT the primary one is a catch-up that
+          # only publishes if nothing went out yet today. A manual run
+          # (workflow_dispatch) has an empty schedule, so it always publishes.
+          if [ -n "$SCHEDULE" ] && [ "$SCHEDULE" != "27 15 * * 1,3,5" ]; then
+            FLAGS="--skip-if-published-today"
+          fi
+          if [ "$DRY_RUN" = "true" ]; then
+            npx tsx scripts/run-publish.ts --dry-run $FLAGS
+          else
+            npx tsx scripts/run-publish.ts $FLAGS
+          fi
+
+      - name: Upload logs as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: publish-logs-${{ github.run_id }}
+          path: scripts/logs/
+          retention-days: 30
