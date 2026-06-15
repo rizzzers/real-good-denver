@@ -133,12 +133,20 @@ export default function AdminDashboardPage() {
             </h1>
             <p className="text-xs text-gray-500">Content Management</p>
           </div>
-          <button
-            onClick={handleLogout}
-            className="text-sm text-gray-500 hover:text-gray-800 border border-gray-200 rounded-lg px-3 py-1.5 transition-colors"
-          >
-            Sign Out
-          </button>
+          <div className="flex items-center gap-3">
+            <Link
+              href="/admin/submissions"
+              className="text-sm text-gray-500 hover:text-gray-800 border border-gray-200 rounded-lg px-3 py-1.5 transition-colors"
+            >
+              Form Submissions
+            </Link>
+            <button
+              onClick={handleLogout}
+              className="text-sm text-gray-500 hover:text-gray-800 border border-gray-200 rounded-lg px-3 py-1.5 transition-colors"
+            >
+              Sign Out
+            </button>
+          </div>
         </div>
       </header>
 
