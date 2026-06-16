@@ -293,6 +293,70 @@ export const communityEvents: CommunityEvent[] = [
     link: "https://www.eventbrite.com/e/pawsh-hour-furry-friends-fiesta-at-the-ritz-carlton-denver-tickets-1989833631958",
   },
   {
+    id: "dpc-congressional-forum-2026",
+    title: "Colorado's 1st Congressional District Candidate Forum",
+    date: "2026-06-19",
+    time: "6:30 PM",
+    location: "Denver Press Club, 1330 Glenarm Place, Denver",
+    description:
+      "A candidate forum for Colorado's 1st Congressional District, co-sponsored by Colorado Politics. Confirmed participants include U.S. Congresswoman Diana DeGette, CU Regent Wanda James, and Melat Kiros, moderated by political journalists Marianne Goodland and Ernest Luning. Tickets are $10 per person. Limited seating available on a first-come, first-served basis.",
+  },
+  {
+    id: "dpc-swing-dancing-june-2026",
+    title: "Swing Dancing at the Denver Press Club",
+    date: "2026-06-21",
+    time: "5:00 PM",
+    location: "Denver Press Club, 1330 Glenarm Place, Denver",
+    description:
+      "The Denver Press Club opens for swing dancing classes hosted by Swing Nights, with a live quartet playing upstairs. Each week, instructors teach the basics of easy-to-learn swing plus a few moves to show off. The rest of the club stays open for normal service. Tickets at swingnights.com/classes.",
+    link: "https://swingnights.com/classes",
+  },
+  {
+    id: "dpc-ai-talk-brett-schklar-2026",
+    title: "Who Owns Tomorrow: A No-BS AI Playbook",
+    date: "2026-06-23",
+    time: "6:00 PM",
+    location: "Denver Press Club, 1330 Glenarm Place, Denver",
+    description:
+      "Keynote speaker and former CEO Brett Schklar breaks down the AI hype with practical basics for journalists and business professionals: what AI can do, where it falls short, how to use it responsibly, and how to spot AI-generated content and misinformation. Member tickets are discounted.",
+  },
+  {
+    id: "dpc-great-debate-colfax-brt-2026",
+    title: "The Great Debate: Colfax BRT",
+    date: "2026-06-25",
+    time: "6:30 PM",
+    location: "Denver Press Club, 1330 Glenarm Place, Denver",
+    description:
+      "The Denver Press Club's first Great Debate tackles the construction of the Colfax BRT and whether future Colorado Blvd BRT projects will help or hurt the city. Join neighbors, experts, and community leaders for a respectful, moderated debate on the contentious issues shaping Denver's future.",
+  },
+  {
+    id: "dpc-poems-and-potables-2026",
+    title: "Poems and Potables at the Denver Press Club",
+    date: "2026-06-26",
+    time: "6:17 PM",
+    location: "Denver Press Club, 1330 Glenarm Place, Denver",
+    description:
+      "Flex your poetry skills at the Denver Press Club. Write a short poem (or a few), then share them with clubmates over a summery gin cocktail or whatever you prefer.",
+  },
+  {
+    id: "dpc-urban-salon-july-2026",
+    title: "DPC Urban Salon: Colfax BRT",
+    date: "2026-07-02",
+    time: "6:00 PM",
+    location: "Denver Press Club, 1330 Glenarm Place, Denver",
+    description:
+      "A community conversation about the Colfax BRT construction and the possibility of the Colorado Blvd BRT. Less formal than the Great Debate: bring your opinions to the Club over a drink or two and talk with fellow Denverites. This is where the conversation begins.",
+  },
+  {
+    id: "dpc-left-field-literary-salon-2026",
+    title: "Left Field Literary Salon: Where Books Meet After Dark",
+    date: "2026-07-16",
+    time: "6:17 PM",
+    location: "Denver Press Club, 1330 Glenarm Place, Denver",
+    description:
+      "A fundraiser for the Denver Press Club and the Colorado ACLU, and the launch of a monthly literary gathering for curated book events. Step into themed spaces for a night of mystery. Proceeds benefit the Club and the Colorado ACLU.",
+  },
+  {
     id: "nmbr38-wc-brazil-morocco",
     title: "World Cup Watch Party: Brazil vs Morocco",
     date: "2026-06-13",
