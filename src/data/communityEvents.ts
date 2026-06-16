@@ -283,6 +283,16 @@ export const communityEvents: CommunityEvent[] = [
       "Cherry Creek's destination for Latin culture and cocktails just installed brand-new big-screen TVs for the World Cup. Ay Papi will stream every match during operating hours and open early for select games. Limited-time drinks include The Ti Breaker (Ti punch with St. Benevolence Haitian Rum), Bicycle Kick (Carajillo-inspired with Mexican Coke, Licor 43, and Mr. Black), and The Pitch (Casamigos Margaritas), plus beer and cocktail pitcher specials. Reservations encouraged at aypapidenver.com.",
   },
   {
+    id: "ritz-carlton-pawsh-hour-2026",
+    title: "Pawsh Hour: Furry Friends Fiesta at The Ritz-Carlton",
+    date: "2026-06-18",
+    time: "5:00–7:00 PM",
+    location: "The Ritz-Carlton, Denver, 1881 Curtis Street, Denver CO 80202",
+    description:
+      "A free, dog-friendly happy hour with a Mexican-themed spread at The Ritz-Carlton, Denver. Meet rescue animals from Evergreen Animal Protective League, sample premium dog treats from Full Moon Pet, graze gourmet snack boards from Boardz 4 Budz, and get vet consultations from Sploot Veterinary. Plus: a custom photo op, puppy play zone, dog-safe infused waters, and a bandana design activity. No tickets required, but RSVPs are encouraged. Complimentary parking available.",
+    link: "https://www.eventbrite.com/e/pawsh-hour-furry-friends-fiesta-at-the-ritz-carlton-denver-tickets-1989833631958",
+  },
+  {
     id: "nmbr38-wc-brazil-morocco",
     title: "World Cup Watch Party: Brazil vs Morocco",
     date: "2026-06-13",
