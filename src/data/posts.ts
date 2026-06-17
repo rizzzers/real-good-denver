@@ -2281,6 +2281,79 @@ South Federal Boulevard is the spine of Denver's banh mi scene, and if you haven
     image: "/images/best-banh-mi-denver.png",
     featured: false,
     tags: ["Banh Mi", "Vietnamese Food", "Best Of", "Denver Restaurants"],
+  },
+  {
+    id: 31,
+    slug: "best-pho-denver",
+    title: "Best Pho in Denver: Broth So Good It Feels Illegal",
+    excerpt: "There are days in Denver when the altitude gets to you, the cold rolls in sideways off the Rockies, and your whole body is asking for exactly one thing: a bowl of pho with broth so deep and fragrant you question how it's legal for under fifteen bucks.",
+    fullContent: `There are days in Denver when the altitude gets to you, the cold rolls in sideways off the Rockies, and your whole body is asking for exactly one thing. Not a burger. Not tacos. A bowl of pho. Specifically: a bowl of pho with broth so deep and so fragrant that you briefly question how anyone achieved this legally, in a strip mall, for under fifteen dollars.
+
+Denver's Vietnamese food scene is quietly serious business. It doesn't need to announce itself. It lives mostly along South Federal Boulevard and in pockets of Aurora, in restaurants that have been perfecting their stock for decades while food media was busy fawning over whatever ramen pop-up opened downtown. Locals on r/Denver have been pointing newcomers toward Federal Blvd for years, and the sentiment is consistent: if you're not eating Vietnamese food on the south side, you're leaving money on the table. Or rather, you're leaving broth on the table, which is worse.
+
+A word on methodology. The data we were handed included some duplicates, one Thai restaurant, one very famous hotel, and a place called Punch Bowl Social. We love Punch Bowl Social for what it is, which is not pho. We are cutting those loose with respect and moving on. What's left is a genuine collection of bowls worth building your week around.
+
+---
+
+### **PHO 92 DIA**
+6691 Tower Rd #101, Denver, CO 80249 (Green Valley Ranch) | $–$$ | Reservations: No
+
+This is the sleeper on the list. Out near Tower Road, far enough east that people who live in the Highlands have probably never thought to drive there, PHO 92 DIA is doing something worth the trip. The broth here has that slow-cooked backbone that tells you someone was tending this pot at a time of day when most of us are still unconscious. The beef is tender, the portions are honest, and the price point is the kind that makes you feel like the world still has some goodness in it. If you live near Green Valley Ranch, this is your spot and you should already know it. If you don't, consider this your invitation to actually explore the eastern edges of the city for once.
+
+---
+
+### **[Tony Pho Vietnamese Restaurant Noodle soup and Grill](https://www.tonypho.com/)**
+1002 S Federal Blvd, Denver, CO 80219 (Harvey Park) | $–$$ | Reservations: No
+
+Federal Boulevard is the spine of Denver's Vietnamese food corridor, and Tony Pho is one of the anchors. The name is long enough to suggest they have strong feelings about what they're doing, and they do. The grill side of the menu is worth exploring, but you're here for the noodle soup. The broth is aromatic in the way that good pho broth should be, meaning it smells like star anise and cinnamon and something ineffable that you cannot replicate at home no matter how many YouTube tutorials you watch. r/DenverFood regulars treat this stretch of Federal like a sacred corridor, and Tony Pho comes up repeatedly as a reliable entry point for people just starting to figure out the neighborhood.
+
+---
+
+### **[GOLDEN SAIGON Restaurant](http://goldensaigon.com/)**
+2648 S Parker Rd Unit 2, Aurora, CO 80014 (Aurora) | $–$$ | Reservations: No
+
+Yes, it's in Aurora. Yes, you should go anyway. Golden Saigon has the kind of reputation that spreads entirely by word of mouth, and the word is good. The pho here leans traditional, the space is no-frills in the way that signals the kitchen is where all the energy is going, and the menu is broad enough that you can bring your one friend who inexplicably doesn't want pho and find them something reasonable. A well-upvoted thread on r/Denver once started an argument about whether Aurora counts as Denver for the purposes of restaurant recommendations. The answer, when the food is this good, is obviously yes.
+
+---
+
+### **Phở 95**
+1401 S Federal Blvd, Denver, CO 80219 (Harvey Park) | $ | Reservations: No
+
+Phở 95 is a Federal Boulevard institution. It's the kind of place that doesn't need to try hard because it has been doing this correctly for long enough that it barely needs to advertise. The broth is the whole argument. Rich, clear, and built on what tastes like an embarrassing number of bones, it is the benchmark a lot of other Denver pho gets measured against. The room is simple, the service is efficient, the prices are genuinely reasonable in a city where reasonably priced anything feels increasingly rare. Locals on r/DenverFood cite this one when someone asks for the best on Federal, and they're not wrong to.
+
+---
+
+### **Saigon Bowl**
+333 S Federal Blvd #134, Denver, CO 80219 (Harvey Park) | $ | Reservations: No
+
+Saigon Bowl is unpretentious to a fault, which is a compliment. No one is going to photograph the interior for Instagram. No one is getting a branded tote bag. You are going to get a large bowl of pho with solid broth, fresh herbs, bean sprouts, and hoisin on the side, and you are going to feel considerably better afterward than you did before. In a neighborhood full of legitimate competition, Saigon Bowl earns its place by being consistent and unfussy. Sometimes that's exactly what you need.
+
+---
+
+### **[Phở 96 Vietnamese Restaurant](https://orderpho96.com/)**
+2990 W Mississippi Ave, Denver, CO 80219 (Westwood) | $–$$ | Reservations: No
+
+A little further west, Phở 96 occupies its corner of Westwood with quiet confidence. The broth here skews slightly richer than some of its Federal Boulevard neighbors, which is either a selling point or a matter of personal preference depending on where you stand on beef fat. The online ordering situation suggests they've adapted well to the current era without losing whatever makes the food worth ordering in the first place. Worth noting for anyone who lives on the west side and is tired of driving east for Vietnamese food. Westwood has been doing this all along.
+
+---
+
+### **[What The Pho](http://whatthepho.epipay.com/)**
+1600 Champa St #110, Denver, CO 80202 (Downtown) | $$ | Reservations: No
+
+Look. The name is a joke, and the location is downtown, which means it is catering to a lunch crowd of office workers and tourists who cannot or will not drive to Federal. Given those constraints, What The Pho is doing a credible job. The broth doesn't have the same depth as the Federal Boulevard veterans, and you're paying a small downtown tax on every bowl, but the convenience factor is real. If you work downtown and need pho at noon, this is the honest answer. Just don't let it be the only pho you ever eat in Denver, because you'll have an incomplete picture of what this city can actually do.
+
+---
+
+**The Verdict**
+
+Denver's pho scene is real, it's serious, and it is almost entirely located outside the neighborhoods that get written up in national food magazines. The center of gravity is South Federal Boulevard, and if you haven't spent time eating your way down that corridor, you owe it to yourself and frankly to Denver. PHO 92 DIA is the hidden gem worth the drive east. Phở 95 is the benchmark. Tony Pho is the reliable workhorse. And Golden Saigon is proof that Aurora deserves your attention. The broth at the top of this list is the kind that makes you sit quietly for a moment before you start eating, because you want to acknowledge that something real just happened. Get the large. You're going to want the large.`,
+    category: "food",
+    author: "Ryan Estes",
+    date: "2026-06-17",
+    readTime: "6 min read",
+    image: "/images/best-pho-denver.png",
+    featured: false,
+    tags: ["Pho", "Vietnamese Food", "Best Of", "Denver Restaurants"],
   }
 ];
 
