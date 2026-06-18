@@ -357,6 +357,46 @@ export const communityEvents: CommunityEvent[] = [
       "A fundraiser for the Denver Press Club and the Colorado ACLU, and the launch of a monthly literary gathering for curated book events. Step into themed spaces for a night of mystery. Proceeds benefit the Club and the Colorado ACLU.",
   },
   {
+    id: "moodswing-summer-sessions-sundresses",
+    title: "Summer Sessions at Moodswing: Sundresses + Short Shorts",
+    date: "2026-07-12",
+    time: "12:00 PM",
+    location: "Moodswing, 3625 E 48th Ave, Denver CO 80216",
+    description:
+      "Kick off Summer Sessions at Moodswing with the Sundresses + Short Shorts theme. Every Sunday in July and August, Moodswing hosts themed vibes with live DJs, free pizza samples, Spritz towers, and a sunset Champagne shower. This week's Spritz: Aperol OG. Free to attend.",
+    link: "https://www.eventbrite.com/o/120765226222",
+  },
+  {
+    id: "moodswing-summer-sessions-purple-day",
+    title: "Summer Sessions at Moodswing: Purple Day Disco",
+    date: "2026-07-19",
+    time: "12:00 PM",
+    location: "Moodswing, 3625 E 48th Ave, Denver CO 80216",
+    description:
+      "Week two of Summer Sessions goes full disco with the Purple Day theme. Live DJs, free pizza samples, Spritz towers, and a sunset Champagne shower. This week's Spritz: Purple Plum. Free to attend.",
+    link: "https://www.eventbrite.com/o/120765226222",
+  },
+  {
+    id: "moodswing-summer-sessions-yacht-club",
+    title: "Summer Sessions at Moodswing: Yacht Club Party",
+    date: "2026-07-26",
+    time: "12:00 PM",
+    location: "Moodswing, 3625 E 48th Ave, Denver CO 80216",
+    description:
+      "Nautical vibes take over for week three of Summer Sessions. Show up in your best yacht club look for live DJs, free pizza samples, Spritz towers, and a sunset Champagne shower. This week's Spritz: Orange Passionfruit. Free to attend.",
+    link: "https://www.eventbrite.com/o/120765226222",
+  },
+  {
+    id: "moodswing-summer-sessions-garden-party",
+    title: "Summer Sessions at Moodswing: Garden Party",
+    date: "2026-08-02",
+    time: "12:00 PM",
+    location: "Moodswing, 3625 E 48th Ave, Denver CO 80216",
+    description:
+      "The final week of Summer Sessions wraps up with a Garden Party theme. Live DJs, free pizza samples, Spritz towers, and a sunset Champagne shower to close out the series. This week's Spritz: Peach. Free to attend.",
+    link: "https://www.eventbrite.com/o/120765226222",
+  },
+  {
     id: "nmbr38-wc-brazil-morocco",
     title: "World Cup Watch Party: Brazil vs Morocco",
     date: "2026-06-13",
