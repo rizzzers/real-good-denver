@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-ran-out-of-water-caught-some-candy-drug-dealers-and-let-the",
+    title: "Denver ran out of water, caught some candy drug dealers, and let the dogs run wild.",
+    date: "2026-06-18",
+    description: "Governor Polis declared a statewide drought emergency as Colorado's driest year on record continues to worsen, and Denver asked residents to start catching stray dogs themselves. Colorado busted a drug ring selling MDMA and ketamine disguised as luxury candy, and a massive RiNo transit village broke ground. Plus, Littleton is betting $2 million on a Peyton Manning restaurant complex, Blake Street Tavern is coming back under a new name, and Denver Pride is leaving Civic Center Park for the first time in its history.",
+    htmlFile: "/newsletter-issues/denver-ran-out-of-water-caught-some-candy-drug-dealers-and-let-the.html",
+  },
+  {
     slug: "denver-rough-one-linebacker-arrest-mcclain-reversal-park-water-cuts",
     title: "Denver's rough one: a linebacker arrested, an appeals court reversal, and a city that cuts park water while it opens ice cream shops",
     date: "2026-06-10",
