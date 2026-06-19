@@ -6,6 +6,56 @@
 
 ---
 
+## Newsletter Auto-Publishing (Beehiiv to website)
+
+When a new issue is sent from the Real Good Denver Beehiiv publication, it is automatically posted to the website.
+
+### How it works
+
+**Data source:** The newsletter list reads from `src/data/newsletterIssues.ts` (a static array of `{ slug, title, date, description, htmlFile }`). Each issue's HTML lives at `public/newsletter-issues/{slug}.html`. The issue page (`src/app/newsletter/[slug]`) fetches that file, extracts its `<body>`, strips scripts, and renders it.
+
+**Pipeline:** `scripts/publish-newsletter.ts` pulls confirmed issues from the dedicated RGD Beehiiv publication (`pub_b449eec5...`) and, for each one not yet on the site:
+
+1. Saves the Beehiiv `content.free.email` HTML to `public/newsletter-issues/{slug}.html` (em dashes stripped).
+2. Generates a short description with Claude, grounded ONLY on the issue's extracted story headlines (the lines marked `- LINK`) so it never invents stories.
+3. Generates a clean descriptive slug from the title (Beehiiv reuses its own slugs, so they are not used).
+4. Prepends a `NewsletterIssue` entry to `src/data/newsletterIssues.ts` (newest first).
+5. Commits and pushes. Vercel auto-deploys.
+
+Dedup is tracked by Beehiiv post id in `scripts/newsletter-published.json`, so re-runs are safe. Issues from before this pipeline (which came from the old combined AIFF+RGD publication) are seeded into that file so they are never re-posted.
+
+**Schedule:** `.github/workflows/publish-newsletter.yml` runs twice daily (evening + next-midday backstop) and on manual dispatch. Issues send roughly weekly; a new one appears on the site within a day.
+
+### Running manually
+
+```bash
+npx tsx scripts/publish-newsletter.ts --dry-run    # preview slug + description, no writes
+npx tsx scripts/publish-newsletter.ts --no-push    # write + commit locally, no push
+npx tsx scripts/publish-newsletter.ts              # publish all new issues (commit + push)
+npx tsx scripts/publish-newsletter.ts --post <id>  # only that Beehiiv post id
+```
+
+### Required secrets / env
+
+Local runs read `.env.local`; CI uses GitHub repo secrets.
+
+| Name | Purpose |
+|---|---|
+| `BEEHIIV_PUB_RGD` | RGD dedicated publication id (`pub_b449eec5...`) |
+| `BEEHIIV_KEY_RGD` | RGD Beehiiv API key |
+| `ANTHROPIC_API_KEY` | Description generation (also used by Best of Denver) |
+| `PUBLISH_BOT_PAT` | Push token so the push triggers Vercel deploy (shared with Best of Denver) |
+
+`ANTHROPIC_API_KEY` and `PUBLISH_BOT_PAT` already exist as repo secrets. `BEEHIIV_PUB_RGD` and `BEEHIIV_KEY_RGD` must be added for the cron to run.
+
+### What NOT to touch
+
+- Do not edit entries inside `public/newsletter-issues/*.html` by hand for content from Beehiiv; re-run the publisher instead.
+- Do not change the array opener line `export const newsletterIssues: NewsletterIssue[] = [` in `newsletterIssues.ts`; the publisher finds the insertion point by matching it.
+- `scripts/newsletter-published.json` is append-only state. Do not remove ids or it will re-publish issues.
+
+---
+
 ## Auto-Publishing System
 
 The site auto-publishes Best of Denver posts via a pipeline of three scripts and a GitHub Actions cron job.
