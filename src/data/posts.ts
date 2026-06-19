@@ -2354,6 +2354,95 @@ Denver's pho scene is real, it's serious, and it is almost entirely located outs
     image: "/images/best-pho-denver.png",
     featured: false,
     tags: ["Pho", "Vietnamese Food", "Best Of", "Denver Restaurants"],
+  },
+  {
+    id: 32,
+    slug: "best-fried-chicken-denver",
+    title: "Best Fried Chicken in Denver, Ranked by Crunch Decibels",
+    excerpt: "Fried chicken is not complicated. Chicken. Coating. Hot oil. Time. And yet Denver has managed to produce a spectrum of results so wide it includes both transcendence and tragedy, sometimes at the same address.",
+    fullContent: `Fried chicken is not complicated. Chicken. Coating. Hot oil. Time. And yet Denver has managed to produce a spectrum of results so wide it includes both transcendence and tragedy, sometimes at the same address. The crunch is everything. Not a gentle crinkle. Not a soft suggestion. A full structural collapse of crust against your molars that you can hear from across the table. That's what we're chasing here.
+
+Denver's fried chicken scene is messier than you'd expect. You've got diners doing it classic, bars doing it Nashville-hot, biscuit spots doing it sandwich-style, and a Latin-inflected kitchen or two doing things to chicken that would make your grandmother deeply confused and then very jealous. The r/Denver crowd argues about this constantly, with regulars on r/DenverFood treating the question of best fried chicken with the kind of intensity usually reserved for playoff tickets and parking on Broadway. That's appropriate. This matters.
+
+Here's where you should actually be eating it, ranked by how loudly your meal announces itself.
+
+---
+
+### **[Atomic Cowboy home of Denver Biscuit Co & Fat Sully's NY Pizza](https://www.theatomiccowboy.com/locations)**
+3237 E Colfax Ave, Denver, CO 80206 (East Colfax) | $$ | Reservations: No
+
+Denver Biscuit Co. is the real reason you're here, and everyone in Denver knows it. The Franklin, their signature fried chicken biscuit sandwich, has achieved something close to local mythology. The chicken is thick, heavily crusted, and hits the biscuit at an angle that means every bite is structurally different. The biscuit itself is enormous and flaky in a way that feels almost aggressive. Locals on r/Denver have been recommending this spot to out-of-towners for years with an almost parental intensity, the way you'd recommend a dentist or a mechanic you actually trust. Go early. The line is real. The crunch decibels are at the top of this list for a reason.
+
+---
+
+### **[Steuben's Uptown](http://www.steubens.com/)**
+523 E 17th Ave, Denver, CO 80203 (Uptown) | $$ | Reservations: Recommended
+
+Steuben's is doing the diner thing properly, which means their fried chicken is unapologetically retro and doesn't apologize for it. The crust is even, golden, and has that satisfying dry crunch that holds up for the whole plate instead of going soggy by the time you've cut into it. The sides are the kind of comfort food that makes you reconsider all your meal prep decisions. r/DenverFood regulars consistently bring this place up when the conversation turns to classic American execution done without irony. It belongs near the top of any honest list.
+
+---
+
+### **[Sam's No. 3](https://samsno3.com/)**
+1500 Curtis Street, Denver, CO 80202 (Downtown) | $ | Reservations: No
+
+Sam's is a Denver institution and it doesn't particularly care if you know that. The fried chicken here isn't precious. It's greasy in the correct way, the kind of thing you order at 11am on a Saturday when you need something that will hold you together through whatever's coming next. The crust has real texture, the chicken underneath is juicy, and nothing on the plate is trying to impress you. It's just doing the job. That is sometimes exactly what you need.
+
+---
+
+### **[Church and Union Denver](https://www.churchandunion.com/)**
+1433 17th St #150, Denver, CO 80202 (LoDo) | $$$ | Reservations: Recommended
+
+Church and Union is the upscale version of fried chicken, which sounds like a contradiction but actually works here. The room is polished, the cocktail list is serious, and the chicken arrives with the kind of plating that makes you feel slightly guilty about immediately destroying it. The crust is restrained compared to the diners on this list, more refined crunch than chaos crunch, but the quality of the bird underneath earns its place. Good for a date night or a work dinner where you need to eat fried chicken but maintain some dignity.
+
+---
+
+### **[Senor Bear](https://www.senorbeardenver.com/)**
+3301 Tejon St, Denver, CO 80211 (LoHi) | $$ | Reservations: Recommended
+
+Señor Bear isn't a fried chicken destination in the traditional sense but it's on this list because ignoring it would be dishonest. The kitchen applies Latin technique and flavor to things that have no business tasting that good, and when they get into fried territory the results are worth your attention. The crunch here is specific, seasoned differently than anything else on this list, and the overall effect is disorienting in the best way. r/Denver threads on hidden gem spots frequently surface Señor Bear for exactly this kind of thing.
+
+---
+
+### **[Linger](https://ediblebeats.com/restaurants/linger/)**
+2030 W 30th Ave, Denver, CO 80211 (LoHi) | $$$ | Reservations: Recommended
+
+Linger is the old mortuary with the rooftop that everyone loves explaining to visitors, and yes the concept-driven menu means fried chicken might not always be front and center. But when it shows up in whatever form the kitchen is running it, it tends to be very good. The Edible Beats group knows how to execute, and the environment makes everything taste slightly more interesting than it might somewhere else. Worth checking the current menu before you commit.
+
+---
+
+### ****5280 Burger Bar****
+**5280 Burger Bar**
+500 16th St Mall Ste 160, Denver, CO 80202 (Downtown) | $$ | Reservations: No
+
+Yes, it's a burger bar. Yes, there is fried chicken on the menu and it shows up in sandwich form in a way that earns its spot. This is a practical option when you're already on the 16th Street Mall and need something that's going to hold up. The crust is solid, the execution is consistent, and it won't embarrass you. Not the top of the crunch rankings but it belongs on an honest list.
+
+---
+
+### **[Watercourse Foods](https://www.watercoursefoods.com/)**
+837 E 17th Ave, Denver, CO 80218 (Uptown) | $$ | Reservations: Recommended
+
+Watercourse is fully plant-based and if you roll your eyes at that in the context of a fried chicken list, that is your mistake to make. Their fried chicken analog has converted people who came in skeptical and left confused about their own belief system. The crust crunch is legitimate. The texture inside is close enough that the experience reads correctly. r/DenverFood has had more than one thread where someone sheepishly admits Watercourse's version held up against the real thing in a side-by-side. It's worth knowing about even if you're a purist.
+
+---
+
+### ****Adrift****
+**Adrift**
+218 S Broadway, Denver, CO 80209 (South Broadway) | $$ | Reservations: No
+
+Adrift is a tiki bar and neighborhood hangout that keeps things loose and unpretentious on South Broadway. The fried chicken here exists in a casual context, the kind of thing you order with a rum drink at a table that's slightly sticky. It's not going to top any crunch rankings but the vibe earns it a place on a complete list, and South Broadway regulars have a genuine affection for this spot.
+
+---
+
+**The Verdict**
+
+Denver's best fried chicken crunch comes out of a biscuit spot on East Colfax, which is exactly the kind of city this is. Atomic Cowboy and Denver Biscuit Co. set the standard. Steuben's holds down the classic diner execution. Sam's No. 3 gives you the unpretentious version that gets the job done. And somewhere in the middle, Señor Bear is doing something to chicken that you didn't know you needed. The rest of the list fills out the edges. Start at the top, work your way down, and accept that your crunch standards are about to be permanently recalibrated.`,
+    category: "food",
+    author: "Ryan Estes",
+    date: "2026-06-19",
+    readTime: "6 min read",
+    image: "/images/best-fried-chicken-denver.png",
+    featured: false,
+    tags: ["Fried Chicken", "Best Of", "Denver Restaurants"],
   }
 ];
 
