@@ -397,6 +397,15 @@ export const communityEvents: CommunityEvent[] = [
     link: "https://www.eventbrite.com/o/120765226222",
   },
   {
+    id: "mountain-music-fest-evergreen-2026",
+    title: "Mountain Music Fest",
+    date: "2026-08-16",
+    time: "12:00–9:00 PM",
+    location: "Evergreen, Colorado",
+    description:
+      "A full day of live music, family-friendly entertainment, and community celebration in the mountains, headlined this year by The Bacon Brothers (Kevin Bacon and Michael Bacon). Proceeds support local schools through the Wooden Hawk Foundation.",
+  },
+  {
     id: "nmbr38-wc-brazil-morocco",
     title: "World Cup Watch Party: Brazil vs Morocco",
     date: "2026-06-13",
