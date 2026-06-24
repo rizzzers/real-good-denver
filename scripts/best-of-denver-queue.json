@@ -231,8 +231,9 @@
       "Denver Restaurants"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": null
+    "status": "published",
+    "season": null,
+    "publishedAt": "2026-06-24T17:26:09.940Z"
   },
   {
     "slug": "best-sushi-denver",

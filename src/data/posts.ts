@@ -2523,6 +2523,102 @@ Denver doesn't apologize for being landlocked, and neither should you when you o
     image: "/images/best-fish-tacos-denver.png",
     featured: false,
     tags: ["Fish Tacos", "Mexican Food", "Best Of", "Denver Restaurants"],
+  },
+  {
+    id: 34,
+    slug: "best-caesar-salad-denver",
+    title: "Best Caesar Salad in Denver: A Salad That Demands Respect",
+    excerpt: "Look, Denver sleeps on the Caesar salad, and that's embarrassing. A real Caesar isn't some afterthought side dish, it's a technical masterpiece that separates the actual kitchens from the pretenders.",
+    fullContent: `The Caesar salad does not get enough credit in this city. It's the dish people order when they've already decided what they actually want, the thing you add to the table almost apologetically, like you're doing it a favor. That's a mistake. A truly great Caesar salad is one of the most technically demanding things a kitchen can produce. The dressing alone requires you to commit: anchovies, raw egg, real Parmesan, garlic that means business, acid that cuts through all of it. Get any single element wrong and you've got a bowl of sadness wearing croutons.
+
+Denver, quietly, has a few places doing this thing correctly. And a few doing it very incorrectly, but with great enthusiasm. This list is about the former. These are the Caesars worth going out of your way for, the ones where the lettuce is cold, the dressing is actually made (not poured from a jug), and the croutons have a reason to exist. Locals on r/Denver have debated the merits of various versions of this salad with the kind of energy usually reserved for pizza discourse, which tells you everything you need to know about how seriously people around here take their greens when the greens are done right.
+
+A note on the list: we're being honest about what these spots are. Not every Caesar here is a transcendent experience. Some are workhorses. Some are showoffs. The job of this guide is to tell you which one to order based on who you are that day.
+
+---
+
+### **[Mizuna](https://www.bonannoconcepts.com/restaurant/mizuna/)**, The Best in the City, Full Stop
+
+225 E 7th Ave, Denver, CO 80203 (Capitol Hill) | $$$ | Reservations: Recommended
+
+Mizuna is doing fine dining without the performance of fine dining, which is rarer than it should be. The Caesar here is composed with the kind of restraint that takes real confidence. The dressing is anchovy-forward and properly emulsified, the romaine is cold and crisp, and the whole thing lands on the table looking like it knows exactly what it is. R/DenverFood regulars have pointed to Mizuna's salad program as one of the most underrated things happening in Denver restaurants right now, and they're not wrong. You will feel slightly underdressed eating it regardless of what you're wearing. That's the correct reaction.
+
+---
+
+### **[Osteria Marco](https://www.bonannoconcepts.com/restaurant/osteria-marco/)**, The Larimer Square Classic
+
+1453 Larimer St, Denver, CO 80202 (LoDo) | $$ | Reservations: Recommended
+
+Osteria Marco has been anchoring Larimer Square long enough that it's easy to take for granted. Don't. The Caesar here is tableside, dramatic, properly garlicky, and made by people who understand that the crouton is not an afterthought. It's a house-made bread situation and it matters. This is also the version that gets referenced on r/Denver when people ask for good date-night food that doesn't require a trust fund. Order it. Order the pizza too. Live your life.
+
+---
+
+### **[Potager](http://www.potagerrestaurant.com/)**, The Farm-Driven One
+
+1109 N Ogden St, Denver, CO 80218 (Capitol Hill) | $$$ | Reservations: Yes
+
+Potager has been sourcing from local farms before that was a thing people put on signs in restaurant windows. The Caesar here reflects that ethos in a very specific way: the lettuce is seasonal and intentional, the Parmesan is the real deal, and the dressing skews toward brightness without losing its backbone. It's a lighter interpretation than some of the anchovy-bombs on this list, which will either be exactly what you want or mildly disappointing depending on your personal Caesar philosophy. Worth knowing before you order.
+
+---
+
+### **[Steuben's Uptown](http://www.steubens.com/)**, The Dependable American Classic
+
+523 E 17th Ave, Denver, CO 80203 (Uptown) | $$ | Reservations: No
+
+Steuben's doesn't pretend to be something it isn't. It's a very good American comfort food restaurant and the Caesar plays to that identity. It's classic, well-executed, not trying to reinvent anything. The dressing is creamy without being timid, the romaine is handled correctly, and the whole experience comes with none of the pretension that sometimes sneaks into salad-forward menus. R/Denver threads about Uptown dining consistently put Steuben's in the reliable-and-satisfying column, and that reputation is earned. Sometimes you don't want a revelation. You want a good Caesar and a strong cocktail. This is that place.
+
+---
+
+### **[Marco's Coal Fired | Ballpark](https://www.marcoscfp.com/)**, The Pizza-Adjacent Caesar You Need
+
+2129 Larimer St, Denver, CO 80205 (Ballpark) | $$ | Reservations: No
+
+Marco's makes pizza that takes itself seriously, which means the Caesar that arrives before it has to hold up its end of the bargain. It does. The dressing is properly assertive and the salad has a satisfying simplicity to it. It's not the most complex Caesar on this list but it's the one most likely to make you immediately order another before the pizza arrives. That's a form of excellence.
+
+---
+
+### **[Jax Fish House & Oyster Bar](https://www.jaxfishhouse.com/location/jax-fish-house-oyster-bar-lodo/)**, The Seafood Context Caesar
+
+1539 17th St, Denver, CO 80202 (LoDo) | $$$ | Reservations: Recommended
+
+Here's the thing about ordering a Caesar at a fish house: when they do it right, the anchovy in the dressing becomes a conversation with everything else on the table. Jax does it right. The dressing is briny and confident, which makes sense given the menu it lives on. This is the Caesar you order before the oysters, and the two things together are an argument for why Denver's restaurant scene deserves more credit than it gets from the coasts.
+
+---
+
+### **[Sam's No. 3](https://samsno3.com/)**, The Diner Caesar That Somehow Works
+
+1500 Curtis Street, Denver, CO 80202 (Downtown) | $ | Reservations: No
+
+Look. You're not going to Sam's No. 3 for a refined culinary experience. You're going because it's open, it's loud, it's cheap, and the menu is enormous. The Caesar here is a diner Caesar. It is not pretending to be anything else. But it's solid, it's consistent, and if you're downtown at a weird hour and the craving hits, you will not be disappointed. The r/Denver consensus on Sam's is basically that it's a Denver institution that earns its reputation by just being reliably, stubbornly itself. The Caesar fits that description exactly.
+
+---
+
+### **[Carmine's on Penn](http://www.carminesonpenn.net/)**, The Tableside Drama
+
+92 S Pennsylvania St, Denver, CO 80209 (South Broadway) | $$ | Reservations: Yes
+
+Carmine's does big, family-style Italian with enough personality to fill the room. The Caesar is a tableside production and the portions match the energy of the restaurant. This isn't the most subtle Caesar in Denver but it's probably the most fun to watch being made. The garlic is present. The anchovies are present. The entire table will smell like garlic for the rest of the evening and nobody will be upset about it.
+
+---
+
+### **[The Delectable Egg LoDo](http://www.delectableegg.com/)**, The Breakfast Caesar, Yes, Really
+
+1642 Market St, Denver, CO 80202 (LoDo) | $ | Reservations: No
+
+The Delectable Egg does brunch and it does it correctly, which means the Caesar on the lunch menu gets a slightly egg-forward treatment that is either brilliant or slightly alarming depending on your morning. The dressing has a richness to it that makes sense in a brunch context. Order it with something from the egg section of the menu and commit to the bit.
+
+---
+
+**The Verdict**
+
+If you're making one stop for the best Caesar salad in Denver, you're going to **[Mizuna](https://www.bonannoconcepts.com/restaurant/mizuna/)**. Full stop. It's the most technically accomplished version in the city and the one most likely to make you reconsider how you've been thinking about salad. If you want tableside theater, **[Osteria Marco](https://www.bonannoconcepts.com/restaurant/osteria-marco/)** has the move. If you want it cheap and fast and downtown, **[Sam's No. 3](https://samsno3.com/)** won't embarrass you. The point is that Denver is doing the Caesar salad thing better than anyone gives it credit for, and the only wrong move is ordering something else.`,
+    category: "food",
+    author: "Ryan Estes",
+    date: "2026-06-24",
+    readTime: "6 min read",
+    image: "/images/best-caesar-salad-denver.png",
+    featured: false,
+    tags: ["Caesar Salad", "Best Of", "Denver Restaurants"],
   }
 ];
 
