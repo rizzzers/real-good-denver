@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denvers-stadium-news-a-rockies-homestand-and-a-16-year-olds-plan-to",
+    title: "Denver's stadium news, a Rockies homestand, and a 16 year old's plan to make Colorado its own country.",
+    date: "2026-06-24",
+    description: "The Denver Pavilions got a major rebranding moment as Sasaki unveiled its \"Urban Living Room\" vision for the space, while Marina Square's 481-unit residential phase broke ground in the Tech Center and a retail and dental center was proposed near Tower Road. A construction worker died at the Broncos' new training facility, the Denver Post sign came down in a $13.5 million settlement, and a Boulder teen filed 13 ballot measures to make Colorado secede from the US. Plus, District Pour & Provisions opened a 92-tap food hall in Westminster, and new spots including Tavern on Blake Street, BARna Global Soccer & Tapas, and Ichigo Matcha are joining the Denver dining scene.",
+    htmlFile: "/newsletter-issues/denvers-stadium-news-a-rockies-homestand-and-a-16-year-olds-plan-to.html",
+  },
+  {
     slug: "denver-ran-out-of-water-caught-some-candy-drug-dealers-and-let-the",
     title: "Denver ran out of water, caught some candy drug dealers, and let the dogs run wild.",
     date: "2026-06-18",
