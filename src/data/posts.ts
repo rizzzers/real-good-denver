@@ -2619,6 +2619,90 @@ If you're making one stop for the best Caesar salad in Denver, you're going to *
     image: "/images/best-caesar-salad-denver.png",
     featured: false,
     tags: ["Caesar Salad", "Best Of", "Denver Restaurants"],
+  },
+  {
+    id: 35,
+    slug: "best-sushi-denver",
+    title: "Best Sushi in Denver Without Flying to LA",
+    excerpt: "Denver's raw fish scene will genuinely surprise you, and not in that \"well, it's pretty good for Colorado\" consolation-prize way. We're talking legitimately stellar sushi that doesn't require a flight to LA.",
+    fullContent: `Denver sits 1,000 miles from the nearest ocean. That's just a fact you have to make peace with. You live here for the mountains, the sunshine, the altitude that makes you feel drunk after one beer. You did not move here expecting world-class sushi. And yet. Quietly, stubbornly, Denver has built a raw fish scene that will genuinely surprise you if you let it. Not in a consolation-prize way. In a way where you stop comparing it to somewhere else and just start eating.
+
+The key is knowing where to go, because the range here is wide. On one end you have spots that source fish with the kind of seriousness usually reserved for fine dining. On the other end you have places that are fine, technically, but exist mostly to give mall shoppers something to do between stores. This list is not going to waste your time on the latter. You've got better things to do.
+
+Locals on r/Denver and r/DenverFood debate this topic with the kind of passion usually reserved for which dispensary has the best deals. The consensus, after years of arguments and upvoted threads, is that Denver's sushi ceiling is higher than most people expect, and the floor has also gotten a lot more respectable. Here's where to actually spend your money.
+
+---
+
+### **[Sushi Den](http://www.sushiden.net/)**
+
+1487 S Pearl St, Denver, CO 80210 (Platt Park) | $$$$ | Reservations: Recommended
+
+This is the one. The one you tell people about when they claim Denver can't do sushi. Sushi Den has been operating since 1984, and the reason it still dominates every conversation about raw fish in this city is simple: the fish is genuinely exceptional. The Kano brothers built direct sourcing relationships with Japanese fish markets decades ago, which means the quality of what lands on your plate reflects actual effort, not just markup.
+
+The omakase is the move if your wallet can take it. The nigiri is clean and precise in a way that makes you forget, at least temporarily, that you're landlocked. The wait times are legitimately brutal on weekends, and r/DenverFood regulars will tell you to either show up early, make a reservation, or accept that you're waiting outside on Pearl Street for a while. It's worth it. That part is not up for debate.
+
+---
+
+### **[Uchi Denver](https://uchi.uchirestaurants.com/location/denver/)**
+
+2500 Lawrence St, Denver, CO 80205 (RiNo) | $$$$ | Reservations: Recommended
+
+Uchi is a Texas import, which is the kind of sentence that should make a Denver local nervous. It doesn't matter here. The Denver location earns its reputation independently. The menu blurs the line between Japanese technique and straight-up creative cooking in ways that work more often than they have any right to. Hot dishes, cold dishes, things that technically involve raw fish but feel like something else entirely.
+
+A well-upvoted thread on r/Denver once described the experience as feeling like going to a concert where the band plays all deep cuts instead of hits, and that's pretty accurate. It's not the place for a classic tuna roll if that's all you're after. It is the place for one of the more interesting meals you'll have in Denver this year. The sake list is also doing serious work.
+
+---
+
+### **[Temaki Den](http://www.temakiden.com/)**
+
+3350 Brighton Blvd, Denver, CO 80216 (RiNo) | $$ | Reservations: No
+
+Hand rolls. That's the whole thing, and the whole thing is great. Temaki Den is the Sushi Den family's more casual operation, and it hits differently because it isn't trying to be anything it's not. You're getting hand rolls, quickly, in a space that doesn't require you to dress up or plan three weeks in advance.
+
+The fish quality carries over from its older sibling, which is the entire point. You're getting the same sourcing in a format that costs half as much and takes about twenty minutes. The nori stays crispy, the fillings are clean, and you can have dinner for two without leaving feeling financially ruined. r/DenverFood regulars point to this one constantly as the answer to what to do when you want the Den experience without the Den production. They're right.
+
+---
+
+### **[Hapa Sushi Grill and Sake Bar](http://www.hapasushi.com/)**
+
+1514 Blake St, Denver, CO 80202 (LoDo) | $$$ | Reservations: Yes
+
+Hapa has a few locations in Colorado, and the Blake Street spot earns its place on this list because it understands what it's doing. This is a good sushi bar in a city that needed more of them. The rolls lean creative without becoming absurd towers of crunch and mayonnaise. The sake selection is taken seriously. The atmosphere sits in that sweet spot between casual and actually-a-date-spot.
+
+Don't expect the fish sourcing to match Sushi Den or Uchi. You're not paying for that. You are paying for a reliable, well-executed meal that won't disappoint the person you brought with you.
+
+---
+
+### **OTOTO**
+
+1501 S Pearl St, Denver, CO 80210 (Platt Park) | $$ | Reservations: No
+
+OTOTO is the bar next door to Sushi Den, which tells you something about the company it keeps. The focus here is izakaya-style, meaning small plates, drinks, and a vibe that encourages you to stay longer than you planned. The sushi component is not the headliner, but the raw fish bites are well-sourced and worth ordering.
+
+This is the spot when you want the Platt Park energy without committing to a full Sushi Den experience. It's also, frankly, a better bar than most of the places in that neighborhood that are only trying to be bars. Locals have been loud about this one on r/Denver as an underrated option for a low-pressure night that still delivers on quality.
+
+---
+
+### **[Sushi Katsu](http://www.sushikatsudenver.com/)**
+
+2222 S Havana St, Aurora, CO 80014 (Aurora) | $$ | Reservations: No
+
+Yes, it's technically Aurora. No, that should not stop you. Sushi Katsu is the kind of place that survives on word of mouth and repeat customers because it has no reason to advertise. The fish is fresh, the prices are honest, and the room is small enough that you can tell they care about what they're serving. This is the neighborhood sushi spot that every neighborhood deserves but most don't have.
+
+r/Denver threads on hidden gem sushi consistently surface this one, often with the note that you should go before it gets too popular. It's already fairly popular with people who know. Now you know.
+
+---
+
+**The Verdict**
+
+Denver can do sushi. Not as a backup plan. Not as a apology for not being a coastal city. As a real, legitimate option that has specific spots worth going out of your way for. Sushi Den remains the anchor, Uchi is the splurge that earns it, Temaki Den is the weeknight solution, and Sushi Katsu is the one you'll feel smug about knowing. Skip Kona Grill at the Cherry Creek Mall unless you're already in the mall for other reasons and simply cannot leave. Skip Benihana unless you have a birthday party with someone under twelve. Your fish deserves better, and in Denver, better is available.`,
+    category: "food",
+    author: "Ryan Estes",
+    date: "2026-06-26",
+    readTime: "6 min read",
+    image: "/images/best-sushi-denver.png",
+    featured: false,
+    tags: ["Sushi", "Japanese Food", "Best Of", "Denver Restaurants"],
   }
 ];
 
