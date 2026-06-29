@@ -261,8 +261,9 @@
       "Denver Restaurants"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": null
+    "status": "published",
+    "season": null,
+    "publishedAt": "2026-06-29T17:58:33.493Z"
   },
   {
     "slug": "best-italian-sub-denver",
