@@ -2759,6 +2759,82 @@ Korean BBQ in Denver rewards the people willing to seek it out and not cut corne
     image: "/images/best-korean-bbq-denver.png",
     featured: false,
     tags: ["Korean BBQ", "Korean Food", "Best Of", "Denver Restaurants"],
+  },
+  {
+    id: 37,
+    slug: "best-italian-sub-denver",
+    title: "Best Italian Sub in Denver, A Sandwich Pilgrimage",
+    excerpt: "The Italian sub doesn't ask much of you, bread, meat, cheese, oil, vinegar, peppers, and attitude. Yet Denver, a city obsessed with green chile debates, can't seem to nail one that doesn't disappoint.",
+    fullContent: `The Italian sub doesn't ask much of you. Bread, meat, cheese, some combination of oil, vinegar, peppers, and attitude. It's one of the oldest, most democratic sandwiches in existence. And yet Denver, a city that will happily spend forty-five minutes debating the correct green chile, somehow makes finding a truly great one feel like a minor act of heroism.
+
+This is not a post about fine dining. This is not a post about farm-to-table anything. This is a post about the specific, irreplaceable joy of a sandwich that gets everything right, the bread that holds without turning to mush, the meat layered with intent, the vinegar hit that arrives right on time. Denver has more of these than it gets credit for. You just have to know where to look.
+
+The city's sandwich culture has been quietly growing up. Locals on r/Denver have spent considerable time arguing about what even counts as an Italian sub versus a hoagie versus something a deli counter just threw together and called Italian. The consensus, to the extent Reddit ever reaches consensus, is that the ratio matters as much as the ingredients. Too much bread and you're eating a loaf with garnish. Too little and the whole thing collapses into chaos. Denver's best versions understand this. Here's where to find them.
+
+---
+
+### **[Mercantile](https://www.mercantiledenver.com/)**
+1701 Wynkoop St #155, Denver, CO 80202 (Union Station) | $$$ | Reservations: Recommended
+
+Mercantile lives in Union Station, which means it carries a certain amount of tourist-adjacent foot traffic, and you might be tempted to dismiss it on those grounds. That would be a mistake. The kitchen here takes ingredients seriously in a way that shows up in every component of their sandwich program. The bread has structure. The cured meats are sourced with the same care they apply to everything else on the menu. The result is an Italian sub that feels elevated without being pretentious about it, which is a genuinely difficult balance to strike. r/DenverFood regulars have flagged Mercantile as one of those spots that rewards the lunch visit specifically, when the kitchen is focused and the crowds are slightly thinner. Go on a weekday. Thank yourself later.
+
+---
+
+### ****Sam's No. 3****
+**Sam's No. 3**
+1500 Curtis Street, Denver, CO 80202 (Downtown) | $ | Reservations: No
+
+Sam's No. 3 has been feeding Denver since 1927, and the Italian sub here is the anti-pretension answer to every overwrought sandwich concept that has opened in this city since roughly 2015. This is diner food, lovingly and unapologetically. The sub is loaded, the prices are honest, and the atmosphere is the kind of comfortable chaos that only comes from nearly a century of practice. A well-upvoted thread on r/Denver once described Sam's as the place where Denver's food ego goes to reset, and the Italian sub is exhibit A. You are not getting anything artisanal. You are getting a sandwich that knows what it is.
+
+---
+
+### **[Steuben's Uptown](http://www.steubens.com/)**
+523 E 17th Ave, Denver, CO 80203 (Uptown) | $$ | Reservations: No
+
+Steuben's is comfort food done with enough self-awareness to keep it interesting. The Italian sub here benefits from their general commitment to doing American classics correctly rather than reinventing them. The bread-to-filling ratio is one of the more reliable in the city, and they don't oversauce, which sounds like a low bar to clear but is apparently not. Locals on r/Denver tend to bring up Steuben's in any thread about consistent neighborhood spots, and the sub is one of the reasons why. It's the kind of sandwich you eat and then immediately think about ordering again.
+
+---
+
+### ****BurnDown****
+**BurnDown**
+476 S Broadway, Denver, CO 80209 (South Broadway) | $ | Reservations: No
+
+Broadway has a particular energy, and BurnDown fits right into it. This is a bar that takes its food seriously without making you feel like you stumbled into a restaurant. The Italian sub here is the kind of thing you order on impulse and end up telling people about. The peppers are generous. The oil situation is correct. The bread holds up through the whole thing, which matters more than people acknowledge until it doesn't and suddenly half their lunch is on the bar. r/DenverFood has flagged the Broadway corridor as an underrated sandwich destination more than once, and BurnDown is part of the reason that argument holds.
+
+---
+
+### **[Vital Root](https://ediblebeats.com/restaurants/vital-root/)**
+3915 Tennyson St, Denver, CO 80212 (Berkeley) | $$ | Reservations: No
+
+Vital Root is plant-based, and if that sentence made you want to click away, stay with this for a second. The Italian sub here is genuinely one of the more interesting versions in Denver precisely because it has to work harder to deliver the same satisfaction. The layering is careful. The house-made components bring enough acidity and richness that you don't spend the whole sandwich missing the salami. This is not a consolation prize for people who don't eat meat. It's a different and valid answer to the same question. Tennyson Street has quietly become one of Denver's better eating corridors, and Vital Root is a significant reason why. A thread on r/Denver about plant-based spots that even carnivores respect consistently mentions this place by name.
+
+---
+
+### **[The Kitchen American Bistro](https://www.thekitchen.com/location/the-kitchen-bistros-denver/)**
+1560 Wazee St, Denver, CO 80202 (LoDo) | $$$ | Reservations: Recommended
+
+The Kitchen is a Boulder transplant that landed well in Denver, and their approach to sandwiches follows the same sourcing-obsessed logic they apply to everything else. The Italian sub here is not cheap. You are paying for the quality of every individual component, from the bread to the meat to whatever the current seasonal add is. Whether that trade-off is worth it depends entirely on your mood and your bank account. On the right day, it absolutely is. On a day when you just want a good sub without a philosophical framework, go somewhere else on this list. r/DenverFood has had this exact debate about The Kitchen multiple times, and the answer is always the same: it depends.
+
+---
+
+### ****Rioja****
+**Rioja**
+1431 Larimer St, Denver, CO 80202 (LoDo) | $$$ | Reservations: Recommended
+
+Rioja is Jennifer Jasinski's flagship and one of Denver's most celebrated restaurants, so flagging it in an Italian sub post requires a word of explanation. The sandwiches here are not a main event, but they appear in various lunch and casual formats and they are very good, because everything at Rioja is very good. If you find yourself on Larimer and want something between a full sit-down dinner and a grab-and-go situation, Rioja will not let you down. The attention to detail that makes their dinner service exceptional doesn't disappear when the sun is still up.
+
+---
+
+**The Verdict**
+
+Denver's Italian sub scene rewards the people willing to look past the obvious options. You've got the old-school diner integrity of Sam's No. 3, the ingredient-forward approach at Mercantile and The Kitchen, the neighborhood reliability of Steuben's, and a genuinely surprising plant-based entry at Vital Root that earns its spot on this list. The city is not New Jersey. It is not South Philly. It is not pretending to be either of those things. What it is doing, quietly and without much fanfare, is building a sandwich culture worth taking seriously. Start at the top of this list and work your way down. You'll know which one is yours by the third bite.`,
+    category: "food",
+    author: "Ryan Estes",
+    date: "2026-07-01",
+    readTime: "6 min read",
+    image: "/images/best-italian-sub-denver.png",
+    featured: false,
+    tags: ["Italian Sub", "Sandwiches", "Best Of", "Denver Restaurants"],
   }
 ];
 
