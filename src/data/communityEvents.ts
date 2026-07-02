@@ -701,4 +701,14 @@ export const communityEvents: CommunityEvent[] = [
     description:
       "Mister Oso Boulder's cozy yet energetic atmosphere makes it the ideal spot in Boulder for World Cup watching, with ample TV screens and delicious Latin fare throughout the tournament. Daily happy hour runs 3 to 6 p.m. Bonus: free valet parking at the Boulder Moxy Hotel.",
   },
+  {
+    id: "colorado-saves-the-world-2026-07-23",
+    title: "Colorado Saves the World: Your Regional News Quiz!",
+    date: "2026-07-23",
+    time: "7:00 PM",
+    location: "Dude IDK Studios, 2801 N Downing St, Denver, CO 80205",
+    description:
+      "A fast-paced, fun-filled news quiz spotlighting the weird, wild, and wonderful happenings in Denver, Colorado, and the Rocky Mountain region. A panel of Denver's funniest comedians and celebrity guests from all walks of life bring you the freshest news, hottest takes, and coolest interviews in the West. If you love NPR's Wait Wait Don't Tell Me, you'll have a blast with Colorado Saves the World.",
+    link: "https://denvercomedy.multipass.com/coloradosavestheworld",
+  },
 ];
