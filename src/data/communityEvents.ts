@@ -702,6 +702,15 @@ export const communityEvents: CommunityEvent[] = [
       "Mister Oso Boulder's cozy yet energetic atmosphere makes it the ideal spot in Boulder for World Cup watching, with ample TV screens and delicious Latin fare throughout the tournament. Daily happy hour runs 3 to 6 p.m. Bonus: free valet parking at the Boulder Moxy Hotel.",
   },
   {
+    id: "dpc-social-study-ai-data-2026-07-14",
+    title: "How You Are Using AI and How It Is Using You",
+    date: "2026-07-14",
+    time: "6:00–8:00 PM",
+    location: "Denver Press Club, 1330 Glenarm Place, Denver",
+    description:
+      "A talk from Heath Morgan, attorney and author of \"The Memory Project,\" on the AI systems already shaping your daily life: your social media feed, email, commute, music, search results, banking app, keyboard, camera, and TV. You interact with 20+ AI systems every day, and most of them are collecting data about you under terms you've never read, with no expiration date. Morgan walks through what data is actually being collected, who profits from it, where the technology is headed, and what you can do about it today. He'll also share themes from his novel, set in 2085, following a generation that inherited the consequences of data their grandparents gave away for free. Part of The Social Study series at the Denver Press Club.",
+  },
+  {
     id: "founder-series-ai-panel-2026-07-22",
     title: "Founder Series: Artificial Intelligence and the New Frontier",
     date: "2026-07-22",
