@@ -2835,6 +2835,88 @@ Denver's Italian sub scene rewards the people willing to look past the obvious o
     image: "/images/best-italian-sub-denver.png",
     featured: false,
     tags: ["Italian Sub", "Sandwiches", "Best Of", "Denver Restaurants"],
+  },
+  {
+    id: 38,
+    slug: "best-bagel-denver",
+    title: "Best Bagel in Denver (Yes, We're Settling This)",
+    excerpt: "Denver doesn't have a New York bagel problem. It has a Denver bagel problem, which is different and arguably worse, because people here keep pretending the two are comparable and then getting into arguments about it on the internet at 11am on a Tuesday.",
+    fullContent: `Denver doesn't have a New York bagel problem. It has a Denver bagel problem, which is different and arguably worse, because people here keep pretending the two are comparable and then getting into arguments about it on the internet at 11am on a Tuesday.
+
+Here's what's actually true: Denver has a small, scrappy, genuinely decent bagel scene. It is not New York. It is not Montreal. It does not need to be either of those things to be worth your time and your cream cheese. What it needs is to be honest about what it is, and a handful of spots in this city are doing exactly that, doing it well, and occasionally doing it in ways that will make you briefly forget you have a mortgage and a complicated relationship with carbohydrates.
+
+Locals on r/Denver have been relitigating this topic for years. The thread titles basically write themselves. Someone moves here from the Northeast, posts something incendiary, and then three hundred people argue about whether altitude ruins the boil or whether Denver just hasn't tried hard enough. The consensus, if you can call it that, is that the scene has genuinely improved, that a couple of spots deserve real respect, and that the bagel discourse is probably never going to end. Fine. We'll settle the ranking part at least.
+
+---
+
+### 1. **[Rosenberg's Bagels & Delicatessen (Five Points)](https://rosenbergsbagels.com/fivepoints/)**
+
+725 E 26th Ave, Denver, CO 80205 (Five Points) | $$ | Reservations: No
+
+This is the one. If you've lived in Denver longer than six months and you haven't been to Rosenberg's, something has gone wrong in your life and you should examine that. Joshua Pollack spent serious time learning how to make a bagel that actually behaves like a bagel, which means kettle-boiled, which means proper crust, which means chew that doesn't immediately collapse into bread-adjacent disappointment.
+
+The everything is the move, but honestly pick any variety and you're not going to embarrass yourself. The lox situation is dialed in. The schmear is applied with the kind of generosity that suggests the person making your bagel genuinely wants you to be happy. The deli side of the operation is also not messing around, with pastrami and whitefish salad that would hold their own in cities with much louder opinions about deli food.
+
+R/DenverFood regulars consistently name this place first when the bagel thread comes up, which it does, constantly, and they are correct to do so. The line on weekend mornings is real. Get there early or make peace with waiting. It's worth both.
+
+---
+
+### 2. **[Zaidy's Deli & Bakery](http://www.zaidysdeli.com/)**
+
+600 S Holly St #114, Denver, CO 80246 (Cherry Hills Village area) | $$ | Reservations: No
+
+Zaidy's has been doing this longer than most Denver bagel conversations have been happening, and that institutional knowledge shows up in the product. This is a traditional Jewish deli that takes the whole thing seriously, from the bagels themselves to the Nova lox to the matzo ball soup that will make you feel better about things you haven't even felt bad about yet.
+
+The bagels here are denser and chewier than what you might find at a more modern operation, which is either exactly what you want or slightly too much depending on your baseline expectations. The deli classics are the point. Order accordingly. The breakfast plates are generous in the way that suggests whoever designed the menu understood that people come here hungry in a specific, spiritual way.
+
+Community sentiment on r/Denver tends to frame Zaidy's as the old-school option, the one your Jewish grandmother would recognize, which is meant as a compliment and should be taken as one.
+
+---
+
+### 3. **[The Bagel Deli & Restaurant](https://www.bageldeli.com/)**
+
+6439 E Hampden Ave, Denver, CO 80222 (Virginia Village) | $ | Reservations: No
+
+The Bagel Deli has been in Denver since 1967. Let that land. It opened before half the people arguing about Denver bagels on Reddit were born. It is not trying to be trendy. It does not have a branded tote bag. It has Naugahyde booths and a menu that hasn't needed to reinvent itself, because the original invention was correct.
+
+The bagels are made in-house. The lox platter is what it should be. The matzah brei is the kind of thing you order once and then think about for three weeks. This place is a time capsule in the best possible way, staffed by people who have seen every food trend come and go and correctly identified most of them as optional.
+
+If Rosenberg's represents Denver's modern bagel ambition, The Bagel Deli represents the proof that the baseline was always there. It's consistently underrated in online discourse because it doesn't photograph as dramatically, but the people who know, know. A well-upvoted thread on r/Denver once produced multiple comments from people who described this as their first stop after returning from long trips out of state. That is not nothing.
+
+---
+
+### 4. **[Vital Root](https://ediblebeats.com/restaurants/vital-root/)**
+
+3915 Tennyson St, Denver, CO 80212 (Berkeley) | $$ | Reservations: No
+
+Vital Root is not a bagel shop. It is a plant-based restaurant on Tennyson that does a lot of things well, and one of those things is a bagel situation that earns its spot on this list without apologizing for being different. The bagel-adjacent offerings here are aimed at people who want something vegetable-forward, something with seeds and schmears that don't involve fish, and Vital Root handles that ask with more integrity than you'd expect.
+
+It's worth knowing what you're getting into. This is not your pastrami-and-lox destination. This is your Sunday morning, sitting in a bright room, eating something that is technically a bagel but surrounded by flavors that feel very 2024 Denver rather than 1980 Brookline destination. R/DenverFood has noted that Vital Root fills a specific gap for the city's significant plant-based dining contingent, and that is accurate. It fills it well.
+
+---
+
+### 5. **[Watercourse Foods](https://www.watercoursefoods.com/)**
+
+837 E 17th Ave, Denver, CO 80218 (Uptown) | $$ | Reservations: No
+
+Denver's most beloved all-vegan diner has been feeding people who eat plants since before plant-based eating became a marketing category, and the bagel offerings here follow that same ethos: unpretentious, filling, made with care. The tofu scramble on a bagel is the kind of thing that sounds like a compromise and eats like a decision you're glad you made.
+
+Watercourse is worth listing here specifically because it represents the Denver that exists alongside the deli tradition rather than competing with it. Different crowd, different morning, different craving. Locals on r/Denver who are navigating dietary restrictions name this place consistently when the breakfast conversation turns toward what actually works rather than what theoretically should.
+
+---
+
+**The Verdict**
+
+Rosenberg's is the answer. It's the answer everyone who has been paying attention already knows, and it's the answer this list arrives at without apology. But the honest version of this conversation is that Denver has more than one legitimate option, which is a thing that wasn't true fifteen years ago and is genuinely worth appreciating now. Zaidy's has the history. The Bagel Deli has the staying power. Vital Root and Watercourse are doing something different and doing it with conviction.
+
+Go to Rosenberg's first. Then, when you've convinced yourself you have strong opinions about bagels, work your way through the rest of the list and develop stronger ones. Denver is not New York. Denver bagels are Denver bagels. At their best, that's enough.`,
+    category: "food",
+    author: "Ryan Estes",
+    date: "2026-07-03",
+    readTime: "6 min read",
+    image: "/images/best-bagel-denver.png",
+    featured: false,
+    tags: ["Bagel", "Breakfast", "Best Of", "Denver Restaurants"],
   }
 ];
 
