@@ -702,6 +702,16 @@ export const communityEvents: CommunityEvent[] = [
       "Mister Oso Boulder's cozy yet energetic atmosphere makes it the ideal spot in Boulder for World Cup watching, with ample TV screens and delicious Latin fare throughout the tournament. Daily happy hour runs 3 to 6 p.m. Bonus: free valet parking at the Boulder Moxy Hotel.",
   },
   {
+    id: "founder-series-ai-panel-2026-07-22",
+    title: "Founder Series: Artificial Intelligence and the New Frontier",
+    date: "2026-07-22",
+    time: "1:00–3:00 PM",
+    location: "Grow House Co-Working, 5th Floor, Trinity Place Building, 1801 N Broadway, Denver, CO 80202",
+    description:
+      "An afternoon panel discussion charting the profound changes AI brings to society, from transforming creative fields to redefining the modern workplace. Hosted by Ryan Estes (AI for Founders Podcast), five panelists from the frontlines of design, culture, and corporate strategy discuss what AI means for careers and creativity. Followed by Q&A and networking. Open to anyone curious about AI.",
+    link: "https://www.evite.com/event/004BIIAE4SKDAARFOEPROSRZ5HWP4I/",
+  },
+  {
     id: "colorado-saves-the-world-2026-07-23",
     title: "Colorado Saves the World: Your Regional News Quiz!",
     date: "2026-07-23",
