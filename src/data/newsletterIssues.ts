@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-is-feeling-some-kind-of-way-mushroom-advocates-want-their",
+    title: "Denver is feeling some kind of way: mushroom advocates want their rights back, a congresswoman is sweating her primary, and CU just bought a 25 story tower at a steep discount.",
+    date: "2026-07-03",
+    description: "CU Denver is acquiring the 25-story Independence Plaza tower downtown at a steep discount, the headline development in a busy week for the city. Psychedelic activists have launched a referendum to reverse part of a new law restricting sharing, while a 29-year-old socialist may be on the verge of unseating a 30-year congresswoman in a primary. Plus, new restaurant openings include Mother Other, Kinoya Izakaya, and Western Daughters Wine Bar, and a catalytic converter sparked a 237-acre grass fire near Denver International Airport.",
+    htmlFile: "/newsletter-issues/denver-is-feeling-some-kind-of-way-mushroom-advocates-want-their.html",
+  },
+  {
     slug: "denvers-stadium-news-a-rockies-homestand-and-a-16-year-olds-plan-to",
     title: "Denver's stadium news, a Rockies homestand, and a 16 year old's plan to make Colorado its own country.",
     date: "2026-06-24",
