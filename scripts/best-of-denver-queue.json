@@ -306,8 +306,9 @@
       "Denver"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": null
+    "status": "published",
+    "season": null,
+    "publishedAt": "2026-07-06T17:58:42.019Z"
   },
   {
     "slug": "best-remote-work-denver",
