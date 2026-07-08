@@ -702,6 +702,26 @@ export const communityEvents: CommunityEvent[] = [
       "Mister Oso Boulder's cozy yet energetic atmosphere makes it the ideal spot in Boulder for World Cup watching, with ample TV screens and delicious Latin fare throughout the tournament. Daily happy hour runs 3 to 6 p.m. Bonus: free valet parking at the Boulder Moxy Hotel.",
   },
   {
+    id: "flipping-scripts-2-opening-2026-07-17",
+    title: "Flipping Scripts 2: An Exhibition of Colorado Curators (Opening Reception)",
+    date: "2026-07-17",
+    time: "6:00–9:00 PM",
+    location: "Bitfactory Gallery, 851 Santa Fe Drive, Denver",
+    description:
+      "Opening reception for \"Flipping Scripts 2,\" a group exhibition conceived by Dan Drossman that puts 16 of Denver's gallerists and curators on the other side of the wall. Participants include Grant Adams (Nine Dot Arts), Ray Carney (Naked Ray), Anthony Garcia (Birdseed Collective), Daisy McGowan (RiNo Art District), Eric Nord (Leon Gallery), Sophia Poppy-Erickson (Rule Gallery), and more. Each was asked to interpret \"What do we need right now?\" through their own art. The show runs July 17 through August 8. Gallery hours: Tues.–Sat., 11 a.m.–4 p.m.",
+    link: "https://www.bitfactory.net",
+  },
+  {
+    id: "flipping-scripts-2-first-friday-2026-08-07",
+    title: "Flipping Scripts 2: First Friday at Bitfactory Gallery",
+    date: "2026-08-07",
+    time: "6:00–9:00 PM",
+    location: "Bitfactory Gallery, 851 Santa Fe Drive, Denver",
+    description:
+      "Visit \"Flipping Scripts 2\" during the largest First Friday Art Walk of the year, when Santa Fe Drive closes to car traffic and the galleries throw open their doors. The exhibition features work by 16 of Denver's leading curators and gallerists, each responding to the question \"What do we need right now?\" through their own art. Curated by Dan Drossman. On view through August 8.",
+    link: "https://www.bitfactory.net",
+  },
+  {
     id: "hopscotch-beer-garden-opening-2026-07-11",
     title: "Hopscotch Beer Garden Opens at Denargo Market",
     date: "2026-07-11",
