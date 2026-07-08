@@ -702,6 +702,15 @@ export const communityEvents: CommunityEvent[] = [
       "Mister Oso Boulder's cozy yet energetic atmosphere makes it the ideal spot in Boulder for World Cup watching, with ample TV screens and delicious Latin fare throughout the tournament. Daily happy hour runs 3 to 6 p.m. Bonus: free valet parking at the Boulder Moxy Hotel.",
   },
   {
+    id: "wild-hearts-western-nights-2026-08-01",
+    title: "Wild Hearts and Western Nights",
+    date: "2026-08-01",
+    location: "The Ranch at Larimer County Fairgrounds, Loveland, CO",
+    description:
+      "Spark Alchemy brings Colorado's booming romantasy reader community into a fully styled cowboy-romance experience at The Ranch at Larimer County. Expect a Western atmosphere, genre-inspired photo moments, curated vendors, and 200 fellow romance readers who are done just reading about their favorite tropes and ready to live inside them. Presented by Spark Alchemy, the Colorado-based experiential events company behind a sold-out Regency-era tea debut.",
+    link: "https://www.eventbrite.com/e/wild-hearts-western-nights-tickets-1992654788112",
+  },
+  {
     id: "dpc-social-study-ai-data-2026-07-14",
     title: "How You Are Using AI and How It Is Using You",
     date: "2026-07-14",
