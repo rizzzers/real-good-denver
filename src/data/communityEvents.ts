@@ -733,10 +733,11 @@ export const communityEvents: CommunityEvent[] = [
     id: "wild-hearts-western-nights-2026-08-01",
     title: "Wild Hearts and Western Nights",
     date: "2026-08-01",
-    location: "The Ranch at Larimer County Fairgrounds, Loveland, CO",
+    time: "6:00–8:30 PM",
+    location: "The Ranch at Larimer County Fairgrounds, 5280 Arena Circle, Loveland, CO 80538",
     description:
-      "Spark Alchemy brings Colorado's booming romantasy reader community into a fully styled cowboy-romance experience at The Ranch at Larimer County. Expect a Western atmosphere, genre-inspired photo moments, curated vendors, and 200 fellow romance readers who are done just reading about their favorite tropes and ready to live inside them. Presented by Spark Alchemy, the Colorado-based experiential events company behind a sold-out Regency-era tea debut.",
-    link: "https://www.eventbrite.com/e/wild-hearts-western-nights-tickets-1992654788112",
+      "An immersive cowboy romance experience from Spark Alchemy, featuring four acclaimed Colorado romance authors: Michelle Major, Jennie Marts, Mary Leo, and Elle Laine, for book signings and conversation. Cherry On Top Bookshop (Fort Collins) hosts a pop-up shop and Urban Cowgirl Denver runs a custom cowboy hat bar on-site. Expect lasso lessons, western-themed food and drinks, and live cowboy music throughout the evening. A prize drawing benefits Hope for Justice, an organization working to end human trafficking. Early bird tickets: $55 through July 15, then $77. VIP tickets ($99) include a book from a featured author, a $50 Minky Couture gift card, curated goodies from local women-owned businesses, and 20% off a future Spark Alchemy event.",
+    link: "https://www.eventbrite.com/e/wild-hearts-western-nights-tickets-1992654788112?aff=RyanEstes",
   },
   {
     id: "dpc-social-study-ai-data-2026-07-14",
