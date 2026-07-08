@@ -702,6 +702,14 @@ export const communityEvents: CommunityEvent[] = [
       "Mister Oso Boulder's cozy yet energetic atmosphere makes it the ideal spot in Boulder for World Cup watching, with ample TV screens and delicious Latin fare throughout the tournament. Daily happy hour runs 3 to 6 p.m. Bonus: free valet parking at the Boulder Moxy Hotel.",
   },
   {
+    id: "hopscotch-beer-garden-opening-2026-07-11",
+    title: "Hopscotch Beer Garden Opens at Denargo Market",
+    date: "2026-07-11",
+    location: "Hopscotch Beer Garden, Denargo Market, Denver",
+    description:
+      "Denver's newest outdoor gathering spot opens at Denargo Market on July 11. Hopscotch features a 16-tap draft system with beer, wine, and ciders alongside canned cocktails, seltzers, and non-alcoholic options. Light bites and a rotating schedule of food trucks round out the food and drink, and a turf field hosts pick-up volleyball, soccer, and badminton. On-leash dogs are welcome. Ongoing programming includes Yappy Hour, trivia, bingo, bike-in movie nights, and fitness on the lawn. The first Second Sundays event, featuring music and coffee, takes place the following day on July 12.",
+  },
+  {
     id: "wild-hearts-western-nights-2026-08-01",
     title: "Wild Hearts and Western Nights",
     date: "2026-08-01",
