@@ -702,6 +702,16 @@ export const communityEvents: CommunityEvent[] = [
       "Mister Oso Boulder's cozy yet energetic atmosphere makes it the ideal spot in Boulder for World Cup watching, with ample TV screens and delicious Latin fare throughout the tournament. Daily happy hour runs 3 to 6 p.m. Bonus: free valet parking at the Boulder Moxy Hotel.",
   },
   {
+    id: "affordable-arts-festival-2026-08-30",
+    title: "15th Annual Affordable Arts Festival",
+    date: "2026-08-30",
+    time: "9:00 AM–3:00 PM",
+    location: "Arapahoe Community College, 5900 S Santa Fe Dr, Littleton, CO 80120",
+    description:
+      "One day only: 160+ professional artists selling fine art for $150 or less. Works include paintings, photography, glass art, jewelry, fiber, leather, wood, prints, originals, and more, from Colorado artists and across the country. Ranked among the top five art shows in the country. Admission is $12 (tickets available online now and at the door). Arrive early for best selection: the line forms as early as 5 a.m. and gates open at 9. Artists unveil a fresh round of deals at 11 a.m. Free parking on site; RTD and light rail nearby. Proceeds from admission benefit the ACC Foundation and are matched by the Colorado Opportunity Initiative for student scholarships. The festival has donated $360,000 to ACC students to date.",
+    link: "https://affordableartsfestival.com",
+  },
+  {
     id: "flipping-scripts-2-opening-2026-07-17",
     title: "Flipping Scripts 2: An Exhibition of Colorado Curators (Opening Reception)",
     date: "2026-07-17",
