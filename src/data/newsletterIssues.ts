@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denvers-week-of-political-earthquakes-a-fireworks-patchwork-nobody",
+    title: "Denver's week of political earthquakes, a fireworks patchwork nobody can keep straight, and a Vietnamese restaurant rising from a boarded up storefront.",
+    date: "2026-07-09",
+    description: "Democratic socialist Melat Kiros stunned 15-term incumbent Diana DeGette in Denver's congressional primary, while Phil Weiser knocked off Senator Michael Bennet in the governor's primary and the Colorado GOP governor's race remains too close to call. Colorado's fireworks rules vary by city, creating a confusing patchwork for residents, and Table 6 announced its closure after 22 years. Plus, Vietnamese restaurant Rễ Tre is opening in a former boarded-up storefront, ALDI filed concept plans for its first two Denver grocery stores, and Denver Water launched free lead pipe replacement across northeast neighborhoods.",
+    htmlFile: "/newsletter-issues/denvers-week-of-political-earthquakes-a-fireworks-patchwork-nobody.html",
+  },
+  {
     slug: "denver-is-feeling-some-kind-of-way-mushroom-advocates-want-their",
     title: "Denver is feeling some kind of way: mushroom advocates want their rights back, a congresswoman is sweating her primary, and CU just bought a 25 story tower at a steep discount.",
     date: "2026-07-03",
