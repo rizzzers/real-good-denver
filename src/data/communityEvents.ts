@@ -718,7 +718,7 @@ export const communityEvents: CommunityEvent[] = [
     time: "6:00–9:00 PM",
     location: "Bitfactory Gallery, 851 Santa Fe Drive, Denver",
     description:
-      "Opening reception for \"Flipping Scripts 2,\" a group exhibition conceived by Dan Drossman that puts 16 of Denver's gallerists and curators on the other side of the wall. Participants include Grant Adams (Nine Dot Arts), Ray Carney (Naked Ray), Anthony Garcia (Birdseed Collective), Daisy McGowan (RiNo Art District), Eric Nord (Leon Gallery), Sophia Poppy-Erickson (Rule Gallery), and more. Each was asked to interpret \"What do we need right now?\" through their own art. The show runs July 17 through August 8. Gallery hours: Tues.–Sat., 11 a.m.–4 p.m.",
+      "Opening reception for \"Flipping Scripts 2,\" a group exhibition conceived by Dan Drossman that puts 16 of Denver's gallerists and curators on the other side of the wall. Participants include Grant Adams (Nine Dot Arts), Ray Carney (Naked Ray), Anthony Garcia (Birdseed Collective), Daisy McGowan (RiNo Art District), Eric Nord (Leon Gallery), Sophia Poppy-Erickson (Rule Gallery), and more. Each was asked to interpret \"What do we need right now?\" through their own art. The show runs July 17 through August 15. Gallery hours: Tues.–Sat., 11 a.m.–4 p.m.",
     link: "https://www.bitfactory.net",
   },
   {
@@ -728,7 +728,7 @@ export const communityEvents: CommunityEvent[] = [
     time: "6:00–9:00 PM",
     location: "Bitfactory Gallery, 851 Santa Fe Drive, Denver",
     description:
-      "Visit \"Flipping Scripts 2\" during the largest First Friday Art Walk of the year, when Santa Fe Drive closes to car traffic and the galleries throw open their doors. The exhibition features work by 16 of Denver's leading curators and gallerists, each responding to the question \"What do we need right now?\" through their own art. Curated by Dan Drossman. On view through August 8.",
+      "Visit \"Flipping Scripts 2\" during the largest First Friday Art Walk of the year, when Santa Fe Drive closes to car traffic and the galleries throw open their doors. The exhibition features work by 16 of Denver's leading curators and gallerists, each responding to the question \"What do we need right now?\" through their own art. Curated by Dan Drossman. On view through August 15.",
     link: "https://www.bitfactory.net",
   },
   {
