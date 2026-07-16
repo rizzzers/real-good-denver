@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denvers-heat-wave-a-100-million-jobs-bet-and-a-diesel-spill-that-shut",
+    title: "Denver's heat wave, a $100 million jobs bet, and a diesel spill that shut down a highway for seven hours.",
+    date: "2026-07-15",
+    description: "Denver is sweating through a heat wave that pushed the city to the worst air quality in the country, while a hit-and-run on Highway 36 spilled 60 gallons of diesel and shut down Westminster traffic for seven hours. The city is making a major economic move, committing $100 million to create 10,000 new jobs. Plus, new restaurant openings include Los Dos Potrillos and La Vietta Trattoria, a European-style cafe is coming to Cheesman Park, and taxi companies are trying to block Waymo's driverless launch in Denver.",
+    htmlFile: "/newsletter-issues/denvers-heat-wave-a-100-million-jobs-bet-and-a-diesel-spill-that-shut.html",
+  },
+  {
     slug: "denvers-week-of-political-earthquakes-a-fireworks-patchwork-nobody",
     title: "Denver's week of political earthquakes, a fireworks patchwork nobody can keep straight, and a Vietnamese restaurant rising from a boarded up storefront.",
     date: "2026-07-09",
