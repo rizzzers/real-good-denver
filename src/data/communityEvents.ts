@@ -357,6 +357,16 @@ export const communityEvents: CommunityEvent[] = [
       "A fundraiser for the Denver Press Club and the Colorado ACLU, and the launch of a monthly literary gathering for curated book events. Step into themed spaces for a night of mystery. Proceeds benefit the Club and the Colorado ACLU.",
   },
   {
+    id: "little-man-national-ice-cream-day-2026",
+    title: "National Ice Cream Day Party with Free Live Music from DOGTAGS",
+    date: "2026-07-19",
+    time: "7:00–9:00 PM",
+    location: "Little Man Ice Cream, 2620 16th Street, Denver, CO 80211",
+    description:
+      "Celebrate National Ice Cream Day at Little Man LoHi with a free outdoor concert from DOGTAGS, the Denver soul band that earned an NPR Tiny Desk Contest spotlight. The show marks the release of their new single, \"Sweet Tooth.\" Expect giveaways, interactive games for kids, and a night that works equally well for families, date nights, and dogs. Little Man will also debut the Cloud Cone, a special scoop available one day only. Free to attend.",
+    link: "https://www.eventbrite.com/e/national-ice-cream-day-party-at-the-can-free-live-music-from-dogtags-tickets-1993709689350?aff=oddtdtcreator",
+  },
+  {
     id: "moodswing-summer-sessions-sundresses",
     title: "Summer Sessions at Moodswing: Sundresses + Short Shorts",
     date: "2026-07-12",
