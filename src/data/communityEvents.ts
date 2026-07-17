@@ -807,4 +807,223 @@ export const communityEvents: CommunityEvent[] = [
       "A fast-paced, fun-filled news quiz spotlighting the weird, wild, and wonderful happenings in Denver, Colorado, and the Rocky Mountain region. A panel of Denver's funniest comedians and celebrity guests from all walks of life bring you the freshest news, hottest takes, and coolest interviews in the West. If you love NPR's Wait Wait Don't Tell Me, you'll have a blast with Colorado Saves the World.",
     link: "https://denvercomedy.multipass.com/coloradosavestheworld",
   },
+  {
+    id: "sweet-action-national-ice-cream-week-2026",
+    title: "National Ice Cream Week at Sweet Action",
+    date: "2026-07-19",
+    location: "Sweet Action Ice Cream, four Denver locations (Uptown, Broadway, Wash Park, Jeff Park)",
+    description:
+      "Sweet Action Ice Cream is celebrating National Ice Cream Week with daily promotions leading up to National Ice Cream Day on Sunday, July 19. Anyone who visits during the week can enter to win a free ice cream party pack, with one winner drawn per location on July 19. New and existing loyalty members get one free topping all week. The final days include half-priced pints on Saturday, July 18, and four raffle winners announced on National Ice Cream Day, July 19.",
+  },
+  {
+    id: "molino-chido-world-cup-final-2026",
+    title: "World Cup Final Watch Party at Molino Chido",
+    date: "2026-07-19",
+    time: "1:00 PM",
+    location: "Molino Chido, Stanley Marketplace, Denver",
+    description:
+      "Molino Chido is welcoming World Cup fans to its Stanley Marketplace dining room for the championship final. Tune in on the large screen projector with tacos and bebidas in hand, plus food and drink specials during the match. Walk-ins welcome, reservations recommended.",
+  },
+  {
+    id: "ay-papi-world-cup-final-2026",
+    title: "World Cup Final Watch Party at Ay Papi",
+    date: "2026-07-19",
+    time: "11:00 AM",
+    location: "Ay Papi, Cherry Creek, Denver",
+    description:
+      "Cherry Creek's Ay Papi is hosting a full-day World Cup Final watch party. Doors open at 11 a.m. with a pre-match DJ set before the 1 p.m. kickoff on a giant outdoor screen with full match audio. Expect food and drink specials all day, additional food trucks on site, and a post-game DJ to keep the celebration going. Walk-ins welcome, reservations suggested.",
+    link: "https://aypapidenver.com",
+  },
+  {
+    id: "olive-finch-cherry-creek-backyard-sundays-2026",
+    title: "Cherry Creek Backyard Sundays at Olive & Finch",
+    date: "2026-07-20",
+    time: "4:00–8:00 PM",
+    location: "Olive & Finch Cherry Creek, Denver",
+    description:
+      "Every Sunday through the end of August, Olive & Finch's Cherry Creek location offers a summer barbecue menu from 4 to 8 p.m. Grilled burgers, a toppings bar, macaroni and cheese, and grilled broccoli start at $78 for a party of four (under $20 per person). A rotating \"Chef's Burger\" special is available each week for an extra $5, with options like a Cowboy Burger with bacon, cheddar, crispy onions, and blueberry habanero BBQ sauce.",
+    link: "https://oliveandfinch.com",
+  },
+  {
+    id: "olive-finch-sunset-cinema-picnic-2026-07-21",
+    title: "Summer Sunset Cinema: Dinner Baskets from Olive & Finch",
+    date: "2026-07-21",
+    location: "Olive & Finch, Denver Performing Arts Complex, Denver",
+    description:
+      "Heading to the Summer Sunset Cinema series at sculpture park? Pick up a dinner basket from Olive & Finch's Denver Performing Arts Complex location beforehand. Each basket serves four for $68 and includes artisanal sandwiches, fresh sides, refreshments, and classic movie snacks. Upgrade options include canned cocktails and bottles of wine. Pre-orders available online. Basket pickup also available for the August 4 and August 18 screenings.",
+  },
+  {
+    id: "sorry-gorgeous-ums-kickoff-2026",
+    title: "UMS Kickoff at Sorry Gorgeous",
+    date: "2026-07-23",
+    time: "6:00–9:00 PM",
+    location: "Sorry Gorgeous, Denver",
+    description:
+      "Sorry Gorgeous rooftop bar hosts an Underground Music Showcase kickoff with live music, crafted cocktails, and panoramic city views. Lineup: Mlady (6 to 6:45 p.m.), Riley J (7 to 7:45 p.m.), and Kayla Marque (8 to 8:45 p.m.). Reservations recommended.",
+    link: "https://sorrygorgeousrooftop.com",
+  },
+  {
+    id: "gattara-patio-series-2026",
+    title: "Gattara Patio Series: Free Live Music Thursdays Through August",
+    date: "2026-07-24",
+    time: "5:00–8:00 PM",
+    location: "Gattara, Uptown Denver",
+    description:
+      "Gattara, the Italian-American eatery in Denver's Uptown neighborhood, hosts free live music every Thursday evening on its expansive patio through August. Wine specials from Sonoma-Cutrer are featured alongside the full menu of Neapolitan-style pizzas, antipasti, and risotto. Runs every Thursday, 5 to 8 p.m., through the end of August.",
+    link: "https://gattararestaurant.com",
+  },
+  {
+    id: "death-and-co-ums-lounge-2026",
+    title: "Death & Co VIP UMS Lounge at The Ramble Hotel",
+    date: "2026-07-24",
+    time: "July 24–26",
+    location: "The Ramble Hotel (Vauxhall venue), Denver",
+    description:
+      "Death & Company Denver hosts a VIP Underground Music Showcase lounge at The Ramble Hotel's private air-conditioned venue, Vauxhall, steps from the Underground Stage. Lounge access includes complimentary Death & Co cocktails, snacks, and a mezzanine-level Garden viewing area. Day passes are $50; weekend access is $125. A hotel UMS VIP Package is also available, bundling a guest room stay with two festival passes and lounge access.",
+  },
+  {
+    id: "forget-me-not-oyster-social-2026-07-25",
+    title: "Oyster Social at Forget Me Not",
+    date: "2026-07-25",
+    time: "1:00 PM",
+    location: "Forget Me Not, Cherry Creek, Denver",
+    description:
+      "The Cherry Creek cocktail lounge Forget Me Not opens early for a summer patio soiree with rotating market oysters on ice, live jazz, and a curated menu of bubbles, mimosas, and refreshing spritzes. Walk-ins welcome, reservations encouraged. The event recurs on August 29.",
+  },
+  {
+    id: "brown-palace-sip-stir-2026-07-25",
+    title: "Sip & Stir: Mixology Class at The Brown Palace",
+    date: "2026-07-25",
+    location: "Brown Palace Club, The Brown Palace, Denver",
+    description:
+      "A professionally led mixology class at the Brown Palace Club teaches guests to craft standout cocktails, with spirit-free options included. Each $55 ticket includes two alcoholic beverages, one non-alcoholic beverage, recipe cards to take home, branded swag from the featured spirit, and a cheese board. Only 25 seats available per class. The series continues on August 29.",
+    link: "https://brownpalace.com",
+  },
+  {
+    id: "osteria-marco-christmas-july-drag-bingo-2026",
+    title: "Christmas in July Drag Bingo Brunch at Osteria Marco",
+    date: "2026-07-26",
+    time: "10:30 AM",
+    location: "Osteria Marco, Denver",
+    description:
+      "Osteria Marco is decking the halls for a Christmas in July Drag Bingo Brunch on Sunday, July 26, starting at 10:30 a.m. The $25 entry includes multiple bingo cards, an epic drag show, and a modern Italian brunch. Reservations via OpenTable.",
+  },
+  {
+    id: "luca-culinary-playdate-isle-of-skye-2026",
+    title: "Culinary Playdate at Luca: Isle of Skye",
+    date: "2026-07-28",
+    location: "Luca, Governor's Park, Denver",
+    description:
+      "Luca, the rustic fine-dining Italian institution in Governor's Park, hosts its monthly creative \"culinary playdates.\" July's theme is an unexpected collision of Italian and Scottish cuisines. The exclusive menu is the only one offered that evening and runs $90 per person. Reservations via OpenTable.",
+  },
+  {
+    id: "rare-bird-dog-happy-hour-2026-07-28",
+    title: "Bird Dog Happy Hour at Rare Bird",
+    date: "2026-07-28",
+    time: "4:00–7:00 PM",
+    location: "Rare Bird at Halcyon, Cherry Creek, Denver",
+    description:
+      "Rare Bird hosts a pup-friendly happy hour with a dog-friendly menu including house-made peanut butter treats, puppy poke bowls, and \"Australian Shepard's\" pie. Free to attend and open to all guests and their dogs. A portion of proceeds benefits True Companions. Future dates: August 25, September 29 (with adoption opportunities), and October 27.",
+  },
+  {
+    id: "aunt-lethas-sourdough-class-2026-07-29",
+    title: "Sourdough Baking Class with Aunt Letha's Bakery",
+    date: "2026-07-29",
+    location: "Homestead in the Hood Mercantile, Lakewood, CO",
+    description:
+      "Aunt Letha's Bakery hosts a beginner-to-intermediate sourdough demonstration class at Homestead in the Hood Mercantile, a new Lakewood grocery, gift, and honey shop. The two-hour workshop covers starters, fermentation science, the seven steps of making a classic sourdough loaf, and techniques like adding inclusions. Homemade snacks are provided; drinks available for purchase. Basic Ticket: $75 (full class plus emailed presentation). Baker's Bundle: $100 (adds a mature sourdough starter and a fresh loaf to take home). Use code \"BREADPLS\" for 25% off. Classes recur on the last Saturday of every month.",
+  },
+  {
+    id: "hyatt-regency-cocktail-class-2026-07-30",
+    title: "Be the Bartender: Espresso Martini Class at Peaks Lounge",
+    date: "2026-07-30",
+    location: "Peaks Lounge, Hyatt Regency Denver",
+    description:
+      "Beat the heat 27 floors above Denver at Peaks Lounge, where Ketel One Vodka is taking over for a cocktail crafting evening. Guests learn to make the perfect Espresso Martini, explore variations, and enjoy their creation alongside a welcome cocktail. $46 per person. Two sessions: 5:30 p.m. and 6:30 p.m.",
+  },
+  {
+    id: "bright-nights-vip-opening-2026",
+    title: "Bright Nights at Four Mile: VIP Opening Night",
+    date: "2026-07-31",
+    time: "8:00–11:00 PM",
+    location: "Four Mile Historic Park, Denver",
+    description:
+      "Be the first to experience Bright Nights at Four Mile at the VIP opening night on Friday, July 31. Tickets ($125) include live music, complimentary food from local food trucks, two free drinks, and access to the \"Time and Space Traveler Immersive Experience\" by Elevate Immersive, where guests solve riddles to uncover the secret stories of lanterns throughout the park. The main Bright Nights season then runs Wednesday through Sunday evenings, 7 to 11 p.m., from August 8 through November 8.",
+  },
+  {
+    id: "rare-bird-colorado-150th-birthday-2026",
+    title: "Colorado's 150th Birthday Party at Rare Bird",
+    date: "2026-08-01",
+    time: "10:00 AM–10:00 PM",
+    location: "Rare Bird at Halcyon, Cherry Creek, Denver",
+    description:
+      "Celebrate Colorado's 150th birthday at Rare Bird, the rooftop bar atop Halcyon in Cherry Creek. Coors will be on-site all day alongside Rare Bird's full drink menu. Colorado-themed bites include smoked trout dip, green chili quesadillas, bison tartar, and fresh warm peaches. Live DJ sets at sunset round out the evening. Free to attend; RSVPs encouraged.",
+  },
+  {
+    id: "olive-finch-sunset-cinema-picnic-2026-08-04",
+    title: "Summer Sunset Cinema: Dinner Baskets from Olive & Finch",
+    date: "2026-08-04",
+    location: "Olive & Finch, Denver Performing Arts Complex, Denver",
+    description:
+      "Heading to the Summer Sunset Cinema series at sculpture park? Pick up a dinner basket from Olive & Finch's Denver Performing Arts Complex location beforehand. Each basket serves four for $68 and includes artisanal sandwiches, fresh sides, refreshments, and classic movie snacks. Upgrade options include canned cocktails and bottles of wine. Pre-orders available online.",
+  },
+  {
+    id: "molino-chido-open-fire-cookout-2026-08-09",
+    title: "Molino Chido Open Fire Cookout",
+    date: "2026-08-09",
+    time: "11:00 AM–3:00 PM",
+    location: "Molino Chido, Stanley Marketplace, Denver",
+    description:
+      "Chef Michael Diaz de Leon mans the grill for wood-fired bites on Molino Chido's patio, which is normally closed to the public and only open for special events. Specialty cocktails and the full Molino Chido menu are also available indoors and out. Walk-ins welcome, reservations recommended.",
+  },
+  {
+    id: "bar-dough-second-sunday-suppers-2026-08-09",
+    title: "Second Sunday Suppers at Bar Dough",
+    date: "2026-08-09",
+    location: "Bar Dough, Denver",
+    description:
+      "On the second Sunday of each month, Bar Dough invites guests in for an evening of Italian family-style favorites, live music, and the restaurant's warm vintage ambiance. The $35 per person menu includes salad and a rotating main course, designed for sharing among parties of 2 to 4. Reservations via OpenTable.",
+  },
+  {
+    id: "rare-bird-pizza-class-2026-08-13",
+    title: "Pizza Making Class at Rare Bird",
+    date: "2026-08-13",
+    location: "Rare Bird at Halcyon, Cherry Creek, Denver",
+    description:
+      "Rare Bird, the rooftop bar atop Halcyon in Cherry Creek, hosts a hands-on pizza-making class where guests stretch, top, fire, and eat their own pizza alongside a paired glass of wine. $90 per person. The \"Pie in the Sky\" package also available, combining two class tickets with an overnight hotel stay. Additional class: September 10.",
+  },
+  {
+    id: "olive-finch-sunset-cinema-picnic-2026-08-18",
+    title: "Summer Sunset Cinema: Dinner Baskets from Olive & Finch",
+    date: "2026-08-18",
+    location: "Olive & Finch, Denver Performing Arts Complex, Denver",
+    description:
+      "Heading to the Summer Sunset Cinema series at sculpture park? Pick up a dinner basket from Olive & Finch's Denver Performing Arts Complex location beforehand. Each basket serves four for $68 and includes artisanal sandwiches, fresh sides, refreshments, and classic movie snacks. Upgrade options include canned cocktails and bottles of wine. Pre-orders available online.",
+  },
+  {
+    id: "mizuna-25th-anniversary-2026",
+    title: "Mizuna's 25th Anniversary Block Party Birthday Bash",
+    date: "2026-08-22",
+    location: "Mizuna and Luca, Governor's Park, Denver",
+    description:
+      "Mizuna celebrates 25 years with a flip-style progressive dinner for up to 100 guests traveling between Luca and Mizuna in Governor's Park. Guests experience three courses at both restaurants, starting at whichever they choose, with a musical intermezzo and toast on Luca's patio in between. Expect favorite pasta dishes at Luca and a seafood-forward menu honoring 25 years of Bonanno Concepts at Mizuna. Live big-band music sets the tone; the evening concludes with birthday cake. Guests can continue the celebration at neighboring Vesper and Salita. $250 per person. Reservations via OpenTable.",
+  },
+  {
+    id: "forget-me-not-oyster-social-2026-08-29",
+    title: "Oyster Social at Forget Me Not",
+    date: "2026-08-29",
+    time: "1:00 PM",
+    location: "Forget Me Not, Cherry Creek, Denver",
+    description:
+      "The Cherry Creek cocktail lounge Forget Me Not opens early for a summer patio soiree with rotating market oysters on ice, live jazz, and a curated menu of bubbles, mimosas, and refreshing spritzes. Walk-ins welcome, reservations encouraged.",
+  },
+  {
+    id: "brown-palace-sip-stir-2026-08-29",
+    title: "Sip & Stir: Mixology Class at The Brown Palace",
+    date: "2026-08-29",
+    location: "Brown Palace Club, The Brown Palace, Denver",
+    description:
+      "A professionally led mixology class at the Brown Palace Club teaches guests to craft standout cocktails, with spirit-free options included. Each $55 ticket includes two alcoholic beverages, one non-alcoholic beverage, recipe cards to take home, branded swag from the featured spirit, and a cheese board. Only 25 seats available per class.",
+    link: "https://brownpalace.com",
+  },
 ];
