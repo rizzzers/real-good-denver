@@ -350,8 +350,9 @@
       "Denver"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": null
+    "status": "published",
+    "season": null,
+    "publishedAt": "2026-07-17T16:40:09.279Z"
   },
   {
     "slug": "best-record-store-denver",
