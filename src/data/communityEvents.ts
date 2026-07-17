@@ -712,6 +712,16 @@ export const communityEvents: CommunityEvent[] = [
       "Mister Oso Boulder's cozy yet energetic atmosphere makes it the ideal spot in Boulder for World Cup watching, with ample TV screens and delicious Latin fare throughout the tournament. Daily happy hour runs 3 to 6 p.m. Bonus: free valet parking at the Boulder Moxy Hotel.",
   },
   {
+    id: "sup-yin-yoga-bear-creek-2026-08-11",
+    title: "Evening SUP Yin Yoga: Unwind on the Water",
+    date: "2026-08-11",
+    time: "5:30–7:00 PM",
+    location: "Bear Creek Lake Park, Lakewood, CO",
+    description:
+      "Rocky Mountain Paddleboard and Firefly Community invite you to unwind on the water with a Stand-Up Paddleboard Yin Yoga session at Bear Creek Lake Park. All equipment is provided. Beginner-friendly: you only need to stand while paddling to the practice spot. All poses are done sitting or lying down. Long-held stretches help increase circulation and improve mobility, while the gentle movement of the lake soothes the nervous system. Register through Rocky Mountain Paddleboard.",
+    link: "https://fareharbor.com/embeds/book/rockymtnpaddleboard/items/121890/calendar/2026/08/?full-items=yes&back=https://rockymtnpaddleboard.com/location/big-soda-lake&flow=882578&g4=yes",
+  },
+  {
     id: "affordable-arts-festival-2026-08-30",
     title: "15th Annual Affordable Arts Festival",
     date: "2026-08-30",
