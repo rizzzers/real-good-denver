@@ -712,6 +712,15 @@ export const communityEvents: CommunityEvent[] = [
       "Mister Oso Boulder's cozy yet energetic atmosphere makes it the ideal spot in Boulder for World Cup watching, with ample TV screens and delicious Latin fare throughout the tournament. Daily happy hour runs 3 to 6 p.m. Bonus: free valet parking at the Boulder Moxy Hotel.",
   },
   {
+    id: "denver-sidewalk-stamp-contest-2026",
+    title: "Denver Sidewalk Stamp Design Contest",
+    date: "2026-07-31",
+    location: "Denver (submissions online or by mail)",
+    description:
+      "Denver is inviting artists, designers, and creative thinkers of all ages and backgrounds to submit a sidewalk stamp design. The winner receives $1,000 and gets their design stamped into Denver's sidewalks for years to come. Designs must fit within 8 by 7 inches, include a reference to Denver, and feature the four-digit installation year. Five finalists will go to a citywide public vote, with the winning design unveiled in late September 2026. Deadline to apply: July 31, 2026. Submit online at the link below or mail to: Sidewalk Program, Denver Transportation and Infrastructure, 201 W Colfax Avenue, Dept. 508, Denver, CO 80202.",
+    link: "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Programs-Services/Sidewalks/Sidewalk-Stamp-Contest",
+  },
+  {
     id: "sup-yin-yoga-bear-creek-2026-08-11",
     title: "Evening SUP Yin Yoga: Unwind on the Water",
     date: "2026-08-11",
