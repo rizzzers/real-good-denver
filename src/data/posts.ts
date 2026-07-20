@@ -3292,6 +3292,70 @@ Denver's bookstore culture is alive and it has a whole support system built arou
     image: "/images/best-bookstore-denver.png",
     featured: false,
     tags: ["Bookstore", "Best Of", "Denver"],
+  },
+  {
+    id: 43,
+    slug: "best-record-store-denver",
+    title: "Best Record Store in Denver for People Who Still Have Opinions",
+    excerpt: "The vinyl is spinning somewhere in this city and you either care deeply about that or you clicked on the wrong link. Denver's music scene refuses to fit neatly into any box, which is exactly how we like it.",
+    fullContent: `The vinyl is spinning somewhere in this city and you either care deeply about that or you clicked on the wrong link. Denver has always had a music identity that's a little hard to pin down. Too big to be a small scene, too weird to be a corporate one, full of people who moved here from somewhere else and brought their record collections with them. The result is a handful of shops that have survived streaming, survived COVID, survived the great vinyl price inflation of the last five years, and are still standing there asking you if you've actually listened to that album or just own it.
+
+This isn't a list for people who want a pretty Instagram backdrop. This is for people who have a take on the reissue debate. Who get annoyed when a shop doesn't organize its jazz section properly. Who have walked into a record store, spent forty-five minutes, and left with something they didn't plan on buying. Denver has a few places that reward that behavior. Here's where to go.
+
+---
+
+### 1. **[Wax Trax Records](http://www.waxtraxrecords.com/)**
+
+638 E 13th Ave, Denver, CO 80203 (Capitol Hill) | Price Range: $$ | Reservations: No
+
+Wax Trax is the one. It has been the one for decades. If you're going to have a single record store opinion in this city, it probably involves this place, whether that opinion is reverence or mild grievance about the pricing on used 70s rock. Both are valid. Both mean you've been paying attention.
+
+The store has a density to it that feels intentional. You're not browsing a curated lifestyle boutique. You're digging. The used section is the reason people drive across town, and the staff knowledge is the reason people come back. These are people who have opinions about pressings. Who will tell you something is overpriced and point you toward something better. That kind of honesty is genuinely rare.
+
+Locals on r/Denver reliably bring up Wax Trax whenever someone asks where to actually buy records versus where to buy records as an aesthetic. The community consensus is that if you're serious, this is your baseline. Every other shop in this city gets compared to it, which is either a compliment to Wax Trax or a burden, depending on how you look at it. The Capitol Hill location makes it walkable from enough of the city that there's really no excuse not to go.
+
+The pricing on new releases can sting, but that's true everywhere right now. The used selection is where you get your money back. Show up early when they get new stock in. Have a list, ignore the list, leave with something better than the list.
+
+---
+
+### 2. **Twist & Shout Records**
+
+2508 E Colfax Ave, Denver, CO 80206 (Congress Park) | Price Range: $–$$ | Reservations: No
+
+Twist & Shout sits on Colfax like it belongs there, which it does, because Colfax is still the most honest street in Denver and Twist & Shout is still one of the most honest record stores in the city. It's been through things. Changes in ownership, changes in the neighborhood, changes in what it means to sell physical music in 2024. It's still here.
+
+What makes Twist & Shout different from Wax Trax is the breadth. This place has always leaned into being a general-interest shop in the best sense. Strong rock section, solid pop, a used bin that rewards patience, and a layout that's navigable without feeling sanitized. It also gets serious foot traffic from people who aren't record nerds, which means the staff has learned how to talk to both the die-hards and the people buying their first turntable. That's a skill.
+
+R/DenverFood regulars who have veered into r/Denver music discussions tend to bring up Twist & Shout specifically when talking about Record Store Day, where the line and the selection both tend to be impressive. The store gets credit for actually stocking interesting RSD picks rather than just filling a table with whatever was easy to get. That matters. It's the difference between participating in something and actually caring about it.
+
+Colfax is having a moment, or maybe it never stopped having one. Either way, Twist & Shout fits the current energy of that stretch of the street better than almost anything else on it.
+
+---
+
+### 3. **[Mutiny Comics and Coffee](http://mutinycomics.com/)**
+
+3483 S Broadway, Englewood, CO 80113 (South Broadway) | Price Range: $ | Reservations: No
+
+Yes, it's primarily a comic shop. Yes, it's technically in Englewood. You're going anyway, because South Broadway is one of the better stretches of weird retail left in the Denver metro, and Mutiny has quietly built out a record section that punches well above its weight for what it is.
+
+The vinyl here is curated in a way that feels like it was selected by someone with a specific sensibility rather than assembled by committee. The prices tend to be friendlier than what you'll find at the dedicated shops. The combination of comics, coffee, and records in one space sounds like it should feel forced but somehow doesn't. It feels like a shop that a specific kind of person runs because they genuinely like all three of these things, which turns out to be a surprisingly effective retail strategy.
+
+A well-upvoted thread on r/Denver about underrated Denver-area businesses mentioned Mutiny in a way that suggested a lot of people had stumbled in for comics and left with a record. That accidental discovery moment is something the bigger shops struggle to manufacture. Here it just happens.
+
+It's not a replacement for Wax Trax or Twist & Shout if you're on a serious digging mission. But if you're in the South Broadway area, which you should be, it's absolutely worth an hour of your time and probably thirty dollars you weren't planning to spend.
+
+---
+
+**The Verdict**
+
+Denver's record store scene is smaller than it deserves to be for a city this size, and the ones that remain are carrying a lot of weight. Wax Trax is the institution, the one you go to when you want to feel like you're participating in something that has actual history. Twist & Shout is the one that keeps you honest, accessible without being dumbed down, built for the full range of people who still care about buying music physically. Mutiny is the wildcard, the place you go when you want to spend a Saturday afternoon in a room full of things that people cared about making. All three of them are still open. All three of them need you to show up and spend money. The algorithm is not going to save any of this. You either go or you don't, and then you live with the consequences.`,
+    category: "culture",
+    author: "Ryan Estes",
+    date: "2026-07-20",
+    readTime: "6 min read",
+    image: "/images/best-record-store-denver.png",
+    featured: false,
+    tags: ["Record Store", "Music", "Best Of", "Denver"],
   }
 ];
 

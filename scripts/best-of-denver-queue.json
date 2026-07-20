@@ -365,8 +365,9 @@
       "Denver"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": null
+    "status": "published",
+    "season": null,
+    "publishedAt": "2026-07-20T16:52:12.029Z"
   },
   {
     "slug": "best-place-to-relax-denver",
