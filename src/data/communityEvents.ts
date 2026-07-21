@@ -968,6 +968,16 @@ export const communityEvents: CommunityEvent[] = [
       "Heading to the Summer Sunset Cinema series at sculpture park? Pick up a dinner basket from Olive & Finch's Denver Performing Arts Complex location beforehand. Each basket serves four for $68 and includes artisanal sandwiches, fresh sides, refreshments, and classic movie snacks. Upgrade options include canned cocktails and bottles of wine. Pre-orders available online.",
   },
   {
+    id: "peak-protocol-mountain-longevity-retreat-2026",
+    title: "Peak Protocol: Mountain Longevity Retreat",
+    date: "2026-08-06",
+    time: "August 6–9 (4-day retreat)",
+    location: "SageStone Adventure Lodge, Granite, CO (near Twin Lakes and Buena Vista)",
+    description:
+      "Peak Protocol is a 4-day science-first longevity retreat running August 6 to 9 at SageStone Adventure Lodge in Granite, CO. The program brings together longevity doctors and scientists with participants who want to get serious about their health, with the goal of leaving with a personalized longevity protocol. Each attendee receives a custom biomarker panel before arrival and wears a continuous glucose monitor starting Day 1. Experts and researchers present on vascular aging, gut health, and more, followed by physician consultations reviewing your actual data. Daily activities include Zone 2 hikes at 9,000 feet, sauna sessions, and longevity-optimized meals. The retreat concludes with a written personalized longevity protocol for each participant to take home.",
+    link: "https://mtnlongevity.com/",
+  },
+  {
     id: "molino-chido-open-fire-cookout-2026-08-09",
     title: "Molino Chido Open Fire Cookout",
     date: "2026-08-09",
