@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denvers-tuesday-from-hell-triple-digit-temps-a-theater-eviction",
+    title: "Denver's Tuesday from hell: triple digit temps, a theater eviction lawsuit, and a new entrant in the mayor's race.",
+    date: "2026-07-21",
+    description: "Denver hit triple-digit temperatures during a weekend heat wave while a tax-funded immersive theater faced eviction from its downtown space before it ever opened, and Councilmember Shontel Lewis announced a run for Denver mayor. The Aspen Acres fire surpassed 100,000 acres as containment climbed above 60 percent, and Frontier Airlines was sued twice over cybersecurity failures following data breaches. Plus, new restaurants ASA Sushi, Kyuu Sushi and Bar, and Rising Phoenix joined the Denver dining scene, construction began on the 27-unit Ellery at Sloan's townhome development, and Colorado Public Radio received a $1.5 million state tax credit for its new Denver headquarters.",
+    htmlFile: "/newsletter-issues/denvers-tuesday-from-hell-triple-digit-temps-a-theater-eviction.html",
+  },
+  {
     slug: "denvers-heat-wave-a-100-million-jobs-bet-and-a-diesel-spill-that-shut",
     title: "Denver's heat wave, a $100 million jobs bet, and a diesel spill that shut down a highway for seven hours.",
     date: "2026-07-15",
