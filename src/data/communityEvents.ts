@@ -882,6 +882,16 @@ export const communityEvents: CommunityEvent[] = [
       "Death & Company Denver hosts a VIP Underground Music Showcase lounge at The Ramble Hotel's private air-conditioned venue, Vauxhall, steps from the Underground Stage. Lounge access includes complimentary Death & Co cocktails, snacks, and a mezzanine-level Garden viewing area. Day passes are $50; weekend access is $125. A hotel UMS VIP Package is also available, bundling a guest room stay with two festival passes and lounge access.",
   },
   {
+    id: "drunk-christmas-july-fiction-beer-2026",
+    title: "Drunk Christmas in July at Fiction Beer Company",
+    date: "2026-07-25",
+    time: "8:00 PM",
+    location: "Fiction Beer Company, 7101 E Colfax Ave, Denver, CO 80220",
+    description:
+      "Audacious Immersive's award-winning Drunk Christmas, winner of Westword's Best Holiday Show (2024), returns for a one-night-only Christmas in July edition at Fiction Beer Company. Their interactive adaptation of A Christmas Carol gets a midsummer makeover as a merrily tipsy cast attempts to teach Scrooge the true meaning of Christmas six months early. Expect beach balls instead of snowballs, tropical holiday vibes, Mele Kalikimaka, and all the chaotic charm that has made Drunk Christmas a Denver favorite. Join in with an A Christmas Carol-themed drinking game, grab a Rocky Horror-style prop bag, or simply sit back and enjoy the joyful absurdity with friends. Ugly Christmas sweater or Hawaiian shirt, you'll fit right in. Tickets are pay-what-you-can with VIP upgrades available. All ages; must be 21+ to drink. Runtime: 45 minutes to one hour. All audience interactions are opt-in.",
+    link: "https://www.tickettailor.com/events/audaciousimmersive/2306204",
+  },
+  {
     id: "forget-me-not-oyster-social-2026-07-25",
     title: "Oyster Social at Forget Me Not",
     date: "2026-07-25",
