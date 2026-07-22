@@ -379,8 +379,9 @@
       "Denver"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": null
+    "status": "published",
+    "season": null,
+    "publishedAt": "2026-07-22T16:55:34.319Z"
   },
   {
     "slug": "best-hike-30min-denver",
