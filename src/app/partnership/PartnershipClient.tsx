@@ -68,15 +68,15 @@ export default function PartnershipClient() {
           </div>
 
           <p className="text-xl md:text-2xl text-background/60 max-w-2xl mx-auto mb-8 leading-relaxed">
-            Reach a trusted audience across email, audio, and video in one coordinated campaign.
+            Put your brand in front of Denver&apos;s most engaged newsletter readers, one issue at a time.
           </p>
           <p className="text-base md:text-lg text-background/45 max-w-xl mx-auto mb-8 leading-relaxed">
-            Our partnership packages don&apos;t just deliver impressions. They deliver credibility, repeat exposure, and reusable content your team can use long after the campaign ends.
+            Start with a clean, exclusive newsletter placement. Add host-read podcast ads and video whenever you want more reach.
           </p>
           <p className="text-base font-semibold text-primary max-w-md mx-auto mb-5">
-            Guaranteed distribution. Native host integration. Content you can repurpose.
+            $500 per issue. Full exclusivity. Sent every week.
           </p>
-          <p className="text-sm text-background/35">See the plans below and choose your level of visibility.</p>
+          <p className="text-sm text-background/35">See what&apos;s included below and reserve your issue.</p>
         </div>
       </section>
 
@@ -124,27 +124,47 @@ export default function PartnershipClient() {
 const PricingSection = () => {
   const { ref, isVisible } = useScrollReveal();
   const tiers = [
-    { name: 'Growth Visibility', price: '$12,000', best: 'Best for brands ready to build consistent awareness and momentum.', featured: false, features: ['160,000 guaranteed impressions', 'Priority newsletter placement across campaign period', 'Multiple host-read podcast integrations', 'Expanded short-form video asset package', 'Performance reporting and optimization insights'] },
-    { name: 'Dominant Visibility', price: '$19,000', best: 'Best for brands that want to own the conversation and maximize reach.', featured: true, features: ['380,000 guaranteed impressions', 'Premium newsletter positioning', 'Ongoing host-read podcast integrations', 'Full short-form video content suite for repurposing', 'Strategic campaign reporting and audience insights'] },
-    { name: 'Buyout', price: null, best: 'Exclusive category ownership across all Real Good Denver channels. Contact us for availability.', features: ['Full newsletter exclusivity', 'Unlimited host-read podcast integrations', 'Complete short-form video suite', 'Custom content and editorial partnerships', 'Dedicated campaign strategy and reporting'] },
+    {
+      name: 'Newsletter Placement',
+      price: '$500',
+      unit: '/ issue',
+      best: 'One issue, one exclusive sponsor. Book as many weeks as you want.',
+      features: [
+        'Runs in one weekly issue, we publish every week',
+        'Full exclusivity, no competing brand featured in the same issue',
+        'Also appears in the web archive version of that issue',
+        'One tracked link',
+        'A headline plus a CTA button',
+        'Your image or logo (16:9)',
+        'Post-campaign reporting: opens and unique clicks',
+      ],
+    },
+    {
+      name: 'Podcast + Video Add-On',
+      price: '+$2,000',
+      unit: '/ month',
+      best: 'Layer host-read podcast ads and video on top of your newsletter placement.',
+      features: [
+        '2 host-read podcast ads per month',
+        '2 short-form video edits per month',
+        'Add on to any newsletter placement above',
+      ],
+    },
   ];
   return (
     <div ref={ref} className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
       <div className="text-center mb-14">
         <p className="text-sm font-medium uppercase tracking-widest text-primary mb-3">Pricing</p>
-        <h2 className="text-3xl md:text-5xl font-bold text-background">Pricing Tiers</h2>
+        <h2 className="text-3xl md:text-5xl font-bold text-background">Simple, flat pricing</h2>
       </div>
-      <div className="grid md:grid-cols-3 gap-6">
+      <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
         {tiers.map((tier) => (
-          <div key={tier.name} className={`rounded-2xl border p-6 flex flex-col ${tier.featured ? 'border-primary bg-primary/10 ring-1 ring-primary/30' : 'border-background/10 bg-background/5'}`}>
+          <div key={tier.name} className="rounded-2xl border border-primary bg-primary/10 ring-1 ring-primary/30 p-8 flex flex-col items-center text-center">
             <h3 className="text-lg font-semibold text-background mb-1">{tier.name}</h3>
-            {tier.price ? (
-              <p className="text-3xl font-bold text-primary mb-3">{tier.price}</p>
-            ) : (
-              <p className="text-lg font-semibold text-primary mb-3">Contact for availability</p>
-            )}
-            <p className="text-sm text-background/50 mb-5">{tier.best}</p>
-            <ul className="space-y-2.5 flex-1">
+            <p className="text-5xl font-black text-primary mb-1">{tier.price}</p>
+            <p className="text-sm text-background/40 mb-3">{tier.unit}</p>
+            <p className="text-sm text-background/50 mb-6">{tier.best}</p>
+            <ul className="space-y-2.5 text-left w-full">
               {tier.features.map((f) => (
                 <li key={f} className="flex items-start gap-2 text-sm text-background/70">
                   <span className="mt-1 w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
@@ -155,7 +175,7 @@ const PricingSection = () => {
           </div>
         ))}
       </div>
-      <p className="text-center text-background/40 text-sm mt-10">Not sure which tier fits? Tell us your goal and we&apos;ll recommend the right plan.</p>
+      <p className="text-center text-background/40 text-sm mt-10">Want to run multiple issues or add podcast and video? Tell us your goal and we&apos;ll put together a schedule.</p>
     </div>
   );
 };
@@ -175,7 +195,7 @@ const VerifiedImpressions = () => {
         {[
           { icon: Users, title: 'Verified Unique Opens', desc: 'Every impression is tracked via unique email open, no inflated scroll counts, no bot traffic, no guesswork.' },
           { icon: Target, title: '47% Open Rate', desc: 'More than double the industry average. Our audience actively reads, they don\'t just scroll past.' },
-          { icon: TrendingUp, title: 'Guaranteed Minimums', desc: 'Every tier comes with a guaranteed impression floor. If we don\'t hit it, we keep running your campaign until we do.' },
+          { icon: TrendingUp, title: 'Full Send, Every Issue', desc: 'Your ad goes to our entire subscriber list, no partial sends, no hidden segments, and you get an opens and clicks report after it runs.' },
         ].map((item) => {
           const Icon = item.icon;
           return (
@@ -292,13 +312,13 @@ const ApplicationForm = ({ name, email, productLink, budgetRange, campaignGoals,
             <input type="email" value={email} onChange={(e) => onEmailChange(e.target.value)} required placeholder="Enter your email" className={inputClass} /></div>
           <div><label className="text-sm font-medium">Product/Service Website</label>
             <input type="url" value={productLink} onChange={(e) => onProductLinkChange(e.target.value)} required placeholder="https://yourwebsite.com" className={inputClass} /></div>
-          <div><label className="text-sm font-medium">Budget Range</label>
+          <div><label className="text-sm font-medium">Number of Issues</label>
             <select value={budgetRange} onChange={(e) => onBudgetRangeChange(e.target.value)} required className={selectClass}>
-              <option value="">Select a range</option>
-              <option value="$12,000 - Growth">$12,000: Growth Visibility</option>
-              <option value="$19,000 - Dominant">$19,000: Dominant Visibility</option>
-              <option value="Buyout">Buyout: Contact for availability</option>
-              <option value="Custom">Custom / Not sure yet</option>
+              <option value="">Select an option</option>
+              <option value="1 issue - $500">1 issue ($500)</option>
+              <option value="4 issues - $2,000">4 issues ($2,000)</option>
+              <option value="8 issues - $4,000">8 issues ($4,000)</option>
+              <option value="Not sure yet">Not sure yet</option>
             </select></div>
           <div><label className="text-sm font-medium">Campaign Goals</label>
             <select value={campaignGoals} onChange={(e) => onCampaignGoalsChange(e.target.value)} required className={selectClass}>
