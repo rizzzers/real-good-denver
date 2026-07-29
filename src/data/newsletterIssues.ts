@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-turns-150-this-weekend-while-a-cow-moose-naps-on-i-25-and-city",
+    title: "Denver turns 150 this weekend while a cow moose naps on I-25 and City Hall argues about a $230,000 rail tax.",
+    date: "2026-07-29",
+    description: "Denver marks its 150th birthday this weekend, with celebrations including a Colorado Day BAZAAR, a free day at the Denver Art Museum, and a statewide event at History Colorado Center. City Council cleared the way for Wynkoop Crossing and approved concept plans for a Berkeley Academy childcare center, while Post Oak Barbecue moves forward on a second Denver location near DU and a proposed $27 million Coba Bathhouse wellness campus is planned for Lincoln Park. Plus, one person died and eight were injured in a shooting outside Denver's Ultra Lounge, and Denver Water's 1.5 million customers are falling short of drought goals.",
+    htmlFile: "/newsletter-issues/denver-turns-150-this-weekend-while-a-cow-moose-naps-on-i-25-and-city.html",
+  },
+  {
     slug: "denvers-tuesday-from-hell-triple-digit-temps-a-theater-eviction",
     title: "Denver's Tuesday from hell: triple digit temps, a theater eviction lawsuit, and a new entrant in the mayor's race.",
     date: "2026-07-21",
