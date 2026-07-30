@@ -961,6 +961,15 @@ export const communityEvents: CommunityEvent[] = [
       "Be the first to experience Bright Nights at Four Mile at the VIP opening night on Friday, July 31. Tickets ($125) include live music, complimentary food from local food trucks, two free drinks, and access to the \"Time and Space Traveler Immersive Experience\" by Elevate Immersive, where guests solve riddles to uncover the secret stories of lanterns throughout the park. The main Bright Nights season then runs Wednesday through Sunday evenings, 7 to 11 p.m., from August 8 through November 8.",
   },
   {
+    id: "leven-deli-8th-anniversary-2026",
+    title: "Leven Deli 8th Anniversary: $8 Menu",
+    date: "2026-07-31",
+    location: "Leven Deli, Golden Triangle, Denver",
+    description:
+      "Leven Deli celebrates its eighth anniversary with a one-day $8 menu on Friday, July 31 only. Specials include $8 bottles of wine (limit one per person, while supplies last), $8 house spritz, $8 olives and feta, and $8 pimento cheese dip.",
+    link: "https://eatleven.com",
+  },
+  {
     id: "rare-bird-colorado-150th-birthday-2026",
     title: "Colorado's 150th Birthday Party at Rare Bird",
     date: "2026-08-01",
@@ -976,6 +985,15 @@ export const communityEvents: CommunityEvent[] = [
     location: "Olive & Finch, Denver Performing Arts Complex, Denver",
     description:
       "Heading to the Summer Sunset Cinema series at sculpture park? Pick up a dinner basket from Olive & Finch's Denver Performing Arts Complex location beforehand. Each basket serves four for $68 and includes artisanal sandwiches, fresh sides, refreshments, and classic movie snacks. Upgrade options include canned cocktails and bottles of wine. Pre-orders available online.",
+  },
+  {
+    id: "leven-chocolate-chip-cookie-day-2026",
+    title: "National Chocolate Chip Cookie Day at Leven",
+    date: "2026-08-04",
+    location: "Leven Deli Co. and Leven Supply, Denver",
+    description:
+      "Leven celebrates National Chocolate Chip Cookie Day with $1 fresh-baked chocolate chip cookies, available all day (or while supplies last) at both Leven Deli Co. and Leven Supply.",
+    link: "https://eatleven.com",
   },
   {
     id: "peak-protocol-mountain-longevity-retreat-2026",
@@ -1023,12 +1041,30 @@ export const communityEvents: CommunityEvent[] = [
     link: "https://www.eventbrite.com/e/spencer-crandall-tickets-1993601667253",
   },
   {
+    id: "molino-chido-open-fire-cookout-2026-08-16",
+    title: "Molino Chido Open Fire Cookout",
+    date: "2026-08-16",
+    time: "12:00 PM",
+    location: "Molino Chido, Stanley Marketplace, Denver",
+    description:
+      "Chef Michael Diaz de Leon mans the grill for the second Open Fire Cookout of the season at Molino Chido's patio, which is only open for special events. Featured wines from Craft Wine Co. join the traditional Molino Chido menu, available indoors and out. Walk-ins welcome, reservations recommended.",
+  },
+  {
     id: "olive-finch-sunset-cinema-picnic-2026-08-18",
     title: "Summer Sunset Cinema: Dinner Baskets from Olive & Finch",
     date: "2026-08-18",
     location: "Olive & Finch, Denver Performing Arts Complex, Denver",
     description:
       "Heading to the Summer Sunset Cinema series at sculpture park? Pick up a dinner basket from Olive & Finch's Denver Performing Arts Complex location beforehand. Each basket serves four for $68 and includes artisanal sandwiches, fresh sides, refreshments, and classic movie snacks. Upgrade options include canned cocktails and bottles of wine. Pre-orders available online.",
+  },
+  {
+    id: "st-julien-vegan-harvest-dinner-2026",
+    title: "Annual Vegan Harvest Dinner at St Julien",
+    date: "2026-08-20",
+    time: "6:00 PM",
+    location: "St Julien Hotel & Spa, Boulder, CO",
+    description:
+      "St Julien Hotel & Spa hosts its annual Vegan Harvest Dinner on Thursday, August 20, from 6 to 9 p.m. Chef Rich Byers has crafted a three-course vegan menu celebrating the season's finest produce sourced from the onsite garden and neighboring Boulder Farmer's Market. The evening begins with a welcome cocktail and passed appetizers, followed by dinner with curated wine pairings. Tickets are $90 per person or $120 with wine pairings.",
   },
   {
     id: "make-a-wish-tyler-farr-2026",
@@ -1047,6 +1083,16 @@ export const communityEvents: CommunityEvent[] = [
     location: "Mizuna and Luca, Governor's Park, Denver",
     description:
       "Mizuna celebrates 25 years with a flip-style progressive dinner for up to 100 guests traveling between Luca and Mizuna in Governor's Park. Guests experience three courses at both restaurants, starting at whichever they choose, with a musical intermezzo and toast on Luca's patio in between. Expect favorite pasta dishes at Luca and a seafood-forward menu honoring 25 years of Bonanno Concepts at Mizuna. Live big-band music sets the tone; the evening concludes with birthday cake. Guests can continue the celebration at neighboring Vesper and Salita. $250 per person. Reservations via OpenTable.",
+  },
+  {
+    id: "leven-supply-soter-wine-2026",
+    title: "Soter Vineyards Wine Tasting at Leven Supply",
+    date: "2026-08-22",
+    time: "5:00 PM",
+    location: "Leven Supply, Wash Park, Denver",
+    description:
+      "Soter Vineyards returns to Leven Supply by popular demand for a relaxed tasting event on Saturday, August 22, from 5 to 7 p.m. No ticket needed. Stop by to taste through a selection of Oregon wines unavailable anywhere else in Colorado. Free to attend.",
+    link: "https://eatleven.com",
   },
   {
     id: "forget-me-not-oyster-social-2026-08-29",
