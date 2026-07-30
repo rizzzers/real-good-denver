@@ -1013,6 +1013,16 @@ export const communityEvents: CommunityEvent[] = [
       "Rare Bird, the rooftop bar atop Halcyon in Cherry Creek, hosts a hands-on pizza-making class where guests stretch, top, fire, and eat their own pizza alongside a paired glass of wine. $90 per person. The \"Pie in the Sky\" package also available, combining two class tickets with an overnight hotel stay. Additional class: September 10.",
   },
   {
+    id: "make-a-wish-spencer-crandall-2026",
+    title: "Make-A-Wish Colorado Summer Concert Series: Spencer Crandall",
+    date: "2026-08-14",
+    time: "5:00 PM",
+    location: "Number Thirty Eight, 3560 Chestnut Pl, Denver, CO 80216",
+    description:
+      "Spencer Crandall headlines the Make-A-Wish Colorado Summer Concert Series at Number Thirty Eight. Every ticket sold supports Make-A-Wish Colorado, bringing hope and life-changing wishes to children with critical illnesses throughout the state. Enjoy live country music, great food, cold drinks, and community for a great cause. General Admission $15, VIP $60.",
+    link: "https://www.eventbrite.com/e/spencer-crandall-tickets-1993601667253",
+  },
+  {
     id: "olive-finch-sunset-cinema-picnic-2026-08-18",
     title: "Summer Sunset Cinema: Dinner Baskets from Olive & Finch",
     date: "2026-08-18",
