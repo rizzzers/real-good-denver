@@ -1066,4 +1066,14 @@ export const communityEvents: CommunityEvent[] = [
       "A professionally led mixology class at the Brown Palace Club teaches guests to craft standout cocktails, with spirit-free options included. Each $55 ticket includes two alcoholic beverages, one non-alcoholic beverage, recipe cards to take home, branded swag from the featured spirit, and a cheese board. Only 25 seats available per class.",
     link: "https://brownpalace.com",
   },
+  {
+    id: "make-a-wish-mike-eli-2026",
+    title: "Make-A-Wish Colorado Summer Concert Series: Mike Eli of the Eli Young Band",
+    date: "2026-08-30",
+    time: "5:00 PM",
+    location: "Number Thirty Eight, 3560 Chestnut Pl, Denver, CO 80216",
+    description:
+      "Mike Eli, lead singer and co-founder of the Eli Young Band, headlines the Make-A-Wish Colorado Summer Concert Series at Number Thirty Eight. Known for hits like \"Crazy Girl,\" \"Even If It Breaks Your Heart,\" \"Love Ain't,\" and \"Drunk Last Night,\" Eli brings the songs that made Eli Young Band a country favorite to an intimate live performance. Every ticket sold supports Make-A-Wish Colorado, granting life-changing wishes for children with critical illnesses throughout the state. Enjoy live music, great food, cold drinks, and community for a great cause.",
+    link: "https://www.eventbrite.com/e/mike-eli-of-eli-young-band-tickets-1993602915988",
+  },
 ];
