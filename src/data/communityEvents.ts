@@ -1031,6 +1031,16 @@ export const communityEvents: CommunityEvent[] = [
       "Heading to the Summer Sunset Cinema series at sculpture park? Pick up a dinner basket from Olive & Finch's Denver Performing Arts Complex location beforehand. Each basket serves four for $68 and includes artisanal sandwiches, fresh sides, refreshments, and classic movie snacks. Upgrade options include canned cocktails and bottles of wine. Pre-orders available online.",
   },
   {
+    id: "make-a-wish-tyler-farr-2026",
+    title: "Make-A-Wish Colorado Summer Concert Series: Tyler Farr",
+    date: "2026-08-22",
+    time: "5:00 PM",
+    location: "Number Thirty Eight, 3560 Chestnut Pl, Denver, CO 80216",
+    description:
+      "Tyler Farr headlines the Make-A-Wish Colorado Summer Concert Series at Number Thirty Eight. Known for chart-topping hits like \"Redneck Crazy,\" \"Whiskey in My Water,\" and \"A Guy Walks Into a Bar,\" Farr delivers a high-energy live show country fans won't want to miss. Every ticket sold supports Make-A-Wish Colorado, granting life-changing wishes for children with critical illnesses throughout the state. Enjoy live music, great food, cold drinks, and community for a great cause. General Admission $15, VIP $60.",
+    link: "https://www.eventbrite.com/e/tyler-farr-tickets-1993602491719",
+  },
+  {
     id: "mizuna-25th-anniversary-2026",
     title: "Mizuna's 25th Anniversary Block Party Birthday Bash",
     date: "2026-08-22",
