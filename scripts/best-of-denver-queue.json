@@ -394,8 +394,9 @@
       "Outdoors"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": null
+    "status": "published",
+    "season": null,
+    "publishedAt": "2026-08-03T19:02:15.871Z"
   },
   {
     "slug": "best-mountain-view-denver",
