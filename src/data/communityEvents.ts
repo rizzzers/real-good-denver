@@ -1023,6 +1023,14 @@ export const communityEvents: CommunityEvent[] = [
       "On the second Sunday of each month, Bar Dough invites guests in for an evening of Italian family-style favorites, live music, and the restaurant's warm vintage ambiance. The $35 per person menu includes salad and a rotating main course, designed for sharing among parties of 2 to 4. Reservations via OpenTable.",
   },
   {
+    id: "call-me-pearl-perseid-2026",
+    title: "Prophecies at Pearl's: Perseid Meteor Shower Night",
+    date: "2026-08-12",
+    location: "Call Me Pearl, 1600 20th St, Denver, CO 80202",
+    description:
+      "Call Me Pearl hosts a special Prophecies at Pearl's evening timed to the peak of the Perseid meteor shower. The celestial-themed night features numerology readings with Numerology Fairy, custom flash tattoos inspired by guests' angel numbers from Little Bird Tattoo Club, and cosmic cocktails like The 11:11, crafted with house-infused blueberry gin, lavender, lemon, and rose. Fresh oysters and reservations encouraged.",
+  },
+  {
     id: "rare-bird-pizza-class-2026-08-13",
     title: "Pizza Making Class at Rare Bird",
     date: "2026-08-13",
@@ -1039,6 +1047,15 @@ export const communityEvents: CommunityEvent[] = [
     description:
       "Spencer Crandall headlines the Make-A-Wish Colorado Summer Concert Series at Number Thirty Eight. Every ticket sold supports Make-A-Wish Colorado, bringing hope and life-changing wishes to children with critical illnesses throughout the state. Enjoy live country music, great food, cold drinks, and community for a great cause. General Admission $15, VIP $60.",
     link: "https://www.eventbrite.com/e/spencer-crandall-tickets-1993601667253",
+  },
+  {
+    id: "savannah-bananas-rally-hotel-2026",
+    title: "Savannah Bananas Specials at The OG and Call Me Pearl",
+    date: "2026-08-14",
+    time: "August 14-15",
+    location: "The Rally Hotel, 1600 20th St, Denver, CO 80202",
+    description:
+      "Celebrate the Savannah Bananas' return to Coors Field with banana-inspired menus at The Rally Hotel. The OG serves its Banana Bash menu with Banana French Toast and the Banana Taffy Tini, while Call Me Pearl offers the Call Your Nana menu featuring Banana Bread Pudding and a Banana Old Fashioned. The perfect pre- or post-game stop, available August 14 and 15.",
   },
   {
     id: "molino-chido-open-fire-cookout-2026-08-16",
