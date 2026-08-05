@@ -408,8 +408,9 @@
       "Denver"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": null
+    "status": "published",
+    "season": null,
+    "publishedAt": "2026-08-05T16:58:51.246Z"
   },
   {
     "slug": "best-thrift-store-denver",
