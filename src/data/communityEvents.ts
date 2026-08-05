@@ -1075,6 +1075,16 @@ export const communityEvents: CommunityEvent[] = [
       "Heading to the Summer Sunset Cinema series at sculpture park? Pick up a dinner basket from Olive & Finch's Denver Performing Arts Complex location beforehand. Each basket serves four for $68 and includes artisanal sandwiches, fresh sides, refreshments, and classic movie snacks. Upgrade options include canned cocktails and bottles of wine. Pre-orders available online.",
   },
   {
+    id: "networking-behind-the-screen-skill-lab-2026",
+    title: "Network Like a Human: Networking Behind the Screen LinkedIn Skill Lab",
+    date: "2026-08-19",
+    time: "11:00 AM and 6:00 PM",
+    location: "Online",
+    description:
+      "A 90-minute interactive experience for professionals who want to use LinkedIn as it was intended: a relationship-building platform, not a sales tool. Learn how to create a profile that builds trust, start conversations people actually want to have, and nurture meaningful relationships without relying on automation, LinkedIn Premium, or mass-message tactics. The best opportunities come from strengthening the right connections, not collecting more of them. Two sessions available: 11 a.m. and 6 p.m. $75 per person.",
+    link: "https://www.articulated-intelligence.com/networking-behind-the-screen-skill-lab",
+  },
+  {
     id: "colorado-saves-the-world-comedy-2026-08-20",
     title: "Colorado Saves the World! Your Regional Comedy News Quiz",
     date: "2026-08-20",
