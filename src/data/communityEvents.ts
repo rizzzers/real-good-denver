@@ -1058,6 +1058,16 @@ export const communityEvents: CommunityEvent[] = [
       "Heading to the Summer Sunset Cinema series at sculpture park? Pick up a dinner basket from Olive & Finch's Denver Performing Arts Complex location beforehand. Each basket serves four for $68 and includes artisanal sandwiches, fresh sides, refreshments, and classic movie snacks. Upgrade options include canned cocktails and bottles of wine. Pre-orders available online.",
   },
   {
+    id: "colorado-saves-the-world-comedy-2026-08-20",
+    title: "Colorado Saves the World! Your Regional Comedy News Quiz",
+    date: "2026-08-20",
+    time: "7:00 PM",
+    location: "Five Points, Denver",
+    description:
+      "A fast-paced comedy game show turning current events into your new favorite entertainment. Colorado Saves the World! features a panel of Colorado's funniest comedians tackling the weird, wild, and wonderful happenings from across the state and Rocky Mountain region, with fresh news, hot takes, and surprise interviews. If you love NPR's Wait Wait Don't Tell Me, you'll have a blast.",
+    link: "https://denvercomedy.multipass.com/coloradosavestheworld",
+  },
+  {
     id: "st-julien-vegan-harvest-dinner-2026",
     title: "Annual Vegan Harvest Dinner at St Julien",
     date: "2026-08-20",
