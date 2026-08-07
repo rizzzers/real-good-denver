@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-is-baking-through-102-degrees-losing-a-116-year-old-town-to-a",
+    title: "Denver is baking through 102 degrees, losing a 116 year old town to a water bill fight, and giving away dollar joints for failed emissions tests.",
+    date: "2026-08-07",
+    description: "Denver is baking through a record-breaking heat wave as July nears its historic finish, while a 116-year-old Colorado town has argued itself out of existence over a water bill dispute, and a Northglenn dispensary is offering dollar joints to drivers whose cars fail emissions tests. The Denver City Council has sent the Xcel franchise deal to voters, Denver's Ultra nightclub will not reopen following a shooting, and Pirates Cove is set for a 6.3 million dollar renovation ahead of the 2027 season. Plus, new restaurants including Santana's Cantina, Blossom by SYC, Odyssey Italian Restaurant, and Tifa Chocolate and Gelato have opened, and Sundae artisan ice cream has launched its flagship store on 16th Street.",
+    htmlFile: "/newsletter-issues/denver-is-baking-through-102-degrees-losing-a-116-year-old-town-to-a.html",
+  },
+  {
     slug: "denver-turns-150-this-weekend-while-a-cow-moose-naps-on-i-25-and-city",
     title: "Denver turns 150 this weekend while a cow moose naps on I-25 and City Hall argues about a $230,000 rail tax.",
     date: "2026-07-29",
