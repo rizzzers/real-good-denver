@@ -1159,4 +1159,14 @@ export const communityEvents: CommunityEvent[] = [
       "Mike Eli, lead singer and co-founder of the Eli Young Band, headlines the Make-A-Wish Colorado Summer Concert Series at Number Thirty Eight. Known for hits like \"Crazy Girl,\" \"Even If It Breaks Your Heart,\" \"Love Ain't,\" and \"Drunk Last Night,\" Eli brings the songs that made Eli Young Band a country favorite to an intimate live performance. Every ticket sold supports Make-A-Wish Colorado, granting life-changing wishes for children with critical illnesses throughout the state. Enjoy live music, great food, cold drinks, and community for a great cause.",
     link: "https://www.eventbrite.com/e/mike-eli-of-eli-young-band-tickets-1993602915988",
   },
+  {
+    id: "panda-fest-denver-2026",
+    title: "Panda Fest Denver",
+    date: "2026-09-25",
+    time: "Sept. 25-27 (Fri 4-10 PM, Sat 10 AM-10 PM, Sun 10 AM-8 PM)",
+    location: "Civic Center Park, 101 W. 14th Ave. Pkwy., Denver, CO 80204",
+    description:
+      "Panda Fest makes its Denver debut September 25-27 at Civic Center Park, celebrating Asian food and culture across three days. The festival features 200+ dishes from local and national food vendors, 30+ merchandise vendors, traditional and contemporary performances, hands-on cultural experiences, and a panda-themed bounce house. Founded in 2024, Panda Fest has expanded to more than a dozen U.S. cities. The Denver debut coincides with Mid-Autumn Festival, a traditional time for families and communities to gather and celebrate. Tickets range from $10 to $35; children under 6 are free.",
+    link: "https://www.pandafests.com/events-1/project-one-ephnc-fphyr-ark8l-wfdxg-g558l-tjkap-ap5a4-y5jrj-rz8h4",
+  },
 ];
