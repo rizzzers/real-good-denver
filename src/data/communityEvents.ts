@@ -1160,6 +1160,16 @@ export const communityEvents: CommunityEvent[] = [
     link: "https://www.eventbrite.com/e/mike-eli-of-eli-young-band-tickets-1993602915988",
   },
   {
+    id: "growth-value-optionality-forum-2026",
+    title: "Growth, Value & Optionality: A Forum for Established Business Owners",
+    date: "2026-09-10",
+    time: "11:30 AM",
+    location: "The Jacquard, Autograph Collection, Denver, CO",
+    description:
+      "A practical one-day forum for established business owners focused on growing enterprise value, reducing risk, and creating future optionality. Sessions cover what makes a business more valuable and transferable, how to reduce owner dependence, and how to connect business growth to personal wealth. Featuring keynote speaker Gerry O'Brion on big-brand growth frameworks, plus sessions with Sean Hutchinson (business value growth), Cindy Carrillo (personal readiness and life after exit), and Benjamin Bender (financial readiness). The day opens with a moderated conversation with owners who have completed successful exits. Runs 11:30 a.m. to 6 p.m.",
+    link: "https://www.eventbrite.com/e/growth-value-optionality-a-forum-for-established-business-owners-tickets-1989906624280",
+  },
+  {
     id: "panda-fest-denver-2026",
     title: "Panda Fest Denver",
     date: "2026-09-25",
