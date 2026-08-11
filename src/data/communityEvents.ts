@@ -1142,6 +1142,23 @@ export const communityEvents: CommunityEvent[] = [
     link: "https://denverfoodandwine.com/",
   },
   {
+    id: "osteria-marco-palisade-peach-dinner-2026",
+    title: "15th Annual Cheers to Palisade! Peach Dinner at Osteria Marco",
+    date: "2026-08-26",
+    location: "Osteria Marco, Denver",
+    description:
+      "Osteria Marco's eighth-annual Palisade Peach Dinner returns for one night only on August 26. Every course features Palisade peaches: house-made burrata with peach mostarda and grilled sourdough, mixed greens with grilled peaches and house-made ricotta, pasta radiatore with tomato-peach sugo and diced pork belly, a double bone-in pork chop with caramelized peaches and citrus peach sauce, and peach panna cotta with polenta crumble. $75 per person.",
+  },
+  {
+    id: "peaks-lounge-hibiscus-paloma-class-2026-08-27",
+    title: "Be the Bartender: Hibiscus Paloma Class at Peaks Lounge",
+    date: "2026-08-27",
+    time: "5:30 PM and 6:30 PM",
+    location: "Peaks Lounge, Hyatt Regency Denver, Denver",
+    description:
+      "Expert bartenders at Peaks Lounge, 27 floors above Denver at Hyatt Regency, guide guests through crafting a balanced, spirit-free Hibiscus Paloma. Tickets are $46 and include a welcome drink before class. Two sessions available on Thursday, August 27: 5:30 p.m. and 6:30 p.m.",
+  },
+  {
     id: "forget-me-not-oyster-social-2026-08-29",
     title: "Oyster Social at Forget Me Not",
     date: "2026-08-29",
