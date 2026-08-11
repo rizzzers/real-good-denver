@@ -1132,6 +1132,16 @@ export const communityEvents: CommunityEvent[] = [
     link: "https://eatleven.com",
   },
   {
+    id: "denver-food-wine-festival-2026",
+    title: "Denver Food + Wine Festival",
+    date: "2026-08-26",
+    time: "August 26-29",
+    location: "Denver",
+    description:
+      "Colorado's largest restaurant-industry fundraiser returns for four days of food, wine, and spirits, presented by the Colorado Restaurant Foundation in partnership with Southern Glazer's Wine & Spirits. Highlights include a Grand Tasting featuring local chefs who starred on Bravo's Top Chef (including Pig and Tiger's Darren Chang and Travis Masar), VIP Grand Tasting seminars, and the Dine Out culinary auction. New this year: Grand Tasting newcomers including Rougarou, Mother Other, Molotov Kitschen + Cocktails, and Welton Street Cafe, plus new food trucks from Radical Sasquatch Dumpling Company, Rolling Stoves, and African Caribbean Palate at the Shake + Brake Showdown. Proceeds support hospitality workers across Colorado.",
+    link: "https://denverfoodandwine.com/",
+  },
+  {
     id: "forget-me-not-oyster-social-2026-08-29",
     title: "Oyster Social at Forget Me Not",
     date: "2026-08-29",
