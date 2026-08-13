@@ -1197,6 +1197,16 @@ export const communityEvents: CommunityEvent[] = [
     link: "https://www.eventbrite.com/e/growth-value-optionality-a-forum-for-established-business-owners-tickets-1989906624280",
   },
   {
+    id: "between-the-pages-romance-festival-2026",
+    title: "Between the Pages: A Romance Readers Festival",
+    date: "2026-09-19",
+    time: "10:00 AM",
+    location: "Arapahoe Community College, Littleton, CO",
+    description:
+      "A one-day festival celebrating the fast-growing romance and romantasy reader community, running 10 a.m. to 3 p.m. Expect author appearances, curated vendors, and interactive experiences for fans of romance and romantasy. Presented by Spark Alchemy.",
+    link: "https://events.humanitix.com/between-the-pages-a-romance-readers-festival",
+  },
+  {
     id: "panda-fest-denver-2026",
     title: "Panda Fest Denver",
     date: "2026-09-25",
