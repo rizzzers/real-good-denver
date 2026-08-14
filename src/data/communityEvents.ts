@@ -1058,6 +1058,15 @@ export const communityEvents: CommunityEvent[] = [
       "Celebrate the Savannah Bananas' return to Coors Field with banana-inspired menus at The Rally Hotel. The OG serves its Banana Bash menu with Banana French Toast and the Banana Taffy Tini, while Call Me Pearl offers the Call Your Nana menu featuring Banana Bread Pudding and a Banana Old Fashioned. The perfect pre- or post-game stop, available August 14 and 15.",
   },
   {
+    id: "bright-nights-four-mile-2026",
+    title: "Bright Nights at Four Mile Historic Park",
+    date: "2026-08-14",
+    time: "7:00–11:00 PM (Wed–Sun through Nov. 8)",
+    location: "Four Mile Historic Park, Denver",
+    description:
+      "Denver's original lantern festival returns to Four Mile Historic Park for its fourth year. Wander 12 acres discovering brightly colored lanterns across five themed worlds: space and time, the perspective of a Four Mile honeybee, African animals, the deep ocean, and Victorian literary classics. New this year: the self-guided Time and Space Traveler Immersive Experience challenges guests to solve riddles to uncover secret stories of lanterns throughout the park, with completers entered to win a Four Mile Historic Park family membership. Plus, the Sounds of Light Silent Disco ($20) offers a headset with three curated music stations. Available Wednesday through Sunday evenings, 7 to 11 p.m., through November 8.",
+  },
+  {
     id: "molino-chido-open-fire-cookout-2026-08-16",
     title: "Molino Chido Open Fire Cookout",
     date: "2026-08-16",
@@ -1159,6 +1168,15 @@ export const communityEvents: CommunityEvent[] = [
       "Expert bartenders at Peaks Lounge, 27 floors above Denver at Hyatt Regency, guide guests through crafting a balanced, spirit-free Hibiscus Paloma. Tickets are $46 and include a welcome drink before class. Two sessions available on Thursday, August 27: 5:30 p.m. and 6:30 p.m.",
   },
   {
+    id: "bright-nights-adults-only-2026-08-28",
+    title: "Bright Nights Adults-Only Night at Four Mile Historic Park",
+    date: "2026-08-28",
+    time: "7:00 PM",
+    location: "Four Mile Historic Park, Denver",
+    description:
+      "One of two 21+ evenings at Bright Nights, Four Mile Historic Park's annual lantern festival. The full lantern experience is on offer alongside DJs and additional sponsor activations throughout the park. Perfect for date nights or friend group outings. The second adults-only night is September 11.",
+  },
+  {
     id: "forget-me-not-oyster-social-2026-08-29",
     title: "Oyster Social at Forget Me Not",
     date: "2026-08-29",
@@ -1195,6 +1213,15 @@ export const communityEvents: CommunityEvent[] = [
     description:
       "A practical one-day forum for established business owners focused on growing enterprise value, reducing risk, and creating future optionality. Sessions cover what makes a business more valuable and transferable, how to reduce owner dependence, and how to connect business growth to personal wealth. Featuring keynote speaker Gerry O'Brion on big-brand growth frameworks, plus sessions with Sean Hutchinson (business value growth), Cindy Carrillo (personal readiness and life after exit), and Benjamin Bender (financial readiness). The day opens with a moderated conversation with owners who have completed successful exits. Runs 11:30 a.m. to 6 p.m.",
     link: "https://www.eventbrite.com/e/growth-value-optionality-a-forum-for-established-business-owners-tickets-1989906624280",
+  },
+  {
+    id: "bright-nights-adults-only-2026-09-11",
+    title: "Bright Nights Adults-Only Night at Four Mile Historic Park",
+    date: "2026-09-11",
+    time: "7:00 PM",
+    location: "Four Mile Historic Park, Denver",
+    description:
+      "One of two 21+ evenings at Bright Nights, Four Mile Historic Park's annual lantern festival. The full lantern experience is on offer alongside DJs and additional sponsor activations throughout the park. Perfect for date nights or friend group outings. The first adults-only night is August 28.",
   },
   {
     id: "between-the-pages-romance-festival-2026",
