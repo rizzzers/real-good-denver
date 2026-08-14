@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-is-spending-seven-million-dollars-to-bring-a-ski-company",
+    title: "Denver is spending seven million dollars to bring a ski company downtown while its airport can't keep a flight on schedule.",
+    date: "2026-08-14",
+    description: "Denver is set to loan seven million dollars to bring Ikon Pass operator Alterra Mountain Company downtown, even as DIA faces widespread delays from high winds and staffing shortages and diverted twenty-nine flights to Colorado Springs amid severe turbulence. Denver also broke a heat record with a 101-degree day, the hottest since 1980, while wildfire smoke triggered air quality alerts across the metro. Plus, Denver Summit FC filed stadium plans with the city, the historic Loretto Heights theatre began a sixty million dollar transformation, and new restaurants including Carriage House, Wooden Spoon, and Enzo's Brick Oven Pizza are opening around town.",
+    htmlFile: "/newsletter-issues/denver-is-spending-seven-million-dollars-to-bring-a-ski-company.html",
+  },
+  {
     slug: "denver-is-baking-through-102-degrees-losing-a-116-year-old-town-to-a",
     title: "Denver is baking through 102 degrees, losing a 116 year old town to a water bill fight, and giving away dollar joints for failed emissions tests.",
     date: "2026-08-07",
