@@ -1205,6 +1205,15 @@ export const communityEvents: CommunityEvent[] = [
     link: "https://www.eventbrite.com/e/mike-eli-of-eli-young-band-tickets-1993602915988",
   },
   {
+    id: "la-vie-en-rose-rino-opening",
+    title: "La Vie En Rose Opens in RiNo",
+    date: "2026-09-04",
+    location: "1336 27th St., Denver (RiNo)",
+    description:
+      "Intimate Parisian-inspired cocktail and Champagne bar from the team behind Nocturne opens Friday, Sept. 4. Nicole and Scott Mattson channel the elegance of Paris with a craft cocktail list built around French spirits and one of Colorado's largest Champagne bottle lists, with more than 120 selections. The 1,300-square-foot space includes The Gallery, an adjacent art-filled room hosting private events and wine dinners for up to 30 guests, or up to 60 combined with the bar. Nightly aperitif hour runs 5 to 6 p.m. with special pricing on wine, Champagne, and an infused Dubonnet spritz. Open 5 to 10 p.m. Wednesday, Thursday, and Sunday, and 5 to 11 p.m. Friday and Saturday.",
+    link: "https://lverosebar.com",
+  },
+  {
     id: "growth-value-optionality-forum-2026",
     title: "Growth, Value & Optionality: A Forum for Established Business Owners",
     date: "2026-09-10",
