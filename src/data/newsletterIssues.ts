@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-bears-are-wandering-into-backyards-bow-mar-hired-a-lawyer-to",
+    title: "Denver bears are wandering into backyards, Bow Mar hired a lawyer to gate off public streets, and the mayor is threatening to trap them inside.",
+    date: "2026-08-20",
+    description: "Denver bears are wandering into Harvey Park backyards, and the mayor is threatening to trap them, while Bow Mar hired a lawyer and a PR firm to defend its plan to gate off public streets. The Natural History Museum just unveiled a 20 million dollar renovation, MSU Denver's first student housing tower is rising fast downtown, and Cherry Creek is getting a new five-story office tower. Plus, the Broncos revealed what tailgating looks like at their new billion-dollar stadium, and Denver Botanic Gardens is opening an 18th wedding venue.",
+    htmlFile: "/newsletter-issues/denver-bears-are-wandering-into-backyards-bow-mar-hired-a-lawyer-to.html",
+  },
+  {
     slug: "denver-is-spending-seven-million-dollars-to-bring-a-ski-company",
     title: "Denver is spending seven million dollars to bring a ski company downtown while its airport can't keep a flight on schedule.",
     date: "2026-08-14",
