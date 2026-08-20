@@ -100,10 +100,15 @@ export async function POST(req: NextRequest) {
     email_sent: false,
   });
 
+  const recipients = ["ryan@ryanestes.info", "fernanda@ryanestes.info"];
+  if (type === "event" || type === "newsletter_signup") {
+    recipients.push("marie@ryanestes.info");
+  }
+
   try {
     await resend.emails.send({
       from: "Real Good Denver <noreply@ryanestes.info>",
-      to: ["ryan@ryanestes.info", "fernanda@ryanestes.info"],
+      to: recipients,
       replyTo: email,
       subject,
       html,
