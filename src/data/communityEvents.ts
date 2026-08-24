@@ -1168,6 +1168,16 @@ export const communityEvents: CommunityEvent[] = [
       "Expert bartenders at Peaks Lounge, 27 floors above Denver at Hyatt Regency, guide guests through crafting a balanced, spirit-free Hibiscus Paloma. Tickets are $46 and include a welcome drink before class. Two sessions available on Thursday, August 27: 5:30 p.m. and 6:30 p.m.",
   },
   {
+    id: "work-from-moodswing-2026-08-28",
+    title: "Work from Moodswing with @workfromdenver",
+    date: "2026-08-28",
+    time: "12:00–4:00 PM",
+    location: "Moodswing, 3625 E 48th Ave, Denver, CO 80216",
+    description:
+      "End your work week alongside the Denver WFH community at Moodswing, one of Chloe's favorite remote work and pickleball hangouts, and be among the first to try Moodswing's newly relaunched coffee and breakfast program. Expect a dedicated work-friendly space, unlimited drip coffee (or $1 off a specialty cafe beverage), a reserved pickleball court for open play, networking with other remote workers, raffles featuring favorite work-from-anywhere spots, and more.",
+    link: "https://www.eventbrite.com/e/work-from-moodswing-tickets-1998128200235",
+  },
+  {
     id: "bright-nights-adults-only-2026-08-28",
     title: "Bright Nights Adults-Only Night at Four Mile Historic Park",
     date: "2026-08-28",
@@ -1175,6 +1185,16 @@ export const communityEvents: CommunityEvent[] = [
     location: "Four Mile Historic Park, Denver",
     description:
       "One of two 21+ evenings at Bright Nights, Four Mile Historic Park's annual lantern festival. The full lantern experience is on offer alongside DJs and additional sponsor activations throughout the park. Perfect for date nights or friend group outings. The second adults-only night is September 11.",
+  },
+  {
+    id: "tivoli-edelweiss-oktoberfest-2026-08-29",
+    title: "The First Oktoberfest of the Season",
+    date: "2026-08-29",
+    time: "12:00–6:00 PM (Aug 29–30)",
+    location: "Tivoli Edelweiss Club, 17832 Highway 8, Morrison, CO 80465",
+    description:
+      "Kick off Oktoberfest season with the toe-tapping tunes of the Alpen Echo and the Rhinelanders at this family-friendly, two-day event. The grounds include a pond that's perfect for a picnic while the kids play, plus authentic German food. No pets please, though service animals are welcome. Adults are $5; kids 17 and under are free. Runs August 29 and 30, noon to 6 p.m. both days.",
+    link: "https://tevedelweiss.org",
   },
   {
     id: "forget-me-not-oyster-social-2026-08-29",
