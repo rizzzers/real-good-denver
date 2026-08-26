@@ -1197,6 +1197,16 @@ export const communityEvents: CommunityEvent[] = [
       "One of two 21+ evenings at Bright Nights, Four Mile Historic Park's annual lantern festival. The full lantern experience is on offer alongside DJs and additional sponsor activations throughout the park. Perfect for date nights or friend group outings. The second adults-only night is September 11.",
   },
   {
+    id: "denver-food-wine-grand-tasting-2026-08-29",
+    title: "Denver Food + Wine Festival: Grand Tasting",
+    date: "2026-08-29",
+    time: "VIP noon to 4 p.m., First Taste and GA 1 to 4 p.m.",
+    location: "Denver",
+    description:
+      "Spend the afternoon tasting your way through unlimited bites from 40+ restaurants across Colorado, alongside free-flowing wines, craft cocktails, spirits, and N/A beverages, all included with your ticket. Beyond the food, catch a tarot card reader, the roaming photo booth, a caricature artist, and music throughout the afternoon. Go VIP for a quick-access entry line, 12 VIP-exclusive restaurants, high-end wines and spirits, a dedicated lounge, early access to General Admission restaurants, and free drop-in tasting seminars on bourbon, sake, and more. Proceeds support Colorado's restaurant workers. A few Early Bird tickets remain before prices go up.",
+    link: "https://denverfoodandwine.com/",
+  },
+  {
     id: "tivoli-edelweiss-oktoberfest-2026-08-29",
     title: "The First Oktoberfest of the Season",
     date: "2026-08-29",
