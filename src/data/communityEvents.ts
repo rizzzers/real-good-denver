@@ -1159,6 +1159,16 @@ export const communityEvents: CommunityEvent[] = [
       "Osteria Marco's eighth-annual Palisade Peach Dinner returns for one night only on August 26. Every course features Palisade peaches: house-made burrata with peach mostarda and grilled sourdough, mixed greens with grilled peaches and house-made ricotta, pasta radiatore with tomato-peach sugo and diced pork belly, a double bone-in pork chop with caramelized peaches and citrus peach sauce, and peach panna cotta with polenta crumble. $75 per person.",
   },
   {
+    id: "flair-report-podcast-launch-2026-08-27",
+    title: "The Flair Report Podcast: Live Recording and Exclusive Networking",
+    date: "2026-08-27",
+    time: "4:00–6:00 PM",
+    location: "Firmspace Denver, 1401 Lawrence St #1600, Denver, CO 80202",
+    description:
+      "inFlaire Events launches The Flair Report, a new live podcast exploring the stories, strategy, and spark behind inspiring leaders, entrepreneurs, and brands, with an inaugural live recording at Firmspace Denver. The first guest is Marco Campos, founder, executive chairman, and chief culture officer of the Campos Family of Companies, in conversation about building a multinational business from the ground up. Expect an authentic, behind-the-scenes conversation with audience participation, plus exclusive networking with executives, entrepreneurs, and community leaders before and after the recording. Attendance is complimentary but by invitation only, with extremely limited seating; advance registration is required and additional guests will be waitlisted once capacity is reached. Dress code is business casual with a touch of flair.",
+    link: "https://luma.com/up3005ck",
+  },
+  {
     id: "peaks-lounge-hibiscus-paloma-class-2026-08-27",
     title: "Be the Bartender: Hibiscus Paloma Class at Peaks Lounge",
     date: "2026-08-27",
