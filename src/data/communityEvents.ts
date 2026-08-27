@@ -1245,6 +1245,16 @@ export const communityEvents: CommunityEvent[] = [
     link: "https://www.eventbrite.com/e/mike-eli-of-eli-young-band-tickets-1993602915988",
   },
   {
+    id: "voicequest-connect-2026-09-03",
+    title: "VoiceQuest CONNECT",
+    date: "2026-09-03",
+    time: "1:00–6:00 PM (Happy Hour 5:00–6:00 PM)",
+    location: "Denver",
+    description:
+      "Spend the afternoon experiencing professional speakers live, with short talks, powerful stories, fun interactive CONNECT sessions, and plenty of chances to meet people along the way. You don't have to be an event planner or looking for a speaker, just come because it sounds like a fun way to spend an afternoon. Stick around for the Happy Hour from 5 to 6 p.m. for appetizers and cocktails with the speakers and other attendees.",
+    link: "https://www.eventbrite.com/e/1984085145079",
+  },
+  {
     id: "la-vie-en-rose-rino-opening",
     title: "La Vie En Rose Opens in RiNo",
     date: "2026-09-11",
