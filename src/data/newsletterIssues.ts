@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-did-denver-things-this-week-a-fake-plane-crash-a-real-bear",
+    title: "Denver did Denver things this week: a fake plane crash, a real bear rescue, and an 800 dollar an hour lawyer.",
+    date: "2026-08-26",
+    description: "DIA staged a fake plane crash drill with 400 actors this week, and a tranquilized bear took a rough tumble out of a Platt Park tree after wildlife officials responded to a mama bear and cub roaming Southwest Denver. Denver's $800-an-hour lawyer bill is drawing attention to the city's budget crunch, while the city is also suing Big Tobacco over cigarette butt litter and debating whether to cut its $4.7 million gunshot detector program. Plus, new restaurants including Carriage House, Wooden Spoon cafe and bakery, and Enzo's Brick Oven Pizza are opening around town.",
+    htmlFile: "/newsletter-issues/denver-did-denver-things-this-week-a-fake-plane-crash-a-real-bear.html",
+  },
+  {
     slug: "denver-bears-are-wandering-into-backyards-bow-mar-hired-a-lawyer-to",
     title: "Denver bears are wandering into backyards, Bow Mar hired a lawyer to gate off public streets, and the mayor is threatening to trap them inside.",
     date: "2026-08-20",
