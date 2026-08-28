@@ -1302,4 +1302,14 @@ export const communityEvents: CommunityEvent[] = [
       "Panda Fest makes its Denver debut September 25-27 at Civic Center Park, celebrating Asian food and culture across three days. The festival features 200+ dishes from local and national food vendors, 30+ merchandise vendors, traditional and contemporary performances, hands-on cultural experiences, and a panda-themed bounce house. Founded in 2024, Panda Fest has expanded to more than a dozen U.S. cities. The Denver debut coincides with Mid-Autumn Festival, a traditional time for families and communities to gather and celebrate. Tickets range from $10 to $35; children under 6 are free.",
     link: "https://www.pandafests.com/events-1/project-one-ephnc-fphyr-ark8l-wfdxg-g558l-tjkap-ap5a4-y5jrj-rz8h4",
   },
+  {
+    id: "flamenco-denver-raices-2026-10-01",
+    title: "RAICES XI, Sin Fronteras: Flamenco Denver Dance Company",
+    date: "2026-10-01",
+    time: "7:30 PM",
+    location: "June Swaner Gates Concert Hall, Newman Center for the Performing Arts, 2344 E Iliff Ave, Denver, CO",
+    description:
+      "Experience an extraordinary evening of cultural artistry as the Flamenco Denver Dance Company presents RAICES, a world-class production celebrating the rich tapestry of traditional and avant-garde flamenco styles. This captivating performance connects audiences with the profound emotional depth of the art form through a masterful fusion of explosive dance and soulful music. The production features a distinguished roster of internationally acclaimed guest artists, including legendary Spanish vocalist Amparo Heredia, premier cantaor Jose Diaz \"Cachito,\" and award-winning virtuoso guitarist Jose Manuel Alconchel. Enriched by the rhythms of master cajon player Diego Alvarez \"El Negro\" and powerful choreography from principal dancers Carlos Menchaca and Fanny Ara, RAICES promises an unforgettable, transcendent theatrical experience. Tickets range from $35 to $75; advance purchase is recommended as recent Flamenco Denver performances have sold out.",
+    link: "https://www.flamencodenver.org",
+  },
 ];
