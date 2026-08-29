@@ -3579,6 +3579,86 @@ Okay. The Cruise Room is in a basement. There is no mountain view from the Cruis
     image: "/images/best-mountain-view-denver.png",
     featured: false,
     tags: ["Mountain View", "Best Of", "Denver"],
+  },
+  {
+    id: 47,
+    slug: "best-thrift-store-denver",
+    title: "Best Thrift Store in Denver for Vintage Goblin Mode",
+    excerpt: "Look, Denver's thrift scene is unhinged in the best way, you've got people treating Saturday morning digs like competitive sport, hunting vintage finds like their entire identity depends on it.",
+    fullContent: `Here's the thing about Denver thrift shopping. It's not just a hobby anymore. It's a whole personality. A lifestyle choice. A signal to the universe that you have taste, you have patience, and you absolutely will spend four hours on a Saturday digging through racks of polyester blazers to find the one perfect dead-stock western shirt that makes you look like a 1974 rodeo announcer in the best possible way.
+
+Goblin mode, for the uninitiated, is not a negative thing. It is a commitment. You go in with no list, no plan, no dignity. You emerge two hours later with a $4 lamp shaped like a heron, a vinyl copy of something you've never heard of, and a linen blazer that fits like it was made for your exact chaotic body. Denver, it turns out, is an excellent city for this.
+
+The secondhand scene here is genuinely good and, depending on who you ask, getting better. The city has the right mix of old money dropping off things they're done with, young people moving in and out constantly, and a culture that actually values weird stuff. r/Denver has an entire recurring conversation about which neighborhoods have the best thrift hunting, and the consensus keeps pointing to the same corridors. So here's where to point your cart.
+
+---
+
+### Goodwill Denver (Various Locations)
+
+No hyperlink because you already know where Goodwill is. The chain is the baseline. The floor. The thing you benchmark everything else against. Denver's locations are not created equal, and anyone who tells you otherwise is being sloppy. The stores near wealthier zip codes, specifically the Cherry Creek and Hampden adjacent ones, have a different donation pool than you'll find elsewhere. That's just geography working in your favor. Go often. Go on weekdays if you can. The rack rotation is relentless and Tuesday afternoon is a different store than Saturday morning.
+
+Price range: $ | No reservations required, obviously.
+
+---
+
+### Savers (Multiple Denver Metro Locations)
+
+Savers is Goodwill's slightly more organized cousin who still has a chaos problem and you love them for it. The sheer square footage of Denver-area Savers locations means more ground to cover and, statistically, more weird things to find. Locals on r/DenverFood (yes, they wander off topic) have noted that the furniture and housewares sections are particularly worth your time if you're trying to furnish an apartment without spending real money. The clothing situation is hit or miss but the misses are genuinely hilarious and that has its own value.
+
+Price range: $ | No reservations.
+
+---
+
+### Clothes Minded
+
+This one is different. This is the shop where the curation has already happened for you, which you either love or you find suspicious. For goblin mode purists, pre-curated feels like cheating. But when the person doing the curating has genuinely good eyes, you get a rack of things that are all actually interesting rather than one gem buried under sixty sad fleeces. Denver's vintage-forward boutique shops have been multiplying, and Clothes Minded keeps coming up in r/Denver threads about where to actually find good vintage without driving to a flea market in the middle of nowhere.
+
+Price range: $$ | No reservations, walk in.
+
+---
+
+### ARC Thrift Stores (Multiple Locations)
+
+ARC is the one Denver locals are most fiercely loyal to and most willing to argue about. The prices have gone up, which is the complaint you'll hear constantly, and the complaint is not wrong. But it's still not expensive. And the selection across the Denver metro locations is genuinely massive. r/Denver threads on thrift stores almost always have at least one well-upvoted comment defending a specific ARC location as underrated. The Lakewood and Littleton locations apparently have a reputation for better furniture finds while the ones closer to Capitol Hill tend to have more interesting clothing. This is the kind of hyper-local knowledge that takes time to acquire and that locals guard with an almost comical seriousness.
+
+Price range: $ to $$ | No reservations.
+
+---
+
+### Buffalo Exchange (Colfax)
+
+Buffalo Exchange is a transaction, not a treasure hunt. That's not a criticism. That's just what it is. You bring things, you get money or store credit, you leave with something that someone else already decided was good. The Colfax location pulls from a neighborhood with actual style and that matters. The selection skews younger, more intentional, more curated. If you're trying to build a specific aesthetic rather than just wandering in goblin mode, this is your shortcut. If you want the chaos and the discovery, go somewhere else first and come here to finish the look.
+
+Price range: $$ | No reservations.
+
+---
+
+### Mutiny Information Cafe
+
+Technically a coffee shop and a comic shop and a used bookstore and also occasionally a venue and also just a place where people hang out and the vibe is deliberately unclassifiable. You will not find a denim jacket here. You will find the weird vinyl and the zines and the books that used to live in someone's very specific and extremely interesting collection. This is goblin mode for your brain. Denver's independent bookshop and weird-media scene is genuinely beloved on r/Denver, and Mutiny comes up whenever someone asks where to find things that don't exist on algorithms.
+
+Price range: $ | No reservations.
+
+---
+
+### Englewood Flea Market / Various Weekend Markets
+
+The outdoor market and flea circuit around Denver and its immediate suburbs is seasonal, unreliable, and absolutely worth tracking. Englewood, Lakewood, and various parking lots across the metro host rotating markets where the ratio of genuine vintage to overpriced repro is something you learn to navigate. This is maximum goblin mode. You will see things that defy categorization. You will negotiate over a $6 lamp. You will not regret any of it even if you come home with nothing.
+
+Price range: $ | Check schedules, they move around.
+
+---
+
+**The Verdict**
+
+Denver's thrift scene rewards commitment and punishes impatience. The people who find the best stuff are the ones who go back to the same stores on rotation, who know which location of ARC has better furniture, who understand that the Colfax corridor and the Capitol Hill adjacents have a different donation ecosystem than the suburbs. Goblin mode is not about luck. It's about frequency. Go often, go early, go with no plan. The city will give you something strange and perfect every single time if you let it.`,
+    category: "culture",
+    author: "Ryan Estes",
+    date: "2026-08-29",
+    readTime: "5 min read",
+    image: "/images/best-thrift-store-denver.png",
+    featured: false,
+    tags: ["Thrift", "Vintage", "Best Of", "Denver"],
   }
 ];
 

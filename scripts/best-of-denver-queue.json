@@ -423,8 +423,9 @@
       "Denver"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": null
+    "status": "published",
+    "season": null,
+    "publishedAt": "2026-08-29T03:14:15.114Z"
   },
   {
     "slug": "best-coffee-shop-denver",
