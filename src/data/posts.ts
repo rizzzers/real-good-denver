@@ -3659,6 +3659,94 @@ Denver's thrift scene rewards commitment and punishes impatience. The people who
     image: "/images/best-thrift-store-denver.png",
     featured: false,
     tags: ["Thrift", "Vintage", "Best Of", "Denver"],
+  },
+  {
+    id: 48,
+    slug: "best-coffee-shop-denver",
+    title: "Best Coffee Shop in Denver: A Survey of Caffeinated Anxiety",
+    excerpt: "Denver's got coffee shops on every corner, but half of them are just Instagram backdrops run by people who think oat milk is a personality trait. The real ones? They're slinging shots like they're saving lives, because honestly, they basically are.",
+    fullContent: `Denver has a complicated relationship with coffee. On one hand, you've got a city full of people who wake up at 5am to run fourteeners and genuinely believe they don't need caffeine. On the other hand, you've got the rest of us, stumbling into work with the thousand-yard stare of someone who made poor decisions last night and needs an espresso with the urgency of a medical emergency. Denver's coffee scene has quietly become one of the better ones in the country, built on a foundation of serious roasters, neighborhood institutions, and the kind of third-wave obsession that can be either deeply impressive or deeply annoying depending on your mood. Either way, you benefit.
+
+The range is genuinely wild. You've got roasters doing single-origin pour-overs with tasting notes that read like a perfume catalog, and you've got neighborhood spots where the espresso machine has been running since before you were born and nobody's going to quiz you about your processing method. Both have their place. Both are necessary. Denver understands this, mostly.
+
+What follows is an honest survey of where you should be spending your coffee money. Some of these are about the beans. Some are about the room. Some are about the fact that you need somewhere to sit for four hours on a Tuesday and nobody's going to make you feel bad about it.
+
+---
+
+### **[Crema Coffee House](http://cremacoffeehouse.net/)**
+
+2862 Larimer St, Denver, CO 80205 (RiNo) | $$ | Reservations: No
+
+Crema is the coffee shop that RiNo deserves and also, frankly, the one it needs to keep itself grounded. It's been a fixture long enough to predate most of the galleries and cocktail bars that cropped up around it, and it carries that confidence. The espresso is serious without being smug. The space has that particular energy where people are actually working, not just performing working for an Instagram story. Locals on r/DenverFood regularly point to Crema as the benchmark, the place they use to calibrate expectations when evaluating any new spot that opens in the neighborhood. The cortado is excellent. The pastry situation is reliable. This is a shop that earns its reputation every single day.
+
+---
+
+### **[Huckleberry Roasters](http://huckleberryroasters.com/)**
+
+4301 N Pecos St, Denver, CO 80211 (Sunnyside) | $$ | Reservations: No
+
+Huckleberry is doing the roasting thing at a level that makes you want to pay attention. They take sourcing seriously, which means your cup is going to taste like something specific rather than just hot and brown, and whether that's a feature or a burden depends entirely on your coffee philosophy. The Sunnyside location has a vibe that threads the needle between approachable and meticulous, which is harder to pull off than it sounds. R/Denver regulars tend to cite Huckleberry when the conversation turns to who's actually moving Denver's coffee culture forward, which happens more often than you'd expect on a subreddit primarily used to complain about traffic. The space is good. The staff knows what they're talking about without making it a whole thing.
+
+---
+
+### **[Corvus Coffee Roasters](http://www.corvuscoffee.com/)**
+
+1740 S Broadway, Denver, CO 80210 (South Broadway) | $$ | Reservations: No
+
+Corvus sits on South Broadway with the quiet confidence of a place that's been doing this correctly for long enough to stop worrying about trends. The roasting program is the anchor, and if you're the kind of person who buys beans to take home, this should be a regular stop. The in-house drinks are precise and well-executed. The room is unpretentious in the best way. On r/DenverFood, Corvus comes up consistently in conversations about where to bring someone from out of town who wants to see what Denver coffee actually is, which is about as high a compliment as that community gives.
+
+---
+
+### **[Thump Coffee](http://www.thumpcoffee.com/)**
+
+1201 E 13th Ave, Denver, CO 80218 (Capitol Hill) | $ | Reservations: No
+
+Thump is a Capitol Hill staple and it behaves accordingly. It's unpretentious, it's efficient, it's been there, and it will continue to be there. The espresso drinks are straightforward and good, the prices aren't going to make you feel personally victimized, and the room has that lived-in neighborhood coffee shop quality that you cannot manufacture and cannot buy. This is where you go when you want coffee that tastes like someone made it for you because they know how to make coffee, not because they're auditioning for a specialty trade magazine. Reliable in all the ways that matter.
+
+---
+
+### **[Pablo's Coffee - 6th Avenue](http://www.pabloscoffee.com/)**
+
+630 E 6th Ave, Denver, CO 80203 (Speer) | $ | Reservations: No
+
+Pablo's has been part of Denver's coffee conversation for long enough that it's practically infrastructure. The 6th Avenue location is the kind of spot that gets overlooked in trend pieces precisely because it doesn't need to be in trend pieces. The coffee is good, the atmosphere is relaxed to the point of being almost aggressively chill, and the regulars are loyal with the intensity of people who have found something that works and have no intention of changing it. If you're new to Denver and someone tells you to go to Pablo's, they're not being ironic. They're trying to help you.
+
+---
+
+### **[Stella's Coffee Haus](https://stellascoffee.com/)**
+
+1476 S Pearl St, Denver, CO 80210 (South Pearl) | $ | Reservations: No
+
+Stella's is South Pearl's coffee anchor and it earns that status. The hours are generous, the space is comfortable in a way that doesn't feel calculated, and the coffee is solid across the board. It's the kind of neighborhood shop that you move to a new area and immediately hope exists within walking distance of your apartment. It doesn't try to be anything other than exactly what it is, which in a city increasingly full of places trying to be ten things at once, is genuinely refreshing.
+
+---
+
+### **[Hello Darling (Commons Park)](http://hellodarling.cafe/)**
+
+1610 Little Raven St Unit 110, Denver, CO 80202 (Commons Park) | $$ | Reservations: No
+
+Hello Darling is charming and it knows it, which could be irritating but mostly isn't. The Commons Park location has a warmth to it that makes it the kind of place you recommend to people who need a coffee shop for a good-mood morning rather than a grim productivity sprint. The drinks are well-made, the aesthetic is intentional without being exhausting, and the whole experience feels like it was designed by someone who actually likes people. That's rarer than it should be.
+
+---
+
+### **[Black Rock Coffee Bar](https://www.br.coffee/locations/denver-tech-center)**
+
+7850 E Union Ave, Denver, CO 80237 (Denver Tech Center) | $ | Reservations: No
+
+Black Rock is a chain with Pacific Northwest roots and DTC energy, which is exactly what it sounds like. If you're in the Tech Center and you need coffee and you need it now and you're not in the mood to have opinions about it, Black Rock delivers. The drinks are consistent, the service is fast, and it's not trying to challenge you. Sometimes that's precisely what you need. It's not a destination, but destinations aren't always the point.
+
+---
+
+**The Verdict**
+
+Denver's best coffee is coming out of Crema, Huckleberry, and Corvus, and if you're not rotating through all three with some regularity you are leaving quality on the table. Thump and Pablo's are the neighborhood institutions that keep the scene honest. Stella's and Hello Darling are for the mornings when you want your coffee experience to actually feel like something. The city's coffee culture has earned its reputation, built slowly by spots that decided to do the work instead of just doing the vibe. Your job now is to drink it.`,
+    category: "food",
+    author: "Ryan Estes",
+    date: "2026-08-31",
+    readTime: "6 min read",
+    image: "/images/best-coffee-shop-denver.png",
+    featured: false,
+    tags: ["Coffee", "Best Of", "Denver"],
   }
 ];
 
