@@ -1312,4 +1312,14 @@ export const communityEvents: CommunityEvent[] = [
       "Experience an extraordinary evening of cultural artistry as the Flamenco Denver Dance Company presents RAICES, a world-class production celebrating the rich tapestry of traditional and avant-garde flamenco styles. This captivating performance connects audiences with the profound emotional depth of the art form through a masterful fusion of explosive dance and soulful music. The production features a distinguished roster of internationally acclaimed guest artists, including legendary Spanish vocalist Amparo Heredia, premier cantaor Jose Diaz \"Cachito,\" and award-winning virtuoso guitarist Jose Manuel Alconchel. Enriched by the rhythms of master cajon player Diego Alvarez \"El Negro\" and powerful choreography from principal dancers Carlos Menchaca and Fanny Ara, RAICES promises an unforgettable, transcendent theatrical experience. Tickets range from $35 to $75; advance purchase is recommended as recent Flamenco Denver performances have sold out.",
     link: "https://www.flamencodenver.org",
   },
+  {
+    id: "the-bounce-back-moodswing-2026-09-05",
+    title: "The Bounce Back: A Stroller-Friendly Dance Fitness Experience for Moms",
+    date: "2026-09-05",
+    time: "9:00 AM",
+    location: "Moodswing, 3625 E 48th Ave, Denver, CO 80216",
+    description:
+      "An uplifting morning of movement, music, and community for moms at every stage. Whether you're solo, baby is riding in the stroller, your toddler is dancing beside you, or your big kid is playing games on the patio, this space welcomes it all. Move your body, meet new friends, laugh a little louder, and leave feeling lighter than when you arrived. Registration starting at $25.",
+    link: "https://www.segentekle.com/candidmom",
+  },
 ];
