@@ -451,8 +451,9 @@
       "Denver Restaurants"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": null
+    "status": "published",
+    "season": null,
+    "publishedAt": "2026-09-01T00:42:31.775Z"
   },
   {
     "slug": "best-late-night-eats-denver",

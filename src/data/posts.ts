@@ -3747,6 +3747,93 @@ Denver's best coffee is coming out of Crema, Huckleberry, and Corvus, and if you
     image: "/images/best-coffee-shop-denver.png",
     featured: false,
     tags: ["Coffee", "Best Of", "Denver"],
+  },
+  {
+    id: 49,
+    slug: "best-cheap-eats-denver",
+    title: "Best Cheap Eats in Denver Under $15 (Inflation Be Damned)",
+    excerpt: "Inflation is having the time of its life right now, and a cocktail at a mid-range bar will run you fourteen dollars before you've even decided if you like the place. But Denver still has pockets of genuine, no-apology, feed-yourself-for-under-fifteen-dollars eating if you know where to look.",
+    fullContent: `Inflation is having the time of its life right now. Groceries cost what a small car used to cost. A cocktail at a mid-range bar will run you fourteen dollars before you've even decided if you like the place. And yet, somehow, Denver still has pockets of genuine, no-apology, feed-yourself-for-under-fifteen-dollars eating. They're out there. You just have to know where to look, and you have to be willing to ignore the noise.
+
+This list is not about suffering through bad food to save money. That's not a deal, that's a punishment. This is about the spots where the math works out in your favor and the food is actually worth talking about. The burrito that costs eight dollars and ruins all other burritos for you. The bowl of ramen that makes you question why you ever spent forty dollars on dinner. Denver has that stuff, even now, even in this economy, even when everything else feels like it was priced by someone who hates you personally.
+
+A few of these will be deeply obvious to longtime locals. Good. They deserve the recognition. A few might surprise you. All of them will leave you with money still in your wallet, which is the whole point.
+
+---
+
+### **[Santiago's Mexican Restaurant](http://www.eatatsantiagos.com/)**
+180 W 84th Ave, Denver, CO 80260 (Thornton border) | $ | Reservations: No
+
+Santiago's is practically a civic institution at this point. People on r/Denver have been recommending it to newcomers for years, the kind of spot that comes up every single time someone asks where to find a real breakfast burrito without getting laughed at by their own bank account. The green chile is the whole conversation. It's thick, it's got heat that builds instead of announcing itself, and it goes on everything. You can eat here, thoroughly and well, for under ten dollars. That number should feel illegal in 2024, but here we are. The locations are no-frills by design, which is part of the deal. You are here for the food. The food does not disappoint.
+
+---
+
+### **The Taco King**
+5115 Morrison Rd, Denver, CO 80226 (Westwood) | $ | Reservations: No
+
+No website, no fuss, no problem. The Taco King operates on the assumption that the food will do the talking, and it does. Morrison Road has some of the most underrated eating in the city, and The Taco King is a big reason locals on r/DenverFood keep pointing people in that direction. Street-style tacos at prices that feel like a time machine. You'll spend twelve dollars and feel like you gamed the system. Bring cash to be safe, bring an appetite, and don't overthink it.
+
+---
+
+### **[Adelitas Cocina Y Cantina](https://www.adelitasco.com/)**
+1294 S Broadway, Denver, CO 80210 (South Broadway) | $-$$ | Reservations: No
+
+South Broadway has its own whole personality, and Adelitas fits it perfectly. The lunch menu is where you want to focus if you're working with a budget, because the portions are real and the prices stay honest. The enchiladas are the move. The margaritas are excellent but will push you past fifteen dollars fast, so exercise whatever self-control you can manage. Regulars on r/Denver consistently put Adelitas in the conversation for best neighborhood Mexican in the city, and they're not wrong. It's the kind of place that feels like it belongs to the neighborhood rather than performing for it.
+
+---
+
+### **[Uncle](http://uncleramen.com/)**
+2215 W 32nd Ave, Denver, CO 80211 (LoHi) | $$ | Reservations: No
+
+Ramen in LoHi that you can actually afford. The bowls at Uncle are deeply serious without being precious about it. The broth is the thing. You can tell someone spent real time on it, the kind of time that turns a pot of stock into something you want to drink like a beverage. Lunch hours are your friend here if you want to keep the bill under fifteen, and the r/DenverFood crowd has flagged Uncle repeatedly as the answer to the question of where to get a proper bowl without committing to a full dinner-price situation. Small space, worth the wait.
+
+---
+
+### **[Aloy Modern Thai](https://www.aloythai.com/modern-thai/)**
+2134 Larimer St, Denver, CO 80205 (Five Points) | $$ | Reservations: No
+
+Thai food at lunch in Denver is one of the better deals hiding in plain sight. Aloy's lunch specials put you well inside the fifteen-dollar window and the portions are not messing around. The curries are fragrant and properly calibrated, the pad see ew is exactly what pad see ew should be, and the whole experience moves at a pace that respects your actual lunch break. Five Points is sleeping on some genuinely good eating, and Aloy is part of that argument.
+
+---
+
+### **[Illegal Pete's Lodo](https://www.illegalpetes.com/)**
+1610 16th St Mall, Denver, CO 80202 (LoDo) | $ | Reservations: No
+
+Yes, it's a chain. No, you're not better than a well-built burrito. Illegal Pete's is a Colorado original and the 16th Street Mall location feeds an enormous range of Denver people every single day, which is maybe the most honest thing you can say about a restaurant. The burritos are large. The price is fair. The ingredients are solid. If you are downtown and hungry and working with twelve dollars, Pete's is not a compromise, it's a solution. r/Denver newcomers get this recommendation constantly and the regulars who give it are not embarrassed about it.
+
+---
+
+### **[Torchy's Tacos](https://torchystacos.com/?olonwp=JjBtp_vMLk25gkYh_bnoiQ)**
+1085 Broadway, Denver, CO 80203 (South Broadway) | $$ | Reservations: No
+
+Another chain, another correct answer. Torchy's tacos are individually priced in a way that lets you control exactly how much damage you're doing to your wallet, which is either a feature or a trap depending on your personality. Two tacos and a drink lands you around fifteen dollars. The Trailer Park taco has a real following in this city, and locals on r/DenverFood have had long, earnest debates about which taco is the correct order. Weigh in if you want. Just eat here first.
+
+---
+
+### **[Steuben's Uptown](http://www.steubens.com/)**
+523 E 17th Ave, Denver, CO 80203 (Uptown) | $$ | Reservations: Recommended
+
+Steuben's skews a little pricier at dinner, but the lunch menu is where Uptown regulars with good sense spend their money. The grilled cheese and the mac and cheese live in the fifteen-dollar zone and are taken seriously in the way that American comfort food deserves to be taken seriously. The space is handsome, the service is easy, and you'll leave feeling like you ate at a real restaurant without the bill that usually comes with that feeling.
+
+---
+
+### **[Roostercat Coffee House](http://www.roostercatdenver.com/)**
+1045 Lincoln St, Denver, CO 80203 (Capitol Hill) | $ | Reservations: No
+
+Not every cheap eat needs to be a full meal. Sometimes you need a coffee and something to eat and a place to sit that doesn't feel like a corporate holding pen. Roostercat is that place. Capitol Hill's neighborhood coffee shop energy, baked goods that are worth the calories, and a tab that stays very much in the single digits. The r/Denver crowd loves this spot as a work-from-somewhere option that doesn't feel like a sentence. Show up, order something, stay as long as you need.
+
+---
+
+**The Verdict**
+
+Denver will charge you whatever you let it charge you. There are restaurants in this city that will happily take sixty dollars from you for an experience you'll forget by Thursday. But these spots, these particular places, have decided to stay honest. The food is real, the prices are fair, and fifteen dollars still means something when you spend it right. That's not nothing. In this economy, that's actually a lot. Go eat.`,
+    category: "food",
+    author: "Ryan Estes",
+    date: "2026-09-01",
+    readTime: "6 min read",
+    image: "/images/best-cheap-eats-denver.png",
+    featured: false,
+    tags: ["Cheap Eats", "Best Of", "Denver Restaurants"],
   }
 ];
 
