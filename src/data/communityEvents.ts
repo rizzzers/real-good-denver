@@ -132,11 +132,11 @@ export const communityEvents: CommunityEvent[] = [
   },
   {
     id: "soda-club-denver-opening-2026",
-    title: "Soda Club Denver: Opening August 2026",
-    date: "2026-08-01",
-    location: "Denver (exact address TBD)",
+    title: "Soda Club Denver: Grand Opening",
+    date: "2026-09-01",
+    location: "The Ramble Hotel, Denver",
     description:
-      "The beloved NYC pasta and natural wine spot is coming to Denver. Known for handmade pasta, a vibrant natural wine program, and a romantic, playful atmosphere: Soda Club is bringing the whole vibe to the Mile High City. Opening August 2026.",
+      "Soda Club opens its first location outside New York City on September 1, inside The Ramble Hotel. The four-time Michelin Bib Gourmand-awarded fresh pasta, natural wine, and cocktail bar is helmed by chefs Amira Gharib and Jon Robbins, with a menu rooted in Sicilian tradition and Mediterranean and North African influences: signature and seasonally rotating fresh pasta, Roman-style pinsa, shareable snacks, salads, and sweets. The wine program includes 200-plus bottles alongside a grappa-focused cocktail program. Reservations available via Resy.",
     link: "https://www.sodaclubnyc.com/soda-club-denver",
   },
   {
@@ -1321,5 +1321,157 @@ export const communityEvents: CommunityEvent[] = [
     description:
       "An uplifting morning of movement, music, and community for moms at every stage. Whether you're solo, baby is riding in the stroller, your toddler is dancing beside you, or your big kid is playing games on the patio, this space welcomes it all. Move your body, meet new friends, laugh a little louder, and leave feeling lighter than when you arrived. Registration starting at $25.",
     link: "https://www.segentekle.com/candidmom",
+  },
+  {
+    id: "54thirty-labor-day-2026",
+    title: "Labor Day Cocktail Specials at 54thirty",
+    date: "2026-09-04",
+    time: "Sept. 4-7",
+    location: "54thirty, Le Méridien Denver Downtown",
+    description:
+      "Downtown Denver's highest open-air rooftop bar celebrates the long weekend with two specialty cocktails: the Stars and Stripes, made with Ketel One, strawberry oleo, and lemon, and the Honey, I Got a Hot Dog, made with Bulleit bourbon, honey syrup, and lemon, served with an actual hot dog. Ketel One and Bulleit will also be onsite all weekend offering spirit samples from 1 to 4 PM.",
+  },
+  {
+    id: "sorry-gorgeous-labor-day-2026",
+    title: "Labor Day Weekend at Sorry Gorgeous",
+    date: "2026-09-04",
+    time: "Sept. 4-7, evenings",
+    location: "Sorry Gorgeous, RiNo, Denver",
+    description:
+      "RiNo's rooftop cocktail lounge closes out summer with a run of Labor Day weekend shows. Good Good plays alt R&B Friday, September 4, from 9 PM to close. Peter Paul and Squizzy spin Saturday, September 5, from 9 PM to close, no ticket needed. Sunday's Sunset Soiree features Love Language from 5 PM to close.",
+    link: "https://sorrygorgeousrooftop.com",
+  },
+  {
+    id: "rare-bird-pizza-class-2026-09-10",
+    title: "Pizza Making Class at Rare Bird",
+    date: "2026-09-10",
+    time: "5:00-6:00 PM",
+    location: "Rare Bird at Halcyon, a hotel in Cherry Creek, Denver",
+    description:
+      "The final pizza making class of the season at Rare Bird. Guests go behind the counter to stretch, top, and fire their own pizza, enjoyed with a complimentary glass of wine. Just eight seats, kept intentionally intimate around the pizza oven.",
+  },
+  {
+    id: "romyo-grand-opening-2026",
+    title: "Rōmyō Grand Opening",
+    date: "2026-09-10",
+    location: "Larimer Square, Denver (Rōmyō)",
+    description:
+      "Bonanno Concepts opens Rōmyō, Denver's first itameshi restaurant, fusing Japanese and Italian fare in the Miller Building on Larimer Square. Frank and Jacqueline Bonanno's most ambitious project yet ranges from dumplings and pasta to kakigōri (Japanese shaved ice) and inventive cocktails, with house-aged soy sauce and Colorado peach vinegar made in partnership with Leopold Bros.",
+  },
+  {
+    id: "la-vie-en-rose-opening-2026",
+    title: "La Vie En Rose Opens",
+    date: "2026-09-11",
+    location: "Denver",
+    description:
+      "From the team behind Nocturne, La Vie En Rose is an intimate Parisian-inspired cocktail and Champagne bar drawing on the elegance and cinematic glamour of Paris. It opens with a craft cocktail list built around French spirits and one of the largest Champagne bottle lists in Colorado, more than 120 selections, plus Champagnes and French wines by the glass. The menu features delicate hors d'oeuvres and shared small plates meant to pair with bubbles.",
+  },
+  {
+    id: "forget-me-not-oyster-social-2026-09-12",
+    title: "Oyster Social at Forget Me Not",
+    date: "2026-09-12",
+    time: "1:00 PM",
+    location: "Forget Me Not, Cherry Creek, Denver",
+    description:
+      "A late-summer patio soiree inspired by seaside afternoons, long lunches, and effortless indulgence. Expect rotating market oysters on ice, live jazz, and a curated menu of bubbles, mimosas, and spritzes. Walk-ins welcome, reservations encouraged.",
+  },
+  {
+    id: "st-julien-oktoberfest-2026",
+    title: "Oktoberfest at St Julien",
+    date: "2026-09-13",
+    time: "1:00-4:00 PM",
+    location: "St Julien Hotel & Spa, Boulder, CO",
+    description:
+      "St Julien's fourth annual Oktoberfest takes over the hotel's lawn and terrace with views of the Flatirons. Polka Folka Band plays polka and oompah classics, plus games, beer, and a German buffet: schweinebraten, wurstl and sauerkraut, brezen, schnitzel, and black forest cake. Tickets are $49 for the buffet or $75 for the buffet with bottomless beer.",
+  },
+  {
+    id: "54thirty-second-sunday-2026-09-13",
+    title: "Second Sunday at 54thirty",
+    date: "2026-09-13",
+    time: "4:00-9:00 PM",
+    location: "54thirty, Le Méridien Denver Downtown",
+    description:
+      "An elevated evening at 5,430 feet with live DJ music, hand-crafted cocktails, and globally inspired bites at downtown Denver's highest open-air rooftop bar.",
+  },
+  {
+    id: "mizuna-sunday-supper-nola-tailgate-2026",
+    title: "Sunday Supper Club at Mizuna: Chef Alan's NOLA Tailgate",
+    date: "2026-09-13",
+    time: "1:00 PM",
+    location: "Mizuna, Denver",
+    description:
+      "Chef Alan Melder of Luca takes over Mizuna's kitchen for an outdoor southern-style shindig: spit-roasted whole pig, chicken and andouille jambalaya, baked mac n' cheese, corn bread, pork green beans, beignets, and coffee. $80 per person includes the feast, unlimited beer, wine, and seltzers, plus yard games.",
+  },
+  {
+    id: "forget-me-not-oyster-social-2026-09-26",
+    title: "Oyster Social at Forget Me Not",
+    date: "2026-09-26",
+    time: "1:00 PM",
+    location: "Forget Me Not, Cherry Creek, Denver",
+    description:
+      "A late-summer patio soiree inspired by seaside afternoons, long lunches, and effortless indulgence. Expect rotating market oysters on ice, live jazz, and a curated menu of bubbles, mimosas, and spritzes. Walk-ins welcome, reservations encouraged.",
+  },
+  {
+    id: "osteria-marco-drag-bingo-brunch-2026",
+    title: "\"Practical Magic\" Drag Bingo Brunch at Osteria Marco",
+    date: "2026-09-20",
+    time: "10:30 AM & 12:30 PM seatings",
+    location: "Osteria Marco, Denver",
+    description:
+      "In honor of the Owens sisters' return to the big screen in \"Practical Magic 2,\" Osteria Marco throws a celebratory drag bingo brunch with midnight margaritas and bottomless mimosas. Two seatings: 10:30 AM for the 11 AM show, and 12:30 PM for the 1 PM show. Coven attire encouraged.",
+  },
+  {
+    id: "local-jones-tour-of-italy-wine-dinner-2026",
+    title: "Tour of Italy Wine Dinner at Local Jones",
+    date: "2026-09-24",
+    time: "6:00-8:00 PM",
+    location: "Local Jones, Denver",
+    description:
+      "A five-course Italian wine dinner: seared scallops with farinata and lemon beurre blanc, sauteed seasonal vegetables with bagna cauda, potato gnocchi with pancetta and truffle cream, veal osso buco with mushroom risotto, and vanilla panna cotta with orange polenta cake and hazelnut ice cream. Each course is paired with an Italian wine, plus a welcome glass of bubbly and an intermezzo pour. $135 per guest.",
+    link: "https://localjones.com",
+  },
+  {
+    id: "rare-bird-bird-dog-happy-hour-2026",
+    title: "Bird Dog Happy Hour at Rare Bird",
+    date: "2026-09-29",
+    time: "4:00-7:00 PM",
+    location: "Rare Bird at Halcyon, a hotel in Cherry Creek, Denver",
+    description:
+      "Bring your four-legged friend to Rare Bird's dog-friendly happy hour: house-made peanut butter dog treats, puppy poke bowls, and Australian shepherd's pie for the humans and pups alike. Proceeds support True Companions in finding animals loving homes.",
+  },
+  {
+    id: "leven-supply-wine-club-2026-11-02",
+    title: "Wine Club at Leven Supply",
+    date: "2026-11-02",
+    time: "5:00-7:00 PM",
+    location: "Leven Supply, Denver",
+    description:
+      "Wine Club returns to Leven Supply with a new partner, The Sorting Table, for a guided tasting, pours from new wines, and pairings to match. Membership includes two curated bottles per quarter ($85), with quarterly tasting tickets available for $110.",
+  },
+  {
+    id: "sweet-action-lindsey-heaps-funfetti-2026",
+    title: "Sweet Action x Lindsey Heaps: Heaps of Funfetti",
+    date: "2026-09-01",
+    location: "Sweet Action (all Denver-area locations)",
+    description:
+      "Sweet Action teams up with U.S. Women's National Team captain Lindsey Heaps on a new flavor built from her own dream scoop: birthday cake meets salted golden Oreo. Available across all four Denver-area Sweet Action parlors starting September 1. $1 from every scoop benefits Soccer Without Borders Colorado, which uses the sport to support refugee and immigrant youth.",
+  },
+  {
+    id: "former-saint-patio-happy-hour-2026",
+    title: "Happy Hour at The Patio at Former Saint Craft Kitchen & Taps",
+    date: "2026-09-01",
+    time: "Daily, 5:00-7:00 PM through October 15",
+    location: "The Patio at Former Saint Craft Kitchen & Taps, Hyatt Regency Denver",
+    description:
+      "A limited-time patio-only happy hour in partnership with Blue Moon and Fever-Tree, offering $2 off all featured brews and beverages. Runs daily from 5 to 7 PM through October 15.",
+  },
+  {
+    id: "vesper-lounge-monday-happy-hour-2026",
+    title: "All-Day Happy Hour Mondays at Vesper Lounge",
+    date: "2026-09-07",
+    time: "Mondays in September, all day",
+    location: "Vesper Lounge, Capitol Hill, Denver",
+    description:
+      "Vesper Lounge runs its happy hour menu all day every Monday in September: Vesper fries with harissa aioli, gyro, sloppy joe, burger, and falafel sliders for $5 each. Drink specials include buy-one-get-one dirty martinis and $8 cocktails on tap.",
   },
 ];
