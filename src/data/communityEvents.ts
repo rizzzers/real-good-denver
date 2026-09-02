@@ -1474,4 +1474,14 @@ export const communityEvents: CommunityEvent[] = [
     description:
       "Vesper Lounge runs its happy hour menu all day every Monday in September: Vesper fries with harissa aioli, gyro, sloppy joe, burger, and falafel sliders for $5 each. Drink specials include buy-one-get-one dirty martinis and $8 cocktails on tap.",
   },
+  {
+    id: "colorado-fall-home-show-2026",
+    title: "Colorado Fall Home Show",
+    date: "2026-09-11",
+    time: "Sept. 11-13 (Fri 12-6 PM, Sat 10 AM-6 PM, Sun 10 AM-5 PM)",
+    location: "Colorado Convention Center, Hall A, 700 14th Street, Denver, CO 80202",
+    description:
+      "Lifetime Home Remodeling presents Denver's Colorado Fall Home Show, transforming the Colorado Convention Center into a one-stop destination for fall and winter home projects. More than 250 exhibitors cover the latest in interior design, remodeling, landscaping, and sustainable living. Highlights include the fifth annual Rare Plant Party hosted by Front Range Gardens, the Colorado Kids Market for young entrepreneurs (Sat 10 AM-6 PM, Sun 10 AM-5 PM), the Made in Colorado Marketplace of local artisans, the Mile High Barkway with a Puppy Fashion Show Friday at 3 PM, the Fresh Ideas Stage with expert talks all weekend, the Inspiration Station led by TAB Interior Designs, and the Harvest Highway stamp card game with prizes. Single-day tickets are $10 for adults, $8 for seniors 65 and up, and free for kids 13 and under. Free admission for active military, veterans, first responders, and health care workers, plus a companion, on Friday and Sunday. Sunday is also Teacher Day, with free admission for teachers and school employees plus a companion.",
+    link: "https://www.coloradofallhomeshow.com",
+  },
 ];
