@@ -465,8 +465,9 @@
       "Denver Restaurants"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": null
+    "status": "published",
+    "season": null,
+    "publishedAt": "2026-09-02T18:50:55.663Z"
   },
   {
     "slug": "best-hangover-food-denver",
