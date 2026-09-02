@@ -100,8 +100,11 @@ export async function POST(req: NextRequest) {
     email_sent: false,
   });
 
-  const recipients = ["ryan@ryanestes.info", "fernanda@ryanestes.info"];
-  if (type === "event" || type === "newsletter_signup") {
+  const recipients =
+    type === "newsletter_signup"
+      ? ["ryan@inboxalchemy.co", "fernanda@inboxalchemy.co", "marie@inboxalchemy.co"]
+      : ["ryan@ryanestes.info", "fernanda@ryanestes.info"];
+  if (type === "event") {
     recipients.push("marie@ryanestes.info");
   }
 
