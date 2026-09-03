@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denvers-drought-got-so-bad-neighbors-filed-6-000-sprinkler-tip-offs",
+    title: "Denver's drought got so bad neighbors filed 6,000 sprinkler tip offs and the city handed out $7,250 in fines",
+    date: "2026-09-02",
+    description: "Denver's drought got so bad that neighbors filed 6,000 sprinkler tip-offs and the city handed out $7,250 in fines. Denver's top lawyer faces a second ethics complaint in two days, a Colorado rocket maker is blasting toward Wall Street, and Denver's $175 million street project received a failing grade. Plus, new restaurants Soda Club, Hearth Patisserie, and 85°C Bakery Cafe are opening, Santa Fe Drive is getting a $29 million glow up, and Denver's historic concert hall is selling naming rights to survive.",
+    htmlFile: "/newsletter-issues/denvers-drought-got-so-bad-neighbors-filed-6-000-sprinkler-tip-offs.html",
+  },
+  {
     slug: "denver-did-denver-things-this-week-a-fake-plane-crash-a-real-bear",
     title: "Denver did Denver things this week: a fake plane crash, a real bear rescue, and an 800 dollar an hour lawyer.",
     date: "2026-08-26",
