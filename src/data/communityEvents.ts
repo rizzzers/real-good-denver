@@ -1484,4 +1484,14 @@ export const communityEvents: CommunityEvent[] = [
       "Lifetime Home Remodeling presents Denver's Colorado Fall Home Show, transforming the Colorado Convention Center into a one-stop destination for fall and winter home projects. More than 250 exhibitors cover the latest in interior design, remodeling, landscaping, and sustainable living. Highlights include the fifth annual Rare Plant Party hosted by Front Range Gardens, the Colorado Kids Market for young entrepreneurs (Sat 10 AM-6 PM, Sun 10 AM-5 PM), the Made in Colorado Marketplace of local artisans, the Mile High Barkway with a Puppy Fashion Show Friday at 3 PM, the Fresh Ideas Stage with expert talks all weekend, the Inspiration Station led by TAB Interior Designs, and the Harvest Highway stamp card game with prizes. Single-day tickets are $10 for adults, $8 for seniors 65 and up, and free for kids 13 and under. Free admission for active military, veterans, first responders, and health care workers, plus a companion, on Friday and Sunday. Sunday is also Teacher Day, with free admission for teachers and school employees plus a companion.",
     link: "https://www.coloradofallhomeshow.com",
   },
+  {
+    id: "colorado-saves-the-world-2026-09-24",
+    title: "Colorado Saves the World! (Through Recycling!)",
+    date: "2026-09-24",
+    time: "7:00 PM",
+    location: "Dude IDK Studios, 2801 N Downing St, Denver, CO 80205",
+    description:
+      "A fast-paced news quiz spotlighting the weird, wild, and wonderful happenings in Colorado and the Rocky Mountain region, with a panel of the Centennial State's funniest comedians. Fans of NPR's Wait Wait Don't Tell Me will feel right at home. This episode's special guest is Scott Hutchings, Director of Government Affairs for WM (Waste Management) in the Four Corners region, breaking down a new producer-responsibility program bringing free recycling to households and a new state-of-the-art recycling facility, before the comedians turn trash into comedy gold.",
+    link: "https://denvercomedy.multipass.com/coloradosaves",
+  },
 ];
