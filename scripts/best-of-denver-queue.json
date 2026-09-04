@@ -479,8 +479,9 @@
       "Denver Restaurants"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": null
+    "status": "published",
+    "season": null,
+    "publishedAt": "2026-09-04T18:32:22.215Z"
   },
   {
     "slug": "best-byob-denver",
