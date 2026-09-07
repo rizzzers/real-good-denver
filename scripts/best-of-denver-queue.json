@@ -493,8 +493,9 @@
       "Denver Restaurants"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": null
+    "status": "published",
+    "season": null,
+    "publishedAt": "2026-09-07T19:18:32.903Z"
   },
   {
     "slug": "best-bakery-denver",
