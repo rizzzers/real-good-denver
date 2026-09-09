@@ -1494,4 +1494,14 @@ export const communityEvents: CommunityEvent[] = [
       "A fast-paced news quiz spotlighting the weird, wild, and wonderful happenings in Colorado and the Rocky Mountain region, with a panel of the Centennial State's funniest comedians. Fans of NPR's Wait Wait Don't Tell Me will feel right at home. This episode's special guest is Scott Hutchings, Director of Government Affairs for WM (Waste Management) in the Four Corners region, breaking down a new producer-responsibility program bringing free recycling to households and a new state-of-the-art recycling facility, before the comedians turn trash into comedy gold.",
     link: "https://denvercomedy.multipass.com/coloradosaves",
   },
+  {
+    id: "colorado-sake-co-8-years-2026",
+    title: "Colorado Sake Co. Japanese Grill & Chill: 8 Years of Sake",
+    date: "2026-09-13",
+    time: "12:00-6:00 PM",
+    location: "Colorado Sake Co., 3559 Larimer St., Denver, CO 80205",
+    description:
+      "Colorado Sake Co. marks eight years in RiNo with a free-to-attend Japanese Grill & Chill: yakitori and other skewers off the grill, small-batch sake kegs, and a few limited releases poured for the anniversary. Reservations recommended.",
+    link: "https://visitdenver.com/event/grill-%26-chill-bbq-8-years-of-sake-anniversary/145854/",
+  },
 ];
