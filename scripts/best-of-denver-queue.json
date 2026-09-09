@@ -507,8 +507,9 @@
       "Denver"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": null
+    "status": "published",
+    "season": null,
+    "publishedAt": "2026-09-09T18:46:05.544Z"
   },
   {
     "slug": "best-ice-cream-denver",

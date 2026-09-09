@@ -4104,6 +4104,107 @@ BYOB in Denver is less of a scene and more of a quiet negotiation between diner 
     image: "/images/best-byob-denver.png",
     featured: false,
     tags: ["BYOB", "Best Of", "Denver Restaurants"],
+  },
+  {
+    id: 53,
+    slug: "best-bakery-denver",
+    title: "Best Bakery in Denver Worth Setting an Alarm For",
+    excerpt: "Denver doesn't do subtle. You already know this. But the bakery scene here operates on a different kind of confidence, the kind that means a croissant sells out before 8am and people on r/Denver will spend forty-five minutes debating whether a place deserves its hype.",
+    fullContent: `Denver doesn't do subtle. You already know this. But the bakery scene here operates on a different kind of confidence, the kind that means a croissant sells out before 8am, a bagel has a genuine wait list, and people on r/Denver will spend forty-five minutes debating whether a particular pastry shop deserves its hype. They always have opinions. The opinions are usually right.
+
+Here's the thing about Denver's best bakeries: they're not trying to be New York or Paris. They're not apologizing for being Denver either. What you get is a city that's figured out its own pastry identity, one that involves good coffee within arm's reach, morning light coming through big windows, and bread that makes you feel like the alarm was worth setting. And in this city, that's saying something, because Denver people love their sleep almost as much as they love their mountains.
+
+Whether you want a proper bagel situation, something laminated and buttery, or a cookie the size of your face, this list has you. Some of these spots are neighborhood institutions. Some are a little harder to find. All of them are worth the trip.
+
+---
+
+### **[Rosenberg's Bagels & Delicatessen (Five Points)](https://rosenbergsbagels.com/fivepoints/)**
+725 E 26th Ave, Denver, CO 80205 (Five Points) | $$ | Reservations: No
+
+Let's start with the one that gets talked about most. Rosenberg's is the bagel conversation in Denver, and it has been for years. r/DenverFood regulars consistently point to this spot as the closest thing to a proper New York-style bagel you're going to find in the Mile High City, and they're not wrong to do it. The water thing, the bake, the chew, all of it lands right. The lox situation is serious. The schmear is generous in the way that matters.
+
+You will wait. You should expect to wait. Come anyway. Come early, because the everything bagels and the good cream cheese spreads go fast, and nobody is going to hold a sesame for you out of sympathy.
+
+---
+
+### **[Crema Coffee House](http://cremacoffeehouse.net/)**
+2862 Larimer St, Denver, CO 80205 (RiNo) | $$ | Reservations: No
+
+Crema is where RiNo gets its morning act together. The coffee is excellent and you already know that, but the pastry case at Crema earns its own attention. House-made goods, rotating selection, the kind of quality that makes you realize you've been settling for mediocre croissants everywhere else. The space itself is exactly what you want from a neighborhood bakery-cafe: lived-in, real, not trying too hard.
+
+Locals on r/Denver love Crema for exactly this reason. It doesn't feel like a brand. It feels like a place.
+
+---
+
+### **[Watercourse Foods](https://www.watercoursefoods.com/)**
+837 E 17th Ave, Denver, CO 80218 (Uptown) | $$ | Reservations: Recommended
+
+Watercourse has been doing its thing in Uptown long enough that it's basically a Denver institution at this point. The full menu is beloved, but the bakery side of this operation is where it gets interesting. Entirely plant-based, entirely serious, and consistently producing baked goods that make the whole vegan-or-not conversation irrelevant. A good scone is a good scone. A good muffin doesn't need your dietary philosophy.
+
+The brunch wait can be real on weekends, so either arrive early or resign yourself to the line. People on r/DenverFood thread regularly about Watercourse as a go-to that doesn't feel like a compromise, which is the highest possible compliment.
+
+---
+
+### **[Spoonleaf](https://www.naughtycookingco.com/spoonleaf)**
+1553 Platte St, Denver, CO 80202 (Confluence Park area) | $$ | Reservations: No
+
+Spoonleaf is the one you're going to recommend to people who think they've already seen everything Denver has to offer on the pastry front. The approach here is creative and precise in a way that feels like genuine intention rather than gimmick. This is not a croissant-and-drip-coffee operation. The baked goods are thought about. You'll feel it in the first bite.
+
+It's a smaller spot, which means it fills up fast and things run out. Factor that into your morning planning accordingly.
+
+---
+
+### **[Huckleberry Roasters](http://huckleberryroasters.com/)**
+4301 N Pecos St, Denver, CO 80211 (Sunnyside) | $$ | Reservations: No
+
+Huckleberry is primarily a coffee roaster with a serious reputation, but the pastry program here pulls real weight. The baked goods are thoughtful, the sourcing is intentional, and the whole vibe is the kind of Sunnyside neighborhood energy that makes you feel like you live somewhere cool even on a Tuesday morning.
+
+A well-upvoted thread on r/Denver once surfaced Huckleberry as the kind of low-key perfect morning spot that doesn't need to advertise, which is exactly right. It's a word-of-mouth place for a reason. Now you know.
+
+---
+
+### **[Corvus Coffee Roasters](http://www.corvuscoffee.com/)**
+1740 S Broadway, Denver, CO 80210 (South Broadway) | $$ | Reservations: No
+
+Corvus is a destination for coffee first, but the pastry situation here is not an afterthought. The collaboration with local bakers means the case rotates and stays interesting, and the overall quality level is kept honest by a customer base that notices when something slips. South Broadway is a good street for a Saturday morning walk, and Corvus is the right anchor for it.
+
+The space is beautiful in a minimal, high-ceiling kind of way. You will take a photo. Everyone takes a photo.
+
+---
+
+### **[Inventing Room Dessert Shop - Tickets Required](http://www.tirdenver.com/)**
+4433 W 29th Ave #101, Denver, CO 80212 (West Highlands) | $$$ | Reservations: Yes
+
+This one operates differently. Inventing Room is a ticketed dessert experience, which means you're planning ahead, which means you're committing. That level of commitment gets rewarded. The desserts here are genuinely inventive in ways that make you rethink what dessert is allowed to be. This is not a walk-up-and-get-a-cookie situation. This is an event.
+
+r/Denver folks will tell you to book early and not miss it, especially if you have someone in your life who thinks they've had every interesting dessert Denver has to offer. They haven't had this.
+
+---
+
+### **[Denver Milk Market](https://www.denvermilkmarket.com/)**
+1800 Wazee St Ste 100, Denver, CO 80202 (LoDo) | $$ | Reservations: No
+
+The Milk Market is a food hall, yes, but within it you'll find bakery and pastry options that stand on their own. The Rhein Haus croissant situation has made it into more than one local recommendation thread, and the overall quality of sweet goods available under this roof is better than the food hall format might lead you to expect. Good for grazing. Good for the mornings when you can't decide what you want and the answer turns out to be several things.
+
+---
+
+### **Crumbl Cookies**
+1931 Sheridan Blvd, Edgewater, CO 80214 (Edgewater) | $$ | Reservations: No
+
+Look, Crumbl is a chain. You know it's a chain. But the rotating weekly menu means there's always something new to try, and the cookies are large in the way that is either impressive or alarming depending on your current emotional state. This is not your neighborhood artisan bakery. It is, however, a reliable answer to the question of what to bring to a gathering when you want people to be unreasonably happy.
+
+---
+
+**The Verdict**
+
+Denver's bakery scene has grown into something that doesn't need to apologize to any other city. You've got serious bagel craft at Rosenberg's, creative pastry work at Spoonleaf, neighborhood staples at Crema and Huckleberry, and a ticketed dessert experience at Inventing Room that makes the whole category feel bigger than it used to. Set the alarm. The good stuff goes fast, and in this city, that's earned.`,
+    category: "food",
+    author: "Ryan Estes",
+    date: "2026-09-09",
+    readTime: "6 min read",
+    image: "/images/best-bakery-denver.png",
+    featured: false,
+    tags: ["Bakery", "Best Of", "Denver"],
   }
 ];
 
