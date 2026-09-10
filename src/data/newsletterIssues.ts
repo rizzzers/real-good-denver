@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-said-goodbye-to-shotspotter-hello-to-driverless-waymos-and",
+    title: "Denver said goodbye to ShotSpotter, hello to driverless Waymos, and maybe hello to Garth Brooks in disguise at a honky tonk",
+    date: "2026-09-09",
+    description: "Denver is ditching ShotSpotter, its gunshot detection system, as the city prepares to go quiet on the technology, while driverless Waymo vehicles are hitting Denver streets and Amazon is making a major bet on Aurora. Voters are souring on Mayor Johnston, a walkout turned into a shoving match, and a man with a rubber knife rattled the mayor's security detail. Plus, two new spots opened, Flat Six Coffee and Tiny Rino Treat House, and the Grizzly Rose may have hosted Garth Brooks performing incognito.",
+    htmlFile: "/newsletter-issues/denver-said-goodbye-to-shotspotter-hello-to-driverless-waymos-and.html",
+  },
+  {
     slug: "denvers-drought-got-so-bad-neighbors-filed-6-000-sprinkler-tip-offs",
     title: "Denver's drought got so bad neighbors filed 6,000 sprinkler tip offs and the city handed out $7,250 in fines",
     date: "2026-09-02",
