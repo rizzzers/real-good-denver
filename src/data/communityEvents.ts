@@ -1534,4 +1534,14 @@ export const communityEvents: CommunityEvent[] = [
       "A day at the foot of North Table Mountain with live music, food, local beer and beverages, pumpkin carving, and family activities, plus a chance to explore the ranch and meet the horses. Admission is free, with food, drinks, and activities available for purchase. Proceeds benefit The Horse Protection League and its rescued horses.",
     link: "https://www.thehpl.org",
   },
+  {
+    id: "mas-presents-kenny-blues-boss-wayne-2026",
+    title: "MAS Presents: Kenny \"Blues Boss\" Wayne",
+    date: "2026-10-08",
+    time: "Doors 7:00 PM, music 8:00 PM",
+    location: "The Savoy Denver, 2700 Arapahoe Street, Denver, CO 80205",
+    description:
+      "Internationally acclaimed pianist, vocalist, and songwriter Kenny \"Blues Boss\" Wayne brings more than five decades of blues and boogie-woogie tradition to an intimate solo performance at The Savoy Denver. A Juno Award winner and Boogie Woogie Piano Hall of Fame inductee, Wayne blends deep roots in blues, jazz, gospel, and soul with joyful, commanding playing that keeps the tradition unmistakably alive. Presented by the Music Appreciation Society. All ages welcome.",
+    link: "https://www.maspresents.org/events/kenny-bluesboss-wayne",
+  },
 ];
