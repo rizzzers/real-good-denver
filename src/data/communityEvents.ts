@@ -1544,4 +1544,14 @@ export const communityEvents: CommunityEvent[] = [
       "Internationally acclaimed pianist, vocalist, and songwriter Kenny \"Blues Boss\" Wayne brings more than five decades of blues and boogie-woogie tradition to an intimate solo performance at The Savoy Denver. A Juno Award winner and Boogie Woogie Piano Hall of Fame inductee, Wayne blends deep roots in blues, jazz, gospel, and soul with joyful, commanding playing that keeps the tradition unmistakably alive. Presented by the Music Appreciation Society. All ages welcome.",
     link: "https://www.maspresents.org/events/kenny-bluesboss-wayne",
   },
+  {
+    id: "jamming-on-the-jetty-2026",
+    title: "Jamming on the Jetty",
+    date: "2026-09-19",
+    time: "1:00-8:00 PM",
+    location: "The Jetty at the Boathouse, North side of Sloan's Lake, Denver",
+    description:
+      "A community festival benefiting Sloan's Lake, raising awareness of the lake's challenges while celebrating the neighborhood around it. Seven live bands, local food and drinks, a kids zone, and more.",
+    link: "https://jammingonthejetty.com",
+  },
 ];
