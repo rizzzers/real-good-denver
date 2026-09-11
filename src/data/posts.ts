@@ -4205,6 +4205,76 @@ Denver's bakery scene has grown into something that doesn't need to apologize to
     image: "/images/best-bakery-denver.png",
     featured: false,
     tags: ["Bakery", "Best Of", "Denver"],
+  },
+  {
+    id: 54,
+    slug: "best-ice-cream-denver",
+    title: "Best Ice Cream in Denver: Scooped, Stacked, and Slightly Insane",
+    excerpt: "Denver doesn't do anything halfway, and ice cream is no exception. We've turned frozen dairy into a birthright, a post-hike requirement, and basically a religious experience around here.",
+    fullContent: `Denver doesn't do anything halfway. Not the sunshine, not the altitude, not the self-righteousness about outdoor recreation, and absolutely not the ice cream. You live in a city that has collectively decided a scoop of something frozen and excellent is not a luxury. It is a birthright. A post-hike requirement. A Tuesday-for-no-reason tradition. The line snaking down the block outside a giant milk can on a Wednesday night is not an anomaly here. That's just Denver being Denver.
+
+The scene has gotten genuinely interesting in the past few years, which is both good news and the kind of news that makes you realize you've been eating the wrong things. There are spots doing flavors that sound like a fever dream and taste like a revelation. There are classics that earned their reputation and kept it. There are places where the dairy isn't even dairy and you'd never know. This list covers the ones worth going out of your way for, the ones r/Denver regulars bring up every single time someone asks where to get a scoop, and a couple that r/DenverFood has quietly decided are underrated. Let's get into it.
+
+---
+
+### **[Little Man Ice Cream](http://www.littlemanicecream.com/)**
+
+2620 16th St, Denver, CO 80211 (LoHi) | $$ | Reservations: No
+
+You know Little Man. Everyone knows Little Man. The 28-foot cream can sits in LoHi like a monument to the city's collective sweet tooth, and if you've never stood in that line on a warm evening watching the sun drop behind the mountains with a scoop of salted Oreo in your hand, you have not yet lived your full Denver life. The thing is, it earns the hype. This isn't a tourist trap that coasts on its aesthetic. The ice cream is genuinely good, made fresh, rotated seasonally, and priced in a way that won't make you feel robbed. The seasonal stuff is where they shine. Brown sugar bourbon peach in the summer will rearrange your priorities. Locals on r/Denver tend to grumble about the wait in the same breath they admit they go back every week, which is the most honest possible endorsement. The satellite location means you can find them elsewhere in the city too, but the can is the experience. Get the can.
+
+---
+
+### **[Sweet Action](https://sweetaction.com/scoop-shops/broadway/)**
+
+52 Broadway, Denver, CO 80203 (Baker) | $$ | Reservations: No
+
+Sweet Action is what happens when someone decides ice cream should be taken seriously as a creative medium and then actually follows through. The Broadway shop is small, a little cramped, and exactly the kind of place that makes you feel like you found something instead of just stumbling into a well-lit chain. The flavors here are the point. We're talking things like Mexican chocolate with cayenne, horchata, vegan green chile chocolate chip, and rotating collaborations that have no business working as well as they do. r/DenverFood regulars have been recommending this spot for years with the kind of quiet insistence that means something. It's not the flashy pick. It's the correct pick. The vegan options are not an afterthought here. They're legitimately excellent, which matters whether you're dairy-free or just curious. Go on a weeknight if you can. The weekend line moves but it moves slowly.
+
+---
+
+### **[Vital Root](https://ediblebeats.com/restaurants/vital-root/)**
+
+3915 Tennyson St, Denver, CO 80212 (Berkeley) | $$ | Reservations: No
+
+Vital Root is primarily a plant-based restaurant, and yes, they do ice cream, and yes, it's worth talking about in the same breath as places that have been scooping for decades. The soft serve and frozen dessert options rotate and they tend to be doing something more interesting than the standard oat milk chocolate vanilla binary. Tennyson Street is already a good reason to be in Berkeley, and finishing a meal here with something frozen and weird and deeply satisfying is the correct ending to that particular story. A well-upvoted thread on r/Denver noted that people who are skeptical of vegan desserts tend to change their tune here, which tracks. It's not trying to pretend it's dairy. It's doing something different and confident about it.
+
+---
+
+### **[Watercourse Foods](https://www.watercoursefoods.com/)**
+
+837 E 17th Ave, Denver, CO 80218 (Uptown) | $$ | Reservations: Recommended
+
+Watercourse has been the anchor of Denver's plant-based food scene long enough that recommending it still feels like you're saying something useful. It's a full restaurant with brunch and dinner, but the dessert program, including their frozen offerings, is worth your attention even if you just wander in for something sweet. The approach here is homey and serious at the same time, which is a hard tone to land and they've been landing it for years. If you're already in Uptown, there's no reason not to make this your dessert stop. The neighborhood has changed around it but the food has stayed good, which is rare enough to be worth noting.
+
+---
+
+### **[Uchi Denver](https://uchi.uchirestaurants.com/location/denver/)**
+
+2500 Lawrence St, Denver, CO 80205 (RiNo) | $$$$ | Reservations: Yes
+
+Uchi is not an ice cream shop. Let's be clear about that. It's one of the best Japanese restaurants in the city, and the dessert program happens to include some frozen and semifreddo-adjacent things that will make you reconsider the category entirely. If you're going for a full dinner, and you should be going for a full dinner, you end it with whatever the pastry team is doing with frozen elements. It changes, it's precise, and it tastes expensive because it is expensive and that expense is justified. This is not a casual scoop situation. This is ice cream as punctuation on a meal that already said something important. r/DenverFood has spent considerable energy debating whether Uchi is worth the price, and the consensus that keeps emerging is yes, with caveats about special occasions and planning ahead for reservations.
+
+---
+
+### **[Leven Deli Co.](https://eatleven.com/)**
+
+123 W 12th Ave, Denver, CO 80204 (Capitol Hill/Golden Triangle) | $$ | Reservations: No
+
+Leven is primarily doing deli things, good deli things, but they show up in ice cream conversations for a reason. The dessert and sweet offerings here have a specificity to them that reflects the care in the rest of the menu. It's not a dedicated scoop shop but it earns a spot on this list for doing something unexpected and doing it well. If you're in the neighborhood and you've been overlooking this stop, that's on you at this point.
+
+---
+
+**The Verdict**
+
+Denver's ice cream scene is not trying to be New York or Portland or anywhere else. It's doing its own thing with local ingredients, weird flavors, and a general attitude that summer here means you eat something frozen whether you planned to or not. Start at Little Man if you haven't been. Go to Sweet Action if you have. Work your way through the rest based on what neighborhood you're already in, because Denver is the kind of city where every good errand ends with dessert and no one feels bad about it.`,
+    category: "food",
+    author: "Ryan Estes",
+    date: "2026-09-11",
+    readTime: "6 min read",
+    image: "/images/best-ice-cream-denver.png",
+    featured: false,
+    tags: ["Ice Cream", "Best Of", "Denver"],
   }
 ];
 

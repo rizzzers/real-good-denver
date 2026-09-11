@@ -521,8 +521,9 @@
       "Denver"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": null
+    "status": "published",
+    "season": null,
+    "publishedAt": "2026-09-11T18:42:08.068Z"
   },
   {
     "slug": "best-mexican-restaurant-denver",
