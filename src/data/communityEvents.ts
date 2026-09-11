@@ -1504,4 +1504,34 @@ export const communityEvents: CommunityEvent[] = [
       "Colorado Sake Co. marks eight years in RiNo with a free-to-attend Japanese Grill & Chill: yakitori and other skewers off the grill, small-batch sake kegs, and a few limited releases poured for the anniversary. Reservations recommended.",
     link: "https://visitdenver.com/event/grill-%26-chill-bbq-8-years-of-sake-anniversary/145854/",
   },
+  {
+    id: "mas-presents-german-lopez-2026",
+    title: "MAS Presents: Germán López",
+    date: "2026-11-25",
+    time: "Doors 7:00 PM, music 8:00 PM",
+    location: "The Savoy Denver, 2700 Arapahoe Street, Denver, CO 80205",
+    description:
+      "Acclaimed Canarian musician Germán López brings the timple, the five-string traditional instrument of the Canary Islands, to Denver in a performance moving fluidly between folk, jazz, Latin, and contemporary influences. One of the instrument's foremost players, López treats the timple as a living, evolving voice, honoring its cultural roots while exploring its range and nuance. Presented by the Music Appreciation Society. All ages welcome.",
+    link: "https://www.maspresents.org/events/german-lopez",
+  },
+  {
+    id: "mas-presents-natalia-bernal-jason-ennis-2026",
+    title: "MAS Presents: Natalia Bernal & Jason Ennis",
+    date: "2026-12-03",
+    time: "Doors 7:00 PM, music 8:00 PM",
+    location: "The Savoy Denver, 2700 Arapahoe Street, Denver, CO 80205",
+    description:
+      "Chilean vocalist, songwriter, and composer Natalia Bernal and acclaimed Canadian guitarist, composer, and arranger Jason Ennis bring nearly two decades of musical collaboration to an intimate evening celebrating the musical traditions of the Americas. Drawing from Latin American folk, Brazilian music, jazz, and repertoire from across North and South America, the duo highlights the warmth and conversational interplay between Bernal's expressive voice and Ennis's lyrical guitar. Presented by the Music Appreciation Society. All ages welcome.",
+    link: "https://www.maspresents.org/events/natalia-bernal-jason-ennis",
+  },
+  {
+    id: "harvest-fest-horse-protection-league-2026",
+    title: "Harvest Fest at The Horse Protection League",
+    date: "2026-10-10",
+    time: "2:00-8:00 PM",
+    location: "Historic Churches Ranch, 17999 W. 60th Ave., Arvada, CO 80403",
+    description:
+      "A day at the foot of North Table Mountain with live music, food, local beer and beverages, pumpkin carving, and family activities, plus a chance to explore the ranch and meet the horses. Admission is free, with food, drinks, and activities available for purchase. Proceeds benefit The Horse Protection League and its rescued horses.",
+    link: "https://www.thehpl.org",
+  },
 ];
