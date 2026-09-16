@@ -1554,4 +1554,14 @@ export const communityEvents: CommunityEvent[] = [
       "A community festival benefiting Sloan's Lake, raising awareness of the lake's challenges while celebrating the neighborhood around it. Seven live bands, local food and drinks, a kids zone, and more.",
     link: "https://jammingonthejetty.com",
   },
+  {
+    id: "lil-bergamot-friends-cake-event-2026",
+    title: "Lil Bergamot & Friends: Denver Cake Event",
+    date: "2026-10-03",
+    time: "1:00 PM",
+    location: "Moodswing, 3625 E 48th Ave, Denver, CO 80216",
+    description:
+      "The Lil Bergamot & Friends cake exchange returns in a new venue with an on-site restaurant and bar, plus pickleball courts and plenty of indoor and outdoor space. Bring a cake and leave with a box full of cake from other bakers. Not a baker? Support a local business or bring one from a trusted bakery instead. A chance to meet local bakers and baking enthusiasts and sample some beautiful creations.",
+    link: "https://partiful.com/e/pH0iZS56Ie0d3qv5rEeR",
+  },
 ];
