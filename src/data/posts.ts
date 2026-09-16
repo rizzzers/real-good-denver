@@ -4381,6 +4381,104 @@ Go eat. Denver made it worth the trouble.`,
     image: "/images/best-mexican-restaurant-denver.png",
     featured: false,
     tags: ["Mexican Food", "Best Of", "Denver Restaurants"],
+  },
+  {
+    id: 56,
+    slug: "best-indian-restaurant-denver",
+    title: "Best Indian Restaurant in Denver, Ranked by Spice Tolerance",
+    excerpt: "Denver's got killer Indian spots now that'll ruin you for mediocre takeout forever. Once you taste real heat and actual spice layering, that jarred tikka masala in your pantry becomes pure embarrassment.",
+    fullContent: `Denver has a spice problem. Not in the bad way. In the way where once you've eaten real Indian food, food that actually respects what heat and complexity can do together, you find yourself standing in your kitchen at 11pm wondering why you ever bothered cooking anything else. The dal feels thin. The jarred tikka masala looks at you with shame. You know what you've lost.
+
+The good news is Denver's Indian food scene is quietly, seriously excellent. The bad news is it's spread out. Colfax to Centennial. Capitol Hill to Arvada. You're going to need a car, a plan, and an honest relationship with your own spice tolerance. This list is organized by that last thing, because walking into Bawarchi and asking for medium when you mean mild is a choice you will make once.
+
+A note before we get into it: the Indian food conversation in Denver tends to get loud on r/Denver and r/DenverFood, and for good reason. Locals in those communities get particular about biryani, about whether the butter chicken is too sweet, about which spots are actually cooking for an Indian audience versus performing Indian food for a suburban one. That tension is real, it's worth understanding, and it shapes every recommendation on this list.
+
+---
+
+### **[SPICE ROOM](https://denverspiceroom.com/locations/east-colfax/)**, The Colfax Anchor
+
+3100 E Colfax Ave, Denver, CO 80206 (Congress Park) | $$ | Reservations: No
+
+Spice Room keeps showing up in Denver food conversations the way certain friends keep showing up at parties. You didn't necessarily plan around them, but you're always glad they're there. The East Colfax location sits right in the thick of one of Denver's most chaotic, lovable corridors, and the food matches the energy without sacrificing execution.
+
+The menu hits the expected marks but hits them well. Chicken tikka masala that actually has backbone, lamb dishes that taste like someone cared about the lamb, and a samosa situation that has no business being as good as it is on a busy weeknight. Spice levels are real here. When they say medium-hot, they mean it. r/DenverFood regulars consistently point to this spot as reliable, accessible, and not dumbed down for altitude tourists.
+
+The vibe is casual, the line can get annoying on weekends, and the space isn't trying to impress you with decor. It's trying to feed you. It succeeds.
+
+---
+
+### **Bawarchi Biryani Point**, For People Who Know What Biryani Actually Is
+
+11001 E Arapahoe Pl b1, Centennial, CO 80112 (Centennial) | $$ | Reservations: No
+
+Here's the thing about Bawarchi. It is not a dinner-out experience. It's a strip mall in Centennial, it moves fast, and it is not interested in your ambiance needs. What it is interested in is producing some of the best biryani in the entire Denver metro, and r/Denver threads on Indian food have made this case repeatedly and convincingly.
+
+The dum biryani here, layered and slow-cooked in the traditional method, is the real deal. The spice builds slowly and then just keeps going, in the way that good biryani should. This is not spicy as a gimmick. This is spicy as a byproduct of cooking with actual intention. Order the mutton if you're confident. Order the chicken if you're smart about it being a weekday and you have things to do later.
+
+Know this going in: the heat is not negotiable in the way it is at more Americanized spots. That's the whole point.
+
+---
+
+### **India Express Denver**, Fast, Honest, Underrated
+
+727 Colorado Blvd C, Denver, CO 80206 (Congress Park) | $ | Reservations: No
+
+India Express Denver doesn't have a website, doesn't need one, and operates on the energy of a place that knows its regulars by order. It's the kind of spot that gets mentioned in r/Denver threads when someone asks for good Indian food that won't cost them forty dollars a plate.
+
+The lunch specials are the move. Generous portions, consistent quality, and spice levels that are honest rather than diplomatic. This is weekday food in the best sense. You go, you eat well, you get back to your life. The dal makhani is worth the trip on its own.
+
+---
+
+### **[GAIA MASALA & BURGER](https://gaiamasalaandburger.com/)**, The Weird One You Need to Try
+
+609 N Grant St, Denver, CO 80203 (Capitol Hill) | $$ | Reservations: No
+
+Yes, the name is strange. Yes, it says burger. Yes, you should go anyway. Gaia Masala is doing something genuinely interesting in Capitol Hill, blending Indian flavors into a format that doesn't feel like a fusion experiment gone wrong. The masala fries alone have caused minor arguments on r/DenverFood about whether this place belongs in the Indian food conversation or its own category entirely. It belongs in both.
+
+The spice is present but approachable, which makes this the right call if you're bringing someone who claims they don't like spicy food but eats jalapeno chips without flinching. It's also vegetarian-friendly in a real way, not a we-have-one-veggie-option way.
+
+---
+
+### **[Namaste | India Restaurant & Bar](http://www.niarvada.com/)**, The Suburban Stalwart
+
+5545 Wadsworth Bypass, Arvada, CO 80002 (Arvada) | $$ | Reservations: Recommended
+
+Arvada isn't where you'd expect to find a consistently solid Indian restaurant, but Namaste has been holding it down in the western suburbs long enough that it's developed genuine loyalty. The bar program is better than it has any right to be. The butter chicken is crowd-pleasing without being embarrassing. Spice levels trend slightly mild compared to the other spots on this list, which is either a feature or a bug depending on who you brought.
+
+Good for groups. Good for people who need naan that arrives quickly and in large quantities. Good for a Friday night when you don't want to deal with parking on Colfax.
+
+---
+
+### **[Cafe India Denver](http://cafeindiadenver.com/)**, South Suburban, Quietly Excellent
+
+6886 S Clinton St, Greenwood Village, CO 80112 (Greenwood Village) | $$ | Reservations: Recommended
+
+Cafe India Denver is the spot for people in the DTC corridor who have stopped apologizing for not driving into the city. The food is careful and consistent, the service is warm in a way that feels genuine, and the menu covers enough ground that even your most difficult-to-feed family member will find something.
+
+The tandoor work here is worth calling out specifically. Naan and chicken that come out of a real tandoor oven have a char and a pull that you just can't fake. Spice levels are honest but err on the friendlier side, which makes this the right call for a business lunch or a dinner with your parents who keep describing things as too intense.
+
+---
+
+### **[Sherpa House Restaurant and Culture Center](http://www.sherpahouse.com/)**, A Different Kind of South Asian
+
+1518 Washington Ave, Golden, CO 80401 (Golden) | $$ | Reservations: Recommended
+
+Sherpa House is Nepali, technically, which means it sits at the edge of this list's premise and earns its spot anyway. The flavors share DNA with Indian cooking but the approach is distinctly different. Less heavy, more herbaceous, built around dal bhat and momos and dishes that reflect the cooking of the Himalayas rather than the subcontinent's lowland cuisines.
+
+If you've only eaten Indian food in the straightforward sense, this is worth the drive to Golden for the education alone. The space is genuinely beautiful, the staff knows the food deeply, and the momo situation will rearrange your priorities. Spice is present but doesn't dominate, which gives everything else room to speak.
+
+---
+
+**The Verdict**
+
+Denver's Indian food scene rewards people who are willing to drive a little and ask questions. The best spots aren't always the most visible, the spice levels are not always what you expect, and the conversations happening on r/Denver about biryani and butter chicken are more useful than any app review. Start at Bawarchi if you want to understand what real heat looks like. Start at Spice Room if you want something that's great and easy. Come back and work through the rest. You have time. The mountains aren't going anywhere.`,
+    category: "food",
+    author: "Ryan Estes",
+    date: "2026-09-16",
+    readTime: "7 min read",
+    image: "/images/best-indian-restaurant-denver.png",
+    featured: false,
+    tags: ["Indian Food", "Best Of", "Denver Restaurants"],
   }
 ];
 

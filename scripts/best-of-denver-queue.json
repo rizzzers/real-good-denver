@@ -549,8 +549,9 @@
       "Denver Restaurants"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": null
+    "status": "published",
+    "season": null,
+    "publishedAt": "2026-09-16T18:59:15.894Z"
   },
   {
     "slug": "best-thai-food-denver",
