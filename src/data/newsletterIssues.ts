@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-is-suing-to-keep-armed-ice-agents-from-the-polls-while-its",
+    title: "Denver is suing to keep armed ICE agents from the polls while its governor wrestles a 510 pound sumo champion.",
+    date: "2026-09-16",
+    description: "Denver is suing to keep armed ICE agents away from the polls, and Governor Polis made headlines by taking down a 510-pound sumo wrestler. Denver Police have reopened 13 cases tied to a disgraced crime lab analyst, school board members accused of slurs are demanding their own investigation, and a century-old Colfax dive bar received a last-minute save. Plus, Alterra is moving into the old Denver Post building, a dead Macy's is being converted into 358 apartments, and an 18-mile bus line just got a green light.",
+    htmlFile: "/newsletter-issues/denver-is-suing-to-keep-armed-ice-agents-from-the-polls-while-its.html",
+  },
+  {
     slug: "denver-said-goodbye-to-shotspotter-hello-to-driverless-waymos-and",
     title: "Denver said goodbye to ShotSpotter, hello to driverless Waymos, and maybe hello to Garth Brooks in disguise at a honky tonk",
     date: "2026-09-09",
