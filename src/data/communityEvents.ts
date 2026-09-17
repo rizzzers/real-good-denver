@@ -1564,4 +1564,60 @@ export const communityEvents: CommunityEvent[] = [
       "The Lil Bergamot & Friends cake exchange returns in a new venue with an on-site restaurant and bar, plus pickleball courts and plenty of indoor and outdoor space. Bring a cake and leave with a box full of cake from other bakers. Not a baker? Support a local business or bring one from a trusted bakery instead. A chance to meet local bakers and baking enthusiasts and sample some beautiful creations.",
     link: "https://partiful.com/e/pH0iZS56Ie0d3qv5rEeR",
   },
+  {
+    id: "the-salty-hispanic-heritage-month-2026",
+    title: "Hispanic Heritage Month Specials at The Salty",
+    date: "2026-09-14",
+    time: "Sept. 14-27",
+    location: "The Salty, Tennyson, Denver",
+    description:
+      "The Salty celebrates Hispanic Heritage Month at its Tennyson shop with two new donut flavors inspired by founder Amanda Pizarro-Rodriguez's Cuban-American roots: Guava and Cheese, a 24-hour brioche filled with swirled guava and cream cheese, and White Chocolate Tres Leches, a 24-hour brioche soaked in a rum-infused three-milk mixture and finished with torched meringue. Both flavors stay on the menu permanently after the celebration. From Sept. 21 through 27, guests can also try a limited-edition flan special.",
+  },
+  {
+    id: "panzano-fall-menu-2026",
+    title: "Fall Menu Launch at Panzano",
+    date: "2026-09-19",
+    location: "Panzano, Denver",
+    description:
+      "New executive chef Giovanni Lanzante debuts his first seasonal menu overhaul at the downtown Northern Italian restaurant: arancini with pumpkin, ricotta, and roasted red pepper coulis, insalata autunnale with baby spinach, radicchio, gorgonzola, and poached pear, risotto alle verdure with seasonal squash and goat cheese, quaglie alla saltimbocca (Bandera quail with sage and prosciutto), and grilled elk loin with polenta and gremolata.",
+    link: "https://panzano-denver.com",
+  },
+  {
+    id: "gattara-patio-series-fridays-2026",
+    title: "Gattara Patio Series: Friday Nights",
+    date: "2026-09-18",
+    time: "Fridays, 5:00-8:00 PM (Sept. 18 & 25)",
+    location: "Gattara, Uptown, Denver",
+    description:
+      "Gattara extends its weekly live music series through September with a new Friday evening slot: live music, Sonoma-Cutrer wine specials, and a full spread of Italian classics from cocktails to Neapolitan-style pizzas.",
+    link: "https://gattararestaurant.com",
+  },
+  {
+    id: "gattara-negroni-week-2026",
+    title: "Negroni Week at Gattara",
+    date: "2026-09-21",
+    time: "Sept. 21-24",
+    location: "Gattara, Uptown, Denver",
+    description:
+      "Gattara celebrates Negroni Week, the annual celebration that raises money for a different charitable organization each year, with its classic Negroni (Tanqueray gin, vermouth rosso, and Campari) and a lighter Americano riff (vermouth rosso, Campari, and club soda).",
+    link: "https://gattararestaurant.com",
+  },
+  {
+    id: "molino-chido-last-patio-party-2026",
+    title: "Last Patio Party of the Season at Molino Chido",
+    date: "2026-09-27",
+    time: "12:00-4:00 PM",
+    location: "Molino Chido, Denver",
+    description:
+      "Molino Chido closes out the summer season with one last Patio Party: specialty bites off the grill from Chef Michael Diaz de Leon, tacos, quesadillas, tortas, and more, plus two specialty cocktails from Latina-founded Olta Whiskey riffing on the paloma and highball. Reservations encouraged via Resy.",
+  },
+  {
+    id: "bgc-cocktail-class-vodka-gin-2026",
+    title: "B&GC Cocktail Class: Vodka + Gin",
+    date: "2026-10-05",
+    time: "6:00-7:30 PM",
+    location: "B&GC, beneath Halcyon, a hotel in Cherry Creek, Denver",
+    description:
+      "The first installment of B&GC's monthly cocktail class series: an intimate, 20-person hands-on session exploring vodka and gin, from the distinctive qualities of each spirit to the techniques behind some of their most iconic cocktails, led by B&GC bartenders. $60 per ticket.",
+  },
 ];
