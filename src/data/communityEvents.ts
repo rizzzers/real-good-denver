@@ -1650,4 +1650,14 @@ export const communityEvents: CommunityEvent[] = [
       "This event is part of the exhibition (Un)Altered Books: Unheard Voices, on view now through November 15 at DU Libraries. More than 30 artists and community members explore censorship, banned books, erased histories, and silenced stories through altered books, sculpture, mixed media, and visual art. The Open Case reception features artist talks and discussion on October 6. The exhibition itself can be viewed anytime during regular library hours: Monday through Friday 8 AM to 8 PM, Saturday 9 AM to 8 PM, and Sunday 10 AM to 8 PM. If the doors are locked but the library is open, call (303) 871-3707. Sponsored by the Women's Caucus for Art, Colorado Chapter, DU Libraries, and the Blair-Caldwell African American Research Library. Free to attend.",
     link: "https://library.du.edu",
   },
+  {
+    id: "cra-hospy-awards-gala-2026",
+    title: "2026 CRA HOSPY Awards Gala",
+    date: "2026-11-16",
+    time: "6:00 PM",
+    location: "Seawell Ballroom, Denver Performing Arts Complex, 1350 Arapahoe St., Denver",
+    description:
+      "The Colorado Restaurant Association's HOSPY Awards gala celebrates the talent and accomplishments of Colorado's restaurant and hospitality community, honoring 56 statewide finalists, four category awardees, and four new inductees into the Colorado Foodservice Hall of Fame, plus the CRA's four Lifetime Achievement Award honorees. Public voting for finalists is open now through October 30 at cohospyawards.com.",
+    link: "https://cohospyawards.com",
+  },
 ];
