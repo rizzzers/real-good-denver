@@ -1642,12 +1642,12 @@ export const communityEvents: CommunityEvent[] = [
   },
   {
     id: "unaltered-books-unheard-voices-2026",
-    title: "(Un)Altered Books: Unheard Voices",
-    date: "2026-09-14",
-    time: "Through Nov. 15 during library hours; reception and artist talks Oct. 6, 5-7:30 PM",
-    location: "Anderson Academic Commons, University of Denver, 2150 E. Evans Ave., Denver",
+    title: "(Un)Altered Books: Unheard Voices, Reception and Artist Talks",
+    date: "2026-10-06",
+    time: "5:00-7:30 PM",
+    location: "Anderson Academic Commons, Room 290, University of Denver, 2150 E. Evans Ave., Denver",
     description:
-      "An art exhibition asking what happens when a story is erased. More than 30 artists and community members respond to censored words, banned books, erased histories, and silenced stories through altered books, sculpture, mixed media, and visual art, curated from an open call by Lynne Muth, Susan Vaho, Robyn Jackson, and Shanti Zaid. On view during regular library hours through November 15, with an Open Case reception and artist talks on Tuesday, October 6, 5 to 7:30 PM, in Room 290. Sponsored by the Women's Caucus for Art Colorado, DU Libraries, and the Blair-Caldwell African American Research Library. Free to attend.",
+      "This event is part of the exhibition (Un)Altered Books: Unheard Voices, on view now through November 15 at DU Libraries. More than 30 artists and community members explore censorship, banned books, erased histories, and silenced stories through altered books, sculpture, mixed media, and visual art. The Open Case reception features artist talks and discussion on October 6. The exhibition itself can be viewed anytime during regular library hours: Monday through Friday 8 AM to 8 PM, Saturday 9 AM to 8 PM, and Sunday 10 AM to 8 PM. If the doors are locked but the library is open, call (303) 871-3707. Sponsored by the Women's Caucus for Art, Colorado Chapter, DU Libraries, and the Blair-Caldwell African American Research Library. Free to attend.",
     link: "https://library.du.edu",
   },
 ];
