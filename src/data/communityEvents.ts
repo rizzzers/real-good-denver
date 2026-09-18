@@ -1640,4 +1640,14 @@ export const communityEvents: CommunityEvent[] = [
       "Cornerstone Community Outreach presents Casino Night, a fundraiser supporting local individuals rebuilding stable lives after homelessness, addiction, and justice involvement. An evening of blackjack, poker, roulette, food, and a silent auction. Proceeds benefit Cornerstone Community Outreach's programs and services.",
     link: "https://givebutter.com/c/casino-night-ajvbyu",
   },
+  {
+    id: "unaltered-books-unheard-voices-2026",
+    title: "(Un)Altered Books: Unheard Voices",
+    date: "2026-09-14",
+    time: "Through Nov. 15 during library hours; reception and artist talks Oct. 6, 5-7:30 PM",
+    location: "Anderson Academic Commons, University of Denver, 2150 E. Evans Ave., Denver",
+    description:
+      "An art exhibition asking what happens when a story is erased. More than 30 artists and community members respond to censored words, banned books, erased histories, and silenced stories through altered books, sculpture, mixed media, and visual art, curated from an open call by Lynne Muth, Susan Vaho, Robyn Jackson, and Shanti Zaid. On view during regular library hours through November 15, with an Open Case reception and artist talks on Tuesday, October 6, 5 to 7:30 PM, in Room 290. Sponsored by the Women's Caucus for Art Colorado, DU Libraries, and the Blair-Caldwell African American Research Library. Free to attend.",
+    link: "https://library.du.edu",
+  },
 ];
