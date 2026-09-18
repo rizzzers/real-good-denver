@@ -1630,4 +1630,14 @@ export const communityEvents: CommunityEvent[] = [
       "Founded by master sommelier and Boulder Wine Merchant owner Brett Zimmerman, the Boulder Burgundy Festival celebrates its 15th year, bringing Burgundy producers, leading sommeliers, and wine enthusiasts together for an intimate weekend of discovery. Saturday brings Burgundy Above Boulder, a Paulee-inspired lunch at Flagstaff House from 10:30 a.m. to 2:30 p.m. featuring a journey through the Cote de Beaune poured by leading sommeliers ($375). Sunday at Academy Mapleton Hill opens with Burgundy in Contrast: Chassagne and Volnay, an educational seminar and tasting with producers Sabine Mollard and Nicolas Rossignol from noon to 1:30 p.m. ($175), followed by Burgundy in Full: The Grand Tasting from 2 to 5 p.m., featuring more than 60 wines alongside charcuterie, Riedel stems, and live music ($125). A Complete Sunday Burgundy Experience ticket combines both Sunday events for $250. Proceeds support the festival's nonprofit mission of advancing wine education and community causes.",
     link: "https://boulderburgundyfestival.com/",
   },
+  {
+    id: "cornerstone-casino-night-2026",
+    title: "Casino Night Fundraiser",
+    date: "2026-10-28",
+    time: "6:00-10:00 PM",
+    location: "Mile High Station, 2027 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Cornerstone Community Outreach presents Casino Night, a fundraiser supporting local individuals rebuilding stable lives after homelessness, addiction, and justice involvement. An evening of blackjack, poker, roulette, food, and a silent auction. Proceeds benefit Cornerstone Community Outreach's programs and services.",
+    link: "https://givebutter.com/c/casino-night-ajvbyu",
+  },
 ];
