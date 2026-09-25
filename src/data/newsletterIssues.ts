@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-spent-the-week-fighting-over-beavers-guarding-the-mail-and",
+    title: "Denver spent the week fighting over beavers, guarding the mail, and unveiling a bronze slugger the size of a school bus",
+    date: "2026-09-25",
+    description: "Todd Helton now has a 17-foot bronze statue outside Coors Field, Denver approved plans to flood more mountain land for tap water, and the city is fighting over beaver displacement after residents were not consulted. Ball Arena is getting a $135 million renovation, a 63-acre retail development is rising in Littleton, and Colfax is receiving a $70 million revitalization. Plus, armed guards are now stationed at Denver's mail sorting facility, a wellness retreat opened on South Broadway, and new restaurants Peach & Jack's Bar & Grill and Sadboy Creamery have arrived in Denver.",
+    htmlFile: "/newsletter-issues/denver-spent-the-week-fighting-over-beavers-guarding-the-mail-and.html",
+  },
+  {
     slug: "denver-is-suing-to-keep-armed-ice-agents-from-the-polls-while-its",
     title: "Denver is suing to keep armed ICE agents from the polls while its governor wrestles a 510 pound sumo champion.",
     date: "2026-09-16",
