@@ -100,18 +100,23 @@ export async function POST(req: NextRequest) {
     email_sent: false,
   });
 
-  const recipients =
-    type === "newsletter_signup"
-      ? ["ryan@inboxalchemy.co", "fernanda@inboxalchemy.co", "marie@inboxalchemy.co"]
-      : ["ryan@ryanestes.info", "fernanda@ryanestes.info"];
+  const isSignup = type === "newsletter_signup";
+  const recipients = isSignup
+    ? ["ryan@inboxalchemy.co"]
+    : ["ryan@ryanestes.info", "fernanda@ryanestes.info"];
   if (type === "event") {
     recipients.push("marie@ryanestes.info");
   }
+  // Signups CC the Inbox Alchemy team plus the client's Beehiiv login (estes@gooddenver.com).
+  const cc = isSignup
+    ? ["fernanda@inboxalchemy.co", "marie@inboxalchemy.co", "estes@gooddenver.com"]
+    : undefined;
 
   try {
     await resend.emails.send({
       from: "Real Good Denver <noreply@ryanestes.info>",
       to: recipients,
+      cc,
       replyTo: email,
       subject,
       html,
