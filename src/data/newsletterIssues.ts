@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-in-a-swat-standoff-and-a-2-5-million-ad-campaign-begging",
+    title: "Denver in a SWAT standoff, and a $2.5 million ad campaign begging America to still love it.",
+    date: "2026-09-30",
+    description: "A five-hour SWAT standoff shut down South Federal Boulevard over a family fight, and Denver business leaders launched a $2.5 million ad campaign to convince America the city is not dying. Ball Arena is eyeing a $135 million renovation, robotaxis have arrived in the Mile High City, and a new hotel is rising on West Colfax. Plus, the DPS school board erupted into an antisemitism feud, and Denver finally completed two blocks of its downtown bike loop.",
+    htmlFile: "/newsletter-issues/denver-in-a-swat-standoff-and-a-2-5-million-ad-campaign-begging.html",
+  },
+  {
     slug: "denver-spent-the-week-fighting-over-beavers-guarding-the-mail-and",
     title: "Denver spent the week fighting over beavers, guarding the mail, and unveiling a bronze slugger the size of a school bus",
     date: "2026-09-25",
