@@ -22,7 +22,7 @@ export async function POST(req: NextRequest) {
   let html = "";
 
   if (type === "newsletter_signup") {
-    subject = "Real Good Denver - Newsletter Signup";
+    subject = "RGD - New Subscriber";
     html = `
       <p><strong>Name:</strong> ${name || "N/A"}</p>
       <p><strong>Email:</strong> ${email}</p>
