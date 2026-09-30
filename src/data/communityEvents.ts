@@ -1660,4 +1660,14 @@ export const communityEvents: CommunityEvent[] = [
       "The Colorado Restaurant Association's HOSPY Awards gala celebrates the talent and accomplishments of Colorado's restaurant and hospitality community, honoring 56 statewide finalists, four category awardees, and four new inductees into the Colorado Foodservice Hall of Fame, plus the CRA's four Lifetime Achievement Award honorees. Public voting for finalists is open now through October 30 at cohospyawards.com.",
     link: "https://cohospyawards.com",
   },
+  {
+    id: "comedy-church-halloween-2026",
+    title: "Comedy Church: Halloween",
+    date: "2026-10-30",
+    time: "8:00 PM",
+    location: "RISE Comedy, 1260 22nd St, Denver, CO 80205",
+    description:
+      "A comedy show with an unholy twist, part stand-up and part fully satirical church service, hosted by former believers turned unapologetic non-believers. For Spooky Season, the Comedy Church crew brings their old expertise in witchcraft and the occult to a special 90-minute set combining classic stand-up with a late-night-style guest interview and musical interludes, all focused on the spooky and satanic. Comedy Church welcomes folks from every religious background and all walks of life.",
+    link: "https://risecomedy.com/event/comedy-church-presents-halloween/",
+  },
 ];
