@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denvers-attorney-general-is-under-investigation-its-oldest-dispensary",
+    title: "Denver's attorney general is under investigation, its oldest dispensary is fighting foreclosure, and its bears are apparently fluent in garage door mechanics.",
+    date: "2026-10-07",
+    description: "Colorado's top election watchdog has found enough evidence to investigate Attorney General Phil Weiser, making it the issue's headline story. Meanwhile, Denver's oldest dispensary, 16 years in business, is fighting foreclosure over a $2,100 bank error, and a bear broke into a TV reporter's garage and returned for a second visit. Plus, new restaurants Fire on the Mountain and Call Your Mother Deli are opening, Denver Summit FC broke ground on a new field, and $44 million is set to improve Denver bus service.",
+    htmlFile: "/newsletter-issues/denvers-attorney-general-is-under-investigation-its-oldest-dispensary.html",
+  },
+  {
     slug: "denver-in-a-swat-standoff-and-a-2-5-million-ad-campaign-begging",
     title: "Denver in a SWAT standoff, and a $2.5 million ad campaign begging America to still love it.",
     date: "2026-09-30",
