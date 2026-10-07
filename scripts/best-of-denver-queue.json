@@ -649,8 +649,9 @@
       "Fall"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": "fall"
+    "status": "published",
+    "season": "fall",
+    "publishedAt": "2026-10-07T22:07:19.899Z"
   },
   {
     "slug": "best-hard-cider-denver",
