@@ -1670,4 +1670,60 @@ export const communityEvents: CommunityEvent[] = [
       "A comedy show with an unholy twist, part stand-up and part fully satirical church service, hosted by former believers turned unapologetic non-believers. For Spooky Season, the Comedy Church crew brings their old expertise in witchcraft and the occult to a special 90-minute set combining classic stand-up with a late-night-style guest interview and musical interludes, all focused on the spooky and satanic. Comedy Church welcomes folks from every religious background and all walks of life.",
     link: "https://risecomedy.com/event/comedy-church-presents-halloween/",
   },
+  {
+    id: "sorry-gorgeous-the-last-dance-2026",
+    title: "The Last Dance at Sorry Gorgeous",
+    date: "2026-10-15",
+    time: "Oct. 15-31, 3:00-9:00 PM",
+    location: "Sorry Gorgeous, RiNo, Denver",
+    description:
+      "Sorry Gorgeous transforms into a sophisticated, immersive Halloween pop-up: a haunted ballroom suspended somewhere between the living and the dead. Expect a spooky-yet-sophisticated environment, late-night DJs and dancing, an on-theme cocktail menu, and seasonal bites. Reservations strongly encouraged.",
+    link: "https://sorrygorgeousrooftop.com",
+  },
+  {
+    id: "four-mile-pumpkin-harvest-festival-2026",
+    title: "Pumpkin Harvest Festival at Four Mile",
+    date: "2026-10-17",
+    time: "Oct. 17-18, 10:00 AM-4:00 PM",
+    location: "Four Mile Historic Park, Denver",
+    description:
+      "A weekend of fall fun at Four Mile Historic Park: a pumpkin patch and accessible pumpkin patch, pumpkin carving and painting, a Fall Marketplace with local vendors, live entertainment and performances, food trucks, and historic demonstrations and tours. The new Signature Experience adds exclusive access to a Torchy Taco snack station, private bars and refreshment stations, and extra crafts and add-ons. Tickets start at $15.",
+  },
+  {
+    id: "four-mile-spirits-and-spirits-2026",
+    title: "Spirits & Spirits at Four Mile",
+    date: "2026-10-24",
+    time: "7:00-11:00 PM",
+    location: "Four Mile Historic Park, Denver",
+    description:
+      "A 21+ after-dark evening at Four Mile Historic Park with craft cocktails and spirit tastings, haunted history, and a shadowy celebration that toasts the macabre, plus entry to Bright Nights. Enjoy live drag performances, old-school ghost stories, demonstrations of Victorian mourning practices, and a film screening while traveling through supersized glowing flora and fauna from across the globe. Tarot readings, face painting, food, and spooky goods are available for purchase at the Metaphysical Marketplace. Tickets are $85.",
+  },
+  {
+    id: "54thirty-costumes-and-cocktails-2026",
+    title: "Costumes & Cocktails at 54thirty",
+    date: "2026-10-30",
+    time: "Oct. 30-Nov. 2",
+    location: "54thirty, Le Méridien Denver Downtown",
+    description:
+      "Downtown Denver's highest open-air rooftop bar celebrates spooky season all Halloweekend long with a special menu, tarot card readers, and a caricature artist, plus globally inspired bites, lively music, and panoramic city and mountain views. Themed cocktails include the Witches Kiss (Don Julio, pineapple, jalapeno, agave), the Graveyard Shift (Ketel One, orange, lemon, honey), the Black Mass (Bulleit, blackberry, lemon, angostura), the Blood Moon (Ketel One, orange, cranberry, lemon, honey), and a Don Julio 70 RN Pour.",
+    link: "https://54thirty.com",
+  },
+  {
+    id: "nocturne-hard-bop-halloween-2026",
+    title: "Hard Bop Halloween at Nocturne",
+    date: "2026-10-31",
+    location: "Nocturne, RiNo, Denver",
+    description:
+      "Celebrate All Hallows' Eve in swinging style with the Matt Smiley Quartet, performing two sets of hard bop jazz with a Halloween twist at RiNo's jazz and supper club. Enjoy the three-course Dinner and a Show with wine or non-alcoholic cocktail pairings, make a night of it with the five-course Ellington Experience, or keep it casual with bar reservations and an a la carte meal or the Jazz History Cocktail Flight. Reservations range from $38 to $238.",
+    link: "https://nocturnejazz.com",
+  },
+  {
+    id: "leven-halloween-monster-cookies-2026",
+    title: "$1 Halloween Monster Cookies at Leven Supply and Leven Deli Co.",
+    date: "2026-10-31",
+    location: "Leven Supply and Leven Deli Co., Denver",
+    description:
+      "For Halloween, Leven offers its signature monster cookies, crammed with M&M's and chocolate chips, for $1 each at both Leven Supply and Leven Deli Co. while supplies last. Stop in for house-made sandwiches, soups, and baked goods too.",
+    link: "https://eatleven.com",
+  },
 ];
