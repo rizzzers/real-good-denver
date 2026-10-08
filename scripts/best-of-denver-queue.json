@@ -664,8 +664,9 @@
       "Fall"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": "fall"
+    "status": "published",
+    "season": "fall",
+    "publishedAt": "2026-10-08T01:07:26.497Z"
   },
   {
     "slug": "best-halloween-bar-denver",

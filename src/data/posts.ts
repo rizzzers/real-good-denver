@@ -4717,6 +4717,86 @@ If you're doing one pumpkin patch this fall and you want the full experience, An
     image: "/images/best-pumpkin-patch-denver.png",
     featured: false,
     tags: ["Pumpkin Patch", "Best Of", "Denver", "Fall"],
+  },
+  {
+    id: 60,
+    slug: "best-hard-cider-denver",
+    title: "Best Hard Cider in Denver: Apples, Optimized",
+    excerpt: "Denver's cider scene used to apologize for itself, but that's dead now. Hard cider isn't your backup plan anymore, it's the real thing.",
+    fullContent: `Denver has a complicated relationship with apples. Not the fruit itself. Apples are fine. It's the cultural baggage that comes with cider. For years, ordering a cider at a bar in this city carried a certain energy. Like you were apologizing for being there. Like you didn't really mean to be at a bar and just happened to wander in. That era is over. The cider scene in Denver and its surrounding Front Range orbit has grown up, gotten weird in the good ways, and started producing stuff that deserves your full, undivided attention.
+
+Here's the thing about Colorado cider specifically. The altitude, the dry air, the access to both mountain and plains apple orchards. It all adds up to something. Cideries here aren't just dumping concentrate into a tank and calling it a day. You've got wild fermentations, dry-hopped variations, pear blends, honey additions, and the occasional left-field ingredient that makes you wonder who greenlit that and also immediately order a second pour. This is a region that takes fermentation seriously across the board, and cider is no exception.
+
+Fair warning: this list reaches outside Denver city limits. A couple of these spots are in Fort Collins, Lafayette, and Louisville. That's intentional. The best cider in the Front Range doesn't care about your commute. Neither do we.
+
+---
+
+### **[Acreage](https://acreageco.com/)**
+
+1380 Horizon Ave A, Lafayette, CO 80026 (Lafayette) | $$ | Reservations: Recommended
+
+Acreage is the one you drive to. If you're going to make the trip to Lafayette, which you absolutely should, this is the cidery that justifies the gas money. They grow their own fruit, ferment on-site, and operate with the kind of focus that makes you feel like you accidentally wandered into somewhere doing something genuinely important. The taproom sits next to the orchard, which is either charming or disorienting depending on how many pours you've had. The dry ciders here are exceptional. Bone dry, tart, real apple character without the cloying sweetness that plagues lesser operations. They rotate seasonals aggressively, so whatever's on tap when you visit is probably something you won't find again for months. That's not a flaw. That's a feature. Worth noting that r/DenverFood has flagged Acreage multiple times as one of the few Colorado cideries that non-cider-drinkers consistently end up converted by, which is about as high a compliment as that community gives anything.
+
+---
+
+### **[Scrumpy's Hard Cider Bar and Pub, Home of Summit Hard Cider](http://scrumpys.net/)**
+
+215 N College Ave, Fort Collins, CO 80524 (Fort Collins) | $$ | Reservations: No
+
+Yes, this one's in Fort Collins. No, that's not a typo. Scrumpy's is one of the few places in the state that exists entirely in service of cider, full stop. No beer pretending to be the main event. No wine list. Cider. The name comes from an old British term for rough farmhouse cider, which tells you everything you need to know about their orientation. This is not a place trying to be cute about it. They pour Summit Hard Cider, which they make in-house, alongside a rotating selection that covers more styles than you thought cider had. Locals on r/Denver have pointed to Scrumpy's as the kind of destination worth building a whole Fort Collins day around, and that's a reasonable take. Pair it with a wander through Old Town and you've got a legitimate afternoon.
+
+---
+
+### **[Crooked Stave Brewing Company](http://www.crookedstave.com/)**
+
+1441 W 46th Ave Unit 19, Denver, CO 80211 (Sunnyside) | $$ | Reservations: No
+
+Crooked Stave built its reputation on wild and sour ales, which means their approach to fermentation is already unconventional. When they touch cider, that same orientation applies. You're not getting a simple clean pour here. You're getting something with layers, with funk, with the kind of complexity that makes you slow down and actually pay attention to your drink. Their sour program informs everything. If you've got an adventurous palate and you're already making a pilgrimage to their Sunnyside taproom, check what they have on the cider side. It changes, it surprises, and it rewards the kind of drinker who doesn't need their beverage to be immediately comfortable.
+
+---
+
+### **[Odell Brewing Sloan's Lake Brewhouse & Pizzeria](https://www.odellbrewing.com/locations/sloans-lake-brewhouse/)**
+
+1625 Perry St, Denver, CO 80204 (Sloan's Lake) | $$ | Reservations: No
+
+Odell is a Fort Collins institution that planted a flag at Sloan's Lake and made a lot of Denver drinkers very happy about it. Their cider offerings rotate but tend to be available consistently, and they benefit from the same quality control and ingredient sourcing that makes Odell's beer program one of the most reliable in the state. The brewhouse itself is a good room. The pizza is solid. If you're already at Sloan's Lake watching the sunset over the water and someone in your group wants cider while you want beer, this is the spot where neither of you has to compromise. That's underrated. Regulars on r/Denver have noted Odell Sloan's Lake as a dependable option for mixed groups where not everyone is on the craft beer train.
+
+---
+
+### **[Denver Beer Co. Platte Street](https://denverbeerco.com/taprooms/platte-street/)**
+
+1695 Platte St, Denver, CO 80202 (LoHi) | $$ | Reservations: No
+
+Denver Beer Co. is primarily a beer operation, but they cycle through cider options with enough regularity that it belongs on this list. The Platte Street location specifically, with its patio access and proximity to the river trail, makes for an easy entry point if you're not ready to commit to a cidery-only afternoon. They do fruit-forward stuff well, and their seasonal approaches to cider tend to be approachable without being dumbed down. Good for a first-timer. Good for a Tuesday when you don't want to drive to Lafayette.
+
+---
+
+### **[Wynkoop Brewing Company](https://wynkoop.com/)**
+
+1634 18th St, Denver, CO 80202 (LoDo) | $$ | Reservations: Yes
+
+Denver's oldest brewpub is not the most exciting name on this list, but it earns its spot through sheer availability and the fact that it's almost always open, always staffed, and almost always has something interesting on the cider side. The Wynkoop has spent decades being a dependable room in LoDo, and that stability means their tap list tends to include cider as a genuine option rather than an afterthought. It's the spot you end up at, and it doesn't disappoint when you do.
+
+---
+
+### **[12Degree Brewing](http://www.12degree.com/)**
+
+820 Main St, Louisville, CO 80027 (Louisville) | $$ | Reservations: No
+
+Another outside-the-city pick that earns the travel. 12Degree is a Belgian-style brewery in Louisville that takes fermentation philosophy seriously, and that shows up in how they handle cider when they make it. The rotation isn't always cider-heavy, but when they've got it, it reflects the same precision and intentionality as everything else coming out of that operation. Louisville's Main Street is worth the trip anyway. Consider this a bonus stop on a Boulder-area day.
+
+---
+
+**The Verdict**
+
+If you're doing this properly, start at Acreage. Go on a weekend, eat something, sit outside near the orchard, and drink the dry stuff. That's your baseline. From there, Crooked Stave for the weird and funky, Scrumpy's if you're already in Fort Collins and you want the full cider-only experience, and Odell Sloan's Lake whenever you need something reliable that doesn't require planning. The Front Range cider scene is not small anymore. It's not apologetic. It doesn't need to be. Grab a glass.`,
+    category: "nightlife",
+    author: "Ryan Estes",
+    date: "2026-10-08",
+    readTime: "6 min read",
+    image: "/images/best-hard-cider-denver.png",
+    featured: false,
+    tags: ["Cider", "Best Of", "Denver Bars", "Fall"],
   }
 ];
 
