@@ -679,8 +679,9 @@
       "Fall"
     ],
     "scheduledFor": null,
-    "status": "pending",
-    "season": "fall"
+    "status": "published",
+    "season": "fall",
+    "publishedAt": "2026-10-09T20:11:50.994Z"
   },
   {
     "slug": "best-leaf-peeping-denver",

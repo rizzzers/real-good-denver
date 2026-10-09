@@ -4797,6 +4797,134 @@ If you're doing this properly, start at Acreage. Go on a weekend, eat something,
     image: "/images/best-hard-cider-denver.png",
     featured: false,
     tags: ["Cider", "Best Of", "Denver Bars", "Fall"],
+  },
+  {
+    id: 61,
+    slug: "best-halloween-bar-denver",
+    title: "Best Halloween Bar in Denver for Adults Who Refuse to Grow Up",
+    excerpt: "Halloween isn't a holiday, it's a lifestyle, and if you've been counting down since November for permission to rock a cape and order neon-green shots without judgment, Denver's got the bar scene for you.",
+    fullContent: `Halloween is not a holiday. Halloween is a lifestyle. And if you've spent the last eleven months patiently waiting for the one month where it's completely socially acceptable to order a neon-green drink, wear a cape to a bar, and argue loudly about whether your skeleton costume is high art or not, congratulations. You found your people. Denver takes Halloween seriously in a way that the rest of the country doesn't fully appreciate. This city has a theatrical streak, a flair for the ridiculous, and an absolute refusal to let October 31st be just another Tuesday.
+
+The problem is figuring out where to actually go. Because Denver has no shortage of bars slapping a foam cobweb in the window and calling it a Halloween event. That's not what you're here for. You're here for the places that either lean all the way in, or are already so atmospherically weird that Halloween is basically their year-round personality. Both work. This list covers both.
+
+Here's where to spend your Halloween in Denver, ranked for adults who know the difference between a costume and a spirit and refuse to choose.
+
+---
+
+### **[Cruise Room](https://www.theoxfordhotel.com/eat-drink/the-cruise-room)**
+
+1600 17th St CO, Denver, CO 80202 (LoDo) | $$ | Reservations: Recommended
+
+Start here. Seriously, start here, because if you've somehow never been inside the Cruise Room, you've been wasting your Halloweens. This Art Deco bar inside the Oxford Hotel opened in 1933, one day after Prohibition ended, and it has not changed its personality since. The red lighting, the carved relief panels, the fact that it fits about forty people comfortably, the cocktails that taste like someone who actually respects you made them. On Halloween, all of that becomes something genuinely spooky and genuinely gorgeous at the same time. It's the kind of place where a vampire costume looks completely appropriate, and that's not an accident. Locals on r/Denver have flagged this one repeatedly as the bar that already feels haunted before anyone decorates it. They're not wrong.
+
+---
+
+### **[Williams & Graham](http://williamsandgraham.com/)**
+
+3160 Tejon St, Denver, CO 80211 (LoHi) | $$$ | Reservations: Recommended
+
+Williams and Graham is a speakeasy disguised as a bookshop and it has been quietly winning every Halloween before Halloween was even involved. You walk in through a bookcase. The cocktails are meticulously constructed. The vibe is old-world secret society and that's on a regular Thursday. On Halloween, the staff leans in, the cocktail menu gets themed, and r/DenverFood regulars have made it clear this is the spot if you want Halloween that feels sophisticated instead of chaotic. You're welcome to be chaotic inside. The bar itself maintains its dignity so you don't have to.
+
+---
+
+### ****Forest Room 5****
+
+2532 15th St, Denver, CO 80211 (LoHi) | $$ | Reservations: No
+
+**Forest Room 5** is an indoor forest. That's not a metaphor. There are trees growing through the ceiling. The furniture is salvaged wood. There are taxidermied animals watching you from the walls. Someone designed this bar specifically for a Halloween that hasn't been announced yet. Every October, the regulars on r/Denver describe this place as the natural habitat for anyone who takes their witch aesthetic seriously, and it scans completely. The space already belongs to the dark and the overgrown. Halloween just gives everyone permission to dress like they live there.
+
+---
+
+### ****Adrift****
+
+218 S Broadway, Denver, CO 80209 (South Broadway) | $$ | Reservations: No
+
+**Adrift** is a tiki bar on South Broadway with a nautical theme, rum drinks that hit harder than they look, and a regulars crowd that has a very specific sense of adventure. For Halloween, this place transforms in a way that feels earned rather than performative. A tiki bar in autumn already has an inherently absurd charm, and the decorations, the themed drinks, and the general willingness of everyone inside to commit to the bit make it one of the sleeper picks on this list. The South Broadway corridor fills up on Halloween, and Adrift holds its own against louder neighbors by being weirder and more intentional.
+
+---
+
+### **[Punch Bowl Social](https://punchbowlsocial.com/location/denver/)**
+
+65 Broadway, Denver, CO 80203 (South Broadway) | $$ | Reservations: Yes
+
+If you've got a group that cannot agree on anything, Punch Bowl Social is the negotiated settlement everyone can live with. Bowling, arcade games, karaoke, a full bar, and enough space that you won't lose half your group to a crowd crush. Halloween here is legitimately fun in the maximalist sense of the word. It's loud, it's chaotic, there will be someone absolutely dominating at skeeball in a full Ghostface costume, and the cocktails are strong enough to make you feel okay about that. The r/Denver crowd acknowledges this one as the group Halloween option, and they mean it as a compliment.
+
+---
+
+### **[Candlelight Tavern](http://candlelighttavern.com/)**
+
+383 S Pearl St, Denver, CO 80209 (Platt Park) | $ | Reservations: No
+
+**[Candlelight Tavern](http://candlelighttavern.com/)** is a neighborhood dive. It's been a neighborhood dive. It will continue to be a neighborhood dive. And on Halloween it is exactly the kind of place where someone shows up in a genuinely brilliant homemade costume and wins the contest without trying, while someone else arrives in a $200 purchased outfit and takes the loss gracefully. The drinks are cheap, the bar is dark by nature, the crowd is local and unpretentious. Pearl Street doesn't get the Halloween hype that Broadway does, which is precisely why this is worth your time.
+
+---
+
+### **[Stoney's Bar and Grill](https://www.stoneysbarandgrill.com/stoneys-bar-and-grill)**
+
+1111 Lincoln St, Denver, CO 80203 (Capitol Hill) | $ | Reservations: No
+
+Capitol Hill is where Denver's Halloween goes to get weird, and Stoney's is the bar that anchors the whole thing. This place has a rooftop, a ground floor, a crowd that takes costumes as a genuine competitive sport, and the kind of energy that doesn't require any decoration to feel festive because the building is already surrounded by people who have been planning their looks since August. It's not precious. It's not trying to be cool. It just is, and on Halloween that is exactly the bar you need in your rotation.
+
+---
+
+### **[Wynkoop Brewing Company](https://wynkoop.com/)**
+
+1634 18th St, Denver, CO 80202 (LoDo) | $$ | Reservations: Yes
+
+Denver's oldest brewpub knows how to throw a party. Wynkoop has been doing Halloween right since before most of the bars on this list existed, with costume contests, themed taps, and a massive space that can absorb a crowd without making you feel like you're being processed through a funnel. The beer is excellent, the food is reliable, and a well-upvoted thread on r/DenverFood once described it as the place where you can actually hear the person you came with, which is rarer than it should be on Halloween.
+
+---
+
+### **[Tap Fourteen - Rooftop Beer Garden](https://www.tapfourteen.com/)**
+
+1920 Blake St, Denver, CO 80202 (RiNo) | $$ | Reservations: Recommended
+
+Late October in Denver is a coin flip. Sixty degrees and perfect, or thirty-eight and a betrayal. If the weather cooperates, the rooftop at Tap Fourteen is a legitimately great Halloween perch with views of downtown, a solid tap list, and a crowd that dresses up without taking itself too seriously. If it doesn't cooperate, they've got the interior. Either way, RiNo does Halloween with a creative energy that matches the neighborhood, and this spot consistently draws a crowd that came prepared.
+
+---
+
+### **[The Source Hotel](https://www.thesourcehotel.com/)**
+
+3330 Brighton Blvd, Denver, CO 80216 (RiNo) | $$$ | Reservations: Recommended
+
+The Source Hotel does things differently, which is the whole point. The rooftop bar, the market hall below, the general sense that everyone involved is trying to do something considered rather than default. Halloween events here have a production quality that most bars aren't attempting. It's the pick for when you want a Halloween that photographs well and still actually feels like Halloween rather than a brand activation. The r/Denver crowd has flagged it as a sleeper for the holiday because it doesn't advertise loudly, and that's how you know.
+
+---
+
+### ****Lowry Beer Garden****
+
+7577 E Academy Blvd, Denver, CO 80230 (Lowry) | $$ | Reservations: No
+
+**Lowry Beer Garden** is a neighborhood institution that earns the word repeatedly. The outdoor space, the dog-friendly vibe, the community feel of a bar that genuinely serves the neighborhood it's in. For Halloween, this is the spot if you're done fighting for sidewalk space on Broadway and want a costume contest that feels like it was organized by people you'd actually like. Lowry doesn't get enough credit in the citywide Halloween conversation. That's fine. The regulars know.
+
+---
+
+### **[Sam's No. 3](https://samsno3.com/)**
+
+1500 Curtis Street, Denver, CO 80202 (Downtown) | $ | Reservations: No
+
+Sam's is a diner and a bar and a Denver institution and on Halloween it is a beautiful disaster in the best possible sense. You'll see costumes that belong in museums. You'll see costumes that raise serious questions. The green chili is available at all hours for when you need grounding. The drinks are cheap and honest. Sam's doesn't try to be a Halloween bar. It just absorbs Halloween the way it absorbs everything else that Denver throws at it, which is to say completely and without complaint.
+
+---
+
+### **[Voodoo Doughnut](https://www.voodoodoughnut.com/)**
+
+1520 E Colfax Ave, Denver, CO 80218 (Capitol Hill) | $ | Reservations: No
+
+It's not a bar. You know it's not a bar. But you're going to end up here at some point on Halloween night, holding something pink and absurd and covered in cereal, and you're going to be grateful it exists. Voodoo Doughnut on Colfax is a pilgrimage stop and a costume contest in itself and an absolutely necessary part of any Halloween that takes itself at the right level of seriously.
+
+---
+
+**The Verdict**
+
+Denver's Halloween is not one bar. It's a tour. Start at Cruise Room for the atmosphere, move through Williams and Graham for the craft, hit Stoney's when you're ready for chaos, and end at Sam's because Sam's is always the right ending. The city does this holiday well, and it does it best when you stop trying to find the single perfect spot and accept that the whole night is the point. Wear something excellent. Tip your bartenders. Commit to the bit.`,
+    category: "nightlife",
+    author: "Ryan Estes",
+    date: "2026-10-09",
+    readTime: "9 min read",
+    image: "/images/best-halloween-bar-denver.png",
+    featured: false,
+    tags: ["Halloween", "Best Of", "Denver Bars", "Fall"],
   }
 ];
 
