@@ -11,9 +11,18 @@ function getDb() {
 
 export async function POST(req: NextRequest) {
   const resend = new Resend(process.env.RESEND_API_KEY);
-  const { name, email, suggestion, postTitle } = await req.json();
+  let payload;
+  try {
+    payload = await req.json();
+  } catch {
+    return NextResponse.json({ error: "Invalid request body." }, { status: 400 });
+  }
+  if (!payload || typeof payload !== "object" || Array.isArray(payload)) {
+    return NextResponse.json({ error: "Invalid request body." }, { status: 400 });
+  }
+  const { name, email, suggestion, postTitle } = payload;
 
-  if (!name || !email || !suggestion) {
+  if (!name || !email || !suggestion || typeof suggestion !== "string") {
     return NextResponse.json({ error: "Missing required fields." }, { status: 400 });
   }
 
@@ -28,34 +37,55 @@ export async function POST(req: NextRequest) {
   // Save to database first
   let emailSent = false;
   const db = getDb();
-  await db.from("form_submissions").insert({
-    type: "suggestion",
-    name,
-    email,
-    subject,
-    body: { postTitle, suggestion },
-    email_sent: false,
-  });
+  const { data: saved, error: dbError } = await db
+    .from("form_submissions")
+    .insert({
+      type: "suggestion",
+      name,
+      email,
+      subject,
+      body: { postTitle, suggestion },
+      email_sent: false,
+    })
+    .select("id")
+    .single();
+  if (dbError) {
+    console.error("[suggest] form_submissions insert failed:", dbError.message);
+  }
 
   try {
-    await resend.emails.send({
+    const { error: sendError } = await resend.emails.send({
       from: "Real Good Denver <noreply@ryanestes.info>",
       to: ["ryan@ryanestes.info", "fernanda@ryanestes.info"],
       replyTo: email,
       subject,
       html,
     });
-    emailSent = true;
-    await db
-      .from("form_submissions")
-      .update({ email_sent: true })
-      .eq("email", email)
-      .eq("type", "suggestion")
-      .order("created_at", { ascending: false })
-      .limit(1);
-  } catch {
-    // Email failed: record is still in DB
+    if (sendError) {
+      console.error("[suggest] Resend send failed:", sendError.message);
+    } else {
+      emailSent = true;
+    }
+  } catch (err) {
+    console.error("[suggest] Resend send threw:", err);
   }
 
-  return NextResponse.json({ ok: true, saved: true, emailed: emailSent });
+  if (emailSent && saved) {
+    const { error: updateError } = await db
+      .from("form_submissions")
+      .update({ email_sent: true })
+      .eq("id", saved.id);
+    if (updateError) {
+      console.error("[suggest] form_submissions update failed:", updateError.message);
+    }
+  }
+
+  if (!saved && !emailSent) {
+    return NextResponse.json(
+      { error: "We couldn't send your tip. Please try again." },
+      { status: 500 }
+    );
+  }
+
+  return NextResponse.json({ ok: true, saved: Boolean(saved), emailed: emailSent });
 }

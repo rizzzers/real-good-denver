@@ -10,7 +10,15 @@ function getDb() {
 }
 
 export async function POST(req: NextRequest) {
-  const body = await req.json();
+  let body;
+  try {
+    body = await req.json();
+  } catch {
+    return NextResponse.json({ error: "Invalid request body." }, { status: 400 });
+  }
+  if (!body || typeof body !== "object" || Array.isArray(body)) {
+    return NextResponse.json({ error: "Invalid request body." }, { status: 400 });
+  }
   const resend = new Resend(process.env.RESEND_API_KEY);
 
   const { type, name, email } = body;
@@ -91,14 +99,21 @@ export async function POST(req: NextRequest) {
   // Save to database first: record persists even if email fails
   let emailSent = false;
   const db = getDb();
-  await db.from("form_submissions").insert({
-    type,
-    name: name || null,
-    email,
-    subject,
-    body,
-    email_sent: false,
-  });
+  const { data: saved, error: dbError } = await db
+    .from("form_submissions")
+    .insert({
+      type,
+      name: name || null,
+      email,
+      subject,
+      body,
+      email_sent: false,
+    })
+    .select("id")
+    .single();
+  if (dbError) {
+    console.error("[contact] form_submissions insert failed:", dbError.message);
+  }
 
   const isSignup = type === "newsletter_signup";
   const recipients = isSignup
@@ -113,7 +128,7 @@ export async function POST(req: NextRequest) {
     : undefined;
 
   try {
-    await resend.emails.send({
+    const { error: sendError } = await resend.emails.send({
       from: "Real Good Denver <noreply@ryanestes.info>",
       to: recipients,
       cc,
@@ -121,18 +136,32 @@ export async function POST(req: NextRequest) {
       subject,
       html,
     });
-    emailSent = true;
-    // Update record to mark email as sent
-    await db
-      .from("form_submissions")
-      .update({ email_sent: true })
-      .eq("email", email)
-      .eq("type", type)
-      .order("created_at", { ascending: false })
-      .limit(1);
-  } catch {
-    // Email failed: record is still saved in DB
+    if (sendError) {
+      console.error("[contact] Resend send failed:", sendError.message);
+    } else {
+      emailSent = true;
+    }
+  } catch (err) {
+    console.error("[contact] Resend send threw:", err);
   }
 
-  return NextResponse.json({ ok: true, saved: true, emailed: emailSent });
+  if (emailSent && saved) {
+    // Mark the saved record as emailed
+    const { error: updateError } = await db
+      .from("form_submissions")
+      .update({ email_sent: true })
+      .eq("id", saved.id);
+    if (updateError) {
+      console.error("[contact] form_submissions update failed:", updateError.message);
+    }
+  }
+
+  if (!saved && !emailSent) {
+    return NextResponse.json(
+      { error: "We couldn't submit your form. Please try again." },
+      { status: 500 }
+    );
+  }
+
+  return NextResponse.json({ ok: true, saved: Boolean(saved), emailed: emailSent });
 }
