@@ -1736,4 +1736,14 @@ export const communityEvents: CommunityEvent[] = [
       "The documentary PEAKING: Psychedelics and the Pursuit of Happiness screens at Harkins Northfield for three nights. Directed by 10X Emmy Award winning director Jordan Kronick, the film takes viewers inside the world of psychedelic therapy and healing, capturing intimate experiences as they happen. It explores LSD, psilocybin, ibogaine, MDMA, ayahuasca, and more, following people seeking relief from trauma, addiction, brain injuries, and other life-altering struggles, while leading experts provide context on the science and the evolving psychedelic movement.",
     link: "https://harkins.com/movies/peaking-psychedelics-and-the-pursuit-of-happi/2026-10-23",
   },
+  {
+    id: "colorado-saves-the-world-parks-and-rec-2026-10-22",
+    title: "Colorado Saves the World with Denver Parks & Rec!",
+    date: "2026-10-22",
+    time: "7:00 PM",
+    location: "Dude IDK Studio, Five Points, Denver",
+    description:
+      "Colorado's only comedy news quiz! Denver's funniest comedians take on current events and regional news, with a special guest interview with Jolon Clark, Director of Denver Parks & Rec.",
+    link: "https://denvercomedy.multipass.com/coloradosaves",
+  },
 ];
