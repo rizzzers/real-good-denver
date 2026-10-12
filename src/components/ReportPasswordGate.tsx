@@ -7,7 +7,7 @@ interface ReportPasswordGateProps {
   children: React.ReactNode;
 }
 
-const CORRECT_PASSWORD = "1234";
+const CORRECT_PASSWORD = "0188";
 const STORAGE_KEY = "report_access_granted";
 
 const ReportPasswordGate = ({ children }: ReportPasswordGateProps) => {
