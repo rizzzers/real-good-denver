@@ -1,9 +1,17 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import { posts } from "@/data/posts";
+import { breadcrumbSchema, jsonLd, postSchema } from "@/lib/seo";
 import BestOfDenverPostClient from "./BestOfDenverPostClient";
 
 interface Props {
   params: Promise<{ slug: string }>;
+}
+
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return posts.map((post) => ({ slug: post.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -27,6 +35,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: post.title,
       description: post.excerpt,
       url: `https://realgooddenver.com/best-of-denver/post/${post.slug}`,
+      type: "article",
+      publishedTime: post.date,
+      authors: [post.author],
+      section: post.category,
+      tags: post.tags,
       images: [{ url: post.image, width: 1200, height: 630 }],
     },
     twitter: {
@@ -39,6 +52,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default function PostDetailPage() {
-  return <BestOfDenverPostClient />;
+export default async function PostDetailPage({ params }: Props) {
+  const { slug } = await params;
+  const post = posts.find((p) => p.slug === slug);
+  if (!post) notFound();
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(postSchema(post))} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(breadcrumbSchema(post))} />
+      <BestOfDenverPostClient />
+    </>
+  );
 }

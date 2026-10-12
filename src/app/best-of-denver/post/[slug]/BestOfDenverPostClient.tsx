@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { useParams, useRouter } from 'next/navigation';
-import { ArrowLeft, Clock, User } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, User } from 'lucide-react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import AuthorBio from '@/components/AuthorBio';
@@ -13,7 +13,6 @@ import EstesPickSection from '@/components/EstesPickSection';
 import TomPickSection from '@/components/TomPickSection';
 import PostMap from '@/components/PostMap';
 import InstagramPhotoGrid from '@/components/InstagramPhotoGrid';
-import { useScrollReveal } from '@/hooks/use-scroll-reveal';
 import { posts } from '@/data/posts';
 
 // Matches a "<City>, CO/Colorado" address fragment. Kept in sync with the
@@ -64,8 +63,6 @@ export default function BestOfDenverPostClient() {
   const router = useRouter();
   const slug = params?.slug as string;
   const post = posts.find(p => p.slug === slug);
-  const { ref: heroRef, isVisible: heroVisible } = useScrollReveal();
-  const { ref: contentRef, isVisible: contentVisible } = useScrollReveal(0.05);
 
   const isBakerPost = post?.slug === 'best-of-denver-baker';
 
@@ -165,7 +162,7 @@ export default function BestOfDenverPostClient() {
           backgroundSize: '60px 60px',
         }} />
 
-        <div ref={heroRef} className={`relative z-10 max-w-3xl mx-auto px-6 pb-16 w-full transition-all duration-700 ${heroVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
+        <div className="relative z-10 max-w-3xl mx-auto px-6 pb-16 w-full">
           <Link href="/best-of-denver" className="inline-flex items-center gap-2 text-background/40 hover:text-primary transition-colors mb-8 text-sm">
             <ArrowLeft className="h-4 w-4" />
             Back to Best of Denver
@@ -186,6 +183,12 @@ export default function BestOfDenverPostClient() {
               <span>{post.author}</span>
             </div>
             <div className="flex items-center gap-2">
+              <Calendar className="h-4 w-4" />
+              <time dateTime={post.date}>
+                {new Date(`${post.date}T12:00:00`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+              </time>
+            </div>
+            <div className="flex items-center gap-2">
               <Clock className="h-4 w-4" />
               <span>{post.readTime}</span>
             </div>
@@ -198,7 +201,7 @@ export default function BestOfDenverPostClient() {
       )}
 
       <section className="py-16 md:py-24 bg-background">
-        <div ref={contentRef} className={`max-w-3xl mx-auto px-6 transition-all duration-700 ${contentVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
+        <div className="max-w-3xl mx-auto px-6">
           <SuggestionForm postTitle={post.title} />
           {bestOfSections ? (
             <>
