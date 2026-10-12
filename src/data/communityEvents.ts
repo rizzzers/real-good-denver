@@ -1726,4 +1726,14 @@ export const communityEvents: CommunityEvent[] = [
       "For Halloween, Leven offers its signature monster cookies, crammed with M&M's and chocolate chips, for $1 each at both Leven Supply and Leven Deli Co. while supplies last. Stop in for house-made sandwiches, soups, and baked goods too.",
     link: "https://eatleven.com",
   },
+  {
+    id: "peaking-psychedelics-film-harkins-northfield-2026",
+    title: "PEAKING: Psychedelics and the Pursuit of Happiness (Film Screening)",
+    date: "2026-10-23",
+    time: "Oct. 23-25, daily at 6:30 PM",
+    location: "Harkins Northfield, Denver",
+    description:
+      "The documentary PEAKING: Psychedelics and the Pursuit of Happiness screens at Harkins Northfield for three nights. Directed by 10X Emmy Award winning director Jordan Kronick, the film takes viewers inside the world of psychedelic therapy and healing, capturing intimate experiences as they happen. It explores LSD, psilocybin, ibogaine, MDMA, ayahuasca, and more, following people seeking relief from trauma, addiction, brain injuries, and other life-altering struggles, while leading experts provide context on the science and the evolving psychedelic movement.",
+    link: "https://harkins.com/movies/peaking-psychedelics-and-the-pursuit-of-happi/2026-10-23",
+  },
 ];
