@@ -6,7 +6,6 @@ import { ArrowUpRight, Clock, Star, Search } from 'lucide-react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { posts, categories } from '@/data/posts';
-import { useScrollReveal } from '@/hooks/use-scroll-reveal';
 
 export default function BestOfDenverClient() {
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -88,11 +87,10 @@ export default function BestOfDenverClient() {
 }
 
 const FeaturedRow = ({ post }: { post: typeof posts[0] }) => {
-  const { ref, isVisible } = useScrollReveal();
   return (
     <section className="py-16 bg-background">
       <div className="max-w-5xl mx-auto px-6">
-        <div ref={ref} className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
+        <div>
           <p className="text-sm font-medium uppercase tracking-widest text-primary mb-8 flex items-center gap-2">
             <Star className="h-4 w-4" /> Featured story
           </p>
@@ -122,9 +120,8 @@ const FeaturedRow = ({ post }: { post: typeof posts[0] }) => {
 };
 
 const PostsList = ({ posts: displayPosts, selectedCategory, categories }: { posts: typeof posts; selectedCategory: string; categories: { id: string; name: string }[] }) => {
-  const { ref, isVisible } = useScrollReveal();
   return (
-    <div ref={ref} className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
+    <div>
       <div className="flex items-end justify-between mb-14">
         <div>
           <p className="text-sm font-medium uppercase tracking-widest text-primary mb-3">Stories</p>
@@ -136,18 +133,17 @@ const PostsList = ({ posts: displayPosts, selectedCategory, categories }: { post
       </div>
 
       <div className="divide-y divide-background/10">
-        {displayPosts.map((post, index) => (
-          <PostRow key={post.id} post={post} index={index} />
+        {displayPosts.map((post) => (
+          <PostRow key={post.id} post={post} />
         ))}
       </div>
     </div>
   );
 };
 
-const PostRow = ({ post, index }: { post: typeof posts[0]; index: number }) => {
-  const { ref, isVisible } = useScrollReveal(0.1);
+const PostRow = ({ post }: { post: typeof posts[0] }) => {
   return (
-    <div ref={ref} className={`transition-all duration-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`} style={{ transitionDelay: `${index * 60}ms` }}>
+    <div>
       <Link href={`/best-of-denver/post/${post.slug}`} className="group flex items-start sm:items-center gap-4 sm:gap-6 py-6">
         <div className="flex-shrink-0 w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden">
           <img src={post.image} alt={post.title} width={160} height={160} loading="lazy" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
