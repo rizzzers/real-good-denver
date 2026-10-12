@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { useParams, useRouter } from 'next/navigation';
-import { ArrowLeft, Calendar, Clock, User } from 'lucide-react';
+import { ArrowLeft, ArrowUpRight, Calendar, Clock, User } from 'lucide-react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import AuthorBio from '@/components/AuthorBio';
@@ -13,7 +13,7 @@ import EstesPickSection from '@/components/EstesPickSection';
 import TomPickSection from '@/components/TomPickSection';
 import PostMap from '@/components/PostMap';
 import InstagramPhotoGrid from '@/components/InstagramPhotoGrid';
-import { posts } from '@/data/posts';
+import { posts, type Post } from '@/data/posts';
 
 // Matches a "<City>, CO/Colorado" address fragment. Kept in sync with the
 // CITY_CO pattern in PostMap.tsx.
@@ -58,7 +58,7 @@ const BAKER_SECTION_EMBEDS: Record<string, string[]> = {
   'South Broadway Vintage': ['DM8eh3Zyx0x', 'C17uD_rgCHS', 'CoqdRnqutwx'],
 };
 
-export default function BestOfDenverPostClient() {
+export default function BestOfDenverPostClient({ related }: { related: Post[] }) {
   const params = useParams();
   const router = useRouter();
   const slug = params?.slug as string;
@@ -228,6 +228,30 @@ export default function BestOfDenverPostClient() {
           <AuthorBio />
         </div>
       </section>
+
+      {related.length > 0 && (
+        <section className="py-16 md:py-20 bg-background border-t border-border">
+          <div className="max-w-3xl mx-auto px-6">
+            <p className="text-sm font-medium uppercase tracking-widest text-primary mb-3">Keep exploring</p>
+            <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-8">More Best of Denver guides</h2>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {related.map((r) => (
+                <Link key={r.slug} href={`/best-of-denver/post/${r.slug}`} className="group flex gap-4 items-center rounded-xl border border-border p-3 hover:bg-muted transition-colors">
+                  <img src={r.image} alt={r.title} width={80} height={80} loading="lazy" className="w-20 h-20 rounded-lg object-cover flex-shrink-0" />
+                  <div className="min-w-0 flex-1">
+                    <span className="text-xs font-medium uppercase tracking-wider text-primary">{r.category}</span>
+                    <h3 className="text-sm md:text-base font-semibold text-foreground leading-snug line-clamp-2 group-hover:text-primary transition-colors">{r.title}</h3>
+                  </div>
+                  <ArrowUpRight className="h-4 w-4 text-muted-foreground group-hover:text-primary flex-shrink-0" />
+                </Link>
+              ))}
+            </div>
+            <Link href="/best-of-denver" className="inline-block mt-8 text-sm font-medium text-primary hover:underline underline-offset-4">
+              See all Best of Denver guides
+            </Link>
+          </div>
+        </section>
+      )}
 
       <section className="bg-foreground py-20">
         <div className="max-w-2xl mx-auto px-6 text-center">

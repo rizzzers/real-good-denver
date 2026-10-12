@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { posts } from "@/data/posts";
-import { breadcrumbSchema, jsonLd, postSchema } from "@/lib/seo";
+import { placesSchema } from "@/lib/places";
+import { relatedPosts } from "@/lib/related";
+import { breadcrumbSchema, jsonLd, postSchema, postUrl } from "@/lib/seo";
 import BestOfDenverPostClient from "./BestOfDenverPostClient";
 
 interface Props {
@@ -56,12 +58,14 @@ export default async function PostDetailPage({ params }: Props) {
   const { slug } = await params;
   const post = posts.find((p) => p.slug === slug);
   if (!post) notFound();
+  const places = placesSchema(post, postUrl(post));
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(postSchema(post))} />
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(breadcrumbSchema(post))} />
-      <BestOfDenverPostClient />
+      {places && <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(places)} />}
+      <BestOfDenverPostClient related={relatedPosts(post, posts)} />
     </>
   );
 }
