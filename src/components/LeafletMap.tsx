@@ -59,10 +59,16 @@ export default function LeafletMap({ pins }: { pins: MapPin[] }) {
       zoomControl={true}
       scrollWheelZoom={false}
     >
+      {/* CARTO basemaps now require an API key; Esri's dark canvas is keyless */}
       <TileLayer
-        attribution='&copy; <a href="https://carto.com/">CARTO</a>'
-        url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-        subdomains="abcd"
+        attribution='Tiles &copy; <a href="https://www.esri.com/">Esri</a>, HERE, Garmin, &copy; OpenStreetMap contributors'
+        url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}"
+        maxNativeZoom={16}
+        maxZoom={19}
+      />
+      <TileLayer
+        url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}"
+        maxNativeZoom={16}
         maxZoom={19}
       />
       <FitBounds pins={pins} />
