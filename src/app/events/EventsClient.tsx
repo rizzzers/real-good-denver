@@ -4,9 +4,8 @@ import React, { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { useToast } from "@/hooks/use-toast";
-import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 import { communityEvents, type CommunityEvent } from "@/data/communityEvents";
-import { MapPin, ExternalLink, Calendar, Clock, Send, ChevronDown } from "lucide-react";
+import { MapPin, ExternalLink, Calendar, Clock, Send, ChevronDown, ChevronLeft, ChevronRight } from "lucide-react";
 
 export default function EventsClient() {
   const today = new Date();
@@ -23,46 +22,48 @@ export default function EventsClient() {
     <div className="min-h-screen bg-background">
       <Navigation />
       <HeroSection />
+      <CalendarSection events={upcomingEvents} />
       <TimelineSection events={upcomingEvents} />
-      <SubmitSection />
       <Footer />
     </div>
   );
 }
 
 function HeroSection() {
-  const { ref, isVisible } = useScrollReveal();
   return (
-    <section className="relative min-h-[55vh] flex items-center justify-center overflow-hidden bg-foreground pt-28 pb-16">
+    <section className="relative overflow-hidden bg-foreground pt-28 pb-16 md:pb-20">
       <div className="absolute inset-0">
-        <div className="absolute top-1/4 left-1/3 w-[500px] h-[500px] rounded-full bg-primary/10 blur-[120px] animate-pulse-soft" />
-        <div className="absolute bottom-1/3 right-1/4 w-[400px] h-[400px] rounded-full bg-secondary/8 blur-[100px] animate-pulse-soft" style={{ animationDelay: "1s" }} />
+        <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] rounded-full bg-primary/10 blur-[120px]" />
+        <div className="absolute bottom-1/3 right-1/4 w-[400px] h-[400px] rounded-full bg-secondary/8 blur-[100px]" />
       </div>
       <div className="absolute inset-0 opacity-[0.03]" style={{
         backgroundImage: "linear-gradient(hsl(var(--background)) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--background)) 1px, transparent 1px)",
         backgroundSize: "60px 60px",
       }} />
-      <div ref={ref} className={`relative z-10 max-w-3xl mx-auto px-6 text-center transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}>
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-background/10 bg-background/5 backdrop-blur-sm mb-8">
-          <span className="w-2 h-2 rounded-full bg-primary animate-pulse-soft" />
-          <span className="text-sm font-medium text-background/70 tracking-wide">Denver community, IRL</span>
+      <div className="relative z-10 max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="text-center lg:text-left">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-background/10 bg-background/5 backdrop-blur-sm mb-8">
+            <span className="w-2 h-2 rounded-full bg-primary" />
+            <span className="text-sm font-medium text-background/70 tracking-wide">Denver community, IRL</span>
+          </div>
+          <h1 className="text-5xl md:text-7xl font-bold text-background mb-6 leading-[0.95] tracking-tight">
+            Community<br />
+            <span className="text-primary">Events.</span>
+          </h1>
+          <p className="text-lg md:text-xl text-background/50 mb-8 max-w-xl mx-auto lg:mx-0">
+            Things actually worth leaving the house for. Submitted by Denver locals, curated for the community.
+          </p>
+          <a href="#calendar" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors">
+            See the calendar <ChevronDown className="h-4 w-4" />
+          </a>
         </div>
-        <h1 className="text-5xl md:text-7xl font-bold text-background mb-6 leading-[0.95] tracking-tight">
-          Community<br />
-          <span className="text-primary">Events.</span>
-        </h1>
-        <p className="text-lg md:text-xl text-background/50 mb-8 max-w-xl mx-auto">
-          Things actually worth leaving the house for. Submitted by Denver locals, curated for the community.
-        </p>
-        <a href="#submit" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors">
-          Submit your event <ChevronDown className="h-4 w-4" />
-        </a>
+        <SubmitForm />
       </div>
     </section>
   );
 }
 
-function SubmitSection() {
+function SubmitForm() {
   const [form, setForm] = useState({
     name: "", email: "", eventName: "", eventDate: "",
     eventTime: "", location: "", description: "", link: "",
@@ -70,7 +71,6 @@ function SubmitSection() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const { toast } = useToast();
-  const { ref, isVisible } = useScrollReveal();
 
   const set = (field: keyof typeof form) => (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) =>
     setForm((prev) => ({ ...prev, [field]: e.target.value }));
@@ -111,12 +111,10 @@ function SubmitSection() {
   const labelCls = "block text-xs font-medium text-muted-foreground mb-1.5 uppercase tracking-wider";
 
   return (
-    <section id="submit" className="py-20 md:py-28 bg-background border-b border-border">
-      <div className="max-w-2xl mx-auto px-6">
-        <div ref={ref} className={`transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}>
-          <p className="text-sm font-medium uppercase tracking-widest text-primary mb-3">Submit an Event</p>
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-3 leading-tight">Got something worth showing up for?</h2>
-          <p className="text-muted-foreground mb-10">Submit your event and we&apos;ll add it to the community calendar.</p>
+    <div id="submit" className="scroll-mt-28 bg-background rounded-3xl p-6 md:p-8 shadow-2xl">
+          <p className="text-sm font-medium uppercase tracking-widest text-primary mb-2">Submit an Event</p>
+          <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-2 leading-tight">Got something worth showing up for?</h2>
+          <p className="text-sm text-muted-foreground mb-6">Submit your event and we&apos;ll add it to the community calendar.</p>
 
           {submitted ? (
             <div className="flex items-center gap-4 p-6 rounded-2xl border border-primary/30 bg-primary/5">
@@ -181,7 +179,123 @@ function SubmitSection() {
               </button>
             </form>
           )}
+    </div>
+  );
+}
 
+const WEEKDAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+function scrollToEvent(id: string) {
+  document.getElementById(`event-${id}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function CalendarSection({ events }: { events: CommunityEvent[] }) {
+  const now = new Date();
+  const firstMonth = now.getFullYear() * 12 + now.getMonth();
+  const lastEvent = events[events.length - 1];
+  const lastMonth = lastEvent
+    ? Number(lastEvent.date.slice(0, 4)) * 12 + Number(lastEvent.date.slice(5, 7)) - 1
+    : firstMonth;
+  const [monthIndex, setMonthIndex] = useState(firstMonth);
+
+  const year = Math.floor(monthIndex / 12);
+  const month = monthIndex % 12;
+  const monthLabel = new Date(year, month, 1).toLocaleDateString("en-US", { month: "long", year: "numeric" });
+  const leadingBlanks = new Date(year, month, 1).getDay();
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+  const todayKey = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
+
+  const byDay = new Map<string, CommunityEvent[]>();
+  for (const e of events) {
+    byDay.set(e.date, [...(byDay.get(e.date) ?? []), e]);
+  }
+
+  const cells: (number | null)[] = [
+    ...Array(leadingBlanks).fill(null),
+    ...Array.from({ length: daysInMonth }, (_, i) => i + 1),
+  ];
+  while (cells.length % 7 !== 0) cells.push(null);
+
+  const navCls = "w-9 h-9 rounded-full border border-border flex items-center justify-center text-foreground hover:border-primary hover:text-primary transition-colors disabled:opacity-30 disabled:pointer-events-none";
+
+  return (
+    <section id="calendar" className="pt-20 md:pt-28 pb-16 bg-background scroll-mt-20">
+      <div className="max-w-5xl mx-auto px-6">
+        <div className="flex flex-wrap items-end justify-between gap-4 mb-8">
+          <div>
+            <p className="text-sm font-medium uppercase tracking-widest text-primary mb-3">Calendar</p>
+            <h2 className="text-3xl md:text-5xl font-bold text-foreground leading-tight">{monthLabel}</h2>
+          </div>
+          <div className="flex items-center gap-2">
+            <button type="button" aria-label="Previous month" className={navCls}
+              disabled={monthIndex <= firstMonth} onClick={() => setMonthIndex((m) => m - 1)}>
+              <ChevronLeft className="h-4 w-4" />
+            </button>
+            <button type="button" aria-label="Next month" className={navCls}
+              disabled={monthIndex >= lastMonth} onClick={() => setMonthIndex((m) => m + 1)}>
+              <ChevronRight className="h-4 w-4" />
+            </button>
+          </div>
+        </div>
+
+        <div className="border border-border rounded-2xl overflow-hidden">
+          <div className="grid grid-cols-7 bg-muted border-b border-border">
+            {WEEKDAYS.map((d) => (
+              <div key={d} className="py-2 text-center text-[10px] md:text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                {d}
+              </div>
+            ))}
+          </div>
+          <div className="grid grid-cols-7">
+            {cells.map((day, i) => {
+              const key = day ? `${year}-${String(month + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}` : null;
+              const dayEvents = key ? byDay.get(key) ?? [] : [];
+              const isToday = key === todayKey;
+              const cellCls = `min-h-14 md:min-h-28 p-1 md:p-2 text-left border-border ${i % 7 !== 6 ? "border-r" : ""} ${i < cells.length - 7 ? "border-b" : ""}`;
+
+              if (!day) return <div key={i} className={`${cellCls} bg-muted/40`} />;
+
+              const dayNumber = (
+                <span className={`inline-flex items-center justify-center w-6 h-6 md:w-7 md:h-7 rounded-full text-xs md:text-sm font-semibold ${isToday ? "bg-primary text-primary-foreground" : dayEvents.length ? "text-foreground" : "text-muted-foreground/60"}`}>
+                  {day}
+                </span>
+              );
+
+              if (!dayEvents.length) return <div key={i} className={cellCls}>{dayNumber}</div>;
+
+              return (
+                <div key={i} className={cellCls}>
+                  {/* Mobile: tap the day to jump to its first event */}
+                  <button type="button" onClick={() => scrollToEvent(dayEvents[0].id)}
+                    aria-label={`${dayEvents.length} event${dayEvents.length > 1 ? "s" : ""} on ${monthLabel.split(" ")[0]} ${day}`}
+                    className="md:hidden w-full flex flex-col items-center gap-1">
+                    {dayNumber}
+                    <span className="flex gap-0.5">
+                      {dayEvents.slice(0, 3).map((e) => <span key={e.id} className="w-1.5 h-1.5 rounded-full bg-primary" />)}
+                    </span>
+                  </button>
+                  {/* Desktop: event titles in the cell */}
+                  <div className="hidden md:block">
+                    {dayNumber}
+                    <div className="mt-1 space-y-1">
+                      {dayEvents.slice(0, 2).map((e) => (
+                        <button key={e.id} type="button" onClick={() => scrollToEvent(e.id)} title={e.title}
+                          className="block w-full truncate text-left text-[11px] leading-tight font-medium px-1.5 py-1 rounded-md bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-colors">
+                          {e.title}
+                        </button>
+                      ))}
+                      {dayEvents.length > 2 && (
+                        <button type="button" onClick={() => scrollToEvent(dayEvents[2].id)}
+                          className="block text-[11px] font-medium text-muted-foreground hover:text-primary px-1.5">
+                          +{dayEvents.length - 2} more
+                        </button>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
     </section>
@@ -189,11 +303,10 @@ function SubmitSection() {
 }
 
 function TimelineSection({ events }: { events: CommunityEvent[] }) {
-  const { ref, isVisible } = useScrollReveal();
   return (
-    <section className="py-20 md:py-32 bg-background">
+    <section className="pb-20 md:pb-32 bg-background">
       <div className="max-w-3xl mx-auto px-6">
-        <div ref={ref} className={`mb-14 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}>
+        <div className="mb-14">
           <p className="text-sm font-medium uppercase tracking-widest text-primary mb-3">What&apos;s Coming Up</p>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground leading-tight">Upcoming events</h2>
         </div>
@@ -204,8 +317,8 @@ function TimelineSection({ events }: { events: CommunityEvent[] }) {
           <div className="relative">
             <div className="absolute left-[27px] top-2 bottom-10 w-px bg-border" />
             <div className="space-y-0">
-              {events.map((event, index) => (
-                <EventCard key={event.id} event={event} index={index} />
+              {events.map((event) => (
+                <EventCard key={event.id} event={event} />
               ))}
             </div>
           </div>
@@ -215,17 +328,14 @@ function TimelineSection({ events }: { events: CommunityEvent[] }) {
   );
 }
 
-function EventCard({ event, index }: { event: CommunityEvent; index: number }) {
-  const { ref, isVisible } = useScrollReveal(0.1);
+function EventCard({ event }: { event: CommunityEvent }) {
   const [y, m, d] = event.date.split("-").map(Number);
   const date = new Date(y, m - 1, d);
   const dayName = date.toLocaleDateString("en-US", { weekday: "short" });
   const month = date.toLocaleDateString("en-US", { month: "short" });
 
   return (
-    <div ref={ref}
-      className={`relative flex gap-6 pb-10 transition-all duration-500 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
-      style={{ transitionDelay: `${index * 80}ms` }}>
+    <div id={`event-${event.id}`} className="relative flex gap-6 pb-10 scroll-mt-28">
 
       {/* Date column with dot */}
       <div className="flex-shrink-0 w-14 text-center z-10">
@@ -270,9 +380,8 @@ function EventCard({ event, index }: { event: CommunityEvent; index: number }) {
 }
 
 function EmptyState() {
-  const { ref, isVisible } = useScrollReveal();
   return (
-    <div ref={ref} className={`transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
+    <div>
       <div className="flex flex-col items-center justify-center py-16 text-center border border-dashed border-border rounded-2xl">
         <Calendar className="h-10 w-10 text-muted-foreground/40 mb-4" />
         <p className="text-base font-medium text-foreground mb-1">No upcoming events</p>
