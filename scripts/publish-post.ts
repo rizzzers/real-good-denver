@@ -136,10 +136,23 @@ function appendPostToFile(post: Post, dryRun: boolean): void {
 // Git operations
 // ---------------------------------------------------------------------------
 
+// Precompute map pin coordinates for the new post's addresses. Non-fatal: the
+// map falls back to live geocoding for anything missing from placeCoords.json.
+function geocodeNewPlaces(): void {
+  try {
+    execSync(`npx tsx "${path.join(PROJECT_ROOT, "scripts", "geocode-places.ts")}"`, {
+      cwd: PROJECT_ROOT,
+      stdio: "inherit",
+    });
+  } catch {
+    console.warn("[publish] Geocoding failed; map will geocode live for new addresses.");
+  }
+}
+
 function gitCommitAndPush(title: string): void {
   const commitMsg = `Add post: ${title}`;
   try {
-    execSync(`git -C "${PROJECT_ROOT}" add src/data/posts.ts public/images/ scripts/best-of-denver-queue.json`, {
+    execSync(`git -C "${PROJECT_ROOT}" add src/data/posts.ts src/data/placeCoords.json public/images/ scripts/best-of-denver-queue.json`, {
       stdio: "pipe",
     });
     execSync(`git -C "${PROJECT_ROOT}" commit -m ${JSON.stringify(commitMsg)}`, {
@@ -240,6 +253,7 @@ async function main() {
       // is included in the same commit. Otherwise the queue stays "pending" in
       // the repo and the next run republishes the same post.
       markPublished(slug);
+      geocodeNewPlaces();
       gitCommitAndPush(post.title);
       console.log(`\n[publish-post] Done. "${post.title}" is live.`);
     } else {

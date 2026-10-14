@@ -4,83 +4,25 @@ import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import { MapPin as MapPinIcon } from "lucide-react";
 import type { MapPin } from "./LeafletMap";
+import { parseRestaurants, geocodeQuery, CO_VIEWBOX } from "@/lib/postMapPlaces";
+// Precomputed by scripts/geocode-places.ts, keyed by address: [lat, lng]
+import placeCoords from "@/data/placeCoords.json";
 
 const LeafletMap = dynamic(() => import("./LeafletMap"), { ssr: false });
 
-// Matches a "<City>, CO/Colorado" address fragment within a single segment
-// (no pipe between city and state). Used to locate the address line AND, when
-// name + address share one line, the specific pipe-segment that is the address.
-const CITY_CO =
-  /\b(Denver|Lakewood|Aurora|Westminster|Englewood|Littleton|Edgewater|Arvada|Wheat Ridge|Boulder|Golden|Commerce City|Thornton|Northglenn|Centennial|Glendale|Greenwood Village)\b[^|]*?\b(CO|Colorado)\b/;
+type Place = { name: string; address: string; isTop: boolean };
 
-// Colorado bounding box (lng/lat) for Nominatim, so an ambiguously-named place
-// can never resolve to a same-named bar in another state. viewbox is
-// left,top,right,bottom; bounded=1 discards anything outside it.
-const CO_VIEWBOX = "-109.06,41.003,-102.04,36.99";
+const savedCoords: Record<string, number[]> = placeCoords;
 
-// Extract restaurant name + address from markdown content
-function parseRestaurants(markdown: string): { name: string; address: string; isTop: boolean }[] {
-  const SEP = "\n\n---\n\n";
-  const sections = markdown.includes(SEP)
-    ? markdown.split(SEP)
-    : markdown.split(/\n\n(?=#{2,3}[\s*])/);
-
-  const results: { name: string; address: string; isTop: boolean }[] = [];
-  let firstRestaurant = true;
-
-  for (const section of sections) {
-    const lines = section.split("\n").map(l => l.trim()).filter(Boolean);
-    if (!lines.length) continue;
-
-    // Find heading line with ### or ##
-    const headingLine = lines.find(l => /^#{2,3}\s/.test(l));
-    if (!headingLine) continue;
-
-    // Extract name, handles all observed heading formats:
-    //   ### **[Name](url)**
-    //   ### 6. **[Name](url)**
-    //   ### 1. Name
-    //   ### 🥇 1. Name
-    //   ### Name
-    const nameMatch =
-      headingLine.match(/^#{2,3}\s+(?:\d+\.\s*)?(?:🥇\s*)?\*?\*?\[([^\]]+)\]/) ||
-      headingLine.match(/^#{2,3}\s+\*?\*?(?:\d+\.\s*)?(?:🥇\s*)?([^*\n[(]+)/);
-    if (!nameMatch) continue;
-    const name = nameMatch[1].replace(/\*/g, "").replace(/^\d+\.\s*/, "").trim();
-    if (!name || name.toLowerCase().includes("verdict") || name.toLowerCase().includes("conclusion")) continue;
-
-    // Find address line: contains a "<City>, CO" fragment.
-    const addrLine = lines.find(l => CITY_CO.test(l));
-    if (!addrLine) continue;
-
-    // The address line may be just the address, OR "Name | Street, City, CO ZIP
-    // (Hood) | $ | ...". Pick the pipe-segment that actually holds the address,
-    // not blindly the first segment (which would be the bar name).
-    const segments = addrLine.split("|");
-    const addrSegment = segments.find(s => CITY_CO.test(s)) ?? segments[0];
-
-    // Clean: unwrap markdown links, drop the (Neighborhood) parens, strip bold.
-    const address = addrSegment
-      .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
-      .replace(/\([^)]*\)/g, "")
-      .replace(/\*+/g, "")
-      .trim();
-
-    if (address.length < 8) continue;
-    results.push({ name, address, isTop: firstRestaurant });
-    firstRestaurant = false;
-  }
-
-  return results;
-}
-
-async function geocodeOne(address: string): Promise<{ lat: number; lng: number } | null> {
-  const key = `rgd_geo:${address}`;
+// Live fallback for addresses not yet in placeCoords.json (e.g. a post published
+// before the geocode script ran). Cached per browser.
+async function geocodeLive(address: string): Promise<{ lat: number; lng: number } | null> {
+  const key = `rgd_geo2:${address}`;
   try {
     const cached = localStorage.getItem(key);
     if (cached) return JSON.parse(cached);
 
-    const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(address)}&format=json&limit=1&countrycodes=us&viewbox=${CO_VIEWBOX}&bounded=1`;
+    const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(geocodeQuery(address))}&format=json&limit=1&countrycodes=us&viewbox=${CO_VIEWBOX}&bounded=1`;
     const res = await fetch(url, {
       headers: { "User-Agent": "RealGoodDenver/1.0 (realgooddenver.com)" },
     });
@@ -94,12 +36,9 @@ async function geocodeOne(address: string): Promise<{ lat: number; lng: number }
   return null;
 }
 
-async function geocodeAll(
-  places: { name: string; address: string; isTop: boolean }[],
-  onPin: (pin: MapPin) => void
-) {
+async function geocodeMissing(places: Place[], onPin: (pin: MapPin) => void) {
   for (const place of places) {
-    const coords = await geocodeOne(place.address);
+    const coords = await geocodeLive(place.address);
     if (coords) {
       onPin({ ...place, lat: coords.lat, lng: coords.lng });
     }
@@ -113,15 +52,20 @@ interface Props {
 }
 
 export default function PostMap({ content }: Props) {
-  const [pins, setPins] = useState<MapPin[]>([]);
-  const [loading, setLoading] = useState(true);
-
   const places = parseRestaurants(content);
+  const missing = places.filter(p => !savedCoords[p.address]);
+
+  const [pins, setPins] = useState<MapPin[]>(() =>
+    places
+      .filter(p => savedCoords[p.address])
+      .map(p => ({ ...p, lat: savedCoords[p.address][0], lng: savedCoords[p.address][1] }))
+  );
+  const [loading, setLoading] = useState(missing.length > 0);
 
   useEffect(() => {
-    if (!places.length) { setLoading(false); return; }
+    if (!missing.length) return;
 
-    geocodeAll(places, pin => setPins(prev => [...prev, pin])).finally(() => setLoading(false));
+    geocodeMissing(missing, pin => setPins(prev => [...prev, pin])).finally(() => setLoading(false));
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 

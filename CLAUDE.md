@@ -185,7 +185,7 @@ Every Best of Denver post automatically renders two features driven by the post 
 
 1. **Estes Picks #1 section** — The first restaurant/place in each post gets a highlighted navy/orange callout block with the Estes Picks circular graphic on the left and a `#1 Pick` badge. Driven by `src/components/EstesPickSection.tsx`. Works by detecting the first `###`, `##`, or `**Name**` heading after the intro.
 
-2. **Interactive map** — A Leaflet/OpenStreetMap map showing a pin for every location mentioned in the post. Geocodes addresses via Nominatim, caches in `localStorage`. Orange pin = #1 pick, blue = rest. Driven by `src/components/PostMap.tsx`. Works by extracting lines containing Colorado city/state patterns from each `###`/`##` section.
+2. **Interactive map** — A Leaflet map (Esri dark gray tiles; CARTO now requires an API key) showing a pin for every location mentioned in the post. Orange pin = #1 pick, blue = rest. Driven by `src/components/PostMap.tsx`; addresses are parsed by `src/lib/postMapPlaces.ts`, which extracts lines containing Colorado city/state patterns from each `###`/`##` section (or standalone `**Name**` lines in older posts). Coordinates are precomputed into `src/data/placeCoords.json` by `npx tsx scripts/geocode-places.ts` (US Census geocoder, Nominatim fallback); `publish-post.ts` runs it before committing. Addresses missing from that file are geocoded live in the browser as a fallback. After hand-editing addresses in `posts.ts`, re-run the geocode script.
 
 **For the auto-publish pipeline:** Ensure every restaurant entry in generated posts follows the format:
 ```
