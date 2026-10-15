@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-is-being-haunted-by-a-porta-potty-algorithm",
+    title: "Denver is being haunted by a porta-potty algorithm.",
+    date: "2026-10-14",
+    description: "Denver's porta-potty placement is now managed by a spreadsheet algorithm, replacing the city's previous system for deploying public restrooms. The Trump administration sued Denver over its mask law, a Denver city council race resulted in a restraining order, and Colorado keeps losing corporate investment to other states. Plus, new restaurant openings include Fire on the Mountain and Call Your Mother Deli, Walmart is bringing drone delivery to Denver, and Denver Summit FC broke ground on its permanent home.",
+    htmlFile: "/newsletter-issues/denver-is-being-haunted-by-a-porta-potty-algorithm.html",
+  },
+  {
     slug: "denvers-attorney-general-is-under-investigation-its-oldest-dispensary",
     title: "Denver's attorney general is under investigation, its oldest dispensary is fighting foreclosure, and its bears are apparently fluent in garage door mechanics.",
     date: "2026-10-07",
