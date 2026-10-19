@@ -1746,4 +1746,34 @@ export const communityEvents: CommunityEvent[] = [
       "Colorado's only comedy news quiz! Denver's funniest comedians take on current events and regional news, with a special guest interview with Jolon Clark, Director of Denver Parks & Rec.",
     link: "https://denvercomedy.multipass.com/coloradosaves",
   },
+  {
+    id: "area-5280-halloween-moodswing-2026",
+    title: "AREA 5280",
+    date: "2026-10-30",
+    time: "8:00 PM-1:00 AM",
+    location: "Moodswing Denver, 3625 E 48th Ave, Denver, CO 80216",
+    description:
+      "An immersive Halloween nightlife experience inspired by the strange, mysterious, and unexplained side of Colorado, from UFO sightings and alien encounters to Denver's underground tunnels and local conspiracy theories. AREA 5280 transforms Halloween night into a world where Denver meets Area 51, with high-energy music, specialty drinks, themed decor, immersive activations, photo opportunities, and VIP experiences. Music by Cowboy Cook: expect r&b, reggaeton, hip hop, top 40, and edits. Choose $35 General Admission or a $115 Open Bar experience. Costumes required, 21+ only.",
+    link: "https://www.eventbrite.com/e/area-5280-tickets-2003119221514?aff=oddtdtcreator",
+  },
+  {
+    id: "colorado-saves-the-world-comedy-on-colfax-2026-10-29",
+    title: "Comedy on Colfax at DNVR Bar with Special Guest Patricia Calhoun of Westword",
+    date: "2026-10-29",
+    time: "8:00 PM",
+    location: "DNVR Bar, Colfax & York, Denver",
+    description:
+      "Colorado Saves the World! brings a fast-paced comedy news quiz spotlighting the weird, wild, and wonderful happenings in Colorado and the Rocky Mountain region, with a panel of the Centennial State's funniest comedians. This episode's special guest interview is Patricia Calhoun, Founder and Editor (emeritus) of Westword, Denver's award-winning independent newspaper. A night of current events, comedy, and Calhoun, with the inside scoop on journalism in Colorado.",
+    link: "https://www.eventbrite.com/e/comedy-on-colfax-at-dnvr-bar-tickets-2002393372480",
+  },
+  {
+    id: "happy-dollydays-ski-jorts-city-2026",
+    title: "Happy Dollydays from Ski Jorts City",
+    date: "2026-11-11",
+    time: "Nov. 11-Dec. 31, with weekly and special events (schedule below)",
+    location: "Lady Justice Brewing Company, 3242 S Acoma St, Englewood, CO 80110",
+    description:
+      "Lady Justice Brewing's Ski Jorts City winter pop-up returns for its third year with a new look and themed events celebrating the legacy of Dolly Parton. Englewood's queer, women-owned brewery becomes a ski-lodge-esque winter wonderland with new and familiar Dolly-themed decor, festive activations, beer releases, and community nonprofit partnerships: a warm, welcoming space to make new memories with chosen family. Free and open to all ages, and well-behaved dogs are welcome. Weekly: Trivia with Josie on Wednesdays at 6:30 PM (starting Nov. 11) and Run Club on Thursdays at 6 PM. November: Bingo with Libby (Nov. 19, 6:30 PM), Makers Market (Nov. 21, noon-4 PM), Adult Book Fair with Second Star to the Right (Nov. 22, 1-4 PM), Fourth Annual Ski Jorts Fun Run with Dolly-inspired outfits encouraged (Nov. 22, 4 PM), Adult Drag Trivia with Jessica L'Whor (Nov. 23, 5 PM), and Awkward Family Photos (Nov. 28, 4-8 PM). December: \"Lips and Laughs\" Dolly-themed drag comedy with Talia Tucker and Lulu Krystals (Dec. 4, 7 PM), Makers Market (Dec. 5, noon-4 PM), Karaoke (Dec. 5, 6-10 PM), Adult Drag Trivia with Jessica L'Whor (Dec. 7, 5 PM), Canadian Tuxedo Semi-Formal with a Jorts Catwalk Competition, Awkward Family Photos, and DJ Seductive Mango (Dec. 12, 5-9 PM), Music Video Bingo with Libby (Dec. 17, 6:30 PM), Dolly Parton Party with live music from Jon Ham (Dec. 20, 5-7 PM), and NYE Brewsy Brunch (Dec. 31, noon-5 PM).",
+    link: "https://www.instagram.com/p/DefbPBclNHE/?img_index=1",
+  },
 ];
