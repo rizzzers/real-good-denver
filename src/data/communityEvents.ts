@@ -1770,10 +1770,170 @@ export const communityEvents: CommunityEvent[] = [
     id: "happy-dollydays-ski-jorts-city-2026",
     title: "Happy Dollydays from Ski Jorts City",
     date: "2026-11-11",
-    time: "Nov. 11-Dec. 31, with weekly and special events (schedule below)",
+    time: "Nov. 11-Dec. 31, with weekly and special events listed separately",
     location: "Lady Justice Brewing Company, 3242 S Acoma St, Englewood, CO 80110",
     description:
-      "Lady Justice Brewing's Ski Jorts City winter pop-up returns for its third year with a new look and themed events celebrating the legacy of Dolly Parton. Englewood's queer, women-owned brewery becomes a ski-lodge-esque winter wonderland with new and familiar Dolly-themed decor, festive activations, beer releases, and community nonprofit partnerships: a warm, welcoming space to make new memories with chosen family. Free and open to all ages, and well-behaved dogs are welcome. Weekly: Trivia with Josie on Wednesdays at 6:30 PM (starting Nov. 11) and Run Club on Thursdays at 6 PM. November: Bingo with Libby (Nov. 19, 6:30 PM), Makers Market (Nov. 21, noon-4 PM), Adult Book Fair with Second Star to the Right (Nov. 22, 1-4 PM), Fourth Annual Ski Jorts Fun Run with Dolly-inspired outfits encouraged (Nov. 22, 4 PM), Adult Drag Trivia with Jessica L'Whor (Nov. 23, 5 PM), and Awkward Family Photos (Nov. 28, 4-8 PM). December: \"Lips and Laughs\" Dolly-themed drag comedy with Talia Tucker and Lulu Krystals (Dec. 4, 7 PM), Makers Market (Dec. 5, noon-4 PM), Karaoke (Dec. 5, 6-10 PM), Adult Drag Trivia with Jessica L'Whor (Dec. 7, 5 PM), Canadian Tuxedo Semi-Formal with a Jorts Catwalk Competition, Awkward Family Photos, and DJ Seductive Mango (Dec. 12, 5-9 PM), Music Video Bingo with Libby (Dec. 17, 6:30 PM), Dolly Parton Party with live music from Jon Ham (Dec. 20, 5-7 PM), and NYE Brewsy Brunch (Dec. 31, noon-5 PM).",
+      "Lady Justice Brewing's Ski Jorts City winter pop-up returns for its third year with a new look and themed events celebrating the legacy of Dolly Parton. Englewood's queer, women-owned brewery becomes a ski-lodge-esque winter wonderland with new and familiar Dolly-themed decor, festive activations, beer releases, and community nonprofit partnerships. Happy Dollydays is a celebration of the season rather than any one holiday: in the spirit of Dolly Parton's message of light and love, a warm, welcoming space to make new memories with chosen family. Free and open to all ages, and well-behaved dogs are welcome. See the individual Ski Jorts City events listed throughout November and December.",
+    link: "https://www.instagram.com/p/DefbPBclNHE/?img_index=1",
+  },
+  {
+    id: "ski-jorts-city-trivia-with-josie-2026",
+    title: "Ski Jorts City: Trivia with Josie",
+    date: "2026-11-11",
+    time: "Wednesdays, 6:30 PM (starting Nov. 11)",
+    location: "Lady Justice Brewing Company, 3242 S Acoma St, Englewood, CO 80110",
+    description:
+      "Weekly trivia night with Josie, kicking off on opening night of Happy Dollydays from Ski Jorts City, Lady Justice Brewing's Dolly Parton-themed winter pop-up.",
+    link: "https://www.instagram.com/p/DefbPBclNHE/?img_index=1",
+  },
+  {
+    id: "ski-jorts-city-run-club-2026",
+    title: "Ski Jorts City: Run Club",
+    date: "2026-11-12",
+    time: "Thursdays, 6:00 PM",
+    location: "Lady Justice Brewing Company, 3242 S Acoma St, Englewood, CO 80110",
+    description:
+      "Weekly Thursday run club at Lady Justice Brewing during Happy Dollydays from Ski Jorts City, the brewery's Dolly Parton-themed winter pop-up.",
+    link: "https://www.instagram.com/p/DefbPBclNHE/?img_index=1",
+  },
+  {
+    id: "ski-jorts-city-bingo-with-libby-2026-11-19",
+    title: "Ski Jorts City: Bingo with Libby",
+    date: "2026-11-19",
+    time: "6:30 PM",
+    location: "Lady Justice Brewing Company, 3242 S Acoma St, Englewood, CO 80110",
+    description:
+      "Bingo night with Libby at Happy Dollydays from Ski Jorts City, Lady Justice Brewing's Dolly Parton-themed winter pop-up.",
+    link: "https://www.instagram.com/p/DefbPBclNHE/?img_index=1",
+  },
+  {
+    id: "ski-jorts-city-makers-market-2026-11-21",
+    title: "Ski Jorts City: Makers Market",
+    date: "2026-11-21",
+    time: "12:00-4:00 PM",
+    location: "Lady Justice Brewing Company, 3242 S Acoma St, Englewood, CO 80110",
+    description:
+      "A makers market at Happy Dollydays from Ski Jorts City, Lady Justice Brewing's Dolly Parton-themed winter pop-up.",
+    link: "https://www.instagram.com/p/DefbPBclNHE/?img_index=1",
+  },
+  {
+    id: "ski-jorts-city-adult-book-fair-2026-11-22",
+    title: "Ski Jorts City: Adult Book Fair with Second Star to the Right",
+    date: "2026-11-22",
+    time: "1:00-4:00 PM",
+    location: "Lady Justice Brewing Company, 3242 S Acoma St, Englewood, CO 80110",
+    description:
+      "An adult book fair with Second Star to the Right at Happy Dollydays from Ski Jorts City, Lady Justice Brewing's Dolly Parton-themed winter pop-up.",
+    link: "https://www.instagram.com/p/DefbPBclNHE/?img_index=1",
+  },
+  {
+    id: "ski-jorts-city-fun-run-2026-11-22",
+    title: "Fourth Annual Ski Jorts Fun Run",
+    date: "2026-11-22",
+    time: "4:00 PM",
+    location: "Lady Justice Brewing Company, 3242 S Acoma St, Englewood, CO 80110",
+    description:
+      "The fourth annual Ski Jorts Fun Run, part of Happy Dollydays from Ski Jorts City. Dolly-inspired outfits encouraged.",
+    link: "https://www.instagram.com/p/DefbPBclNHE/?img_index=1",
+  },
+  {
+    id: "ski-jorts-city-adult-drag-trivia-2026-11-23",
+    title: "Ski Jorts City: Adult Drag Trivia with Jessica L'Whor",
+    date: "2026-11-23",
+    time: "5:00 PM",
+    location: "Lady Justice Brewing Company, 3242 S Acoma St, Englewood, CO 80110",
+    description:
+      "Adult drag trivia with Jessica L'Whor at Happy Dollydays from Ski Jorts City, Lady Justice Brewing's Dolly Parton-themed winter pop-up.",
+    link: "https://www.instagram.com/p/DefbPBclNHE/?img_index=1",
+  },
+  {
+    id: "ski-jorts-city-awkward-family-photos-2026-11-28",
+    title: "Ski Jorts City: Awkward Family Photos",
+    date: "2026-11-28",
+    time: "4:00-8:00 PM",
+    location: "Lady Justice Brewing Company, 3242 S Acoma St, Englewood, CO 80110",
+    description:
+      "Awkward Family Photos at Happy Dollydays from Ski Jorts City, Lady Justice Brewing's Dolly Parton-themed winter pop-up.",
+    link: "https://www.instagram.com/p/DefbPBclNHE/?img_index=1",
+  },
+  {
+    id: "ski-jorts-city-lips-and-laughs-2026-12-04",
+    title: "Ski Jorts City: \"Lips and Laughs\" Dolly-Themed Drag Comedy",
+    date: "2026-12-04",
+    time: "7:00 PM",
+    location: "Lady Justice Brewing Company, 3242 S Acoma St, Englewood, CO 80110",
+    description:
+      "\"Lips and Laughs,\" a Dolly-themed drag comedy show with Talia Tucker and Lulu Krystals, part of Happy Dollydays from Ski Jorts City.",
+    link: "https://www.instagram.com/p/DefbPBclNHE/?img_index=1",
+  },
+  {
+    id: "ski-jorts-city-makers-market-2026-12-05",
+    title: "Ski Jorts City: Makers Market",
+    date: "2026-12-05",
+    time: "12:00-4:00 PM",
+    location: "Lady Justice Brewing Company, 3242 S Acoma St, Englewood, CO 80110",
+    description:
+      "A makers market at Happy Dollydays from Ski Jorts City, Lady Justice Brewing's Dolly Parton-themed winter pop-up.",
+    link: "https://www.instagram.com/p/DefbPBclNHE/?img_index=1",
+  },
+  {
+    id: "ski-jorts-city-karaoke-2026-12-05",
+    title: "Ski Jorts City: Karaoke",
+    date: "2026-12-05",
+    time: "6:00-10:00 PM",
+    location: "Lady Justice Brewing Company, 3242 S Acoma St, Englewood, CO 80110",
+    description:
+      "Karaoke night at Happy Dollydays from Ski Jorts City, Lady Justice Brewing's Dolly Parton-themed winter pop-up.",
+    link: "https://www.instagram.com/p/DefbPBclNHE/?img_index=1",
+  },
+  {
+    id: "ski-jorts-city-adult-drag-trivia-2026-12-07",
+    title: "Ski Jorts City: Adult Drag Trivia with Jessica L'Whor",
+    date: "2026-12-07",
+    time: "5:00 PM",
+    location: "Lady Justice Brewing Company, 3242 S Acoma St, Englewood, CO 80110",
+    description:
+      "Adult drag trivia with Jessica L'Whor at Happy Dollydays from Ski Jorts City, Lady Justice Brewing's Dolly Parton-themed winter pop-up.",
+    link: "https://www.instagram.com/p/DefbPBclNHE/?img_index=1",
+  },
+  {
+    id: "ski-jorts-city-canadian-tuxedo-2026-12-12",
+    title: "Ski Jorts City: Canadian Tuxedo Semi-Formal",
+    date: "2026-12-12",
+    time: "5:00-9:00 PM",
+    location: "Lady Justice Brewing Company, 3242 S Acoma St, Englewood, CO 80110",
+    description:
+      "A Canadian Tuxedo semi-formal with a Jorts Catwalk Competition, Awkward Family Photos, and DJ Seductive Mango, part of Happy Dollydays from Ski Jorts City.",
+    link: "https://www.instagram.com/p/DefbPBclNHE/?img_index=1",
+  },
+  {
+    id: "ski-jorts-city-music-video-bingo-2026-12-17",
+    title: "Ski Jorts City: Music Video Bingo with Libby",
+    date: "2026-12-17",
+    time: "6:30 PM",
+    location: "Lady Justice Brewing Company, 3242 S Acoma St, Englewood, CO 80110",
+    description:
+      "Music video bingo with Libby at Happy Dollydays from Ski Jorts City, Lady Justice Brewing's Dolly Parton-themed winter pop-up.",
+    link: "https://www.instagram.com/p/DefbPBclNHE/?img_index=1",
+  },
+  {
+    id: "ski-jorts-city-dolly-parton-party-2026-12-20",
+    title: "Ski Jorts City: Dolly Parton Party with Live Music from Jon Ham",
+    date: "2026-12-20",
+    time: "5:00-7:00 PM",
+    location: "Lady Justice Brewing Company, 3242 S Acoma St, Englewood, CO 80110",
+    description:
+      "A Dolly Parton party with live music from the one and only Jon Ham, part of Happy Dollydays from Ski Jorts City.",
+    link: "https://www.instagram.com/p/DefbPBclNHE/?img_index=1",
+  },
+  {
+    id: "ski-jorts-city-nye-brewsy-brunch-2026-12-31",
+    title: "Ski Jorts City: NYE Brewsy Brunch",
+    date: "2026-12-31",
+    time: "12:00-5:00 PM",
+    location: "Lady Justice Brewing Company, 3242 S Acoma St, Englewood, CO 80110",
+    description:
+      "A New Year's Eve brewsy brunch to close out Happy Dollydays from Ski Jorts City, Lady Justice Brewing's Dolly Parton-themed winter pop-up.",
     link: "https://www.instagram.com/p/DefbPBclNHE/?img_index=1",
   },
 ];
