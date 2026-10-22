@@ -1936,4 +1936,24 @@ export const communityEvents: CommunityEvent[] = [
       "A New Year's Eve brewsy brunch to close out Happy Dollydays from Ski Jorts City, Lady Justice Brewing's Dolly Parton-themed winter pop-up.",
     link: "https://www.instagram.com/p/DefbPBclNHE/?img_index=1",
   },
+  {
+    id: "skip-the-small-talk-night-town-hall-2026-10-27",
+    title: "Skip the Small Talk Night at Town Hall Collaborative",
+    date: "2026-10-27",
+    time: "6:30-8:30 PM",
+    location: "Town Hall Collaborative, 525 Santa Fe Dr, Denver, CO 80204",
+    description:
+      "An evening for talking to actual human beings. You pair up with the other nice people who showed up and switch partners every so often, kind of like speed-dating without the speed or the dating. A host leads the whole night so it never gets awkward, and question cards guide conversation a few notches deeper than usual so you don't talk about your job six times in a row. Come alone, as most people do, or bring a friend.",
+    link: "https://www.skipthesmalltalk.com/store/skip-the-small-talk-night-at-town-hall-collaborative-tuesday-october-27-2026",
+  },
+  {
+    id: "skip-the-small-talk-night-town-hall-2026-11-17",
+    title: "Skip the Small Talk Night at Town Hall Collaborative",
+    date: "2026-11-17",
+    time: "6:30-8:30 PM",
+    location: "Town Hall Collaborative, 525 Santa Fe Dr, Denver, CO 80204",
+    description:
+      "An evening for talking to actual human beings. You pair up with the other nice people who showed up and switch partners every so often, kind of like speed-dating without the speed or the dating. A host leads the whole night so it never gets awkward, and question cards guide conversation a few notches deeper than usual so you don't talk about your job six times in a row. Come alone, as most people do, or bring a friend.",
+    link: "https://www.skipthesmalltalk.com/store/skip-the-small-talk-night-at-town-hall-collaborative-tuesday-november-17-2026",
+  },
 ];
