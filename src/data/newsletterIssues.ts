@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-banned-pickleball-from-courts-it-just-built-and-still-cannot",
+    title: "Denver banned pickleball from courts it just built, and still cannot explain the Castle Rock Bag Lady.",
+    date: "2026-10-23",
+    description: "Denver spent nearly $1 million building new pickleball courts, then banned pickleball from them, and separately spent $1.1 million determining porta potty placement in parks. A $170 million downtown tower was seized after its owners failed to appear in court, a second CSU student was arrested for allegedly stockpiling napalm ingredients in a dorm, and the Castle Rock Bag Lady remains at large despite an active warrant. Plus, new restaurants Fire on the Mountain and Call Your Mother Deli opened, and Denver's first-ever Oktoberfest landed at the Stock Show Grounds.",
+    htmlFile: "/newsletter-issues/denver-banned-pickleball-from-courts-it-just-built-and-still-cannot.html",
+  },
+  {
     slug: "denver-is-being-haunted-by-a-porta-potty-algorithm",
     title: "Denver is being haunted by a porta-potty algorithm.",
     date: "2026-10-14",
