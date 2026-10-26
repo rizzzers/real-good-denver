@@ -1956,4 +1956,14 @@ export const communityEvents: CommunityEvent[] = [
       "An evening for talking to actual human beings. You pair up with the other nice people who showed up and switch partners every so often, kind of like speed-dating without the speed or the dating. A host leads the whole night so it never gets awkward, and question cards guide conversation a few notches deeper than usual so you don't talk about your job six times in a row. Come alone, as most people do, or bring a friend.",
     link: "https://www.skipthesmalltalk.com/store/skip-the-small-talk-night-at-town-hall-collaborative-tuesday-november-17-2026",
   },
+  {
+    id: "cwhf-women-in-stem-2026",
+    title: "Colorado Women's Hall of Fame: Women in STEM 2026",
+    date: "2026-11-05",
+    time: "5:30 PM",
+    location: "Tivoli Turnhalle, 900 Auraria Pkwy, Denver, CO 80204",
+    description:
+      "A panel discussion celebrating the women breaking barriers in STEM. The featured keynote is CWHF Inductee Lt. Gen. (Ret.) Susan Helms, a former NASA astronaut and U.S. Air Force officer who flew five Space Shuttle missions, spent more than six months aboard the International Space Station, and holds the world record for the longest spacewalk ever completed: 8 hours and 56 minutes. The annual Colorado Women's Hall of Fame Women in STEM event celebrates influential Colorado women in science and technology, and this year spotlights distinguished MSU Denver faculty alongside industry pioneers, offering real-world role models for the next generation of young women entering STEM fields.",
+    link: "https://stemstars.eventbrite.com/",
+  },
 ];
