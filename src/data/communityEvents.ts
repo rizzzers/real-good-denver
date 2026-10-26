@@ -1966,4 +1966,24 @@ export const communityEvents: CommunityEvent[] = [
       "A panel discussion celebrating the women breaking barriers in STEM. The featured keynote is CWHF Inductee Lt. Gen. (Ret.) Susan Helms, a former NASA astronaut and U.S. Air Force officer who flew five Space Shuttle missions, spent more than six months aboard the International Space Station, and holds the world record for the longest spacewalk ever completed: 8 hours and 56 minutes. The annual Colorado Women's Hall of Fame Women in STEM event celebrates influential Colorado women in science and technology, and this year spotlights distinguished MSU Denver faculty alongside industry pioneers, offering real-world role models for the next generation of young women entering STEM fields.",
     link: "https://stemstars.eventbrite.com/",
   },
+  {
+    id: "camera-world-creepatorium-2026-11-29",
+    title: "Camera World",
+    date: "2026-11-29",
+    time: "7:00 PM",
+    location: "Creepatorium, 1974 S Acoma St, Denver, CO 80223",
+    description:
+      "An immersive sci-fi comedy experience in a retro dystopia full of surprises, starring Camera Man.",
+    link: "https://entercameraworld.com/shows",
+  },
+  {
+    id: "camera-world-creepatorium-2026-11-30",
+    title: "Camera World",
+    date: "2026-11-30",
+    time: "7:00 PM",
+    location: "Creepatorium, 1974 S Acoma St, Denver, CO 80223",
+    description:
+      "An immersive sci-fi comedy experience in a retro dystopia full of surprises, starring Camera Man.",
+    link: "https://entercameraworld.com/shows",
+  },
 ];
