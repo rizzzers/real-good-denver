@@ -1760,10 +1760,10 @@ export const communityEvents: CommunityEvent[] = [
     id: "colorado-saves-the-world-comedy-on-colfax-2026-10-29",
     title: "Comedy on Colfax at DNVR Bar with Special Guest Patricia Calhoun of Westword",
     date: "2026-10-29",
-    time: "8:00 PM",
-    location: "DNVR Bar, Colfax & York, Denver",
+    time: "7:00 PM",
+    location: "DNVR Bar, 2239 E Colfax Ave, Denver, CO 80206 (York & Colfax)",
     description:
-      "Colorado Saves the World! brings a fast-paced comedy news quiz spotlighting the weird, wild, and wonderful happenings in Colorado and the Rocky Mountain region, with a panel of the Centennial State's funniest comedians. This episode's special guest interview is Patricia Calhoun, Founder and Editor (emeritus) of Westword, Denver's award-winning independent newspaper. A night of current events, comedy, and Calhoun, with the inside scoop on journalism in Colorado.",
+      "Colorado Saves the World! brings a fast-paced comedy news quiz spotlighting the weird, wild, and wonderful happenings in Colorado and the Rocky Mountain region, with a panel of the Centennial State's funniest comedians who source all their material from reputable local media outlets. This episode's special guest interview is Patricia Calhoun, Founder and Editor (emeritus) of Westword, Denver's award-winning independent newspaper, and the show is in collaboration with the Colfax Business Improvement District's Colfax revitalization effort. A night of current events, comedy, and Calhoun, with the inside scoop on journalism in Colorado. Street parking is available around the neighborhood, and the new BOLO bus runs down Colfax.",
     link: "https://www.eventbrite.com/e/comedy-on-colfax-at-dnvr-bar-tickets-2002393372480",
   },
   {
