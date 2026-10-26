@@ -1986,4 +1986,14 @@ export const communityEvents: CommunityEvent[] = [
       "An immersive sci-fi comedy experience in a retro dystopia full of surprises, starring Camera Man.",
     link: "https://entercameraworld.com/shows",
   },
+  {
+    id: "get-your-flirt-on-attraction-101-2026-11-12",
+    title: "Get Your Flirt On: An Attraction 101 Workshop",
+    date: "2026-11-12",
+    time: "Evening (two-hour workshop)",
+    location: "Blackbird Public House, 305 S Downing St, Denver, CO 80209",
+    description:
+      "Dating apps are awesome, and they are just one way to meet people. You can meet people in real life, out in the wild. Join dating and breakup coach Janice Formichella, host of the Sex and the Solo Girl podcast, for an evening of learning how to get your flirt on: a flirting-style assessment, gritty conversations about the ins and outs of flirting, top flirting tips from an experienced dating coach, a live dating Q&A (ask anything), and drinks and mingling. Tickets include a drink on arrival. Food available for purchase, including oysters.",
+    link: "https://www.eventbrite.com/e/get-your-flirt-on-an-attraction-101-workshop-tickets-2003313877736",
+  },
 ];
