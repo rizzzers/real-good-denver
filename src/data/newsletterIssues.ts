@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-is-bracing-for-a-sidewalk-scooter-crackdown-a-soup-sandwich",
+    title: "Denver is bracing for a sidewalk scooter crackdown, a soup sandwich rezoning fight, and elephants smashing giant pumpkins for fun.",
+    date: "2026-10-28",
+    description: "Denver is finally kicking Veo scooters off its sidewalks, pushing them into bike lanes and streets in a long-awaited crackdown. Lakewood neighbors are fighting a rezoning request they're calling a soup sandwich, Colorado has broken ground on an $806 million highway overhaul and a $50 million Civic Center Park facelift, and two international grocery chains are racing to open Denver locations. Plus, the Denver Zoo's elephants demolished a pile of giant pumpkins, because why not.",
+    htmlFile: "/newsletter-issues/denver-is-bracing-for-a-sidewalk-scooter-crackdown-a-soup-sandwich.html",
+  },
+  {
     slug: "denver-banned-pickleball-from-courts-it-just-built-and-still-cannot",
     title: "Denver banned pickleball from courts it just built, and still cannot explain the Castle Rock Bag Lady.",
     date: "2026-10-23",
