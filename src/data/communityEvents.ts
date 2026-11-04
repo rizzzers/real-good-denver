@@ -1996,4 +1996,14 @@ export const communityEvents: CommunityEvent[] = [
       "Dating apps are awesome, and they are just one way to meet people. You can meet people in real life, out in the wild. Join dating and breakup coach Janice Formichella, host of the Sex and the Solo Girl podcast, for an evening of learning how to get your flirt on: a flirting-style assessment, gritty conversations about the ins and outs of flirting, top flirting tips from an experienced dating coach, a live dating Q&A (ask anything), and drinks and mingling. Tickets include a drink on arrival. Food available for purchase, including oysters.",
     link: "https://www.eventbrite.com/e/get-your-flirt-on-an-attraction-101-workshop-tickets-2003313877736",
   },
+  {
+    id: "science-riot-popup-cerebral-brewing-2026-11-05",
+    title: "Science Riot Pop-Up: Comedy on Colfax!",
+    date: "2026-11-05",
+    time: "7:00 PM",
+    location: "Cerebral Brewing, Congress Park, Denver",
+    description:
+      "Laugh along as real-life scientists do stand-up comedy about their work. It's real science, and it's really funny.",
+    link: "https://cerebralbrewing.com/event/science-riot-2026-11-05/",
+  },
 ];
