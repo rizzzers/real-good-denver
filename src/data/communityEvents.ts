@@ -2006,4 +2006,48 @@ export const communityEvents: CommunityEvent[] = [
       "Laugh along as real-life scientists do stand-up comedy about their work. It's real science, and it's really funny.",
     link: "https://cerebralbrewing.com/event/science-riot-2026-11-05/",
   },
+  {
+    id: "fox-and-the-hen-weenie-wednesday-2026-11-04",
+    title: "Weenie Wednesday at Fox and the Hen",
+    date: "2026-11-04",
+    time: "4:00 PM (first Wednesday of every month)",
+    location: "Fox and the Hen, Denver",
+    description:
+      "The best doggie happy hour in Denver is back at Fox and the Hen, with hot dogs, wiener dogs, and happy hour specials. Dogs of all shapes and sizes are welcome, and people, too. Happens on the first Wednesday of every month.",
+    link: "https://foxandthehen.com",
+  },
+  {
+    id: "harrys-whistlepig-pairing-dinner-2026-11-05",
+    title: "Harry's x WhistlePig Four-Course Pairing Dinner",
+    date: "2026-11-05",
+    time: "5:00 PM",
+    location: "Harry's at Magnolia Hotel Denver, A Tribute Portfolio Hotel",
+    description:
+      "Harry's teams up with WhistlePig Whiskey for a four-course dinner paired with handcrafted WhistlePig cocktails, with dishes like seared scallop with blackberry gastrique and grilled pork tenderloin in a whiskey glaze. The highlight: the WhistlePig team brings a bottle of The Boss Hog, a rare expression retailing for approximately $700, giving guests a chance to taste one of their most celebrated whiskeys.",
+  },
+  {
+    id: "a5-kumoya-kaiseki-collab-dinner-2026-11-12",
+    title: "A5 and Kumoya Kaiseki Collab Dinner",
+    date: "2026-11-12",
+    location: "Kumoya, LoHi, Denver",
+    description:
+      "For one night only, four-time Michelin recognized steak house A5 and Kumoya Japanese kitchen collaborate on an epic surf and turf dinner. Chef Anthony Mills of A5 and Corey Baker of Kumoya combine the bold flavors of A5 with the meticulous precision of Kumoya for a six-course, kaiseki-inspired dinner featuring 45-day aged bluefin tuna, marbled wagyu, oysters, uni, truffle, and more. Tickets are $150 per guest.",
+  },
+  {
+    id: "rare-bird-alpine-village-grand-opening-2026-11-14",
+    title: "Rare Bird Alpine Village Grand Opening Celebration",
+    date: "2026-11-14",
+    location: "Rare Bird at Halcyon, a hotel in Cherry Creek, Denver",
+    description:
+      "Winter takes over the rooftop at Rare Bird with Alpine Village, Halcyon's newest seasonal rooftop experience: a cozy, mountain-inspired escape with intimate alpine-style cabins, seasonal cocktails, and comforting bites. The grand opening features extended happy hour specials all day, live DJ entertainment, and special activations. Free to attend, RSVPs encouraged.",
+  },
+  {
+    id: "osteria-marco-2000s-pop-icons-drag-bingo-brunch-2026-11-22",
+    title: "2000s Pop Icons Drag Bingo Brunch at Osteria Marco",
+    date: "2026-11-22",
+    time: "Two shows: 11:00 AM and 1:00 PM",
+    location: "Osteria Marco, Denver",
+    description:
+      "Shirley Delta Blow and friends celebrate 2000s pop icons, from Britney Spears, Beyoncé, Xtina, and Lady Gaga to more, with drag bingo and bottomless mimosas. Tickets are $25 per person.",
+  },
 ];
