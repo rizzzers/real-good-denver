@@ -2050,4 +2050,13 @@ export const communityEvents: CommunityEvent[] = [
     description:
       "Shirley Delta Blow and friends celebrate 2000s pop icons, from Britney Spears, Beyoncé, Xtina, and Lady Gaga to more, with drag bingo and bottomless mimosas. Tickets are $25 per person.",
   },
+  {
+    id: "edible-beats-thanksgiving-at-home-2026",
+    title: "Chef Justin Cucci & Edible Beats Thanksgiving at Home",
+    date: "2026-11-24",
+    time: "Order by Sun. Nov. 22; pickup Tues. Nov. 24 or Wed. Nov. 25",
+    location: "Pickup at Root Down, Denver, or delivery via DoorDash",
+    description:
+      "Orders are open for the seventh annual Thanksgiving at Home from Chef Justin Cucci and Edible Beats, with culinary remixes from the employee-owned EB Universe: Root Down, Linger, El Five, Vital Root, and soon-to-open Pip. Pricing is holding steady for another year. The traditional dinner ($68 per person, plus leftovers) features fresh turkey two ways, garlic mashed potatoes, green bean casserole, delicata squash, marble rye stuffing, whipped sweet potatoes, and cranberry relish. Everything But the Turkey ($95, serves four) packs the sides by the quart with cranberry relish and six sweet potato rolls. Vital Root offers a fully vegan and gluten-free dinner ($48 per person) built around a mushroom Wellington. Scratch-baked 10-inch holiday pies run $30 to $37, including a layered pumpkin and whiskey pecan pie and a vegan sweet potato and pumpkin pie. Order deadline is Sunday, Nov. 22.",
+  },
 ];
