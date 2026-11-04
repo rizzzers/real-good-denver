@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-just-found-out-reddit-thinks-it-is-boring-and-its-eviction-aid",
+    title: "Denver just found out Reddit thinks it is boring, and its eviction aid is getting cut 70 percent.",
+    date: "2026-11-04",
+    description: "Denver is reeling after Reddit declared it boring, and the city's eviction assistance program is being cut by 70 percent, leaving renters with a thinner safety net. Plus, new restaurant Risica has opened, Denver Water is pushing for a lawn enforcement program, the city is heading to trial over filming police officers, and Colorado's cannabis industry faces ongoing product recalls alongside a legal dispute in which a cannabis giant's own lawyer has turned against it.",
+    htmlFile: "/newsletter-issues/denver-just-found-out-reddit-thinks-it-is-boring-and-its-eviction-aid.html",
+  },
+  {
     slug: "denver-is-bracing-for-a-sidewalk-scooter-crackdown-a-soup-sandwich",
     title: "Denver is bracing for a sidewalk scooter crackdown, a soup sandwich rezoning fight, and elephants smashing giant pumpkins for fun.",
     date: "2026-10-28",
