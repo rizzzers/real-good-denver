@@ -6,6 +6,8 @@ import { useRouter } from "next/navigation";
 import { Check, Copy, ExternalLink, Facebook, Mail, MessageCircle, Share2, KeyRound, Loader2 } from "lucide-react";
 import { Leaderboard, type LeaderRowView } from "../shared";
 
+const FOLLOW_SECONDS = 15;
+
 interface LinkAction {
   id: number;
   label: string;
@@ -40,6 +42,7 @@ export default function EntrantDashboard(p: Props) {
   const [codeMsg, setCodeMsg] = useState<{ ok: boolean; text: string } | null>(null);
   const [codeLoading, setCodeLoading] = useState(false);
   const [found, setFound] = useState(p.codes.found);
+  const [pending, setPending] = useState<Record<number, number>>({});
 
   const shareText = `I just entered to win ${p.prize} from Real Good Denver. Enter here:`;
   const enc = encodeURIComponent;
@@ -66,10 +69,27 @@ export default function EntrantDashboard(p: Props) {
     }
   }
 
-  async function complete(a: LinkAction) {
-    // Open the link right away (inside the click, so popup blockers allow it), then record the points.
+  function complete(a: LinkAction) {
+    // Open the link right away (inside the click, so popup blockers allow it).
     window.open(a.url, "_blank", "noopener,noreferrer");
-    if (a.done || !p.open) return;
+    if (a.done || !p.open || pending[a.id] !== undefined) return;
+    // Give them time to actually follow before the points land.
+    setPending((prev) => ({ ...prev, [a.id]: FOLLOW_SECONDS }));
+    const tick = setInterval(() => {
+      setPending((prev) => (prev[a.id] > 1 ? { ...prev, [a.id]: prev[a.id] - 1 } : prev));
+    }, 1000);
+    setTimeout(() => {
+      clearInterval(tick);
+      setPending((prev) => {
+        const next = { ...prev };
+        delete next[a.id];
+        return next;
+      });
+      record(a);
+    }, FOLLOW_SECONDS * 1000);
+  }
+
+  async function record(a: LinkAction) {
     setActions((prev) => prev.map((x) => (x.id === a.id ? { ...x, done: true } : x)));
     const res = await fetch("/api/giveaway/action", {
       method: "POST",
@@ -159,20 +179,37 @@ export default function EntrantDashboard(p: Props) {
             <div>
               <h2 className="mb-4 text-xl font-bold">Bonus points</h2>
               <ul className="space-y-3">
-                {actions.map((a) => (
-                  <li key={a.id}>
-                    <button
-                      onClick={() => complete(a)}
-                      className={`flex w-full items-center justify-between rounded-xl border p-4 text-left transition-colors ${a.done ? "border-border bg-muted/50" : "border-border bg-card hover:border-primary"}`}
-                    >
-                      <span className="flex items-center gap-3">
-                        {a.done ? <Check className="h-5 w-5 text-green-600" /> : <ExternalLink className="h-5 w-5 text-primary" />}
-                        <span className={a.done ? "text-muted-foreground" : ""}>{a.label}</span>
-                      </span>
-                      <span className={`font-semibold ${a.done ? "text-green-600" : "text-primary"}`}>{a.done ? "Done" : `+${a.points}`}</span>
-                    </button>
-                  </li>
-                ))}
+                {actions.map((a) => {
+                  const left = pending[a.id];
+                  const waiting = left !== undefined;
+                  return (
+                    <li key={a.id}>
+                      <button
+                        onClick={() => complete(a)}
+                        className={`flex w-full items-center justify-between gap-3 rounded-xl border p-4 text-left transition-colors ${
+                          a.done ? "border-border bg-muted/50" : waiting ? "border-primary bg-primary/5" : "border-border bg-card hover:border-primary"
+                        }`}
+                      >
+                        <span className="flex items-center gap-3">
+                          {a.done ? (
+                            <Check className="h-5 w-5 shrink-0 text-green-600" />
+                          ) : waiting ? (
+                            <Loader2 className="h-5 w-5 shrink-0 animate-spin text-primary" />
+                          ) : (
+                            <ExternalLink className="h-5 w-5 shrink-0 text-primary" />
+                          )}
+                          <span className="flex flex-col">
+                            <span className={a.done ? "text-muted-foreground" : ""}>{a.label}</span>
+                            {waiting && <span className="text-sm text-primary">Open the new tab and follow</span>}
+                          </span>
+                        </span>
+                        <span className={`shrink-0 font-semibold tabular-nums ${a.done ? "text-green-600" : "text-primary"}`}>
+                          {a.done ? "Done" : waiting ? `${left}s` : `+${a.points}`}
+                        </span>
+                      </button>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           )}
