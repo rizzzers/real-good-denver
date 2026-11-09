@@ -39,7 +39,7 @@ export default function ThankYou({
 
       <div
         className="rgd-drift absolute inset-0 -z-20 bg-cover bg-center"
-        style={{ backgroundImage: "url(/giveaways/denver-brunch-bg.jpg)" }}
+        style={{ backgroundImage: "url(/giveaways/denver-skyline-brunch-bg.jpg)" }}
         aria-hidden="true"
       />
       {/* Keep the scene visible up top, darken behind the text */}
