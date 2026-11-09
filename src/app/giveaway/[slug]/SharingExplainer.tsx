@@ -20,12 +20,13 @@ export default function SharingExplainer({ pointsReferral, pointsEntry }: { poin
     <div className="mt-6 overflow-hidden rounded-2xl border border-background/10 bg-background/5 p-6 text-background backdrop-blur-sm md:p-8">
       <style>{`
         @keyframes rgd-pop { 0%,8% { transform: translate(-50%,-50%) scale(0); opacity: 0 } 16%,88% { transform: translate(-50%,-50%) scale(1); opacity: 1 } 100% { transform: translate(-50%,-50%) scale(0.6); opacity: 0 } }
-        @keyframes rgd-line { 0%,10% { stroke-dashoffset: 60; opacity: 0 } 18%,88% { stroke-dashoffset: 0; opacity: .5 } 100% { opacity: 0 } }
+        @keyframes rgd-line { 0%,10% { opacity: 0 } 18%,88% { opacity: .6 } 100% { opacity: 0 } }
+        @keyframes rgd-march { to { stroke-dashoffset: -20 } }
         @keyframes rgd-float { 0%,16% { transform: translate(-50%,0); opacity: 0 } 22% { opacity: 1 } 40% { transform: translate(-50%,-28px); opacity: 0 } 100% { opacity: 0 } }
         @keyframes rgd-pulse { 0%,100% { box-shadow: 0 0 0 0 hsl(var(--primary) / .45) } 50% { box-shadow: 0 0 0 14px hsl(var(--primary) / 0) } }
         @keyframes rgd-tick { 0%,100% { transform: rotate(-6deg) } 50% { transform: rotate(6deg) } }
         .rgd-friend { animation: rgd-pop ${CYCLE}s ease-out infinite both }
-        .rgd-line { stroke-dasharray: 60; animation: rgd-line ${CYCLE}s ease-out infinite both }
+        .rgd-line { stroke-dasharray: 2 8; animation: rgd-line ${CYCLE}s ease-out infinite both, rgd-march 1s linear infinite }
         .rgd-plus { animation: rgd-float ${CYCLE}s ease-out infinite both }
         .rgd-you { animation: rgd-pulse 2.4s ease-in-out infinite }
         .rgd-ticket { animation: rgd-tick 3s ease-in-out infinite }
@@ -51,13 +52,13 @@ export default function SharingExplainer({ pointsReferral, pointsEntry }: { poin
           {FRIENDS.map((f) => (
             <line
               key={f.initial}
-              x1="50"
-              y1="50"
-              x2={f.x}
-              y2={f.y}
+              x1={f.x}
+              y1={f.y}
+              x2="50"
+              y2="50"
               className="rgd-line"
               stroke="hsl(var(--primary))"
-              strokeWidth="0.8"
+              strokeWidth="2.5"
               strokeLinecap="round"
               vectorEffect="non-scaling-stroke"
               style={{ animationDelay: `${f.delay}s` }}
