@@ -50,7 +50,7 @@ const organizationSchema = {
   logo: "https://realgooddenver.com/real-good-denver-logo.png",
   sameAs: [
     "https://twitter.com/realgooddenver",
-    "https://www.youtube.com/@RealGoodDenver",
+    "https://www.youtube.com/@RealGoodDenverVibe",
     "https://open.spotify.com/show/27VuIWVn2CfSGliuKNXkt7",
     "https://podcasts.apple.com/us/podcast/real-good-denver/id602890961",
   ],

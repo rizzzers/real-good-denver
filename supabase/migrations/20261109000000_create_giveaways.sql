@@ -134,7 +134,7 @@ from public.giveaways g,
   ('link', 'Follow Real Good Denver on TikTok', 'https://www.tiktok.com/@realgooddenver', 2, 20),
   ('link', 'Follow the Real Good Denver podcast on Spotify', 'https://open.spotify.com/show/27VuIWVn2CfSGliuKNXkt7', 2, 30),
   ('link', 'Follow the Real Good Denver podcast on Apple Podcasts', 'https://podcasts.apple.com/us/podcast/real-good-denver/id602890961', 2, 40),
-  ('link', 'Subscribe to Real Good Denver on YouTube', 'https://www.youtube.com/@RealGoodDenver', 2, 50)
+  ('link', 'Subscribe to Real Good Denver on YouTube', 'https://www.youtube.com/@RealGoodDenverVibe', 2, 50)
 ) as a(kind, label, url, points, sort)
 where g.slug = 'dazzle-jazz-brunch'
   and not exists (select 1 from public.giveaway_actions x where x.giveaway_id = g.id);

@@ -25,7 +25,7 @@ interface Episode {
 const PLATFORM_LINKS = [
   { name: 'Spotify', url: 'https://open.spotify.com/show/27VuIWVn2CfSGliuKNXkt7' },
   { name: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/real-good-denver/id602890961' },
-  { name: 'YouTube', url: 'https://www.youtube.com/@RealGoodDenver' },
+  { name: 'YouTube', url: 'https://www.youtube.com/@RealGoodDenverVibe' },
 ];
 
 export default function PodcastClient() {

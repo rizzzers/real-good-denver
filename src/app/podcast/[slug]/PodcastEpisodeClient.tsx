@@ -30,7 +30,7 @@ const formatTime = (time: number) => {
 const SUBSCRIBE_LINKS = [
   { name: 'Spotify', url: 'https://open.spotify.com/show/27VuIWVn2CfSGliuKNXkt7', bg: 'bg-[#1DB954]', hover: 'hover:bg-[#1ed760]', icon: '🎧' },
   { name: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/real-good-denver/id602890961', bg: 'bg-[#9933CC]', hover: 'hover:bg-[#aa44dd]', icon: '🎙️' },
-  { name: 'YouTube', url: 'https://www.youtube.com/@RealGoodDenver', bg: 'bg-[#FF0000]', hover: 'hover:bg-[#ff2222]', icon: '▶️' },
+  { name: 'YouTube', url: 'https://www.youtube.com/@RealGoodDenverVibe', bg: 'bg-[#FF0000]', hover: 'hover:bg-[#ff2222]', icon: '▶️' },
 ];
 
 const BOILERPLATE_PATTERNS = [

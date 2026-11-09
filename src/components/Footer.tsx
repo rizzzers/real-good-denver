@@ -17,7 +17,7 @@ const navigation = {
     { name: "Terms & Privacy", href: "/terms-and-privacy" },
   ],
   social: [
-    { name: "YouTube", href: "https://www.youtube.com/@RealGoodDenver", icon: Youtube },
+    { name: "YouTube", href: "https://www.youtube.com/@RealGoodDenverVibe", icon: Youtube },
     { name: "Instagram", href: "https://www.instagram.com/real_good_denver/", icon: Instagram },
     {
       name: "TikTok",
