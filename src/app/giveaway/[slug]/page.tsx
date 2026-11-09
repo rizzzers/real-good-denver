@@ -18,6 +18,7 @@ import {
 } from "@/lib/giveaways";
 import EntryForm from "./EntryForm";
 import SharingExplainer from "./SharingExplainer";
+import ThankYou from "./ThankYou";
 import { Countdown, Leaderboard } from "./shared";
 
 export const dynamic = "force-dynamic";
@@ -118,7 +119,7 @@ export default async function GiveawayPage({ params, searchParams }: Props) {
             )}
           </div>
 
-          <div>
+          <div id="enter" className="scroll-mt-24">
             {winner ? (
               <div className="rounded-2xl border border-background/10 bg-background/5 p-8 text-background">
                 <Sparkles className="mb-3 h-8 w-8 text-primary" />
@@ -183,6 +184,8 @@ export default async function GiveawayPage({ params, searchParams }: Props) {
         </div>
         <Leaderboard rows={leaders} />
       </section>
+
+      <ThankYou sponsorName={g.sponsor_name} slug={g.slug} entered={!!entrant} open={open && !winner} />
 
       <Footer />
     </div>
