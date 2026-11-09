@@ -10,7 +10,11 @@ export function getDb() {
   return createClient(
     "https://xrpbjtdbwuodfixgpapx.supabase.co",
     process.env.SUPABASE_SERVICE_ROLE_KEY!,
-    { auth: { persistSession: false } }
+    {
+      auth: { persistSession: false },
+      // Next 14 caches fetch() in its Data Cache; giveaway data must always be live.
+      global: { fetch: (input, init) => fetch(input, { ...init, cache: "no-store" }) },
+    }
   );
 }
 
