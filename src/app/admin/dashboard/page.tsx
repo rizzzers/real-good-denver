@@ -135,6 +135,12 @@ export default function AdminDashboardPage() {
           </div>
           <div className="flex items-center gap-3">
             <Link
+              href="/admin/giveaways"
+              className="text-sm text-gray-500 hover:text-gray-800 border border-gray-200 rounded-lg px-3 py-1.5 transition-colors"
+            >
+              Giveaways
+            </Link>
+            <Link
               href="/admin/submissions"
               className="text-sm text-gray-500 hover:text-gray-800 border border-gray-200 rounded-lg px-3 py-1.5 transition-colors"
             >
