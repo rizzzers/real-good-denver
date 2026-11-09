@@ -17,6 +17,7 @@ import {
   type Giveaway,
 } from "@/lib/giveaways";
 import EntryForm from "./EntryForm";
+import SharingExplainer from "./SharingExplainer";
 import { Countdown, Leaderboard } from "./shared";
 
 export const dynamic = "force-dynamic";
@@ -145,6 +146,7 @@ export default async function GiveawayPage({ params, searchParams }: Props) {
             ) : (
               <EntryForm slug={g.slug} refCode={refCode} minAge={g.min_age} />
             )}
+            {open && !winner && <SharingExplainer pointsReferral={g.points_referral} pointsEntry={g.points_entry} />}
           </div>
         </div>
       </section>
