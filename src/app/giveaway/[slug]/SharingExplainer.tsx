@@ -4,17 +4,20 @@ import { MessageCircle, Send, Ticket, UserPlus } from "lucide-react";
 // popping in around you, each one floating "+N" tickets up to your total.
 // Pure CSS animation, disabled for prefers-reduced-motion.
 
+// Six friends in a ring around "You", joining one at a time.
 const FRIENDS = [
-  { initial: "J", color: "#f59e0b", x: 18, y: 26, delay: 0 },
-  { initial: "M", color: "#ec4899", x: 82, y: 22, delay: 1.2 },
-  { initial: "A", color: "#10b981", x: 86, y: 74, delay: 2.4 },
-  { initial: "D", color: "#8b5cf6", x: 14, y: 78, delay: 3.6 },
-];
-const CYCLE = 6; // seconds for the whole loop
+  { id: 1, x: 16, y: 28 },
+  { id: 2, x: 50, y: 11 },
+  { id: 3, x: 84, y: 28 },
+  { id: 4, x: 84, y: 72 },
+  { id: 5, x: 50, y: 89 },
+  { id: 6, x: 16, y: 72 },
+].map((f, i) => ({ ...f, delay: i * 1.1, src: `/giveaways/friends/friend-${f.id}.jpg` }));
+const CYCLE = 7.5; // seconds for the whole loop
 
 export default function SharingExplainer({ pointsReferral, pointsEntry }: { pointsReferral: number; pointsEntry: number }) {
   const per = pointsReferral.toLocaleString();
-  const withFour = (pointsEntry + pointsReferral * 4).toLocaleString();
+  const withSquad = (pointsEntry + pointsReferral * 5).toLocaleString();
 
   return (
     <div className="mt-6 overflow-hidden rounded-2xl border border-background/10 bg-background/5 p-6 text-background backdrop-blur-sm md:p-8">
@@ -25,13 +28,15 @@ export default function SharingExplainer({ pointsReferral, pointsEntry }: { poin
         @keyframes rgd-float { 0%,16% { transform: translate(-50%,0); opacity: 0 } 22% { opacity: 1 } 40% { transform: translate(-50%,-28px); opacity: 0 } 100% { opacity: 0 } }
         @keyframes rgd-pulse { 0%,100% { box-shadow: 0 0 0 0 hsl(var(--primary) / .45) } 50% { box-shadow: 0 0 0 14px hsl(var(--primary) / 0) } }
         @keyframes rgd-tick { 0%,100% { transform: rotate(-6deg) } 50% { transform: rotate(6deg) } }
+        @keyframes rgd-bob { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-5px) } }
+        .rgd-bob { animation: rgd-bob 3.2s ease-in-out infinite }
         .rgd-friend { animation: rgd-pop ${CYCLE}s ease-out infinite both }
         .rgd-line { stroke-dasharray: 2 8; animation: rgd-line ${CYCLE}s ease-out infinite both, rgd-march 1s linear infinite }
         .rgd-plus { animation: rgd-float ${CYCLE}s ease-out infinite both }
         .rgd-you { animation: rgd-pulse 2.4s ease-in-out infinite }
         .rgd-ticket { animation: rgd-tick 3s ease-in-out infinite }
         @media (prefers-reduced-motion: reduce) {
-          .rgd-friend, .rgd-line, .rgd-plus, .rgd-you, .rgd-ticket { animation: none !important; opacity: 1 !important }
+          .rgd-friend, .rgd-line, .rgd-plus, .rgd-you, .rgd-ticket, .rgd-bob { animation: none !important; opacity: 1 !important }
           .rgd-plus { display: none }
           .rgd-friend { transform: translate(-50%,-50%) !important }
         }
@@ -47,11 +52,11 @@ export default function SharingExplainer({ pointsReferral, pointsEntry }: { poin
       </p>
 
       {/* Graphic */}
-      <div className="relative mx-auto my-6 aspect-[16/10] w-full max-w-sm" aria-hidden="true">
+      <div className="relative mx-auto my-8 aspect-[4/3] w-full max-w-sm" aria-hidden="true">
         <svg className="absolute inset-0 h-full w-full" viewBox="0 0 100 100" preserveAspectRatio="none">
           {FRIENDS.map((f) => (
             <line
-              key={f.initial}
+              key={f.id}
               x1={f.x}
               y1={f.y}
               x2="50"
@@ -67,12 +72,12 @@ export default function SharingExplainer({ pointsReferral, pointsEntry }: { poin
         </svg>
 
         {FRIENDS.map((f) => (
-          <div key={f.initial} className="absolute" style={{ left: `${f.x}%`, top: `${f.y}%` }}>
-            <div
-              className="rgd-friend absolute left-0 top-0 flex h-11 w-11 items-center justify-center rounded-full border-2 border-foreground text-sm font-bold text-white shadow-lg"
-              style={{ backgroundColor: f.color, animationDelay: `${f.delay}s` }}
-            >
-              {f.initial}
+          <div key={f.id} className="absolute" style={{ left: `${f.x}%`, top: `${f.y}%` }}>
+            <div className="rgd-friend absolute left-0 top-0" style={{ animationDelay: `${f.delay}s` }}>
+              <div className="rgd-bob h-14 w-14 overflow-hidden rounded-full border-2 border-background/80 bg-foreground shadow-lg md:h-16 md:w-16" style={{ animationDelay: `${f.id * -0.5}s` }}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={f.src} alt="" width={96} height={96} loading="lazy" className="h-full w-full scale-[1.12] object-cover" />
+              </div>
             </div>
             <div
               className="rgd-plus absolute -top-9 left-0 whitespace-nowrap rounded-full bg-primary px-2 py-0.5 text-[11px] font-bold text-primary-foreground"
@@ -109,7 +114,7 @@ export default function SharingExplainer({ pointsReferral, pointsEntry }: { poin
       </ol>
 
       <p className="mt-4 rounded-lg bg-primary/10 px-4 py-3 text-center text-sm text-background/80">
-        Bring 4 friends and you&apos;re holding <strong className="text-primary">{withFour} tickets</strong> instead of {pointsEntry.toLocaleString()}.
+        Bring your 5 brunch buddies and you&apos;re holding <strong className="text-primary">{withSquad} tickets</strong> instead of {pointsEntry.toLocaleString()}.
       </p>
     </div>
   );
