@@ -159,24 +159,25 @@ export default async function GiveawayPage({ params, searchParams }: Props) {
           <ul className="space-y-3">
             <li className="flex items-center justify-between rounded-xl border border-border bg-card p-4">
               <span className="flex items-center gap-3"><Gift className="h-5 w-5 text-primary" /> Enter the giveaway</span>
-              <span className="font-semibold text-primary">+{g.points_entry}</span>
+              <span className="font-semibold text-primary">+{g.points_entry.toLocaleString()}</span>
             </li>
-            <li className="flex items-center justify-between rounded-xl border border-border bg-card p-4">
-              <span className="flex items-center gap-3"><Share2 className="h-5 w-5 text-primary" /> Each friend who enters with your link</span>
-              <span className="font-semibold text-primary">+{g.points_referral}</span>
-            </li>
-            {linkActions.map((a) => (
-              <li key={a.id} className="flex items-center justify-between rounded-xl border border-border bg-card p-4">
-                <span className="flex items-center gap-3"><Sparkles className="h-5 w-5 text-primary" /> {a.label}</span>
-                <span className="font-semibold text-primary">+{a.points}</span>
-              </li>
-            ))}
-            {codeActions.length > 0 && (
-              <li className="flex items-center justify-between rounded-xl border border-border bg-card p-4">
-                <span className="flex items-center gap-3"><Sparkles className="h-5 w-5 text-primary" /> Secret code words hidden in the newsletter and podcast</span>
-                <span className="font-semibold text-primary">+{Math.max(...codeActions.map((a) => a.points))} each</span>
-              </li>
-            )}
+            {/* Biggest opportunities first, right under the entry row. Referrals win ties. */}
+            {[
+              { key: "ref", label: "Each friend who enters with your link", points: g.points_referral, suffix: " each", share: true, rank: 0 },
+              ...linkActions.map((a) => ({ key: `a${a.id}`, label: a.label, points: a.points, suffix: "", share: false, rank: 1 })),
+              ...(codeActions.length
+                ? [{ key: "codes", label: "Secret code words hidden in the newsletter and podcast", points: Math.max(...codeActions.map((a) => a.points)), suffix: " each", share: false, rank: 2 }]
+                : []),
+            ]
+              .sort((a, b) => b.points - a.points || a.rank - b.rank)
+              .map((r) => (
+                <li key={r.key} className="flex items-center justify-between rounded-xl border border-border bg-card p-4">
+                  <span className="flex items-center gap-3">
+                    {r.share ? <Share2 className="h-5 w-5 text-primary" /> : <Sparkles className="h-5 w-5 text-primary" />} {r.label}
+                  </span>
+                  <span className="whitespace-nowrap font-semibold text-primary">+{r.points.toLocaleString()}{r.suffix}</span>
+                </li>
+              ))}
           </ul>
           <p className="mt-8 text-sm text-muted-foreground">
             No purchase necessary. Open to US residents {g.min_age}+. See the <Link href={`/giveaway/${g.slug}/rules`} className="underline">official rules</Link>.
