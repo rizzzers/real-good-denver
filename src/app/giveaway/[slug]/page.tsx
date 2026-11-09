@@ -107,9 +107,9 @@ export default async function GiveawayPage({ params, searchParams }: Props) {
               <div className="mt-1 text-lg font-semibold">{g.prize}</div>
             </div>
             {open && g.ends_at && (
-              <div className="mb-6">
-                <div className="mb-2 text-sm text-background/50">Entries close in</div>
-                <Countdown endsAt={g.ends_at} />
+              <div className="mb-8">
+                <div className="mb-3 text-xs font-semibold uppercase tracking-wider text-primary">Entries close in</div>
+                <Countdown endsAt={g.ends_at} startsAt={g.starts_at} />
               </div>
             )}
             {entrantCount > 0 && (
