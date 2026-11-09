@@ -19,6 +19,7 @@ interface LinkAction {
 interface Props {
   slug: string;
   title: string;
+  imageUrl: string | null;
   prize: string;
   open: boolean;
   firstName: string;
@@ -131,7 +132,8 @@ export default function EntrantDashboard(p: Props) {
   return (
     <>
       <section className="bg-foreground pb-12 pt-28">
-        <div className="mx-auto max-w-5xl px-6">
+        <div className="mx-auto grid max-w-5xl items-center gap-8 px-6 md:grid-cols-[1fr_400px]">
+          <div>
           <p className="mb-2 text-sm text-background/50">
             <Link href={`/giveaway/${p.slug}`} className="hover:underline">{p.title}</Link>
           </p>
@@ -147,6 +149,11 @@ export default function EntrantDashboard(p: Props) {
             </div>
           </div>
           {!p.open && <p className="mt-6 text-sm text-background/60">Entries are closed. Thanks for playing!</p>}
+          </div>
+          {p.imageUrl && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={p.imageUrl} alt={p.title} width={1672} height={941} className="w-full rounded-2xl border border-background/10 shadow-2xl" />
+          )}
         </div>
       </section>
 

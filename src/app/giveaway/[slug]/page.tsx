@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!g || g.status === "draft") return { title: "Giveaway", robots: { index: false } };
   const description = g.description ?? `Enter to win ${g.prize}.`;
   const url = `${SITE_URL}/giveaway/${g.slug}`;
-  const images = [{ url: g.image_url || "/og-image.jpg", width: 1200, height: 630 }];
+  const images = g.image_url ? [{ url: g.image_url, alt: g.title }] : [{ url: "/og-image.jpg", width: 1200, height: 630 }];
   return {
     title: g.title,
     description,
@@ -79,6 +79,16 @@ export default async function GiveawayPage({ params, searchParams }: Props) {
         </div>
         <div className="relative z-10 mx-auto grid max-w-6xl items-start gap-12 px-6 lg:grid-cols-2 lg:gap-16">
           <div>
+            {g.image_url && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={g.image_url}
+                alt={g.title}
+                width={1672}
+                height={941}
+                className="mb-8 w-full rounded-2xl border border-background/10 shadow-2xl"
+              />
+            )}
             {g.status === "draft" && (
               <div className="mb-4 inline-block rounded bg-yellow-400 px-3 py-1 text-xs font-bold text-black">DRAFT PREVIEW (admins only)</div>
             )}

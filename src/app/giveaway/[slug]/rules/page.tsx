@@ -21,6 +21,12 @@ export default async function RulesPage({ params }: { params: { slug: string } }
     <div className="min-h-screen bg-background">
       <Navigation />
       <main className="mx-auto max-w-3xl px-6 pb-20 pt-32">
+        {g.image_url && (
+          <Link href={`/giveaway/${g.slug}`}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={g.image_url} alt={g.title} width={1672} height={941} className="mb-8 w-full rounded-2xl border border-border shadow-sm" />
+          </Link>
+        )}
         <Link href={`/giveaway/${g.slug}`} className="text-sm text-primary hover:underline">Back to the giveaway</Link>
         <h1 className="mb-2 mt-4 text-4xl font-bold">Official Rules</h1>
         <p className="mb-10 text-muted-foreground">{g.title}</p>

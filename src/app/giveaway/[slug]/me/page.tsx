@@ -42,6 +42,7 @@ export default async function MePage({ params }: { params: { slug: string } }) {
       <EntrantDashboard
         slug={g.slug}
         title={g.title}
+        imageUrl={g.image_url}
         prize={g.prize}
         open={isOpen(g)}
         firstName={entrant.first_name}
