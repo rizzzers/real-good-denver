@@ -82,6 +82,19 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 w-full px-6 sm:px-10 md:px-14 pt-28 pb-20 md:pt-0 md:pb-0 max-w-3xl">
+        {/* Giveaway promo */}
+        <Link
+          href="/giveaway/dazzle-brunch"
+          className="group mb-8 flex w-full max-w-md items-center gap-4 rounded-2xl bg-amber-400 px-5 py-4 text-gray-900 shadow-[0_8px_32px_rgba(251,191,36,0.45)] ring-2 ring-amber-200/60 transition-all hover:scale-[1.02] hover:bg-amber-300 active:scale-[0.98]"
+        >
+          <span className="text-3xl sm:text-4xl leading-none" aria-hidden>🎷</span>
+          <span className="flex-1 min-w-0">
+            <span className="block text-[11px] font-black uppercase tracking-widest text-amber-900/70">Giveaway · Free to enter</span>
+            <span className="block text-lg sm:text-xl font-black leading-tight">Win Jazz Brunch at Dazzle for you + 5 friends</span>
+          </span>
+          <ArrowRight className="w-6 h-6 shrink-0 transition-transform group-hover:translate-x-1" />
+        </Link>
+
         {/* Pill */}
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-blue-500/30 bg-blue-500/10 mb-7">
           <span className="w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse" />
