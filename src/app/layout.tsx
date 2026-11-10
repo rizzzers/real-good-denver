@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
+import { GiveawayFloater } from "@/components/GiveawayButton";
 
 export const metadata: Metadata = {
   title: {
@@ -108,7 +109,10 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(siteNavigationSchema) }}
         />
       </head>
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        {children}
+        <GiveawayFloater />
+      </body>
       <GoogleAnalytics gaId="G-94HYTCSQ71" />
     </html>
   );
