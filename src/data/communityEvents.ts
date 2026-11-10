@@ -2059,4 +2059,264 @@ export const communityEvents: CommunityEvent[] = [
     description:
       "Orders are open for the seventh annual Thanksgiving at Home from Chef Justin Cucci and Edible Beats, with culinary remixes from the employee-owned EB Universe: Root Down, Linger, El Five, Vital Root, and soon-to-open Pip. Pricing is holding steady for another year. The traditional dinner ($68 per person, plus leftovers) features fresh turkey two ways, garlic mashed potatoes, green bean casserole, delicata squash, marble rye stuffing, whipped sweet potatoes, and cranberry relish. Everything But the Turkey ($95, serves four) packs the sides by the quart with cranberry relish and six sweet potato rolls. Vital Root offers a fully vegan and gluten-free dinner ($48 per person) built around a mushroom Wellington. Scratch-baked 10-inch holiday pies run $30 to $37, including a layered pumpkin and whiskey pecan pie and a vegan sweet potato and pumpkin pie. Order deadline is Sunday, Nov. 22.",
   },
+  {
+    id: "santas-factory-little-man-2026",
+    title: "Santa's Factory at Little Man Ice Cream",
+    date: "2026-11-27",
+    time: "Nov. 27-Jan. 3, daily 3:00-9:30 PM (closed Christmas Day)",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Santa's Factory returns to Little Man Ice Cream Factory for its fifth year of holiday magic, with festive decorations, seasonal ice cream flavors, holiday treats, visits with Santa, live music, and events for all ages. Admission is free, with select ticketed experiences. The holiday flavor collection debuted Nov. 6 at all Little Man locations: White Chocolate Candy Cane (peppermint ice cream with white chocolate chips and candy cane pieces), Gingersnap (a spiced seasonal favorite), and Vegan Frosty Cocoa (rich cocoa ice cream with vegan mini marshmallows). Throughout the run, Little Man collects new or gently used coats, hats, gloves, scarves, and socks benefiting Dry Bones Denver, with a collection bin near the exit and a donation QR code. See the individual Santa's Factory events listed throughout the season.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-bingo-with-mrs-claus-2026-12-01",
+    title: "Santa's Factory: Bingo with Mrs. Claus",
+    date: "2026-12-01",
+    time: "6:00-8:00 PM",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Festive bingo and fun for the whole family at Santa's Factory, Little Man Ice Cream's holiday pop-up.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-bingo-with-mrs-claus-2026-12-08",
+    title: "Santa's Factory: Bingo with Mrs. Claus",
+    date: "2026-12-08",
+    time: "6:00-8:00 PM",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Festive bingo and fun for the whole family at Santa's Factory, Little Man Ice Cream's holiday pop-up.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-bingo-with-mrs-claus-2026-12-15",
+    title: "Santa's Factory: Bingo with Mrs. Claus",
+    date: "2026-12-15",
+    time: "6:00-8:00 PM",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Festive bingo and fun for the whole family at Santa's Factory, Little Man Ice Cream's holiday pop-up.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-bingo-with-mrs-claus-2026-12-22",
+    title: "Santa's Factory: Bingo with Mrs. Claus",
+    date: "2026-12-22",
+    time: "6:00-8:00 PM",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Festive bingo and fun for the whole family at Santa's Factory, Little Man Ice Cream's holiday pop-up.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-bingo-with-mrs-claus-2026-12-29",
+    title: "Santa's Factory: Bingo with Mrs. Claus",
+    date: "2026-12-29",
+    time: "6:00-8:00 PM",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Festive bingo and fun for the whole family at Santa's Factory, Little Man Ice Cream's holiday pop-up.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-community-caroling-2026-12-02",
+    title: "Santa's Factory: Community Caroling",
+    date: "2026-12-02",
+    time: "6:00-7:00 PM",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Community caroling at Santa's Factory, Little Man Ice Cream's holiday pop-up.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-community-caroling-2026-12-16",
+    title: "Santa's Factory: Community Caroling",
+    date: "2026-12-16",
+    time: "6:00-7:00 PM",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Community caroling at Santa's Factory, Little Man Ice Cream's holiday pop-up.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-community-caroling-2026-12-23",
+    title: "Santa's Factory: Community Caroling",
+    date: "2026-12-23",
+    time: "6:00-7:00 PM",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Community caroling at Santa's Factory, Little Man Ice Cream's holiday pop-up.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-hanukkah-celebration-2026-12-09",
+    title: "Santa's Factory: Oiy to the World: Hanukkah Celebration",
+    date: "2026-12-09",
+    time: "6:30-9:00 PM",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Celebrate the Festival of Lights with the Hebrew Educational Alliance at Santa's Factory, Little Man Ice Cream's holiday pop-up, featuring a sixth-night menorah lighting, music, and holiday treats.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-moonlight-holiday-market-2026-12-03",
+    title: "Santa's Factory: Moonlight Holiday Market",
+    date: "2026-12-03",
+    time: "6:00-9:00 PM",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Shop gifts, crafts, and festive finds from local makers at Santa's Factory, Little Man Ice Cream's holiday pop-up.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-falala-live-music-2026-11-27",
+    title: "Santa's Factory: FaLaLa Live Music",
+    date: "2026-11-27",
+    time: "6:00-9:00 PM",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Live music and festive sounds at Santa's Factory, Little Man Ice Cream's holiday pop-up.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-falala-live-music-2026-12-04",
+    title: "Santa's Factory: FaLaLa Live Music",
+    date: "2026-12-04",
+    time: "6:00-9:00 PM",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Live music and festive sounds at Santa's Factory, Little Man Ice Cream's holiday pop-up.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-falala-live-music-2026-12-11",
+    title: "Santa's Factory: FaLaLa Live Music",
+    date: "2026-12-11",
+    time: "6:00-9:00 PM",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Live music and festive sounds at Santa's Factory, Little Man Ice Cream's holiday pop-up.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-falala-live-music-2026-12-18",
+    title: "Santa's Factory: FaLaLa Live Music",
+    date: "2026-12-18",
+    time: "6:00-9:00 PM",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Live music and festive sounds at Santa's Factory, Little Man Ice Cream's holiday pop-up.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-falala-live-music-2027-01-01",
+    title: "Santa's Factory: FaLaLa Live Music",
+    date: "2027-01-01",
+    time: "6:00-9:00 PM",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Live music and festive sounds at Santa's Factory, Little Man Ice Cream's holiday pop-up.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-saturdays-with-santa-2026-11-28",
+    title: "Santa's Factory: Saturdays with Santa",
+    date: "2026-11-28",
+    time: "2:00-5:00 PM",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Bring the family for a little holiday magic and a visit with Santa at Santa's Factory, Little Man Ice Cream's holiday pop-up.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-saturdays-with-santa-2026-12-05",
+    title: "Santa's Factory: Saturdays with Santa",
+    date: "2026-12-05",
+    time: "2:00-5:00 PM",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Bring the family for a little holiday magic and a visit with Santa at Santa's Factory, Little Man Ice Cream's holiday pop-up.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-saturdays-with-santa-2026-12-12",
+    title: "Santa's Factory: Saturdays with Santa",
+    date: "2026-12-12",
+    time: "2:00-5:00 PM",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Bring the family for a little holiday magic and a visit with Santa at Santa's Factory, Little Man Ice Cream's holiday pop-up.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-saturdays-with-santa-2026-12-19",
+    title: "Santa's Factory: Saturdays with Santa",
+    date: "2026-12-19",
+    time: "2:00-5:00 PM",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Bring the family for a little holiday magic and a visit with Santa at Santa's Factory, Little Man Ice Cream's holiday pop-up.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-letters-to-santa-2026-11-29",
+    title: "Santa's Factory: Letters to Santa",
+    date: "2026-11-29",
+    time: "During business hours",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Stop by the holiday craft station at Santa's Factory, Little Man Ice Cream's holiday pop-up to write and send your wish list to the North Pole.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-letters-to-santa-2026-12-06",
+    title: "Santa's Factory: Letters to Santa",
+    date: "2026-12-06",
+    time: "During business hours",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Stop by the holiday craft station at Santa's Factory, Little Man Ice Cream's holiday pop-up to write and send your wish list to the North Pole.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-letters-to-santa-2026-12-13",
+    title: "Santa's Factory: Letters to Santa",
+    date: "2026-12-13",
+    time: "During business hours",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Stop by the holiday craft station at Santa's Factory, Little Man Ice Cream's holiday pop-up to write and send your wish list to the North Pole.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-letters-to-santa-2026-12-20",
+    title: "Santa's Factory: Letters to Santa",
+    date: "2026-12-20",
+    time: "During business hours",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Stop by the holiday craft station at Santa's Factory, Little Man Ice Cream's holiday pop-up to write and send your wish list to the North Pole.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-gingerbread-house-party-2026-12-13",
+    title: "Santa's Factory: Gingerbread House Party",
+    date: "2026-12-13",
+    time: "11:00 AM-1:00 PM",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Build and decorate a festive gingerbread house at Santa's Factory, Little Man Ice Cream's holiday pop-up. $25 per person. Ticket details to come.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "santas-factory-gingerbread-house-party-2026-12-20",
+    title: "Santa's Factory: Gingerbread House Party",
+    date: "2026-12-20",
+    time: "11:00 AM-1:00 PM",
+    location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
+    description:
+      "Build and decorate a festive gingerbread house at Santa's Factory, Little Man Ice Cream's holiday pop-up. $25 per person. Ticket details to come.",
+    link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
 ];
