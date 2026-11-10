@@ -85,14 +85,43 @@ const HeroSection = () => {
         {/* Giveaway promo */}
         <Link
           href="/giveaway/dazzle-brunch"
-          className="group mb-8 flex w-full max-w-md items-center gap-4 rounded-2xl bg-amber-400 px-5 py-4 text-gray-900 shadow-[0_8px_32px_rgba(251,191,36,0.45)] ring-2 ring-amber-200/60 transition-all hover:scale-[1.02] hover:bg-amber-300 active:scale-[0.98]"
+          className="giveaway-btn group relative mb-10 mt-2 flex w-full max-w-md items-center gap-4 rounded-[1.75rem] px-5 py-4 text-gray-900 transition-transform duration-300 ease-[cubic-bezier(.34,1.56,.64,1)] hover:scale-[1.04] hover:rotate-0 active:scale-[0.97]"
+          style={{
+            transform: "rotate(-1.5deg)",
+            background: "linear-gradient(120deg, #fde047 0%, #fbbf24 35%, #fb923c 70%, #f472b6 100%)",
+            backgroundSize: "200% 200%",
+            animation: "giveawayShimmer 6s ease-in-out infinite",
+            boxShadow: "0 6px 0 #9a3412, 0 14px 36px rgba(251,146,60,0.5)",
+          }}
         >
-          <span className="text-3xl sm:text-4xl leading-none" aria-hidden>🎷</span>
-          <span className="flex-1 min-w-0">
-            <span className="block text-[11px] font-black uppercase tracking-widest text-amber-900/70">Giveaway · Free to enter</span>
-            <span className="block text-lg sm:text-xl font-black leading-tight">Win Jazz Brunch at Dazzle for you + 5 friends</span>
+          {/* Dashed ticket edge */}
+          <span aria-hidden className="pointer-events-none absolute inset-1.5 rounded-[1.4rem] border-2 border-dashed border-white/70" />
+
+          {/* Floating music notes */}
+          <span aria-hidden className="giveaway-note absolute left-6 -top-1 text-xl text-amber-200" style={{ animationDelay: "0s" }}>♪</span>
+          <span aria-hidden className="giveaway-note absolute left-12 -top-1 text-2xl text-pink-300" style={{ animationDelay: "1.1s" }}>♫</span>
+          <span aria-hidden className="giveaway-note absolute left-3 -top-1 text-lg text-yellow-200" style={{ animationDelay: "2.2s" }}>♩</span>
+
+          {/* Sparkles */}
+          <span aria-hidden className="giveaway-sparkle absolute -right-2 -bottom-2 text-xl" style={{ animationDelay: "0.4s" }}>✨</span>
+          <span aria-hidden className="giveaway-sparkle absolute right-24 -bottom-3 text-sm" style={{ animationDelay: "1.6s" }}>⭐</span>
+
+          {/* "6 seats" sticker */}
+          <span
+            aria-hidden
+            className="absolute -top-4 -right-3 rotate-12 rounded-full bg-blue-500 px-3 py-1 text-[11px] font-black uppercase tracking-wider text-white shadow-lg ring-2 ring-white transition-transform duration-300 group-hover:rotate-[-8deg] group-hover:scale-110"
+          >
+            6 seats!
           </span>
-          <ArrowRight className="w-6 h-6 shrink-0 transition-transform group-hover:translate-x-1" />
+
+          <span className="giveaway-sax relative text-4xl sm:text-5xl leading-none drop-shadow-sm" aria-hidden>🎷</span>
+          <span className="relative flex-1 min-w-0">
+            <span className="block text-[11px] font-black uppercase tracking-widest text-orange-900/70">Psst… free brunch, on us</span>
+            <span className="block text-lg sm:text-xl font-black leading-tight">Win Jazz Brunch at Dazzle for you + 5 friends 🥞</span>
+          </span>
+          <span className="relative flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gray-900 text-amber-300 transition-transform duration-300 group-hover:translate-x-1 group-hover:rotate-[-12deg]">
+            <ArrowRight className="w-5 h-5" />
+          </span>
         </Link>
 
         {/* Pill */}
@@ -203,8 +232,32 @@ const HeroSection = () => {
           0%, 100% { transform: translateY(0) rotate(4deg); }
           50%      { transform: translateY(-22px) rotate(-3deg); }
         }
+        @keyframes giveawayShimmer {
+          0%, 100% { background-position: 0% 50%; }
+          50%      { background-position: 100% 50%; }
+        }
+        @keyframes giveawayNote {
+          0%   { opacity: 0; transform: translate(0, 0) rotate(0deg) scale(0.6); }
+          20%  { opacity: 1; }
+          100% { opacity: 0; transform: translate(14px, -46px) rotate(20deg) scale(1.1); }
+        }
+        @keyframes giveawaySax {
+          0%, 100% { transform: rotate(-8deg); }
+          50%      { transform: rotate(10deg) translateY(-2px); }
+        }
+        @keyframes giveawaySparkle {
+          0%, 100% { opacity: 0.2; transform: scale(0.7) rotate(0deg); }
+          50%      { opacity: 1; transform: scale(1.15) rotate(25deg); }
+        }
+        .giveaway-note { animation: giveawayNote 3.3s ease-out infinite; opacity: 0; }
+        .giveaway-sax { display: inline-block; animation: giveawaySax 1.6s ease-in-out infinite; transform-origin: 60% 80%; }
+        .giveaway-btn:hover .giveaway-sax { animation-duration: 0.5s; }
+        .giveaway-sparkle { animation: giveawaySparkle 2.2s ease-in-out infinite; }
+        .giveaway-btn:hover { transform: rotate(0deg) scale(1.04) !important; }
         @media (prefers-reduced-motion: reduce) {
           [style*="heroFloat1"], [style*="heroFloat2"] { animation: none !important; }
+          .giveaway-btn, .giveaway-note, .giveaway-sax, .giveaway-sparkle { animation: none !important; }
+          .giveaway-note { opacity: 0.8; }
         }
       `}</style>
     </section>
