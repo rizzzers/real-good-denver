@@ -1753,7 +1753,7 @@ export const communityEvents: CommunityEvent[] = [
     time: "8:00 PM-1:00 AM",
     location: "Moodswing Denver, 3625 E 48th Ave, Denver, CO 80216",
     description:
-      "An immersive Halloween nightlife experience inspired by the strange, mysterious, and unexplained side of Colorado, from UFO sightings and alien encounters to Denver's underground tunnels and local conspiracy theories. AREA 5280 transforms Halloween night into a world where Denver meets Area 51, with high-energy music, specialty drinks, themed decor, immersive activations, photo opportunities, and VIP experiences. Music by Cowboy Cook: expect r&b, reggaeton, hip hop, top 40, and edits. Choose $35 General Admission or a $115 Open Bar experience. Costumes required, 21+ only.",
+      "An immersive Halloween nightlife experience inspired by the strange, mysterious, and unexplained side of Colorado, from UFO sightings and alien encounters to Denver's underground tunnels and local conspiracy theories. AREA 5280 transforms Halloween night into a world where Denver meets Area 51, with high-energy music, specialty drinks, themed décor, immersive activations, photo opportunities, and VIP experiences. Music by Cowboy Cook: expect r&b, reggaeton, hip hop, top 40, and edits. Choose $35 General Admission or a $115 Open Bar experience. Costumes required, 21+ only.",
     link: "https://www.eventbrite.com/e/area-5280-tickets-2003119221514?aff=oddtdtcreator",
   },
   {
@@ -1773,7 +1773,7 @@ export const communityEvents: CommunityEvent[] = [
     time: "Nov. 11-Dec. 31, with weekly and special events listed separately",
     location: "Lady Justice Brewing Company, 3242 S Acoma St, Englewood, CO 80110",
     description:
-      "Lady Justice Brewing's Ski Jorts City winter pop-up returns for its third year with a new look and themed events celebrating the legacy of Dolly Parton. Englewood's queer, women-owned brewery becomes a ski-lodge-esque winter wonderland with new and familiar Dolly-themed decor, festive activations, beer releases, and community nonprofit partnerships. Happy Dollydays is a celebration of the season rather than any one holiday: in the spirit of Dolly Parton's message of light and love, a warm, welcoming space to make new memories with chosen family. Free and open to all ages, and well-behaved dogs are welcome. See the individual Ski Jorts City events listed throughout November and December.",
+      "Lady Justice Brewing's Ski Jorts City winter pop-up returns for its third year with a new look and themed events celebrating the legacy of Dolly Parton. Englewood's queer, women-owned brewery becomes a ski-lodge-esque winter wonderland with new and familiar Dolly-themed décor, festive activations, beer releases, and community nonprofit partnerships. Happy Dollydays is a celebration of the season rather than any one holiday: in the spirit of Dolly Parton's message of light and love, a warm, welcoming space to make new memories with chosen family. Free and open to all ages, and well-behaved dogs are welcome. See the individual Ski Jorts City events listed throughout November and December.",
     link: "https://www.instagram.com/p/DefbPBclNHE/?img_index=1",
   },
   {
@@ -2066,7 +2066,7 @@ export const communityEvents: CommunityEvent[] = [
     time: "Nov. 27-Jan. 3, daily 3:00-9:30 PM (closed Christmas Day)",
     location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
     description:
-      "Santa's Factory returns to Little Man Ice Cream Factory for its fifth year of holiday magic, with festive decorations, seasonal ice cream flavors, holiday treats, visits with Santa, live music, and events for all ages. Admission is free, with select ticketed experiences. The holiday flavor collection debuted Nov. 6 at all Little Man locations: White Chocolate Candy Cane (peppermint ice cream with white chocolate chips and candy cane pieces), Gingersnap (a spiced seasonal favorite), and Vegan Frosty Cocoa (rich cocoa ice cream with vegan mini marshmallows). Throughout the run, Little Man collects new or gently used coats, hats, gloves, scarves, and socks benefiting Dry Bones Denver, with a collection bin near the exit and a donation QR code. See the individual Santa's Factory events listed throughout the season.",
+      "Santa's Factory returns to Little Man Ice Cream Factory for its fifth year of holiday magic, with festive décorations, seasonal ice cream flavors, holiday treats, visits with Santa, live music, and events for all ages. Admission is free, with select ticketed experiences. The holiday flavor collection debuted Nov. 6 at all Little Man locations: White Chocolate Candy Cane (peppermint ice cream with white chocolate chips and candy cane pieces), Gingersnap (a spiced seasonal favorite), and Vegan Frosty Cocoa (rich cocoa ice cream with vegan mini marshmallows). Throughout the run, Little Man collects new or gently used coats, hats, gloves, scarves, and socks benefiting Dry Bones Denver, with a collection bin near the exit and a donation QR code. See the individual Santa's Factory events listed throughout the season.",
     link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
   },
   {
@@ -2306,7 +2306,7 @@ export const communityEvents: CommunityEvent[] = [
     time: "11:00 AM-1:00 PM",
     location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
     description:
-      "Build and decorate a festive gingerbread house at Santa's Factory, Little Man Ice Cream's holiday pop-up. $25 per person. Ticket details to come.",
+      "Build and décorate a festive gingerbread house at Santa's Factory, Little Man Ice Cream's holiday pop-up. $25 per person. Ticket details to come.",
     link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
   },
   {
@@ -2316,7 +2316,287 @@ export const communityEvents: CommunityEvent[] = [
     time: "11:00 AM-1:00 PM",
     location: "Little Man Ice Cream Factory, 4411 W Colfax Ave, Denver, CO 80204",
     description:
-      "Build and decorate a festive gingerbread house at Santa's Factory, Little Man Ice Cream's holiday pop-up. $25 per person. Ticket details to come.",
+      "Build and décorate a festive gingerbread house at Santa's Factory, Little Man Ice Cream's holiday pop-up. $25 per person. Ticket details to come.",
     link: "https://www.eventbrite.com/e/save-the-date-santas-factory-at-little-man-ice-cream-tickets-2003942037579?aff=odcleoeventsincollection",
+  },
+  {
+    id: "winter-lodge-peaks-lounge-2026",
+    title: "Winter Lodge at Peaks Lounge",
+    date: "2027-01-02",
+    time: "Nov. 1-Jan. 2, daily 4:00 PM-midnight",
+    location: "Peaks Lounge, Hyatt Regency Denver (27th floor)",
+    description:
+      "Now in its third year, Winter Lodge turns Peaks Lounge into a cozy, alpine-inspired retreat above downtown Denver, with skyline and Rocky Mountain views, antler chandeliers, glowing lanterns, and faux-fur armchairs. The seasonal menu includes a frosted cranberry margarita, après old fashioned, N/A Grinch's remedy, ale onion soup with raclette, prost bratwurst, and spiced sweet potato hummus. Open to the public through Jan. 2, 2027. The Mile High Holiday Suite can be booked Dec. 1-30.",
+  },
+  {
+    id: "alpine-village-rare-bird-2026",
+    title: "Alpine Village at Rare Bird",
+    date: "2027-03-31",
+    time: "Nov. 6-March 31, 2027: Mon-Thu 4:00-10:00 PM, Fri-Sun 3:00-10:00 PM",
+    location: "Rare Bird at Halcyon, a hotel in Cherry Creek, Denver",
+    description:
+      "Rare Bird's rooftop becomes Alpine Village for the winter, with twinkling lights, skyline views, and festive cocktails like the Peppermint Bark Martini and S'more Please, plus bites like bison carpaccio and imported gruyère fondue. Guests can also rent intimate alpine-inspired cabins with fireplaces, plush seating, and cozy blankets ($200 for 2.5 hours). Daily happy hour runs from open to 6 p.m.",
+  },
+  {
+    id: "ugly-christmas-sweater-pop-up-punch-bowl-social-2026",
+    title: "Ugly Christmas Sweater Shop Pop-Up at Punch Bowl Social",
+    date: "2026-12-27",
+    time: "Now through Dec. 27",
+    location: "Punch Bowl Social, Denver",
+    description:
+      "Punch Bowl Social brings back its collaboration with Dallas-based Ugly Christmas Sweater Shop, with upcycled and new holiday garb in kids and adult sizes priced from $14.99 to $39.99. A limited-edition holiday cocktail menu features Santa Pants, Baked Apple Old Fashioned, The Ho-Ho-Ho, and Peppermint Mocha Espresso Martini.",
+  },
+  {
+    id: "mile-high-drone-show-54thirty-2026",
+    title: "Mile High Drone Show at 54thirty",
+    date: "2026-11-20",
+    time: "Nov. 20-Dec. 31, nightly at 7:00 PM ($25 cover 6:00-7:30 PM)",
+    location: "54thirty, Le Méridien Denver Downtown (20th floor)",
+    description:
+      "Watch Visit Denver's inaugural Mile High Drone Show from downtown Denver's highest open-air rooftop bar. Every night at 7 p.m., 600 drones light up the skyline, with unobstructed views from 54thirty. There is a $25 cover charge per person from 6 to 7:30 p.m.",
+    link: "https://54thirty.com/things-to-do-downtown-denver-night",
+  },
+  {
+    id: "papi-noel-ay-papi-2026",
+    title: "Papi Noel Holiday Pop-Up at Ay Papi",
+    date: "2026-11-25",
+    time: "Nov. 25-Dec. 26 (DJs Fri and Sat nights; holiday market Dec. 3)",
+    location: "Ay Papi, Cherry Creek, Denver",
+    description:
+      "Ay Papi, Cherry Creek's Latin cocktail bar, transforms into Papi Noel: a tropics-inspired holiday escape with playful seasonal décor and nostalgic Latin music. Expect cocktails like the Gingerbread Coffee Colada, Cranberry-Rosemary Winter G&T, and Peppermint-Chocolate Espresso Martini, plus tropical frozen drinks, warm beverages, and zero-proof options. DJs spin live on Friday and Saturday nights, and a special holiday market on Dec. 3 makes shopping easy. Reservations are available.",
+  },
+  {
+    id: "polar-bear-express-senor-bear-2026",
+    title: "Polar Bear Express Holiday Takeover at Señor Bear",
+    date: "2026-11-25",
+    time: "Nov. 25-Dec. 26 (holiday brunches Dec. 6 and 13)",
+    location: "Señor Bear, Denver",
+    description:
+      "All aboard the Polar Bear Express! Señor Bear becomes a nostalgic, snow-covered holiday escape inspired by train travel, with festive cocktails, chef-driven dishes inspired by Latin America, and a special holiday edition of the Bear Basket chef's tasting experience. Themed holiday brunches are Dec. 6 and 13. Reservations are available.",
+  },
+  {
+    id: "wassail-days-frisco-2026",
+    title: "Wassail Days in Frisco",
+    date: "2026-11-28",
+    time: "Nov. 28-Dec. 6",
+    location: "Main Street, Frisco, CO",
+    description:
+      "Frisco's beloved Wassail Days return with a winter wonderland along Main Street. Local businesses serve thousands of complimentary samples of wassail, a warm, spiced apple cider, and anyone who completes a 12 Sips of Wassail Card earns a commemorative mug. The festivities kick off with a tree lighting and fireworks, followed by free gift wrapping, Santa's calling sign-ups, caroling, Santa visits, and breakfast and story time with Santa.",
+  },
+  {
+    id: "winter-on-the-rooftop-54thirty-2026",
+    title: "Winter on the Rooftop at 54thirty",
+    date: "2026-12-01",
+    time: "Dec. 1-30",
+    location: "54thirty, Le Méridien Denver Downtown (20th floor)",
+    description:
+      "Downtown Denver's highest open-air rooftop bar turns into a winter wonderland on Dec. 1, with silver, gold, white, and icy blue accents, lush garlands, shimmering ornaments, and twinkling lights. Seasonal cocktail specials include the Golden Christmas (Tanqueray, apple cider, ginger, lemon), Crimson & Thyme (Ketel One, spiced cranberry, thyme, lemon), and Holiday Mist (Hennessy, orange, lemon, and an atomized holiday spice spray).",
+    link: "https://54thirty.com/things-to-do-downtown-denver-night",
+  },
+  {
+    id: "fezziwigs-christmas-party-hotel-monaco-2026",
+    title: "Fezziwig's Christmas Party at Kimpton Hotel Monaco",
+    date: "2026-12-01",
+    time: "Dec. 1-Jan. 1, Tue-Sat 5:00-9:00 PM",
+    location: "Kimpton Hotel Monaco Denver",
+    description:
+      "A Christmas Carol-inspired holiday pop-up named for the jolly host of Dickens' famous Christmas Eve ball. Candlelit Victorian London décor, small bites from Panzano, and holiday cocktails, including the Smoking Bishop, the warm, spiced wine-and-port punch Scrooge shares at the end of the story. An easy stop before DCPA's A Christmas Carol, just a few blocks away.",
+  },
+  {
+    id: "turkey-day-5k-frisco-2026",
+    title: "Turkey Day 5K in Frisco",
+    date: "2026-11-26",
+    time: "9:30 AM",
+    location: "Old Frisco Community Center, Frisco, CO",
+    description:
+      "The Town of Frisco hosts its 13th annual Turkey Day 5K on Thanksgiving morning. All ages are welcome, including strollers and leashed dogs. After the finish line, enjoy sweet treats from Butterhorn Bakery, mini pies from Saved by the Wine, and warm drinks like coffee and cocoa. Registration is available.",
+  },
+  {
+    id: "ramble-hotel-holiday-bazaar-2026-11-28",
+    title: "The Ramble Hotel Holiday Bazaar",
+    date: "2026-11-28",
+    time: "11:00 AM-3:00 PM",
+    location: "The Ramble Hotel, RiNo, Denver",
+    description:
+      "The Ramble Hotel's annual Holiday Bazaar returns on Small Business Saturday with handicrafts and goods from local makers like Topo Designs, TI-A Woven Goods, Ordinary Evelyn's, Bellavista Goods, Joon, and Permission Poetry. Sip Death & Co holiday cocktails while you shop. In the lobby, the hotel unveils its third annual ArtistTree, an 18-foot holiday tree trimmed by typewriter poet Crista Reid of Permission Poetry, who will type short bespoke poems for guests each week in December. Courtesy of the RiNo BID, Santa and Mrs. Claus pose for pictures and hand out complimentary hot cocoa.",
+  },
+  {
+    id: "weenie-wednesday-santa-dogs-fox-and-the-hen-2026-12-02",
+    title: "Weenie Wednesday: Santa + Dogs Edition at Fox and the Hen",
+    date: "2026-12-02",
+    time: "4:00-7:00 PM",
+    location: "Fox and the Hen, Denver",
+    description:
+      "Bring your pup and your holiday spirit to a festive Weenie Wednesday, with chef-driven takes on creative glizzies, cocktails, and holiday hits performed by Lauren Joy. Your four-legged best friend and your family can pose for a photo with Santa.",
+    link: "https://foxandthehen.com",
+  },
+  {
+    id: "charlie-brown-goes-to-the-nutcracker-st-julien-2026-12-05",
+    title: "Charlie Brown Goes to The Nutcracker at St Julien",
+    date: "2026-12-05",
+    time: "6:00-9:00 PM",
+    location: "St Julien Hotel & Spa, Boulder, CO",
+    description:
+      "Boulder's Ron LeGault Trio performs this annual tradition, blending Vince Guaraldi's music from A Charlie Brown Christmas with jazz versions of The Nutcracker by Duke Ellington. The performance is complimentary. Curl up by the lobby fireplace, sip a seasonal cocktail, and enjoy the holiday cheer. Also Dec. 5, 12, and 18.",
+  },
+  {
+    id: "charlie-brown-goes-to-the-nutcracker-st-julien-2026-12-12",
+    title: "Charlie Brown Goes to The Nutcracker at St Julien",
+    date: "2026-12-12",
+    time: "6:00-9:00 PM",
+    location: "St Julien Hotel & Spa, Boulder, CO",
+    description:
+      "Boulder's Ron LeGault Trio performs this annual tradition, blending Vince Guaraldi's music from A Charlie Brown Christmas with jazz versions of The Nutcracker by Duke Ellington. The performance is complimentary. Curl up by the lobby fireplace, sip a seasonal cocktail, and enjoy the holiday cheer. Also Dec. 5, 12, and 18.",
+  },
+  {
+    id: "charlie-brown-goes-to-the-nutcracker-st-julien-2026-12-18",
+    title: "Charlie Brown Goes to The Nutcracker at St Julien",
+    date: "2026-12-18",
+    time: "6:00-9:00 PM",
+    location: "St Julien Hotel & Spa, Boulder, CO",
+    description:
+      "Boulder's Ron LeGault Trio performs this annual tradition, blending Vince Guaraldi's music from A Charlie Brown Christmas with jazz versions of The Nutcracker by Duke Ellington. The performance is complimentary. Curl up by the lobby fireplace, sip a seasonal cocktail, and enjoy the holiday cheer. Also Dec. 5, 12, and 18.",
+  },
+  {
+    id: "st-julien-gingerbread-tea-2026-12-06",
+    title: "Gingerbread Tea at St Julien",
+    date: "2026-12-06",
+    time: "Two seatings: 11:00-11:30 AM and 2:00-3:00 PM",
+    location: "St Julien Hotel & Spa, Boulder, CO",
+    description:
+      "A cherished holiday tradition benefiting There With Care, a nonprofit supporting children and families facing critical illness. Guests are invited to bring an unwrapped toy for the hotel's holiday toy drive. Kids décorate gingerbread cookies, complete with a chef hat and apron, while adults unwind to live holiday jazz. Tea service includes fresh-baked scones, tea sandwiches, and gourmet teas. $59 per adult, $39 for children 12 and under. Also Dec. 6, 13, and 20. Reservations are available.",
+  },
+  {
+    id: "st-julien-gingerbread-tea-2026-12-13",
+    title: "Gingerbread Tea at St Julien",
+    date: "2026-12-13",
+    time: "Two seatings: 11:00-11:30 AM and 2:00-3:00 PM",
+    location: "St Julien Hotel & Spa, Boulder, CO",
+    description:
+      "A cherished holiday tradition benefiting There With Care, a nonprofit supporting children and families facing critical illness. Guests are invited to bring an unwrapped toy for the hotel's holiday toy drive. Kids décorate gingerbread cookies, complete with a chef hat and apron, while adults unwind to live holiday jazz. Tea service includes fresh-baked scones, tea sandwiches, and gourmet teas. $59 per adult, $39 for children 12 and under. Also Dec. 6, 13, and 20. Reservations are available.",
+  },
+  {
+    id: "st-julien-gingerbread-tea-2026-12-20",
+    title: "Gingerbread Tea at St Julien",
+    date: "2026-12-20",
+    time: "Two seatings: 11:00-11:30 AM and 2:00-3:00 PM",
+    location: "St Julien Hotel & Spa, Boulder, CO",
+    description:
+      "A cherished holiday tradition benefiting There With Care, a nonprofit supporting children and families facing critical illness. Guests are invited to bring an unwrapped toy for the hotel's holiday toy drive. Kids décorate gingerbread cookies, complete with a chef hat and apron, while adults unwind to live holiday jazz. Tea service includes fresh-baked scones, tea sandwiches, and gourmet teas. $59 per adult, $39 for children 12 and under. Also Dec. 6, 13, and 20. Reservations are available.",
+  },
+  {
+    id: "holiday-wreath-making-gattara-2026-12-10",
+    title: "Holiday Wreath Making at Gattara",
+    date: "2026-12-10",
+    time: "6:00 PM",
+    location: "Gattara, Uptown, Denver",
+    description:
+      "Gattara brings back its holiday wreath making class with Lily & The Bee Floral Design. Learn the basics of wreath design and create your own festive arrangement with dried and fresh florals, feathers, ribbons, and holiday charm. The $150 ticket includes wreath materials, complimentary valet parking, a holiday cocktail or mocktail, a festive bruschetta bar, and Neapolitan pizza.",
+    link: "https://gattararestaurant.com",
+  },
+  {
+    id: "winterskol-aspen-snowmass-2026",
+    title: "Wintersköl in Aspen and Snowmass",
+    date: "2026-12-10",
+    time: "Dec. 10-13 (Holiday Market Dec. 11-12; Torchlight Parade Dec. 12)",
+    location: "Aspen and Snowmass Village, CO",
+    description:
+      "The 75th annual Wintersköl, the ultimate toast to winter, brings four days of local tradition to Aspen and Snowmass: on-mountain activities, snow sculptures, a soup contest, a beer festival, live music, a bonfire, a torchlight descent, and fireworks over Aspen Mountain, plus a holiday market in Snowmass Village on Dec. 11-12 and the Torchlight Parade on Dec. 12. A special drone show marks three milestones: Wintersköl's 75th, Aspen Snowmass' 80th, and Colorado's 150th.",
+  },
+  {
+    id: "brunch-with-father-christmas-four-mile-2026-12-12",
+    title: "Brunch with Father Christmas at Four Mile",
+    date: "2026-12-12",
+    time: "Seatings at 8:30 AM and 11:30 AM",
+    location: "Four Mile Historic Park, Denver",
+    description:
+      "A seated brunch with baked goods (coffee cakes, muffins, croissants), a breakfast cereal bar, cheddar egg bites, crispy smashed potatoes with green chile, breakfast sausage meatballs with gravy, bacon, fruit, and salad, plus a roving photo booth with Father Christmas. After brunch, all guests (brunch and general admission) enjoy tractor rides, a sugar plum donut station, Victorian Christmas crafts, a yule log hunt, Four Mile House tours, and marketplace access. Tickets are available.",
+  },
+  {
+    id: "nocturne-holiday-sessions-2026-12-18",
+    title: "Nocturne Holiday Sessions",
+    date: "2026-12-18",
+    time: "Two shows: 6:30 PM and 9:00 PM",
+    location: "Nocturne, RiNo, Denver",
+    description:
+      "A Nocturne holiday tradition: the Peter Sommer Septet presents a book of holiday favorites, including I'll Be Home for Christmas, Winter Wonderland, and A Christmas Song. Enjoy the live music with a three-course Dinner and a Show reservation or a la carte bar seating, ranging from $42 to $165. Holiday Sessions run Dec. 18-20 and 22-23.",
+    link: "https://nocturnejazz.com",
+  },
+  {
+    id: "nocturne-holiday-sessions-2026-12-19",
+    title: "Nocturne Holiday Sessions",
+    date: "2026-12-19",
+    time: "Two shows: 6:30 PM and 9:00 PM",
+    location: "Nocturne, RiNo, Denver",
+    description:
+      "A Nocturne holiday tradition: the Peter Sommer Septet presents a book of holiday favorites, including I'll Be Home for Christmas, Winter Wonderland, and A Christmas Song. Enjoy the live music with a three-course Dinner and a Show reservation or a la carte bar seating, ranging from $42 to $165. Holiday Sessions run Dec. 18-20 and 22-23.",
+    link: "https://nocturnejazz.com",
+  },
+  {
+    id: "nocturne-holiday-sessions-2026-12-20",
+    title: "Nocturne Holiday Sessions",
+    date: "2026-12-20",
+    time: "Two shows: 6:30 PM and 9:00 PM",
+    location: "Nocturne, RiNo, Denver",
+    description:
+      "A Nocturne holiday tradition: the Peter Sommer Septet presents a book of holiday favorites, including I'll Be Home for Christmas, Winter Wonderland, and A Christmas Song. Enjoy the live music with a three-course Dinner and a Show reservation or a la carte bar seating, ranging from $42 to $165. Holiday Sessions run Dec. 18-20 and 22-23.",
+    link: "https://nocturnejazz.com",
+  },
+  {
+    id: "nocturne-holiday-sessions-2026-12-22",
+    title: "Nocturne Holiday Sessions",
+    date: "2026-12-22",
+    time: "Two shows: 6:30 PM and 9:00 PM",
+    location: "Nocturne, RiNo, Denver",
+    description:
+      "A Nocturne holiday tradition: the David Mesquitic Quintet performs nostalgic arrangements of holiday classics from the '50s, '60s, and '70s, plus select songs from Vince Guaraldi's Charlie Brown Christmas. Enjoy the live music with a three-course Dinner and a Show reservation or a la carte bar seating, ranging from $42 to $165. Holiday Sessions run Dec. 18-20 and 22-23.",
+    link: "https://nocturnejazz.com",
+  },
+  {
+    id: "nocturne-holiday-sessions-2026-12-23",
+    title: "Nocturne Holiday Sessions",
+    date: "2026-12-23",
+    time: "Two shows: 6:30 PM and 9:00 PM",
+    location: "Nocturne, RiNo, Denver",
+    description:
+      "A Nocturne holiday tradition: the David Mesquitic Quintet performs nostalgic arrangements of holiday classics from the '50s, '60s, and '70s, plus select songs from Vince Guaraldi's Charlie Brown Christmas. Enjoy the live music with a three-course Dinner and a Show reservation or a la carte bar seating, ranging from $42 to $165. Holiday Sessions run Dec. 18-20 and 22-23.",
+    link: "https://nocturnejazz.com",
+  },
+  {
+    id: "holiday-sing-along-brunch-bar-dough-2026-12-19",
+    title: "Holiday Sing-Along Brunch at Bar Dough",
+    date: "2026-12-19",
+    time: "10:00 AM-2:00 PM",
+    location: "Bar Dough, LoHi, Denver",
+    description:
+      "Brunch meets a full-on sing-along at LoHi's Bar Dough, with crowd-pleasing holiday hits and lyrics on screen. Singing along is highly encouraged as you enjoy the signature breakfast pizza, avocado toast, and bottomless Aperol spritz or mimosas.",
+    link: "https://bardoughdenver.com",
+  },
+  {
+    id: "st-julien-breakfast-with-santa-2026-12-19",
+    title: "Breakfast with Santa at St Julien",
+    date: "2026-12-19",
+    time: "Two seatings: 9:00 AM and 11:30 AM",
+    location: "St Julien Hotel & Spa, Boulder, CO",
+    description:
+      "Gather family and friends for a lavish breakfast buffet of holiday favorites, from fluffy pancakes and farm-fresh eggs to sweet pastries and seasonal delights. Kids can meet Santa and share their Christmas wishes amid cheerful holiday music and sparkling décor. $65 for adults, $35 for children 12 and under. Reservations are available.",
+  },
+  {
+    id: "holiday-succulent-bar-aviano-st-paul-2026-12-20",
+    title: "Holiday Succulent Bar at Aviano Coffee St. Paul",
+    date: "2026-12-20",
+    time: "11:00 AM-1:00 PM",
+    location: "Aviano Coffee St. Paul, Cherry Creek, Denver",
+    description:
+      "A last-minute gift or a bit of creative rest amid the holiday bustle: enjoy Aviano's festive drinks menu and a DIY succulent bar where you build a mini arrangement with your choice of succulent, pot, clay charms, and crystal. RSVPs are encouraged but not required.",
+  },
+  {
+    id: "snowmass-new-years-eve-torchlight-parade-2026",
+    title: "Torchlight Parade in Snowmass",
+    date: "2026-12-31",
+    time: "6:00 PM",
+    location: "Snowmass Village, CO",
+    description:
+      "On New Year's Eve, Snowmass hosts its annual Torchlight Parade, with skiers and snowboarders making wide turns down the mountain with red flares that light up the night sky and snow. Participants must be intermediate or advanced skiers with a valid ski pass or day pass, and must sign up in advance.",
   },
 ];
