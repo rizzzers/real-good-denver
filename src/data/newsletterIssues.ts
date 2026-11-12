@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-just-passed-a-graduated-income-tax-lost-a-downtown-smashburger",
+    title: "Denver just passed a graduated income tax, lost a downtown Smashburger landmark, and still can't stop talking about why Lakewood police are called agents.",
+    date: "2026-11-12",
+    description: "Colorado voters approved scrapping the state's flat income tax in favor of a graduated system, marking a significant fiscal shift for the state. Downtown Denver lost a landmark as a steakhouse moves into the former space, and the Rossonian Hotel has finally received approval to move forward. Plus, a food hall is planned next to the future Broncos site, Four Seasons is bringing standalone residences to Cherry Creek, and mini golf has found a home in LoDo.",
+    htmlFile: "/newsletter-issues/denver-just-passed-a-graduated-income-tax-lost-a-downtown-smashburger.html",
+  },
+  {
     slug: "denver-just-found-out-reddit-thinks-it-is-boring-and-its-eviction-aid",
     title: "Denver just found out Reddit thinks it is boring, and its eviction aid is getting cut 70 percent.",
     date: "2026-11-04",
