@@ -1,3 +1,23 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript"
+  ],
+  "rules": {
+    "no-restricted-syntax": [
+      "error",
+      {
+        "selector": "Literal[value=/—/]",
+        "message": "Em dash (—) is banned. Use a comma, colon, or period instead."
+      },
+      {
+        "selector": "TemplateElement[value.raw=/—/]",
+        "message": "Em dash (—) is banned. Use a comma, colon, or period instead."
+      },
+      {
+        "selector": "JSXText[value=/—/]",
+        "message": "Em dash (—) is banned. Use a comma, colon, or period instead."
+      }
+    ]
+  }
 }

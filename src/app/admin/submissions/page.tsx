@@ -168,11 +168,11 @@ export default function AdminSubmissionsPage() {
                       </td>
                       <td className="px-6 py-3.5">
                         <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-50 text-blue-700">
-                          {s.type ? TYPE_LABELS[s.type] ?? s.type : "—"}
+                          {s.type ? TYPE_LABELS[s.type] ?? s.type : "-"}
                         </span>
                       </td>
                       <td className="px-6 py-3.5 font-medium text-gray-900">
-                        {s.name || "—"}
+                        {s.name || "-"}
                       </td>
                       <td className="px-6 py-3.5 text-gray-500">
                         {s.email ? (
@@ -180,7 +180,7 @@ export default function AdminSubmissionsPage() {
                             {s.email}
                           </a>
                         ) : (
-                          "—"
+                          "-"
                         )}
                       </td>
                       <td className="px-6 py-3.5">

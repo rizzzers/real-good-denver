@@ -32,7 +32,7 @@ interface PodcastEpisode {
 }
 
 function formatDate(dateStr: string | null): string {
-  if (!dateStr) return "—";
+  if (!dateStr) return "-";
   return new Date(dateStr).toLocaleDateString("en-US", {
     month: "short",
     day: "numeric",
@@ -236,7 +236,7 @@ export default function AdminDashboardPage() {
                               {post.title}
                             </td>
                             <td className="px-6 py-3.5 text-gray-500">
-                              {post.category || "—"}
+                              {post.category || "-"}
                             </td>
                             <td className="px-6 py-3.5 text-gray-500">
                               {formatDate(post.published_at)}
@@ -247,7 +247,7 @@ export default function AdminDashboardPage() {
                                   Featured
                                 </span>
                               ) : (
-                                <span className="text-gray-300">—</span>
+                                <span className="text-gray-300">-</span>
                               )}
                             </td>
                             <td className="px-6 py-3.5 text-right space-x-3">
