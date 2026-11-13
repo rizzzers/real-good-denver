@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Youtube, Instagram, ArrowUpRight } from "lucide-react";
+import AskAI from "@/components/AskAI";
 
 const navigation = {
   main: [
@@ -120,6 +121,8 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+
+        <AskAI />
 
         <div className="border-t border-background/8 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-background/30 text-xs">
