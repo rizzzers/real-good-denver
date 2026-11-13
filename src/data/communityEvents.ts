@@ -2017,9 +2017,9 @@ export const communityEvents: CommunityEvent[] = [
     link: "https://foxandthehen.com",
   },
   {
-    id: "harrys-whistlepig-pairing-dinner-2026-11-05",
+    id: "harrys-whistlepig-pairing-dinner-2026-12-10",
     title: "Harry's x WhistlePig Four-Course Pairing Dinner",
-    date: "2026-11-05",
+    date: "2026-12-10",
     time: "5:00 PM",
     location: "Harry's at Magnolia Hotel Denver, A Tribute Portfolio Hotel",
     description:
@@ -2598,5 +2598,90 @@ export const communityEvents: CommunityEvent[] = [
     location: "Snowmass Village, CO",
     description:
       "On New Year's Eve, Snowmass hosts its annual Torchlight Parade, with skiers and snowboarders making wide turns down the mountain with red flares that light up the night sky and snow. Participants must be intermediate or advanced skiers with a valid ski pass or day pass, and must sign up in advance.",
+  },
+  {
+    id: "sing-along-brunch-bar-dough-2026-11-21",
+    title: "Sing-Along Brunch at Bar Dough",
+    date: "2026-11-21",
+    time: "10:00 AM-2:00 PM",
+    location: "Bar Dough, LoHi, Denver",
+    description:
+      "New at Bar Dough: brunch meets a full-on sing-along, with crowd-pleasing hits and lyrics on screen. Singing along is highly encouraged as you enjoy breakfast pizza, avocado toast, and bottomless Aperol spritz or mimosas. A holiday-themed edition follows on Dec. 19.",
+    link: "https://bardoughdenver.com",
+  },
+  {
+    id: "live-painting-cocktail-pairings-the-lobbyist-2026-12-04",
+    title: "Live Painting and Cocktail Pairings at The Lobbyist",
+    date: "2026-12-04",
+    time: "4:00-7:00 PM",
+    location: "The Lobbyist, Le Méridien Denver Downtown",
+    description:
+      "Local artist Ariana Barnstable of Lazy Cowgirl transforms the hotel's lobby bar into a live painting experience. Sip custom cocktail pairings and shop original works and prints, then head up to 54thirty for an evening at Winter on the Rooftop.",
+  },
+  {
+    id: "mizuna-annual-truffle-dinner-2026-12-06",
+    title: "Annual Truffle Dinner at Mizuna",
+    date: "2026-12-06",
+    time: "Sunday evening",
+    location: "Mizuna, Denver",
+    description:
+      "Chefs Michael Dunning and Frank Bonanno celebrate Alba (white) and Périgord (black) truffles in a nine-course dinner at Mizuna's annual Truffle Dinner. Tickets are $350 per person, with a sommelier-curated wine pairing available for an additional $145. Reservations are available via OpenTable.",
+  },
+  {
+    id: "hop-alley-wine-bar-pop-up-2026-12-13",
+    title: "Hop Alley Wine Bar Pop-Up",
+    date: "2026-12-13",
+    time: "3:00-7:00 PM",
+    location: "Hop Alley, Denver",
+    description:
+      "For one night only, Hop Alley raids its cellar and becomes a wine bar. Award-winning Sommelier Jacob Roadhouse pours hard-to-find wines by the glass, with a focus on Old World, low-intervention, small-batch bottles and selections from young producers. Chef Doug Ranking of Petit Chelou, currently in residence at Hop Alley's Chef's Counter, provides snacks and bites. Tickets are $50 per guest and include snacks and admission; wines are available a la carte. This is a wine-focused hangout, not a traditional dinner: no assigned seating, mingling encouraged, and the regular Hop Alley menu will not be available.",
+  },
+  {
+    id: "santa-paws-yappy-hour-magnolia-hotel-2026-12-18",
+    title: "Santa Paws Yappy Hour at Magnolia Hotel Denver",
+    date: "2026-12-18",
+    time: "3:00 PM",
+    location: "Magnolia Lounge, Magnolia Hotel Denver, A Tribute Portfolio Hotel",
+    description:
+      "Bring your four-legged best friend for an afternoon of holiday cheer with photos with Santa, live music, giveaways, and festive fun, plus seasonal cocktails for humans available for purchase. Admission is complimentary and RSVPs are requested.",
+  },
+  {
+    id: "the-salty-x-tache-limited-menu-2026-11-13",
+    title: "The Salty x Táche Limited Edition Menu",
+    date: "2026-11-13",
+    time: "Nov. 13-22",
+    location: "The Salty, Denver",
+    description:
+      "To celebrate Táche, the original pistachio milk, joining The Salty's permanent menu, The Salty launches a limited-time collab menu: a Pistachio Orgeat Latte ($8, espresso or matcha, with house-made pistachio and orgeat syrup, pistachio and vanilla swirled whip, and pistachio crunch) and a Pistachio Tres Leches Donut ($5.25, the 24-hour brioche donut soaked in Táche, bottom dipped in pistachio white chocolate and topped with torched vanilla bean meringue and caramelized pistachios). Friday, Nov. 13 through Sunday, Nov. 15, the first 10 guests to order a Táche x Salty drink or donut get an exclusive keychain or bandana.",
+  },
+  {
+    id: "girl-dinner-gattara-2026-11-17",
+    title: "Girl Dinner at Gattara",
+    date: "2026-11-17",
+    time: "5:00-9:00 PM (Tuesdays through Nov. 24)",
+    location: "Gattara, Uptown, Denver",
+    description:
+      "Gattara gives the girl dinner trend an Italian American twist for $28 per person: a choice of sip (Aperol spritz, Sonoma-Cutrer rosé, or prosecco) paired with three bites from petite Caesar salad, bruschetta classica, parmesan truffle fries, salmon cake, roasted carrot agnolotti, chocolate truffles, and lemon ricotta zeppoles. Offered every Tuesday through Nov. 24. Reservations are available.",
+    link: "https://gattararestaurant.com",
+  },
+  {
+    id: "girl-dinner-gattara-2026-11-24",
+    title: "Girl Dinner at Gattara",
+    date: "2026-11-24",
+    time: "5:00-9:00 PM (Tuesdays through Nov. 24)",
+    location: "Gattara, Uptown, Denver",
+    description:
+      "Gattara gives the girl dinner trend an Italian American twist for $28 per person: a choice of sip (Aperol spritz, Sonoma-Cutrer rosé, or prosecco) paired with three bites from petite Caesar salad, bruschetta classica, parmesan truffle fries, salmon cake, roasted carrot agnolotti, chocolate truffles, and lemon ricotta zeppoles. Offered every Tuesday through Nov. 24. Reservations are available.",
+    link: "https://gattararestaurant.com",
+  },
+  {
+    id: "leven-supply-november-pizza-of-the-month-2026",
+    title: "November Pizza of the Month at Leven Supply",
+    date: "2026-11-30",
+    time: "All of November",
+    location: "Leven Supply, Wash Park, Denver",
+    description:
+      "Leven Supply's November pizza of the month is the Chicken Piccata ($20): house-made, naturally leavened dough with a white wine and lemon sauce, shredded mozzarella, breaded chicken, lemon slices, fresh parsley, fried capers, and shaved parmesan.",
+    link: "https://eatleven.com/supply",
   },
 ];
