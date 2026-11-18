@@ -2507,10 +2507,11 @@ export const communityEvents: CommunityEvent[] = [
     id: "brunch-with-father-christmas-four-mile-2026-12-12",
     title: "Brunch with Father Christmas at Four Mile",
     date: "2026-12-12",
-    time: "Seatings at 8:30 AM and 11:30 AM",
+    time: "Brunch seatings at 8:30 AM and 11:30 AM; general admission opens at 10:00 AM",
     location: "Four Mile Historic Park, Denver",
     description:
-      "A seated brunch with baked goods (coffee cakes, muffins, croissants), a breakfast cereal bar, cheddar egg bites, crispy smashed potatoes with green chile, breakfast sausage meatballs with gravy, bacon, fruit, and salad, plus a roving photo booth with Father Christmas. After brunch, all guests (brunch and general admission) enjoy tractor rides, a sugar plum donut station, Victorian Christmas crafts, a yule log hunt, Four Mile House tours, and marketplace access. Tickets are available.",
+      "A seated brunch with baked goods (coffee cakes, muffins, croissants), a breakfast cereal bar, cheddar egg bites, crispy smashed potatoes with green chile, breakfast sausage meatballs with gravy, bacon, fruit, and salad, plus a roving photo booth with Father Christmas. General admission opens at 10 a.m., and all guests enjoy The North Pole Passport (new this year, presented by KinderCare and complimentary for all) with five activity stops including a candy cane station, decorating a sugar plum, a Christmas craft, and visiting the farm animals, plus tractor rides, a sugar plum donut station, Victorian Christmas crafts, a yule log hunt, Four Mile House tours, and marketplace access. Pictures with Father Christmas are not included in general admission. Tickets start at $12 for general admission; the brunch experience, which includes a photo with Father Christmas, is $45-$55.",
+    link: "https://www.fourmilepark.org/event/brunch-with-father-christmas/",
   },
   {
     id: "nocturne-holiday-sessions-2026-12-18",
