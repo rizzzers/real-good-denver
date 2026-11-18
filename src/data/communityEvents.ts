@@ -2684,4 +2684,13 @@ export const communityEvents: CommunityEvent[] = [
       "Leven Supply's November pizza of the month is the Chicken Piccata ($20): house-made, naturally leavened dough with a white wine and lemon sauce, shredded mozzarella, breaded chicken, lemon slices, fresh parsley, fried capers, and shaved parmesan.",
     link: "https://eatleven.com/supply",
   },
+  {
+    id: "founder-series-05-laura-zaspel-2026-12-02",
+    title: "Founder Series No. 05: A Founder Talk with Laura Zaspel",
+    date: "2026-12-02",
+    time: "4:30 PM",
+    location: "The Reserve, 1820 Blake St, Dairy Block, LoDo, Denver",
+    description:
+      "A founder talk with Laura Zaspel, President and CEO of Serendipity Catering and executive producer and host of FARM HERO, the only TV series focused on regenerative agriculture. Zaspel holds two master's degrees from the University of Denver, spent years at the US Department of Energy's Office of Energy Efficiency and Renewable Energy Technology, bought her first business and commercial real estate at 25, and started an events company at 30. She tells her story first, then everyone stays for a happy hour with food by Serendipity Catering. The Founder Series is built so founders can meet other founders. Presented by RG Syndicate and produced by Ninth Degree. Space is limited and the invitation closes when full. RSVP on Evite; you are welcome to bring one guest.",
+  },
 ];
