@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-is-officially-entering-elastic-waistband-season",
+    title: "Denver is officially entering elastic waistband season",
+    date: "2026-11-18",
+    description: "Denver is officially entering elastic waistband season, with the city's foie gras ban now in effect and restaurants already adjusting their menus. Denver and Littleton are suing a tiny suburb over traffic gates, a fire-gutted West Colfax building could become 64 affordable homes, and Parisi is rebuilding on Tennyson Street after its May fire. Plus, new restaurants Sushi37 and Corner on Madison have opened, a Texas tea chain is debuting in Green Valley Ranch, and Denver just flipped one of the safest Republican seats in the country.",
+    htmlFile: "/newsletter-issues/denver-is-officially-entering-elastic-waistband-season.html",
+  },
+  {
     slug: "denver-just-passed-a-graduated-income-tax-lost-a-downtown-smashburger",
     title: "Denver just passed a graduated income tax, lost a downtown Smashburger landmark, and still can't stop talking about why Lakewood police are called agents.",
     date: "2026-11-12",
