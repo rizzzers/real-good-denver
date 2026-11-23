@@ -2694,4 +2694,13 @@ export const communityEvents: CommunityEvent[] = [
     description:
       "A founder talk with Laura Zaspel, President and CEO of Serendipity Catering and executive producer and host of FARM HERO, the only TV series focused on regenerative agriculture. Zaspel holds two master's degrees from the University of Denver, spent years at the US Department of Energy's Office of Energy Efficiency and Renewable Energy Technology, bought her first business and commercial real estate at 25, and started an events company at 30. She tells her story first, then everyone stays for a happy hour with food by Serendipity Catering. The Founder Series is built so founders can meet other founders. Presented by RG Syndicate and produced by Ninth Degree. Space is limited and the invitation closes when full. RSVP on Evite; you are welcome to bring one guest.",
   },
+  {
+    id: "jingles-and-jackpots-2026-12-05",
+    title: "2nd Annual Jingles & Jackpots",
+    date: "2026-12-05",
+    location: "Denver, CO",
+    description:
+      "A casino-themed holiday fundraiser from Denver&CO benefiting the Volo Kids Foundation, which provides free access to sports programs for kids locally and nationally. The first Jingles & Jackpots in 2025 drew 225 people and raised $4,500, and this year the goal is to double the impact. Every ticket includes a complimentary first drink and two raffle tickets, and $10 from every ticket sold goes to the foundation, along with 100% of the silent auction proceeds. Use code REALGOOD15 for 15% off tickets.",
+    link: "https://events.humanitix.com/jingles-and-jackpots-2026?discountcode=REALGOOD15",
+  },
 ];
