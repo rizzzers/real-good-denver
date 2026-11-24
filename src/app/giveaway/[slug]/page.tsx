@@ -23,6 +23,11 @@ import { Countdown, Leaderboard } from "./shared";
 
 export const dynamic = "force-dynamic";
 
+// Sponsor logos shown in the hero, keyed by giveaway slug (white/transparent art for the dark background).
+const SPONSOR_LOGOS: Record<string, { src: string; width: number; height: number }> = {
+  "dazzle-jazz-brunch": { src: "/giveaways/dazzle-30th-logo.png", width: 504, height: 359 },
+};
+
 type Props = { params: { slug: string }; searchParams: { ref?: string } };
 
 function isAdmin() {
@@ -89,6 +94,16 @@ export default async function GiveawayPage({ params, searchParams }: Props) {
                 width={1672}
                 height={941}
                 className="mb-8 w-full rounded-2xl border border-background/10 shadow-2xl"
+              />
+            )}
+            {SPONSOR_LOGOS[g.slug] && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={SPONSOR_LOGOS[g.slug].src}
+                alt={g.sponsor_name ? `${g.sponsor_name} logo` : "Sponsor logo"}
+                width={SPONSOR_LOGOS[g.slug].width}
+                height={SPONSOR_LOGOS[g.slug].height}
+                className="mb-8 h-auto w-48 md:w-56"
               />
             )}
             {g.status === "draft" && (
