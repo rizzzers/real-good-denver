@@ -25,7 +25,7 @@ export const dynamic = "force-dynamic";
 
 // Sponsor logos shown in the hero, keyed by giveaway slug (white/transparent art for the dark background).
 const SPONSOR_LOGOS: Record<string, { src: string; width: number; height: number }> = {
-  "dazzle-brunch": { src: "/giveaways/dazzle-30th-logo.png", width: 504, height: 359 },
+  // "dazzle-brunch": { src: "/giveaways/dazzle-30th-logo.png", width: 504, height: 359 }, // re-enable once a truly transparent PNG replaces the file
 };
 
 type Props = { params: { slug: string }; searchParams: { ref?: string } };
