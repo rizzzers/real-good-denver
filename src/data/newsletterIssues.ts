@@ -8,6 +8,13 @@ export interface NewsletterIssue {
 
 export const newsletterIssues: NewsletterIssue[] = [
   {
+    slug: "denver-police-had-to-remind-everyone-that-grand-theft-auto-is-still-a",
+    title: "Denver police had to remind everyone that grand theft auto is still a felony the minute GTA 6 dropped.",
+    date: "2026-11-25",
+    description: "Denver police issued a reminder that grand theft auto remains a felony, timed to the release of GTA 6. A new audit revealed seven straight years of deficits at the National Western Center, a Denver builder is suing the city over its affordable housing fees, and the city is weighing $822,000 in raises for mayoral appointees. Plus, new restaurants Sushi37 and Corner on Madison have opened, Wayfair launched its first Denver-area store at Northfield, and crews broke ground on the first phase of Cherry Creek West.",
+    htmlFile: "/newsletter-issues/denver-police-had-to-remind-everyone-that-grand-theft-auto-is-still-a.html",
+  },
+  {
     slug: "denver-is-officially-entering-elastic-waistband-season",
     title: "Denver is officially entering elastic waistband season",
     date: "2026-11-18",
